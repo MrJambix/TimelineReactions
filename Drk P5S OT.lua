@@ -407,6 +407,66 @@ local tbl =
 			},
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 72.1,
+				name = "Jumps Off",
+				timelineIndex = 10,
+				timerOffset = -7,
+				uuid = "a48d8f0d-d0bd-1ab9-84be-cfbc61bdfc7b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 72.1,
+				name = "Jumps On",
+				timelineIndex = 10,
+				timerOffset = 4,
+				uuid = "29acf72b-d050-667d-9dd4-895c096a31e2",
+				version = 2,
+			},
+		},
+	},
 	[11] = 
 	{
 		
@@ -450,6 +510,7 @@ local tbl =
 				mechanicTime = 94.1,
 				name = "StanceOff",
 				timelineIndex = 11,
+				timerOffset = -6,
 				uuid = "01802823-ac69-4ad3-9774-c94c69ff7134",
 				version = 2,
 			},
@@ -677,7 +738,7 @@ local tbl =
 				mechanicTime = 133.2,
 				name = "Knockback",
 				timelineIndex = 17,
-				timerOffset = -4,
+				timerOffset = -2,
 				uuid = "80c2d718-1f18-8018-a3b1-70d27706a85f",
 				version = 2,
 			},
@@ -709,7 +770,7 @@ local tbl =
 				mechanicTime = 135.2,
 				name = "Knockback",
 				timelineIndex = 18,
-				timerOffset = -5,
+				timerOffset = -2,
 				uuid = "eb8506a5-639e-e33c-95de-bdc6cbfbcf19",
 				version = 2,
 			},
@@ -835,7 +896,7 @@ local tbl =
 				timelineIndex = 23,
 				timerEndOffset = -0.5,
 				timerOffset = -8,
-				timerStartOffset = -10,
+				timerStartOffset = -6,
 				uuid = "cafa177b-c6ff-79e2-abe5-afbe72b4406b",
 				version = 2,
 			},
@@ -1131,7 +1192,39 @@ local tbl =
 			},
 		},
 	},
-	[38] = 
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 211.6,
+				name = "Jumps Off",
+				timelineIndex = 35,
+				timerOffset = -1,
+				uuid = "d0e8c5e0-c2ea-f7fb-8d66-b70e9598aa3e",
+				version = 2,
+			},
+		},
+	},
+	[36] = 
 	{
 		
 		{
@@ -1154,14 +1247,17 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 224.5,
+				mechanicTime = 215.5,
 				name = "Oblation",
-				timelineIndex = 38,
+				timelineIndex = 36,
 				timerOffset = -4,
-				uuid = "26cb004f-f147-a0b0-a376-db86265d27f6",
+				uuid = "e949e9ad-cca0-52b8-bfb1-c723a96526a1",
 				version = 2,
 			},
 		},
+	},
+	[38] = 
+	{
 		
 		{
 			data = 
@@ -1188,6 +1284,37 @@ local tbl =
 				timelineIndex = 38,
 				timerOffset = -2,
 				uuid = "9ec9212e-f6c3-5fe5-a2bf-756b0ce329c4",
+				version = 2,
+			},
+		},
+	},
+	[39] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 232.8,
+				name = "Jumps On",
+				timelineIndex = 39,
+				timerOffset = -4,
+				uuid = "430886f9-c869-f641-ba14-65a72bc51beb",
 				version = 2,
 			},
 		},
@@ -1226,35 +1353,6 @@ local tbl =
 	},
 	[50] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "7bce729f-ce90-9669-900e-b1ef18919b87",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 266,
-				name = "Oblation",
-				timelineIndex = 50,
-				timerOffset = -4,
-				uuid = "797e0e93-65b1-0cb2-91f7-5ca62ead653c",
-				version = 2,
-			},
-		},
 		
 		{
 			data = 
@@ -1592,6 +1690,69 @@ local tbl =
 			},
 		},
 	},
+	[73] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 373.9,
+				name = "Jumps Off",
+				timelineIndex = 73,
+				timerOffset = -2,
+				uuid = "cfb77530-a595-7514-8cc9-83509b4c3bfc",
+				version = 2,
+			},
+		},
+	},
+	[78] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 390,
+				name = "Jumps On",
+				timelineIndex = 78,
+				timerOffset = 7,
+				uuid = "e7428163-016f-1b7f-bfa8-13c289d3d3b0",
+				version = 2,
+			},
+		},
+	},
 	[80] = 
 	{
 		
@@ -1873,7 +2034,7 @@ local tbl =
 				mechanicTime = 472.7,
 				name = "Knockback",
 				timelineIndex = 90,
-				timerOffset = -5,
+				timerOffset = -2,
 				uuid = "18403818-31ab-6637-a716-c909f6882412",
 				version = 2,
 			},
@@ -1905,7 +2066,7 @@ local tbl =
 				mechanicTime = 474.7,
 				name = "Knockback",
 				timelineIndex = 91,
-				timerOffset = -5,
+				timerOffset = -2,
 				uuid = "96e2e15a-75fe-7dc9-bc82-9dde7a43db2c",
 				version = 2,
 			},
@@ -2242,6 +2403,69 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+	},
+	[96] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 511.4,
+				name = "Jumps Off",
+				timelineIndex = 96,
+				timerOffset = -1,
+				uuid = "b4a25f83-3858-5211-8d98-7eb526b43a0a",
+				version = 2,
+			},
+		},
+	},
+	[97] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 515.3,
+				name = "Jumps On",
+				timelineIndex = 97,
+				timerOffset = 4,
+				uuid = "f08d006c-d24f-867c-a34f-cf7a978db97e",
+				version = 2,
+			},
 		},
 	},
 	[98] = 
