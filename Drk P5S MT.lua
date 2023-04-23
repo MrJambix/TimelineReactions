@@ -13,6 +13,55 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"397e521d-bc4d-9efa-9eef-27542478f095",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1833,
+							category = "Self",
+							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 14.9,
+				name = "Did I forget my Stance On",
+				timelineIndex = 2,
+				timerOffset = -10,
+				uuid = "ea88d999-1166-cf79-a1ab-8209c4750aaf",
+				version = 2,
+			},
+			inheritedIndex = 23,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							uuid = "088764a7-8d1d-aef3-8d15-4eb3ecc387ba",
 							variableTogglesType = 2,
@@ -80,55 +129,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"397e521d-bc4d-9efa-9eef-27542478f095",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1833,
-							category = "Self",
-							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 14.9,
-				name = "Did I forget my Stance On",
-				timelineIndex = 2,
-				timerOffset = -10,
-				uuid = "ea88d999-1166-cf79-a1ab-8209c4750aaf",
-				version = 2,
-			},
-			inheritedIndex = 23,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 3641,
 							targetType = "Enemy",
 							uuid = "6fccb5e5-42a8-2475-8d10-239610741dee",
@@ -173,7 +173,7 @@ local tbl =
 				mechanicTime = 22,
 				name = "Jumps Off",
 				timelineIndex = 3,
-				timerOffset = -7,
+				timerOffset = -5,
 				uuid = "d089e33b-f920-cb9a-86d5-16dab7e0ca8c",
 				version = 2,
 			},
@@ -298,36 +298,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 56.3,
-				name = "Dark Mind",
-				timelineIndex = 8,
-				timerOffset = -4,
-				uuid = "61e18cd5-43a7-469e-9a6a-93ea18410951",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -390,6 +360,36 @@ local tbl =
 			},
 			inheritedIndex = 3,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.3,
+				name = "Dark Mind",
+				timelineIndex = 8,
+				timerOffset = -4,
+				uuid = "61e18cd5-43a7-469e-9a6a-93ea18410951",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
 	},
 	[9] = 
 	{
@@ -437,35 +437,6 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Jumps",
-							gVarValue = 2,
-							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 72.1,
-				name = "Jumps Off",
-				timelineIndex = 10,
-				timerOffset = -7,
-				uuid = "93439292-af83-2856-aa51-019d5bb09ce4",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
 							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
 							version = 2,
 						},
@@ -477,7 +448,7 @@ local tbl =
 				mechanicTime = 72.1,
 				name = "Jumps On",
 				timelineIndex = 10,
-				timerOffset = 4,
+				timerOffset = 10,
 				uuid = "64db37cc-72a4-4c84-ab6a-db7cb15bea7e",
 				version = 2,
 			},
@@ -1106,36 +1077,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 193.1,
-				name = "Dark Mind",
-				timelineIndex = 33,
-				timerOffset = -4,
-				uuid = "be78b53b-2e90-6adf-857d-47def5426529",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -1197,6 +1138,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 193.1,
+				name = "Dark Mind",
+				timelineIndex = 33,
+				timerOffset = -4,
+				uuid = "be78b53b-2e90-6adf-857d-47def5426529",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[34] = 
@@ -1806,36 +1777,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 417,
-				name = "Dark Mind",
-				timelineIndex = 80,
-				timerOffset = -4,
-				uuid = "4585a13f-1e95-59a0-943e-72963436c1d8",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -1897,6 +1838,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 417,
+				name = "Dark Mind",
+				timelineIndex = 80,
+				timerOffset = -4,
+				uuid = "4585a13f-1e95-59a0-943e-72963436c1d8",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[81] = 
@@ -2495,36 +2466,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 544.1,
-				name = "Dark Mind",
-				timelineIndex = 101,
-				timerOffset = -4,
-				uuid = "4b546b15-d98e-a5fa-b8da-d769a747dd0a",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -2586,6 +2527,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 544.1,
+				name = "Dark Mind",
+				timelineIndex = 101,
+				timerOffset = -4,
+				uuid = "4b546b15-d98e-a5fa-b8da-d769a747dd0a",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[102] = 
