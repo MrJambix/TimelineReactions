@@ -62,6 +62,36 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "2bbc761d-c0cb-cd93-b399-2f2d254d363b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 14.9,
+				name = "Dark Missionary",
+				timelineIndex = 2,
+				timerOffset = -4,
+				uuid = "bc723d80-e8f3-217a-b662-9ad6cf668406",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							uuid = "088764a7-8d1d-aef3-8d15-4eb3ecc387ba",
 							variableTogglesType = 2,
@@ -89,36 +119,6 @@ local tbl =
 				uuid = "cc6ab1c8-c5bb-a66e-9475-06cad57f677e",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "2bbc761d-c0cb-cd93-b399-2f2d254d363b",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 14.9,
-				name = "Dark Missionary",
-				timelineIndex = 2,
-				timerOffset = -4,
-				uuid = "bc723d80-e8f3-217a-b662-9ad6cf668406",
-				version = 2,
-			},
-			inheritedIndex = 3,
 		},
 	},
 	[3] = 
@@ -298,34 +298,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
-							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 56.3,
-				name = "Jumps On",
-				timelineIndex = 8,
-				timerOffset = -4,
-				uuid = "af4a5359-efd4-b8e1-8380-3830e7d2cc88",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
 							uuid = "179111a1-9911-4007-bb6c-ff3f018ef7e7",
 							variableTogglesType = 3,
@@ -421,35 +393,6 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Jumps",
-							gVarValue = 2,
-							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 72.1,
-				name = "Jumps Off",
-				timelineIndex = 10,
-				timerOffset = -7,
-				uuid = "a48d8f0d-d0bd-1ab9-84be-cfbc61bdfc7b",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
 							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
 							version = 2,
 						},
@@ -461,7 +404,7 @@ local tbl =
 				mechanicTime = 72.1,
 				name = "Jumps On",
 				timelineIndex = 10,
-				timerOffset = 4,
+				timerOffset = 10,
 				uuid = "29acf72b-d050-667d-9dd4-895c096a31e2",
 				version = 2,
 			},
@@ -677,7 +620,7 @@ local tbl =
 				uuid = "589921f7-423d-e66b-8ca4-7226114d708a",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 5,
 		},
 	},
 	[12] = 
@@ -900,7 +843,7 @@ local tbl =
 				uuid = "cafa177b-c6ff-79e2-abe5-afbe72b4406b",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 1,
 		},
 	},
 	[29] = 
@@ -1461,51 +1404,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 332.1,
-				name = "StanceOff",
-				timelineIndex = 67,
-				uuid = "53941997-c2c8-bfd7-befa-71b762bcf2f8",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "441831d0-2336-6312-8d84-3720f756f330",
 							variableTogglesType = 3,
@@ -1584,6 +1482,51 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 332.1,
+				name = "StanceOff",
+				timelineIndex = 67,
+				uuid = "53941997-c2c8-bfd7-befa-71b762bcf2f8",
+				version = 2,
+			},
 		},
 		
 		{
@@ -2143,51 +2086,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 482.7,
-				name = "StanceOff",
-				timelineIndex = 93,
-				uuid = "a9477ff2-3529-b6c4-bff4-0c3c122a7f01",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "441831d0-2336-6312-8d84-3720f756f330",
 							variableTogglesType = 3,
@@ -2266,6 +2164,51 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 482.7,
+				name = "StanceOff",
+				timelineIndex = 93,
+				uuid = "a9477ff2-3529-b6c4-bff4-0c3c122a7f01",
+				version = 2,
+			},
 		},
 		
 		{
