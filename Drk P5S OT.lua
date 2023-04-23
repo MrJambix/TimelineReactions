@@ -2758,6 +2758,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage2\\p5s",
 	},
 	mapID = 1082,
 	version = 4,
