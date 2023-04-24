@@ -2721,7 +2721,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"Commissioned\\p6 GNB OT",
+		"store\\anyone\\savage2\\p6s",
 	},
 	mapID = 1084,
 	version = 2,
