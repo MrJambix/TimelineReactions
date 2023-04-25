@@ -314,9 +314,9 @@ local tbl =
 				name = "Living Dead (Cone Invul)Disable Otherwise",
 				timeRange = true,
 				timelineIndex = 3,
-				timerEndOffset = -0.5,
+				timerEndOffset = -2,
 				timerOffset = -2,
-				timerStartOffset = -3,
+				timerStartOffset = -5,
 				uuid = "22131592-73ee-bcec-a234-104aebd2a96c",
 				version = 2,
 			},
@@ -347,6 +347,7 @@ local tbl =
 				name = "Rampart",
 				timelineIndex = 3,
 				timerOffset = -18,
+				timerStartOffset = -18,
 				uuid = "bdb408d4-ff81-5aa4-b02d-00e186a71aea",
 				version = 2,
 			},
@@ -372,13 +373,22 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							uuid = "034e5e4d-696b-8a64-aca2-e8a5f6a2619c",
+							version = 2,
+						},
+					},
 				},
 				enabled = false,
 				mechanicTime = 28,
-				name = "Oblation Self",
+				name = "Oblation Self(Need Living Dead Buff ID)",
 				timelineIndex = 3,
 				timerEndOffset = -0.5,
-				timerOffset = -4,
+				timerOffset = -2,
 				timerStartOffset = -9,
 				uuid = "171cc609-362d-c316-a073-0f7199316bf0",
 				version = 2,
