@@ -143,11 +143,25 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "8e15a097-bd19-d188-9b1f-fcb5abf65ec7",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 14.9,
 				name = "Dark Missionary",
 				timelineIndex = 2,
 				timerOffset = -2,
+				timerStartOffset = -12,
 				uuid = "2bb3d0a2-2c74-07da-9225-5e20017d334c",
 				version = 2,
 			},
@@ -304,7 +318,7 @@ local tbl =
 				name = "StanceOff",
 				timeRange = true,
 				timelineIndex = 8,
-				timerEndOffset = 1,
+				timerEndOffset = -0.5,
 				timerOffset = -6,
 				timerStartOffset = -8,
 				uuid = "eb8594df-0624-31c9-9883-88515c24f9c6",
@@ -575,7 +589,7 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -2,
 				timerStartOffset = -4,
-				uuid = "add26288-8a8e-1ac2-ab8d-4208d35f61f0",
+				uuid = "415f4c6e-fe78-76be-a99a-9150e75e2f21",
 				version = 2,
 			},
 		},
@@ -755,11 +769,27 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "8e15a097-bd19-d188-9b1f-fcb5abf65ec7",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 146.4,
 				name = "Dark Missionary",
+				timeRange = true,
 				timelineIndex = 22,
+				timerEndOffset = -0.5,
 				timerOffset = -2,
+				timerStartOffset = -10,
 				uuid = "936af8d3-b858-6709-8d6f-3581c0494bbf",
 				version = 2,
 			},
@@ -874,7 +904,7 @@ local tbl =
 				name = "StanceOff",
 				timeRange = true,
 				timelineIndex = 33,
-				timerEndOffset = 1,
+				timerEndOffset = -0.5,
 				timerOffset = -6,
 				timerStartOffset = -8,
 				uuid = "9ad2e219-0e93-41fa-99e4-90621cb43829",
@@ -1107,15 +1137,30 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "8e15a097-bd19-d188-9b1f-fcb5abf65ec7",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 285.6,
 				name = "Dark Missionary",
+				timeRange = true,
 				timelineIndex = 57,
-				timerOffset = -4,
-				uuid = "fbe5ad15-80ba-c8b2-9358-0dcc0a08f253",
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -10,
+				uuid = "407b1f3f-c6a9-248e-b9da-9bea74d8ed9b",
 				version = 2,
 			},
-			inheritedIndex = 3,
 		},
 	},
 	[58] = 
@@ -1469,7 +1514,7 @@ local tbl =
 				name = "StanceOff",
 				timeRange = true,
 				timelineIndex = 80,
-				timerEndOffset = 1,
+				timerEndOffset = -0.5,
 				timerOffset = -6,
 				timerStartOffset = -8,
 				uuid = "f771d4fc-e845-d942-b29f-a276f31ec16b",
@@ -1610,6 +1655,54 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 5,
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "2bbc761d-c0cb-cd93-b399-2f2d254d363b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "8e15a097-bd19-d188-9b1f-fcb5abf65ec7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 435.4,
+				name = "Dark Missionary",
+				timeRange = true,
+				timelineIndex = 82,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -10,
+				uuid = "c0afcfcc-ce09-39de-ab44-d0cc7a2ebb17",
+				version = 2,
+			},
 		},
 	},
 	[90] = 
@@ -1956,15 +2049,30 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "8e15a097-bd19-d188-9b1f-fcb5abf65ec7",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 503.2,
 				name = "Dark Missionary",
+				timeRange = true,
 				timelineIndex = 95,
-				timerOffset = -4,
-				uuid = "2f017f90-afc4-778c-9877-2dc8f836c6b3",
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -10,
+				uuid = "a95944f7-2630-3156-b619-6ad718814865",
 				version = 2,
 			},
-			inheritedIndex = 3,
 		},
 	},
 	[96] = 
@@ -2110,7 +2218,7 @@ local tbl =
 				name = "StanceOff",
 				timeRange = true,
 				timelineIndex = 101,
-				timerEndOffset = 1,
+				timerEndOffset = -0.5,
 				timerOffset = -6,
 				timerStartOffset = -8,
 				uuid = "2e1ffe29-23df-87c7-88e5-c65e43145f8f",
@@ -2141,6 +2249,7 @@ local tbl =
 				},
 				mechanicTime = 544.1,
 				name = "Reprisal",
+				randomOffset = -0.5,
 				timelineIndex = 101,
 				timerOffset = -8,
 				uuid = "8cd68844-c669-ca16-ab74-0b6e141d04f0",
