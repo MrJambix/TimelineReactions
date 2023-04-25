@@ -17,12 +17,12 @@ local tbl =
 							{
 								
 								{
-									"c8f09095-da63-c4fe-ac3a-4e907773bc51",
+									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
 									true,
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "02f645e6-4f75-3ea7-a681-336a6ff39f9f",
+							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -35,9 +35,9 @@ local tbl =
 						data = 
 						{
 							buffCheckType = 2,
-							buffID = 91,
+							buffID = 743,
 							category = "Self",
-							uuid = "c8f09095-da63-c4fe-ac3a-4e907773bc51",
+							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
 							version = 2,
 						},
 					},
@@ -45,7 +45,7 @@ local tbl =
 				mechanicTime = 9.5,
 				name = "MT Stance On",
 				timelineIndex = 1,
-				timerOffset = -9,
+				timerOffset = -13,
 				uuid = "24293d04-1476-e419-87be-783baf5b383c",
 				version = 2,
 			},
@@ -80,6 +80,54 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "00849d2c-71fc-ab97-8d12-36e8d65698da",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 9.5,
+				name = "Tbn Self",
+				timelineIndex = 1,
+				timerOffset = -3,
+				uuid = "5b59a63b-cba2-0245-a99b-9ed8f3b44459",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 9.5,
+				name = "----------Inheritance Below---------",
+				timelineIndex = 1,
+				uuid = "89388a1e-c193-eebf-b626-8ba4191ab582",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	
@@ -134,6 +182,7 @@ local tbl =
 				uuid = "b17e3b13-91ae-ebcd-8431-237b3228e9d8",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 		
 		{
@@ -170,28 +219,54 @@ local tbl =
 							version = 2,
 						},
 					},
-					
-					{
-						data = 
-						{
-							buffID = 87,
-							category = "Self",
-							uuid = "9bac621b-f091-e02e-8a01-8335de07ad5e",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 14.2,
 				name = "Dark Missionary",
 				timelineIndex = 2,
+				timerEndOffset = -0.5,
 				timerOffset = -1,
+				timerStartOffset = -6,
 				uuid = "cf40fbfb-26fd-8120-9fff-0916b4a29868",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
+							uuid = "9d4dc7ba-5519-de84-9a6c-69ea2ea485b2",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 28,
+				name = "Living Dead (Cone Invul)Disable Otherwise",
+				timeRange = true,
+				timelineIndex = 3,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -3,
+				uuid = "22131592-73ee-bcec-a234-104aebd2a96c",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
 		
 		{
 			data = 
@@ -220,26 +295,6 @@ local tbl =
 				uuid = "bdb408d4-ff81-5aa4-b02d-00e186a71aea",
 				version = 2,
 			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 28,
-				name = "Living Dead",
-				timelineIndex = 3,
-				timerOffset = -2,
-				uuid = "22131592-73ee-bcec-a234-104aebd2a96c",
-				version = 2,
-			},
 			inheritedIndex = 2,
 		},
 		
@@ -263,10 +318,13 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 28,
 				name = "Oblation Self",
 				timelineIndex = 3,
+				timerEndOffset = -0.5,
 				timerOffset = -4,
+				timerStartOffset = -9,
 				uuid = "171cc609-362d-c316-a073-0f7199316bf0",
 				version = 2,
 			},
@@ -298,41 +356,15 @@ local tbl =
 				},
 				mechanicTime = 56.8,
 				name = "Tbn Self",
+				timeRange = true,
 				timelineIndex = 10,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "b0aabd45-df98-d510-809c-aa4d69de0e21",
 				version = 2,
 			},
-		},
-	},
-	[18] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "00849d2c-71fc-ab97-8d12-36e8d65698da",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 81.4,
-				name = "Tbn Self",
-				timelineIndex = 18,
-				uuid = "a5e2ae6d-234e-f8b6-9a61-3af3a88d1183",
-				version = 2,
-			},
+			inheritedIndex = 1,
 		},
 	},
 	[25] = 
@@ -907,36 +939,6 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 7537,
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							ignoreWeaveRules = true,
-							targetType = "Other Tank",
-							uuid = "df91a0ab-b320-c581-83bc-eeced996ca37",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 128.5,
-				name = "Emergency Shirk",
-				timelineIndex = 27,
-				uuid = "c3fdcfae-6bf2-6dca-a507-59355a1e51e5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "Variable",
 							actionID = 18,
 							conditions = 
@@ -999,6 +1001,105 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7537,
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							ignoreWeaveRules = true,
+							targetType = "Other Tank",
+							uuid = "df91a0ab-b320-c581-83bc-eeced996ca37",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 128.5,
+				name = "Emergency Shirk",
+				timelineIndex = 27,
+				uuid = "c3fdcfae-6bf2-6dca-a507-59355a1e51e5",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+									true,
+								},
+								
+								{
+									"899249ab-ab39-b620-bcfd-28329f4861b0",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "3ae2bfc0-c3d0-5538-b609-18b378487605",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "899249ab-ab39-b620-bcfd-28329f4861b0",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 128.5,
+				name = "Stance Drop MT",
+				timelineIndex = 27,
+				timerEndOffset = -0.5,
+				timerOffset = -6,
+				timerStartOffset = -6,
+				uuid = "da5a7cde-3100-1171-997c-e3617879799d",
+				version = 2,
+			},
+			inheritedIndex = 11,
+		},
 	},
 	[29] = 
 	{
@@ -1013,8 +1114,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "00849d2c-71fc-ab97-8d12-36e8d65698da",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "88deb530-5692-c8ce-8a91-24fab3258deb",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1024,9 +1125,9 @@ local tbl =
 				{
 				},
 				mechanicTime = 153.2,
-				name = "Tbn Self",
+				name = "Oblation Self",
 				timelineIndex = 29,
-				uuid = "f154e2b0-16ec-d9b2-b95a-f60a12368fc3",
+				uuid = "4b63b160-4ff7-9b73-ad52-fb29473f8000",
 				version = 2,
 			},
 		},
@@ -1088,23 +1189,6 @@ local tbl =
 				timerOffset = 4,
 				uuid = "de3092b3-992f-cdad-8a75-51b3ed50e389",
 				version = 2,
-			},
-		},
-	},
-	[32] = 
-	{
-		
-		{
-			data = 
-			{
-				name = "Force unlock",
-				uuid = "8ecf8cef-5e41-7fef-b77e-a5ceca80243f",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "e3e98564-1275-cd8f-a50f-9b17bd6282fb",
-			inheritedOverwrites = 
-			{
 			},
 		},
 	},
@@ -1808,6 +1892,55 @@ local tbl =
 							{
 								
 								{
+									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 743,
+							category = "Self",
+							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 239.3,
+				name = "MT Stance On",
+				timelineIndex = 46,
+				timerOffset = -13,
+				uuid = "7549f60c-412f-c5a5-91c6-d1c05a2b62e2",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
 									"bf3f8a90-e88c-a32d-856c-e70b012b52bd",
 									true,
 								},
@@ -1836,10 +1969,11 @@ local tbl =
 				mechanicTime = 239.3,
 				name = "Provoke (Enmity Check)",
 				timelineIndex = 46,
-				timerOffset = 5,
+				timerOffset = 2,
 				uuid = "43bd3098-b6c7-1092-9b45-d0e7479aecb8",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -1879,7 +2013,7 @@ local tbl =
 					{
 						data = 
 						{
-							buffID = 91,
+							buffID = 743,
 							category = "Self",
 							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
 							version = 2,
@@ -1897,10 +2031,10 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				eventType = 3,
 				mechanicTime = 239.3,
 				name = "Stance Drop MT",
-				timeRange = true,
 				timelineIndex = 46,
 				timerEndOffset = -0.5,
 				timerOffset = -6,
@@ -1908,57 +2042,10 @@ local tbl =
 				uuid = "b121cef0-7521-991c-ad5f-7808e55a6bb3",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 91,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 239.3,
-				name = "MT Stance On",
-				timelineIndex = 46,
-				timerOffset = 2,
-				uuid = "7549f60c-412f-c5a5-91c6-d1c05a2b62e2",
-				version = 2,
-			},
+			inheritedIndex = 11,
 		},
 	},
-	[52] = 
+	[47] = 
 	{
 		
 		{
@@ -2000,17 +2087,20 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 282.3,
+				mechanicTime = 252.2,
 				name = "Reprisal",
 				timeRange = true,
-				timelineIndex = 52,
+				timelineIndex = 47,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
 				timerStartOffset = -10,
-				uuid = "9fc8daa7-6cfd-4969-96e5-5f5250de96c8",
+				uuid = "4e391dea-fdad-7af4-a305-57625519a5f1",
 				version = 2,
 			},
 		},
+	},
+	[52] = 
+	{
 		
 		{
 			data = 
@@ -2658,16 +2748,22 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 18,
 							conditions = 
 							{
 								
 								{
-									"88fd47e1-812c-5ee2-ab9c-ab6fc33ea736",
+									"897719d4-02db-9895-8eec-429a2eccaa8b",
+									false,
+								},
+								
+								{
+									"ae709dd0-a344-e7dc-8364-d5f001129411",
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
-							uuid = "0a88de59-bd76-d3d4-83aa-8e48c818994a",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -2679,21 +2775,40 @@ local tbl =
 					{
 						data = 
 						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							uuid = "88fd47e1-812c-5ee2-ab9c-ab6fc33ea736",
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
 							version = 2,
 						},
 					},
 				},
+				eventType = 2,
 				mechanicTime = 372.2,
-				name = "Provoke (Enmity Check)",
+				name = "Shirk to OT",
+				timeRange = true,
 				timelineIndex = 70,
-				timerOffset = 8,
-				uuid = "b0f6d262-4abf-c9b1-8876-9f15cd1805e3",
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "01756571-82b0-bb83-b08b-182ef2d312a7",
 				version = 2,
 			},
+			inheritedIndex = 18,
 		},
 		
 		{
@@ -2706,18 +2821,10 @@ local tbl =
 						data = 
 						{
 							actionID = 7537,
-							conditions = 
-							{
-								
-								{
-									"40c39b5c-a5f9-96ee-b648-636f3dca453a",
-									true,
-								},
-							},
 							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
 							ignoreWeaveRules = true,
 							targetType = "Other Tank",
-							uuid = "4dcf3e6a-d162-de4a-b38c-4ef6fe5fe980",
+							uuid = "df91a0ab-b320-c581-83bc-eeced996ca37",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -2725,29 +2832,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							conditionType = 7,
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "40c39b5c-a5f9-96ee-b648-636f3dca453a",
-							version = 2,
-						},
-					},
 				},
-				eventType = 2,
 				mechanicTime = 372.2,
 				name = "Emergency Shirk",
-				timeRange = true,
 				timelineIndex = 70,
-				timerEndOffset = 4,
-				timerStartOffset = -4,
-				uuid = "80bc7076-69db-b938-9c82-b5cd05e5b50d",
+				uuid = "ddfde308-fc8b-9211-a99e-4faa290f7106",
 				version = 2,
 			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -2765,17 +2857,17 @@ local tbl =
 							{
 								
 								{
-									"e1a7068b-135e-ab25-a758-0be4713c9885",
-									false,
+									"fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+									true,
 								},
 								
 								{
-									"ab84bf9a-24a5-6aec-aa9c-73605e877af8",
+									"899249ab-ab39-b620-bcfd-28329f4861b0",
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "8b1c32ab-0662-737b-adc4-407b487e6b96",
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "3ae2bfc0-c3d0-5538-b609-18b378487605",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -2787,10 +2879,9 @@ local tbl =
 					{
 						data = 
 						{
+							buffID = 743,
 							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "e1a7068b-135e-ab25-a758-0be4713c9885",
+							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
 							version = 2,
 						},
 					},
@@ -2798,28 +2889,25 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "ab84bf9a-24a5-6aec-aa9c-73605e877af8",
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "899249ab-ab39-b620-bcfd-28329f4861b0",
 							version = 2,
 						},
 					},
 				},
-				eventType = 2,
+				eventType = 3,
 				mechanicTime = 372.2,
-				name = "Shirk to OT",
-				timeRange = true,
+				name = "Stance Drop MT",
 				timelineIndex = 70,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "c28ba366-ba30-1bdf-bf15-00c40e5948a1",
+				timerEndOffset = -0.5,
+				timerOffset = -6,
+				timerStartOffset = -6,
+				uuid = "f541154f-67e5-10db-87cb-2f1316595ace",
 				version = 2,
 			},
+			inheritedIndex = 11,
 		},
 	},
 	[71] = 
@@ -3496,12 +3584,60 @@ local tbl =
 							{
 								
 								{
-									"7a25df64-b8cc-2823-a1e4-c8a8c308518b",
+									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 743,
+							category = "Self",
+							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 485,
+				name = "MT Stance On",
+				timelineIndex = 91,
+				timerOffset = -13,
+				uuid = "be54e129-a7c1-be93-8bf2-c3edf0fd53d3",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"bf3f8a90-e88c-a32d-856c-e70b012b52bd",
 									true,
 								},
 							},
 							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
-							uuid = "7f99c6fa-1c56-90bd-8f3c-3e1a030b67f0",
+							uuid = "692d9f7d-6191-a71a-bea7-6e6bf9ba477b",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -3516,7 +3652,7 @@ local tbl =
 							comparator = 2,
 							conditionType = 4,
 							enmityValue = 99,
-							uuid = "7a25df64-b8cc-2823-a1e4-c8a8c308518b",
+							uuid = "bf3f8a90-e88c-a32d-856c-e70b012b52bd",
 							version = 2,
 						},
 					},
@@ -3524,62 +3660,8 @@ local tbl =
 				mechanicTime = 485,
 				name = "Provoke (Enmity Check)",
 				timelineIndex = 91,
-				timerOffset = 5,
-				uuid = "bf4bf236-af8a-f09b-931e-8ece7531483f",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7537,
-							conditions = 
-							{
-								
-								{
-									"c0c5524a-c8e0-c628-adaf-88c02079c639",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							ignoreWeaveRules = true,
-							targetType = "Other Tank",
-							uuid = "a9ac58ec-3894-0407-beb1-24cfba6bb6b7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							conditionType = 7,
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "c0c5524a-c8e0-c628-adaf-88c02079c639",
-							version = 2,
-						},
-					},
-				},
-				eventType = 2,
-				mechanicTime = 485,
-				name = "Emergency Shirk",
-				timeRange = true,
-				timelineIndex = 91,
-				timerEndOffset = 4,
-				timerStartOffset = -4,
-				uuid = "80fcec0f-8444-a215-a550-2a5408970b71",
+				timerOffset = 2,
+				uuid = "6e5c0e80-8a93-ac7f-a88f-0bc7d53f59cd",
 				version = 2,
 			},
 		},
@@ -3599,17 +3681,17 @@ local tbl =
 							{
 								
 								{
-									"3e09fc43-23e7-b0fb-a50f-d27c031d1501",
-									false,
+									"fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+									true,
 								},
 								
 								{
-									"857a0b08-63ac-b82e-88e2-307ac62c1b8b",
+									"899249ab-ab39-b620-bcfd-28329f4861b0",
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "2ddba70b-4d9b-1928-8393-8a51901ff4e8",
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "3ae2bfc0-c3d0-5538-b609-18b378487605",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -3621,10 +3703,9 @@ local tbl =
 					{
 						data = 
 						{
+							buffID = 743,
 							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "3e09fc43-23e7-b0fb-a50f-d27c031d1501",
+							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
 							version = 2,
 						},
 					},
@@ -3632,26 +3713,23 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "857a0b08-63ac-b82e-88e2-307ac62c1b8b",
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "899249ab-ab39-b620-bcfd-28329f4861b0",
 							version = 2,
 						},
 					},
 				},
-				eventType = 2,
+				enabled = false,
+				eventType = 3,
 				mechanicTime = 485,
-				name = "Shirk to OT",
-				timeRange = true,
+				name = "Stance Drop MT",
 				timelineIndex = 91,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "dc880029-feaf-3675-8e1a-f32ddb42202e",
+				timerEndOffset = -0.5,
+				timerOffset = -6,
+				timerStartOffset = -6,
+				uuid = "645ecc8a-6be3-beec-9d69-bd69ad49afd7",
 				version = 2,
 			},
 		},
@@ -4248,180 +4326,6 @@ local tbl =
 							{
 								
 								{
-									"fdbb4b32-be9c-99d0-b429-a9567e0bd8c6",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
-							uuid = "16b942c8-84f6-ab61-8a14-479f092a956b",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							uuid = "fdbb4b32-be9c-99d0-b429-a9567e0bd8c6",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Provoke (Enmity Check)",
-				timelineIndex = 117,
-				timerOffset = 5,
-				uuid = "9d98764c-0d9e-05ad-9a73-269389d937f0",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7537,
-							conditions = 
-							{
-								
-								{
-									"a6bfa55e-097d-c7ed-9543-5ae714f35d5f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							ignoreWeaveRules = true,
-							targetType = "Other Tank",
-							uuid = "793ba927-d4c6-358b-b54b-d92ae59657f0",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							conditionType = 7,
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "a6bfa55e-097d-c7ed-9543-5ae714f35d5f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 2,
-				mechanicTime = 608.9,
-				name = "Emergency Shirk",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = 4,
-				timerStartOffset = -4,
-				uuid = "02641482-43bc-4ba2-8a77-bcb61da23860",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"26a9262f-d107-a4c2-962c-e1b05f0325b3",
-									false,
-								},
-								
-								{
-									"890b1f4b-fc3a-be4e-8fcc-6acd8f42c4e2",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "6d35dbf6-a7b8-d6bf-b183-5ead007fe0f1",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "26a9262f-d107-a4c2-962c-e1b05f0325b3",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "890b1f4b-fc3a-be4e-8fcc-6acd8f42c4e2",
-							version = 2,
-						},
-					},
-				},
-				eventType = 2,
-				mechanicTime = 608.9,
-				name = "Shirk to OT",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "7ca8d197-5068-6f75-b5d7-c4bf5f997a36",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"6b33a272-bd34-e492-bf72-c1ca76165d4d",
 									true,
 								},
@@ -4458,10 +4362,181 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"897719d4-02db-9895-8eec-429a2eccaa8b",
+									false,
+								},
+								
+								{
+									"ae709dd0-a344-e7dc-8364-d5f001129411",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 608.9,
+				name = "Shirk to OT",
+				timeRange = true,
+				timelineIndex = 117,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "44c38c57-2846-361a-b939-3f1f37515201",
+				version = 2,
+			},
+			inheritedIndex = 18,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7537,
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							ignoreWeaveRules = true,
+							targetType = "Other Tank",
+							uuid = "df91a0ab-b320-c581-83bc-eeced996ca37",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 608.9,
+				name = "Emergency Shirk",
+				timelineIndex = 117,
+				uuid = "e5ca6df3-afba-8710-bd37-5f3b34e33299",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+									true,
+								},
+								
+								{
+									"899249ab-ab39-b620-bcfd-28329f4861b0",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "3ae2bfc0-c3d0-5538-b609-18b378487605",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "899249ab-ab39-b620-bcfd-28329f4861b0",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 608.9,
+				name = "Stance Drop MT",
+				timelineIndex = 117,
+				timerEndOffset = -0.5,
+				timerOffset = -6,
+				timerStartOffset = -6,
+				uuid = "e535c58d-d09f-142c-809e-2cc3ce03430e",
+				version = 2,
+			},
+			inheritedIndex = 11,
+		},
 	},
 	inheritedProfiles = 
 	{
-		"Commissioned\\p6 Warrior MT",
 		"store\\anyone\\savage2\\p6s",
 	},
 	mapID = 1084,
