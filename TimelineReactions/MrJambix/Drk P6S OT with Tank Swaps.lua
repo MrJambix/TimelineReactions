@@ -1261,7 +1261,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 128.5,
-				name = "Provoke (Enmity Check)",
+				name = "Provoke",
 				timelineIndex = 27,
 				timerOffset = 2,
 				uuid = "2300320c-8ce1-00aa-a79a-0ae88b7a2d87",
@@ -1335,36 +1335,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "86cc4975-b1c6-3dfd-9a3e-03f4e64d2e90",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 141.4,
-				name = "Oblation Self",
-				randomOffset = -4,
-				timelineIndex = 28,
-				uuid = "54adc028-35fb-373d-b834-819d14226d23",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
 							uuid = "9ec1dcb8-42f9-c621-8ebb-5fca04abd92f",
 							variableTogglesType = 3,
@@ -1409,6 +1379,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "86cc4975-b1c6-3dfd-9a3e-03f4e64d2e90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 141.4,
+				name = "Oblation Self",
+				randomOffset = -4,
+				timelineIndex = 28,
+				uuid = "54adc028-35fb-373d-b834-819d14226d23",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[31] = 
@@ -3432,7 +3432,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 372.2,
-				name = "Provoke (Enmity Check)",
+				name = "Provoke",
 				timelineIndex = 70,
 				timerOffset = 2,
 				uuid = "3dfc1f81-6763-8c54-8b40-8a3120171302",
@@ -3833,34 +3833,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Draw follow up",
-				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
-				version = 2,
-			},
-			inheritedIndex = 4,
-			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Front/Back or Sides",
-				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -3884,6 +3856,34 @@ local tbl =
 				timerOffset = -2,
 				uuid = "f5fed39f-ee27-ccd9-a60f-f0c496a1afa2",
 				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw follow up",
+				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
+			inheritedOverwrites = 
+			{
 			},
 		},
 		
@@ -5401,7 +5401,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 608.9,
-				name = "Provoke (Enmity Check)",
+				name = "Provoke",
 				timelineIndex = 117,
 				timerOffset = 2,
 				uuid = "a49ac9ea-b666-6cd1-99b8-5a444ef4b68c",
@@ -5466,7 +5466,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"MrJambix\\Drk P6S MT with Tank Swaps",
+		"store\\anyone\\savage2\\p6s",
 	},
 	mapID = 1084,
 	version = 2,

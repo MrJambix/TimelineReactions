@@ -45,42 +45,11 @@ local tbl =
 				mechanicTime = 14.9,
 				name = "Stance Check",
 				timelineIndex = 2,
-				timerOffset = -16,
+				timerOffset = -18,
 				uuid = "ea88d999-1166-cf79-a1ab-8209c4750aaf",
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3625,
-							uuid = "e3703f68-8bdb-b986-84d1-f519eca5f0d8",
-							variableTogglesType = 2,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 14.9,
-				name = "Blood Weapon",
-				timelineIndex = 2,
-				timerOffset = -20,
-				uuid = "14b2fb09-14ce-3584-a10f-abf3900aacb8",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 		
 		{
@@ -105,11 +74,10 @@ local tbl =
 				},
 				mechanicTime = 14.9,
 				name = "TBN Self",
-				timeRange = true,
 				timelineIndex = 2,
 				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -4,
+				timerOffset = -16,
+				timerStartOffset = -16,
 				uuid = "7ced8f40-d6cc-7c81-96ff-913391f8da51",
 				version = 2,
 			},
@@ -153,7 +121,7 @@ local tbl =
 				uuid = "ff3d28f7-fd02-674a-8357-ac3d502b013a",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -183,7 +151,7 @@ local tbl =
 				uuid = "2bb3d0a2-2c74-07da-9225-5e20017d334c",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 4,
 		},
 	},
 	[3] = 
@@ -557,39 +525,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 101.3,
-				name = "TBN Self",
-				timeRange = true,
-				timelineIndex = 12,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -4,
-				uuid = "bdc048e2-2ec9-48a8-9bb1-9cfe27c2dfa5",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "a2b72e81-461d-3672-abf2-9de9cc62d317",
 							variableTogglesType = 3,
@@ -612,9 +547,72 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 101.3,
+				name = "Tbn Self",
+				timeRange = true,
+				timelineIndex = 12,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -4,
+				uuid = "add26288-8a8e-1ac2-ab8d-4208d35f61f0",
+				version = 2,
+			},
+		},
 	},
 	[17] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "179111a1-9911-4007-bb6c-ff3f018ef7e7",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 133.2,
+				name = "Oblation",
+				randomOffset = -0.5,
+				timelineIndex = 17,
+				timerOffset = -8,
+				uuid = "35f1cdbb-ff51-f811-af28-4385283197cf",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
 		
 		{
 			data = 
@@ -955,7 +953,7 @@ local tbl =
 				uuid = "7d0b7191-5e5f-5ccd-9935-72143dd5a555",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -986,7 +984,7 @@ local tbl =
 				uuid = "be78b53b-2e90-6adf-857d-47def5426529",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -1017,7 +1015,7 @@ local tbl =
 				uuid = "ed112240-03c4-0283-a87a-2e47be2c066b",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 5,
 		},
 	},
 	[35] = 
@@ -1076,10 +1074,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 257,
-				name = "TBN SELF",
+				name = "Tbn Self",
+				timeRange = true,
 				timelineIndex = 43,
-				timerOffset = -3,
-				uuid = "802ea349-85ad-39ae-a15a-30e6b32bf336",
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -4,
+				uuid = "024be4d2-595f-533e-b005-4908c0f65d35",
 				version = 2,
 			},
 		},
@@ -1141,9 +1142,12 @@ local tbl =
 				{
 				},
 				mechanicTime = 292.7,
-				name = "TBN SELF",
+				name = "Tbn Self",
+				timeRange = true,
 				timelineIndex = 58,
+				timerEndOffset = -0.5,
 				timerOffset = -2,
+				timerStartOffset = -4,
 				uuid = "07a7aa78-47c4-5e1c-b78f-8f6d42dac731",
 				version = 2,
 			},
@@ -1151,6 +1155,55 @@ local tbl =
 	},
 	[67] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"397e521d-bc4d-9efa-9eef-27542478f095",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 743,
+							category = "Self",
+							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 332.1,
+				name = "Stance On",
+				timelineIndex = 67,
+				timerOffset = -7,
+				uuid = "829c8a17-87f7-501a-8990-db7dfadd7caa",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 		
 		{
 			data = 
@@ -1205,91 +1258,9 @@ local tbl =
 			},
 			inheritedIndex = 12,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"397e521d-bc4d-9efa-9eef-27542478f095",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 332.1,
-				name = "Stance On",
-				timelineIndex = 67,
-				timerOffset = -7,
-				uuid = "829c8a17-87f7-501a-8990-db7dfadd7caa",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
 	},
 	[68] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "6f6267fb-315a-4a1c-bf60-139ef5a0b827",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 339.2,
-				name = "Rampart",
-				timeRange = true,
-				timelineIndex = 68,
-				timerEndOffset = -0.5,
-				timerOffset = -6,
-				timerStartOffset = -8,
-				uuid = "de6a2a29-4d44-a26d-aca7-b0dbfd68685b",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
 		
 		{
 			data = 
@@ -1319,7 +1290,39 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -7,
 				timerStartOffset = -7,
-				uuid = "cd8d0649-a9b2-39c6-8e05-d72e2e7ace19",
+				uuid = "6bbe2262-1692-54f6-b009-fde57500d435",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 339.2,
+				name = "Tbn Self",
+				timeRange = true,
+				timelineIndex = 68,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -4,
+				uuid = "f7b8d3a4-8ba0-2390-96b8-769a7edfa9b7",
 				version = 2,
 			},
 		},
@@ -1354,6 +1357,40 @@ local tbl =
 				uuid = "9c515ebe-e614-e29e-af74-ca113fa8b77b",
 				version = 2,
 			},
+		},
+	},
+	[76] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "179111a1-9911-4007-bb6c-ff3f018ef7e7",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 383.8,
+				name = "Oblation",
+				randomOffset = -0.5,
+				timelineIndex = 76,
+				timerOffset = -8,
+				uuid = "e581c991-3431-bebf-8e0b-ac7877a5208a",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[78] = 
@@ -1468,7 +1505,7 @@ local tbl =
 				uuid = "1b898fca-f209-9af2-9add-2c232c675923",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -1541,7 +1578,7 @@ local tbl =
 				uuid = "a4d5364f-c047-7137-a79f-2339239cce2c",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -1572,7 +1609,7 @@ local tbl =
 				uuid = "4585a13f-1e95-59a0-943e-72963436c1d8",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 5,
 		},
 	},
 	[90] = 
@@ -1842,39 +1879,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "6f6267fb-315a-4a1c-bf60-139ef5a0b827",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 489.8,
-				name = "Rampart",
-				timeRange = true,
-				timelineIndex = 94,
-				timerEndOffset = -0.5,
-				timerOffset = -6,
-				timerStartOffset = -8,
-				uuid = "1f2f242e-d980-07bb-8dc6-3d9d852a861b",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "a2b72e81-461d-3672-abf2-9de9cc62d317",
 							variableTogglesType = 3,
@@ -1893,7 +1897,39 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -7,
 				timerStartOffset = -7,
-				uuid = "f9ce76f0-7fd5-0671-a05e-1763cc1aa41b",
+				uuid = "3057adae-ec4a-7607-b10b-dd9483c8f1ad",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 489.8,
+				name = "Tbn Self",
+				timeRange = true,
+				timelineIndex = 94,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -4,
+				uuid = "13efa07e-7543-b80a-a04f-611fa885060d",
 				version = 2,
 			},
 		},
@@ -2018,16 +2054,15 @@ local tbl =
 				{
 				},
 				mechanicTime = 521.3,
-				name = "TBN Self",
+				name = "Tbn Self",
 				timeRange = true,
 				timelineIndex = 98,
 				timerEndOffset = -0.5,
 				timerOffset = -2,
 				timerStartOffset = -4,
-				uuid = "b3747225-9baa-c8dd-a862-17c5d764e6fc",
+				uuid = "cf88fd67-20f4-4a7a-acef-2da919eb51e5",
 				version = 2,
 			},
-			inheritedIndex = 2,
 		},
 	},
 	[101] = 
@@ -2111,7 +2146,7 @@ local tbl =
 				uuid = "8cd68844-c669-ca16-ab74-0b6e141d04f0",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -2184,7 +2219,7 @@ local tbl =
 				uuid = "4a506559-6c58-25d0-acda-2b99cb94d5c3",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -2215,7 +2250,7 @@ local tbl =
 				uuid = "4b546b15-d98e-a5fa-b8da-d769a747dd0a",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 5,
 		},
 	},
 	[103] = 
@@ -2242,10 +2277,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 565.5,
-				name = "TBN SELF",
+				name = "Tbn Self",
+				timeRange = true,
 				timelineIndex = 103,
+				timerEndOffset = -0.5,
 				timerOffset = -2,
-				uuid = "533c5c81-83f7-7d3e-b36e-f4c9b4df9cca",
+				timerStartOffset = -4,
+				uuid = "cb4bcb68-b574-f49d-9432-d00622d3fd41",
 				version = 2,
 			},
 		},
