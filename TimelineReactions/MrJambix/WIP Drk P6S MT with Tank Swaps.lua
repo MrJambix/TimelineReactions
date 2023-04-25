@@ -999,56 +999,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6ccdde95-616b-e270-b4a4-3a73ffd13a6a",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
-							uuid = "7e1db9b5-f774-75c3-a037-b5a497d16e28",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 25,
-							uuid = "6ccdde95-616b-e270-b4a4-3a73ffd13a6a",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 128.5,
-				name = "Provoke MT",
-				timelineIndex = 27,
-				timerEndOffset = 5,
-				timerOffset = 5,
-				timerStartOffset = 5,
-				uuid = "db288a77-e167-40a5-8f3c-3c74fdee5357",
-				version = 2,
-			},
-		},
 	},
 	[29] = 
 	{
@@ -4512,6 +4462,7 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"Commissioned\\p6 Warrior MT",
+		"store\\anyone\\savage2\\p6s",
 	},
 	mapID = 1084,
 	version = 2,
