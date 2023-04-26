@@ -151,6 +151,48 @@ local tbl =
 			{
 			},
 		},
+		
+		{
+			data = 
+			{
+				name = "Disable Duty Helper",
+				uuid = "d7f14f6c-d730-0a5e-9ef8-afa29ae66fea",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "2dda0b2d-df9d-5d83-8d27-9a1e45fcf1ef",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Check Stance",
+				uuid = "51ee5fa8-cd54-7a4f-98c4-b4e5d44cf5d0",
+				version = 2,
+			},
+			inheritedIndex = 7,
+			inheritedObjectUUID = "63177481-c0d1-c286-a62e-66c5d6efa7c4",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Find target",
+				uuid = "7e88d293-e7f7-423d-9433-4dd57732dd7f",
+				version = 2,
+			},
+			inheritedIndex = 11,
+			inheritedObjectUUID = "d83fc117-a847-baea-981e-9527ce99385a",
+			inheritedOverwrites = 
+			{
+			},
+		},
 	},
 	[3] = 
 	{
@@ -222,7 +264,7 @@ local tbl =
 			data = 
 			{
 				name = "Draw Venomous Mass",
-				uuid = "b2873f4a-f4ff-87f2-a3e1-b10c8932ee17",
+				uuid = "f88615f3-e2e9-006f-82d5-111f16381601",
 				version = 2,
 			},
 			inheritedIndex = 1,
@@ -277,7 +319,7 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 8,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -7,
 				uuid = "582c7154-050a-4132-acbc-692a27e16249",
@@ -325,6 +367,7 @@ local tbl =
 						},
 					},
 				},
+				eventType = 3,
 				mechanicTime = 56.3,
 				name = "OT Stance On",
 				timeRange = true,
@@ -360,12 +403,23 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30495,
+							uuid = "ca166201-408b-798d-820a-9623b3e438af",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 63.5,
 				name = "TBN Self",
 				timeRange = true,
 				timelineIndex = 9,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1.5,
 				timerStartOffset = -5,
 				uuid = "5bd1ca33-bea7-d7ce-8962-0e00ff5f6e37",
 				version = 2,
@@ -402,9 +456,192 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "e4388987-b74d-5a17-a14a-41dcfcaad6ff",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 2,
+				mechanicTime = 72.1,
+				name = "Oblation",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = -5,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "29f331a6-481e-77da-86e0-90b78a50a41d",
+				version = 2,
+			},
+		},
 	},
 	[11] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 94.1,
+				name = "TBN Self",
+				timeRange = true,
+				timelineIndex = 11,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "b39a4975-d841-f889-8bed-c927ba032a6f",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw Venomous Mass",
+				uuid = "b4ce4764-ae45-f8f4-9952-c59bd4eee110",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "23ead345-9176-de8c-8e29-5c89cc655cde",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "353c8d28-0577-10fa-9000-d9526e925b4b",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 94.1,
+				name = "Dark Mind",
+				randomOffset = -1.5,
+				timelineIndex = 11,
+				timerOffset = -9,
+				uuid = "99c1f128-dfe4-54a7-a970-c8200c5cdfcf",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 94.1,
+				name = "StanceOff",
+				randomOffset = -1.5,
+				timelineIndex = 11,
+				timerOffset = -7,
+				uuid = "01802823-ac69-4ad3-9774-c94c69ff7134",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
 		
 		{
 			data = 
@@ -471,170 +708,12 @@ local tbl =
 				name = "Shirk to OT Swap",
 				timeRange = true,
 				timelineIndex = 11,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerStartOffset = -8,
 				uuid = "589921f7-423d-e66b-8ca4-7226114d708a",
 				version = 2,
 			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 94.1,
-				name = "StanceOff",
-				randomOffset = -0.5,
-				timelineIndex = 11,
-				timerOffset = -10,
-				uuid = "01802823-ac69-4ad3-9774-c94c69ff7134",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 94.1,
-				name = "Dark Mind",
-				randomOffset = -0.5,
-				timelineIndex = 11,
-				timerOffset = -9,
-				uuid = "99c1f128-dfe4-54a7-a970-c8200c5cdfcf",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "dd9ee079-aa81-744a-acb4-513570f8c8ed",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 94.1,
-				name = "Oblation Self",
-				randomOffset = -0.5,
-				timelineIndex = 11,
-				timerOffset = -6,
-				uuid = "d05c2a8d-e2fe-371f-a11a-41ef6cba628a",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				name = "Draw Venomous Mass",
-				uuid = "0bf090c3-106a-8ceb-a34a-3ddded2c4897",
-				version = 2,
-			},
 			inheritedIndex = 5,
-			inheritedObjectUUID = "23ead345-9176-de8c-8e29-5c89cc655cde",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 94.1,
-				name = "TBN Self",
-				timeRange = true,
-				timelineIndex = 11,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -5,
-				uuid = "b39a4975-d841-f889-8bed-c927ba032a6f",
-				version = 2,
-			},
 		},
 	},
 	[17] = 
@@ -909,110 +988,14 @@ local tbl =
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"397e521d-bc4d-9efa-9eef-27542478f095",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 193.1,
-				name = "OT Stance On",
-				timeRange = true,
-				timelineIndex = 33,
-				timerEndOffset = -0.5,
-				timerOffset = -3,
-				timerStartOffset = -5,
-				uuid = "22e6c119-9811-105a-a29d-1228e46845e1",
+				name = "Draw Venomous Mass",
+				uuid = "0d6fab4a-1eb0-0f36-b609-440002b83e93",
 				version = 2,
 			},
-			inheritedIndex = 23,
-		},
-		
-		{
-			data = 
+			inheritedIndex = 1,
+			inheritedObjectUUID = "9183e03b-4997-d50f-ade7-ef8b88b34871",
+			inheritedOverwrites = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
-							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 193.1,
-				name = "Jumps On",
-				timelineIndex = 33,
-				timerOffset = -4,
-				uuid = "0db04158-0ad7-b55b-bd2e-24030fbaf0fd",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
-							uuid = "179111a1-9911-4007-bb6c-ff3f018ef7e7",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 193.1,
-				name = "Oblation OT",
-				randomOffset = -0.5,
-				timelineIndex = 33,
-				timerOffset = -4,
-				uuid = "8b229c8e-6fdf-41c4-9e90-a6eda620a7ce",
-				version = 2,
 			},
 		},
 		
@@ -1061,17 +1044,113 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 33,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -7,
-				uuid = "8da1cfad-d07f-91a0-a635-4ae0cfb02fbb",
+				uuid = "ddf90e47-d405-8169-8d2c-c11ce8ed97b2",
 				version = 2,
 			},
 			inheritedIndex = 12,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 193.1,
+				name = "Jumps On",
+				timelineIndex = 33,
+				timerOffset = -4,
+				uuid = "0db04158-0ad7-b55b-bd2e-24030fbaf0fd",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"397e521d-bc4d-9efa-9eef-27542478f095",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "87959bce-a0a5-5cfd-a5e8-6db17441a18f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 743,
+							category = "Self",
+							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 193.1,
+				name = "OT Stance On",
+				timeRange = true,
+				timelineIndex = 33,
+				timerEndOffset = -0.5,
+				timerOffset = -3,
+				timerStartOffset = -5,
+				uuid = "bc0f043e-41b1-eaf1-bc21-6c3db35af1e8",
+				version = 2,
+			},
+			inheritedIndex = 23,
+		},
 	},
 	[34] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "TTS Spread or Group Stack",
+				uuid = "69e8b07c-5a31-0aba-9866-72da498617e4",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "bc6168cd-2702-d8c8-9acb-9c4aa3226e84",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -1092,21 +1171,73 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30495,
+							uuid = "ca166201-408b-798d-820a-9623b3e438af",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 200.2,
 				name = "TBN Self",
 				timeRange = true,
 				timelineIndex = 34,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
+				timerEndOffset = -1.5,
 				timerStartOffset = -5,
-				uuid = "1be43db4-febb-2265-bca0-36683ccc35b2",
+				uuid = "b8518a0f-ddf0-2cc1-b29d-2ba4b25c8bb0",
 				version = 2,
 			},
 		},
 	},
 	[35] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Draw Spread AOEs",
+				uuid = "8c6effa1-2bf8-7adf-8432-7a4febd76cb2",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "1d0de74b-ce34-4832-ab88-c8c9b0f722a7",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw Healer Stacks",
+				uuid = "c0f0cc4b-8852-a415-b3ea-72aef32f93ac",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "ee39bf30-4acd-32d1-8881-61c6c5e4e3b8",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw secondary mech",
+				uuid = "11e66fd1-3033-66cc-9309-a79d5c67d527",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "74ffc90d-2fa3-3f51-bc10-c977fb7c52e6",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -1243,6 +1374,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "TTS Tail or Claw",
+				uuid = "fc333112-b9c2-7dba-9859-4d1b5eae9157",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "53e2f204-b55d-2565-a3c6-6ec219dfac51",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw claw to tail",
+				uuid = "62c1544f-cd4b-3ebf-9fcf-5c217a8f6dfd",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "fa871830-1dd4-44db-85f1-b324fc6ccb51",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -1268,8 +1427,67 @@ local tbl =
 			},
 		},
 	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Record Stampede Spawn",
+				uuid = "3af45dae-af62-8354-8550-73ae6bc76aa4",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "c4edf544-d3c9-3ce1-8148-10ea415db431",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Record Stampede Cast",
+				uuid = "e9eba045-69f1-3e5a-a2f9-47a059680824",
+				version = 2,
+			},
+			inheritedIndex = 6,
+			inheritedObjectUUID = "2ed5302c-652b-979a-b049-b83b1d6c147d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Multi] Anti-ghosting",
+				uuid = "1b4cc2a8-8475-676e-a2fa-78e3cf38b359",
+				version = 2,
+			},
+			inheritedIndex = 8,
+			inheritedObjectUUID = "83f01742-03a0-f696-b342-6e1882ab7ca2",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[43] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Predraw Stampede",
+				uuid = "509f90df-83ea-2179-bce5-bcac4bf0b955",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "97ea6fe6-abed-2af5-9b35-9aa04090a5f9",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -1299,6 +1517,37 @@ local tbl =
 				timerOffset = -5,
 				uuid = "155cb6c3-0a12-c203-8df1-9a3c399b4ac2",
 				version = 2,
+			},
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Find target",
+				uuid = "eaba1d8b-8861-8408-9d95-c313b1661f42",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "81f1d9d6-9d8a-7edb-9a17-020f4cb38894",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "2 gcd hold",
+				uuid = "70c41194-ef3e-a9da-adc8-12f6e92f8457",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "44e31ce9-d41c-fdd1-9e87-2c08e37f6bd7",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -1424,6 +1673,153 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Draw Venomous Mass",
+				uuid = "c73bb338-9b11-ffbb-b18e-981a36fe39c1",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "7c4a97f2-eb24-a838-84d4-6c20dc278e9d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 332.1,
+				name = "TBN Self",
+				timeRange = true,
+				timelineIndex = 67,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "0e09dc8a-c5c8-e15e-bb37-b62616ac1eef",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "353c8d28-0577-10fa-9000-d9526e925b4b",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 332.1,
+				name = "Dark Mind",
+				randomOffset = -1.5,
+				timelineIndex = 67,
+				timerOffset = -9,
+				uuid = "9cb2cdbc-cda2-10c0-bc5f-33a526383829",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 332.1,
+				name = "StanceOff",
+				randomOffset = -1.5,
+				timelineIndex = 67,
+				timerOffset = -7,
+				uuid = "5c4c7986-9a20-2378-9f19-5425069874db",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -1486,155 +1882,9 @@ local tbl =
 				name = "Shirk to OT Swap",
 				timeRange = true,
 				timelineIndex = 67,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerStartOffset = -8,
-				uuid = "50fbde29-6838-5315-a89f-6bc761ce94bc",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 332.1,
-				name = "StanceOff",
-				randomOffset = -0.5,
-				timelineIndex = 67,
-				timerOffset = -10,
-				uuid = "53941997-c2c8-bfd7-befa-71b762bcf2f8",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "486ee3aa-a6c9-f0e0-b013-33edf9715b09",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 332.1,
-				name = "Rampart",
-				randomOffset = -0.5,
-				timelineIndex = 67,
-				timerOffset = -5,
-				uuid = "7659e74c-0642-6a2c-940a-67dde3accfee",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 332.1,
-				name = "Dark Mind",
-				randomOffset = -0.5,
-				timelineIndex = 67,
-				timerOffset = -9,
-				uuid = "dfb00e95-9a33-0f3d-8beb-b0f6a01b7ff0",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 332.1,
-				name = "TBN Self",
-				timeRange = true,
-				timelineIndex = 67,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -5,
-				uuid = "8f6225a3-9428-7f67-b03f-43e99e614c54",
+				uuid = "1287cc42-1a28-8bd6-836c-9ebc0d82886d",
 				version = 2,
 			},
 		},
@@ -1707,6 +1957,68 @@ local tbl =
 			},
 		},
 	},
+	[74] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Spread or Group Stack",
+				uuid = "3ce58817-2ffb-d919-97f4-68dd3833830f",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "68bd5ff7-ccd3-6cd1-948f-b1e0c1754a16",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
+	[76] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Draw Spread AOEs",
+				uuid = "055223b9-6d76-be82-81fa-466c105a9fab",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "1b812d57-b56d-61ad-a40d-c3836d12a49b",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw Healer Stacks",
+				uuid = "c53eed9f-91f7-cb52-b2e4-d6965ee9ffff",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "e125f6bd-536f-2dc4-b896-75ce9dff04fb",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw secondary mech",
+				uuid = "21bdb208-6540-e3d5-bb47-faaa408f7c07",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "9212c914-70be-399f-8b6e-037fb11d6a88",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[78] = 
 	{
 		
@@ -1771,8 +2083,53 @@ local tbl =
 			},
 		},
 	},
+	[79] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Tail or Claw",
+				uuid = "2b439ac2-c46a-48c1-a050-35ee20829af7",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "f9d86a11-1da2-3b2d-8eb7-86a86bf4f54d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw claw to tail",
+				uuid = "4b336371-2e1b-3c9d-a82b-1082cd0b2fa5",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "2ff8b857-0c43-5066-874d-57b46541235d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[80] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Draw Venomous Mass",
+				uuid = "da9df3c1-e0ca-9bdb-b6c0-9ce043ea5489",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "c462e184-801f-eeba-be2e-6ef2f063f286",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -1819,10 +2176,10 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 80,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -7,
-				uuid = "d6bf70e6-999b-8153-b324-9adb67c53892",
+				uuid = "a57b683b-7a22-b1f7-a3db-cad7ab7ec428",
 				version = 2,
 			},
 			inheritedIndex = 12,
@@ -1867,6 +2224,7 @@ local tbl =
 						},
 					},
 				},
+				eventType = 3,
 				mechanicTime = 417,
 				name = "OT Stance On",
 				timeRange = true,
@@ -1874,7 +2232,7 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -3,
 				timerStartOffset = -5,
-				uuid = "78df979c-3aa0-fcae-86ab-1fa54e3e9c7e",
+				uuid = "65c4b743-d669-5af7-8b7d-3c693157a2d7",
 				version = 2,
 			},
 			inheritedIndex = 23,
@@ -1903,9 +2261,10 @@ local tbl =
 				name = "Jumps On",
 				timelineIndex = 80,
 				timerOffset = -4,
-				uuid = "ba0e9f2a-c4e8-cdfb-b231-ad078ca7778d",
+				uuid = "3e0a0bb9-99f1-044f-8418-2da4ba21bc0d",
 				version = 2,
 			},
+			inheritedIndex = 4,
 		},
 	},
 	[81] = 
@@ -1930,15 +2289,25 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30495,
+							uuid = "ca166201-408b-798d-820a-9623b3e438af",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 424.1,
-				name = "Tbn Self",
+				name = "TBN Self",
 				timeRange = true,
 				timelineIndex = 81,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
+				timerEndOffset = -1.5,
 				timerStartOffset = -5,
-				uuid = "036a3f95-5767-800c-9a96-b61669f1d059",
+				uuid = "363611a3-c3a6-e7ae-ae79-f139681238fa",
 				version = 2,
 			},
 		},
@@ -2150,6 +2519,153 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Draw Venomous Mass",
+				uuid = "759850ed-19d5-a350-9917-9fce8da3487c",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "0fd2d606-c950-f80e-ba27-81719557aaae",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 482.7,
+				name = "TBN Self",
+				timeRange = true,
+				timelineIndex = 93,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "3f7c10ad-4cb4-7e99-8084-a72bc351e511",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "353c8d28-0577-10fa-9000-d9526e925b4b",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 482.7,
+				name = "Dark Mind",
+				randomOffset = -1.5,
+				timelineIndex = 93,
+				timerOffset = -9,
+				uuid = "2652dd5f-14c3-2796-ba19-d84df48c6dbd",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 482.7,
+				name = "StanceOff",
+				randomOffset = -1.5,
+				timelineIndex = 93,
+				timerOffset = -7,
+				uuid = "4d762522-ad7b-4ba8-9210-49b926ca9548",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -2212,153 +2728,9 @@ local tbl =
 				name = "Shirk to OT Swap",
 				timeRange = true,
 				timelineIndex = 93,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerStartOffset = -8,
-				uuid = "8d6f2af2-2163-e672-b885-e600210f59c9",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "441831d0-2336-6312-8d84-3720f756f330",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 482.7,
-				name = "Reprisal",
-				timelineIndex = 93,
-				timerOffset = -8,
-				uuid = "93736a0b-bcd1-4bd4-b367-b748be7dc254",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"96b7a4f1-d61b-fa5c-a08d-15a341466704",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "eb3dcd82-f444-5bff-9183-4e26324a0115",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "96b7a4f1-d61b-fa5c-a08d-15a341466704",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 482.7,
-				name = "StanceOff",
-				randomOffset = -0.5,
-				timelineIndex = 93,
-				timerOffset = -10,
-				uuid = "a9477ff2-3529-b6c4-bff4-0c3c122a7f01",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "7951bc43-ce97-9a00-89cc-a20aba63a351",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 482.7,
-				name = "Dark Mind",
-				randomOffset = -0.5,
-				timelineIndex = 93,
-				timerOffset = -9,
-				uuid = "651c9498-5563-c621-b75a-015737598339",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 482.7,
-				name = "TBN Self",
-				timeRange = true,
-				timelineIndex = 93,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -5,
-				uuid = "5ac67d22-293c-ba44-a672-63c123ba6705",
+				uuid = "930af9d1-20c8-8976-bd1d-bb81c49defd2",
 				version = 2,
 			},
 		},
@@ -2511,6 +2883,48 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Draw Spread AOEs",
+				uuid = "3dd6d5e0-36e0-6a81-9dd9-221fdf749417",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "3243cab6-ae26-cea4-b75e-a3fc2f72ffcb",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw Healer Stacks",
+				uuid = "bfbe15d0-9c02-63e5-a119-a64752a30fa2",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "40412dfe-11ec-0ed5-a350-5feae629cf5e",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw secondary mech",
+				uuid = "461431b4-1dbb-f81a-8361-e49d7c4872ef",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "4a0da4fc-51ec-0bfc-8756-35939023d17b",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -2576,8 +2990,53 @@ local tbl =
 			},
 		},
 	},
+	[100] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Tail or Claw",
+				uuid = "b371e31f-55ce-28ef-b3b9-24ce0a3abf48",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "1dd66222-e47e-b9e9-92f3-372dc02023eb",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw claw to tail",
+				uuid = "b493eaeb-9a73-3269-8c09-99d17a9489de",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "94acad90-781a-8650-95e5-f2b02f22bd78",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[101] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Draw Venomous Mass",
+				uuid = "9a5e08f4-0632-804e-a4e9-b0a88858fe27",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "1b0e7304-8384-79f9-9306-4d41f2861463",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -2624,10 +3083,10 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 101,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -7,
-				uuid = "e9a07916-b768-b0bb-a504-83ab98c2eda5",
+				uuid = "19146bea-4baa-245c-87a9-bf3b3c4ef4ea",
 				version = 2,
 			},
 			inheritedIndex = 12,
@@ -2672,6 +3131,7 @@ local tbl =
 						},
 					},
 				},
+				eventType = 3,
 				mechanicTime = 544.1,
 				name = "OT Stance On",
 				timeRange = true,
@@ -2679,7 +3139,7 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -3,
 				timerStartOffset = -5,
-				uuid = "f13dcbc4-6016-89ab-a73d-47efb68321a2",
+				uuid = "2384b418-0091-a117-b464-3c6fbb7f237a",
 				version = 2,
 			},
 			inheritedIndex = 23,
@@ -2708,9 +3168,10 @@ local tbl =
 				name = "Jumps On",
 				timelineIndex = 101,
 				timerOffset = -4,
-				uuid = "701f61e2-7c5e-73ef-aeca-f224574866f9",
+				uuid = "531a7645-736e-12cf-8022-38d11bceb9aa",
 				version = 2,
 			},
+			inheritedIndex = 4,
 		},
 	},
 	[102] = 
@@ -2735,19 +3196,44 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30495,
+							uuid = "ca166201-408b-798d-820a-9623b3e438af",
+							version = 2,
+						},
+					},
 				},
-				enabled = false,
+				eventType = 3,
 				mechanicTime = 551.2,
 				name = "TBN Self",
 				timeRange = true,
 				timelineIndex = 102,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
+				timerEndOffset = -1.5,
 				timerStartOffset = -5,
-				uuid = "f69ce34b-c53f-446a-8362-6a41e4083ce5",
+				uuid = "d872c09a-a347-2f6b-acc7-fdc1e5969e05",
 				version = 2,
 			},
-			inheritedIndex = 5,
+		},
+	},
+	[110] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Burn",
+				uuid = "3a5577f1-6dcb-a43d-8470-adfa73daac4d",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "cbeb3718-a0ac-ddb1-b4ce-2f01774f7f61",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	inheritedProfiles = 
