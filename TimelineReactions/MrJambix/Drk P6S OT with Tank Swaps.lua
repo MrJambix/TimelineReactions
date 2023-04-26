@@ -375,42 +375,6 @@ local tbl =
 			},
 		},
 	},
-	[7] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "77ce860f-5f13-4870-ac72-d6635ad2ceca",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 48.6,
-				name = "Dark Missionary",
-				timeRange = true,
-				timelineIndex = 7,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -2,
-				uuid = "cbe5ac5c-7238-a80b-b138-6df1523e1c59",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-	},
 	[10] = 
 	{
 		
@@ -495,10 +459,42 @@ local tbl =
 				name = "Tbn Self",
 				timeRange = true,
 				timelineIndex = 10,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1.5,
 				timerOffset = -2,
 				timerStartOffset = -5,
 				uuid = "6f44696a-b57f-cc37-814e-988340630daf",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "77137c85-9410-2007-9ff6-2e8ba84fdc7a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.8,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -7,
+				uuid = "8b3f7d3a-2d82-91ea-8029-529c9be5d424",
 				version = 2,
 			},
 		},
@@ -522,20 +518,6 @@ local tbl =
 	},
 	[23] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "TTS Marker Type",
-				uuid = "bf9106b2-d49b-9d81-9bc7-72635d6a7d80",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "5458c44e-fc18-f279-913c-25feb78afa72",
-			inheritedOverwrites = 
-			{
-			},
-		},
 		
 		{
 			data = 
@@ -591,6 +573,20 @@ local tbl =
 				timerOffset = 13,
 				uuid = "67fa1513-c031-6157-8cea-068e9e514950",
 				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Marker Type",
+				uuid = "bf9106b2-d49b-9d81-9bc7-72635d6a7d80",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "5458c44e-fc18-f279-913c-25feb78afa72",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -1168,6 +1164,60 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "312d76ca-23da-1a54-9146-d1f5ee2d9271",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 10,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "c70844c7-20d8-bbe9-9122-c5bb8fee00d2",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							uuid = "0f365c75-ac1c-9e30-a463-5108c88f4cd0",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 114.7,
+				name = "Dark Mind Split",
+				timeRange = true,
+				timelineIndex = 26,
+				timerEndOffset = 14,
+				timerOffset = -2,
+				timerStartOffset = 7,
+				uuid = "0a8b62b2-a77d-81d0-a98b-ffc86d0915f0",
+				version = 2,
+			},
+		},
 	},
 	[27] = 
 	{
@@ -1417,6 +1467,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Draw follow up",
+				uuid = "4c28063e-b553-5a6e-8665-138d0a033a16",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "bf29a897-0e10-d0f2-845d-681d55194d3d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "f433b10b-caa8-76ea-8cb0-79cffef1d103",
+				version = 2,
+			},
+			inheritedIndex = 6,
+			inheritedObjectUUID = "ad6edcbd-35c3-f797-acba-b333e80f2039",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -1468,34 +1546,6 @@ local tbl =
 				timerOffset = 4,
 				uuid = "d7721ee7-418e-67fb-9c69-bc68fdfc3e0b",
 				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Draw follow up",
-				uuid = "4c28063e-b553-5a6e-8665-138d0a033a16",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "bf29a897-0e10-d0f2-845d-681d55194d3d",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Front/Back or Sides",
-				uuid = "f433b10b-caa8-76ea-8cb0-79cffef1d103",
-				version = 2,
-			},
-			inheritedIndex = 6,
-			inheritedObjectUUID = "ad6edcbd-35c3-f797-acba-b333e80f2039",
-			inheritedOverwrites = 
-			{
 			},
 		},
 	},
@@ -3623,6 +3673,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "TTS Front/Back or Sides",
+				uuid = "d7dfdd38-3c86-5a39-887e-21dcce67d339",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "2796f862-136c-d738-b832-5b862ce9cc01",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Marker Type",
+				uuid = "9e692a49-344e-c363-93c8-c036d9338e69",
+				version = 2,
+			},
+			inheritedIndex = 6,
+			inheritedObjectUUID = "7576ffb9-d16e-a496-b86b-fc3878c84b41",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -3674,34 +3752,6 @@ local tbl =
 				timerOffset = 11,
 				uuid = "f6947b71-0a36-0451-a1a8-fa5dcbfdb9df",
 				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Front/Back or Sides",
-				uuid = "d7dfdd38-3c86-5a39-887e-21dcce67d339",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "2796f862-136c-d738-b832-5b862ce9cc01",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Marker Type",
-				uuid = "9e692a49-344e-c363-93c8-c036d9338e69",
-				version = 2,
-			},
-			inheritedIndex = 6,
-			inheritedObjectUUID = "7576ffb9-d16e-a496-b86b-fc3878c84b41",
-			inheritedOverwrites = 
-			{
 			},
 		},
 	},
@@ -3833,6 +3883,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Draw follow up",
+				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -3856,34 +3934,6 @@ local tbl =
 				timerOffset = -2,
 				uuid = "f5fed39f-ee27-ccd9-a60f-f0c496a1afa2",
 				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Draw follow up",
-				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
-				version = 2,
-			},
-			inheritedIndex = 4,
-			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Front/Back or Sides",
-				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
-			inheritedOverwrites = 
-			{
 			},
 		},
 		
@@ -5467,6 +5517,7 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage2\\p6s",
+		"MrJambix\\Drk P6S MT with Tank Swaps",
 	},
 	mapID = 1084,
 	version = 2,

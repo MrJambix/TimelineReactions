@@ -388,6 +388,35 @@ local tbl =
 			},
 			inheritedIndex = 4,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "4c556f38-3d69-bedd-9ba7-468f9e6cdc56",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.3,
+				name = "Rampart",
+				timelineIndex = 8,
+				timerOffset = -17,
+				uuid = "7b0d42a9-1bc8-ce2d-9b83-79b43f9e686d",
+				version = 2,
+			},
+		},
 	},
 	[10] = 
 	{
@@ -416,6 +445,39 @@ local tbl =
 				timelineIndex = 10,
 				timerOffset = 11,
 				uuid = "64db37cc-72a4-4c84-ab6a-db7cb15bea7e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "e4388987-b74d-5a17-a14a-41dcfcaad6ff",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 19,
+				mechanicTime = 72.1,
+				name = "Oblation",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = -5,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "926c6f66-7220-887c-85ef-a2c93474f9b9",
 				version = 2,
 			},
 		},
@@ -464,8 +526,9 @@ local tbl =
 				},
 				mechanicTime = 94.1,
 				name = "Stance On",
+				randomOffset = -5,
 				timelineIndex = 11,
-				timerOffset = -7,
+				timerOffset = -9,
 				uuid = "412c3863-9ded-09d4-a4b2-ce02949e931e",
 				version = 2,
 			},
@@ -517,7 +580,7 @@ local tbl =
 				name = "Provoke",
 				timeRange = true,
 				timelineIndex = 11,
-				timerEndOffset = 10,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -10,
 				uuid = "2c15d9a4-9fc7-eddf-adc0-bd4c8661ddb1",
@@ -1242,8 +1305,9 @@ local tbl =
 				},
 				mechanicTime = 332.1,
 				name = "Stance On",
+				randomOffset = -5,
 				timelineIndex = 67,
-				timerOffset = -7,
+				timerOffset = -9,
 				uuid = "829c8a17-87f7-501a-8990-db7dfadd7caa",
 				version = 2,
 			},
@@ -1295,7 +1359,7 @@ local tbl =
 				name = "Provoke",
 				timeRange = true,
 				timelineIndex = 67,
-				timerEndOffset = 10,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
 				timerStartOffset = -10,
 				uuid = "c8174bd9-01f0-e192-b5be-4c94618236b6",
@@ -1840,44 +1904,21 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"eb9c089e-f55f-c6b7-bfd3-11090739c2e7",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "21f94ae8-d3b8-642e-bbb7-2b2e3559020d",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30493,
-							uuid = "eb9c089e-f55f-c6b7-bfd3-11090739c2e7",
-							version = 2,
-						},
-					},
 				},
-				eventType = 3,
 				mechanicTime = 482.7,
-				name = "Provoke OT",
-				timeRange = true,
+				name = "Jumps On",
+				randomOffset = -1.5,
 				timelineIndex = 93,
-				timerEndOffset = 10,
-				timerOffset = -3.5999999046326,
-				timerStartOffset = -10,
-				uuid = "9c840554-fdff-a1d5-99ed-13975f297fbc",
+				timerOffset = -8,
+				uuid = "82938398-3e55-6ba8-9270-c338d0a4a8c3",
 				version = 2,
 			},
 		},
@@ -1914,7 +1955,7 @@ local tbl =
 						data = 
 						{
 							buffCheckType = 2,
-							buffID = 1833,
+							buffID = 743,
 							category = "Self",
 							uuid = "397e521d-bc4d-9efa-9eef-27542478f095",
 							version = 2,
@@ -1922,13 +1963,14 @@ local tbl =
 					},
 				},
 				mechanicTime = 482.7,
-				name = "OT Stance On",
+				name = "Stance On",
+				randomOffset = -5,
 				timelineIndex = 93,
-				timerOffset = -10,
-				uuid = "0a2c5f8a-74d8-3151-956c-01cf1155da06",
+				timerOffset = -9,
+				uuid = "194b4775-1588-5e81-99b0-0de97cb27577",
 				version = 2,
 			},
-			inheritedIndex = 23,
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -1941,22 +1983,48 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
-							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
+							conditions = 
+							{
+								
+								{
+									"eb9c089e-f55f-c6b7-bfd3-11090739c2e7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "21f94ae8-d3b8-642e-bbb7-2b2e3559020d",
+							variableTogglesType = 2,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30493,
+							uuid = "eb9c089e-f55f-c6b7-bfd3-11090739c2e7",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 482.7,
-				name = "Jumps On",
+				name = "Provoke",
+				timeRange = true,
 				timelineIndex = 93,
-				timerOffset = -4,
-				uuid = "82938398-3e55-6ba8-9270-c338d0a4a8c3",
+				timerEndOffset = -5,
+				timerOffset = -3.5999999046326,
+				timerStartOffset = -10,
+				uuid = "2fd25b4f-a3c8-b530-8aee-19e530e4adb1",
 				version = 2,
 			},
+			inheritedIndex = 12,
 		},
 	},
 	[94] = 

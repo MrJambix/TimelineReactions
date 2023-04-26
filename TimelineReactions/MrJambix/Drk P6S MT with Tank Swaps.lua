@@ -45,7 +45,7 @@ local tbl =
 				mechanicTime = 9.5,
 				name = "MT Stance On",
 				timelineIndex = 1,
-				timerOffset = -15,
+				timerOffset = -16,
 				uuid = "24293d04-1476-e419-87be-783baf5b383c",
 				version = 2,
 			},
@@ -106,9 +106,9 @@ local tbl =
 				name = "Tbn Self",
 				timeRange = true,
 				timelineIndex = 1,
-				timerEndOffset = -0.5,
+				timerEndOffset = -10.5,
 				timerOffset = -3,
-				timerStartOffset = -10,
+				timerStartOffset = -11,
 				uuid = "5b59a63b-cba2-0245-a99b-9ed8f3b44459",
 				version = 2,
 			},
@@ -158,7 +158,7 @@ local tbl =
 				name = "Provoke",
 				timelineIndex = 1,
 				timerEndOffset = 2,
-				timerOffset = -8,
+				timerOffset = -9.5,
 				timerStartOffset = -9.1999998092651,
 				uuid = "578b5da3-a7c0-f474-bb1c-2801b55c0156",
 				version = 2,
@@ -182,6 +182,34 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				name = "Check Stance",
+				uuid = "df542082-cffb-3ed6-a574-3a53669e0aa0",
+				version = 2,
+			},
+			inheritedIndex = 8,
+			inheritedObjectUUID = "1fc7a993-62b8-97a1-8649-23cc70ecae1d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Set custom cone angle",
+				uuid = "9e9cf7d1-2850-7752-aa25-7e2b88be3fcc",
+				version = 2,
+			},
+			inheritedIndex = 36,
+			inheritedObjectUUID = "64651b65-8811-21ee-9ddb-0b77ff88b78e",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	
@@ -309,14 +337,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 28,
 				name = "Living Dead (Cone Invul)Disable Otherwise",
 				timeRange = true,
 				timelineIndex = 3,
-				timerEndOffset = -2,
+				timerEndOffset = -3,
 				timerOffset = -2,
-				timerStartOffset = -5,
+				timerStartOffset = -7,
 				uuid = "22131592-73ee-bcec-a234-104aebd2a96c",
 				version = 2,
 			},
@@ -378,14 +405,14 @@ local tbl =
 						data = 
 						{
 							buffCheckType = 2,
+							buffID = 810,
 							uuid = "034e5e4d-696b-8a64-aca2-e8a5f6a2619c",
 							version = 2,
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 28,
-				name = "Oblation Self(Need Living Dead Buff ID)",
+				name = "Oblation Self",
 				timelineIndex = 3,
 				timerEndOffset = -0.5,
 				timerOffset = -2,
@@ -396,6 +423,51 @@ local tbl =
 			inheritedIndex = 3,
 		},
 	}, 
+	[5] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Tether Record",
+				uuid = "9ab49a02-ccad-5735-b647-0223e70c6d34",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "d81d0452-22a9-ee51-a80b-92250164e5af",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Record",
+				uuid = "78072b69-7ce2-ab30-8620-4a6402ad4dc8",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "fa512baa-7873-df8b-863f-3494f61efce9",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Draw",
+				uuid = "a0dfeb93-392e-3e50-b310-e5fcd6b100c6",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "7d572556-05f8-2a00-8be9-7fcd3a7d4b8c",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[10] = 
 	{
 		
@@ -423,13 +495,167 @@ local tbl =
 				name = "Tbn Self",
 				timeRange = true,
 				timelineIndex = 10,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1.5,
 				timerOffset = -2,
 				timerStartOffset = -5,
 				uuid = "b0aabd45-df98-d510-809c-aa4d69de0e21",
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "a386205e-27f1-0cf1-a302-58d58cbfe76b",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.8,
+				name = "Jumps Off",
+				timelineIndex = 10,
+				timerOffset = -3,
+				uuid = "f16a0e29-f15d-ee5f-8185-3137efefa5df",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							uuid = "adb7c77f-1e66-2b3e-8e43-24ed65875902",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.8,
+				name = "Jumps On",
+				timelineIndex = 10,
+				timerOffset = 2,
+				uuid = "95d90ee8-875e-80ae-85ed-ba9d362b8b49",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "0b993c5a-fa90-bba1-9437-b1fe6124bc4c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.8,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -7,
+				uuid = "a7f6e932-a66e-61cd-9710-daa729a26065",
+				version = 2,
+			},
+		},
+	},
+	[11] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Shotcall Marker Numbers",
+				uuid = "4fbcb8e8-2ea3-380c-97dd-0b1b6e023a61",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "aee65ccd-f2cf-88c4-bddf-aea821ed7e0e",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
+	[23] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Marker Type",
+				uuid = "19d47cf1-4688-b39c-89a8-2e02bdfc2906",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "5458c44e-fc18-f279-913c-25feb78afa72",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "e340e8eb-1f68-1b5d-b6d4-72d86b0c0986",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "ae13e4b9-9559-29ef-93c6-f5f8f425ddf4",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw follow up",
+				uuid = "eab93882-f10d-387b-b376-bd71511b3b89",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "7ba014fd-30b1-a8f4-bdda-7ec1d768de7d",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[25] = 
@@ -478,7 +704,7 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 25,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1.5,
 				timerOffset = -9,
 				timerStartOffset = -10,
 				uuid = "d87c9fc3-acaa-224f-8376-8f6baa5a6571",
@@ -991,9 +1217,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[27] = 
-	{
 		
 		{
 			data = 
@@ -1005,23 +1228,9 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"897719d4-02db-9895-8eec-429a2eccaa8b",
-									false,
-								},
-								
-								{
-									"ae709dd0-a344-e7dc-8364-d5f001129411",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "0b993c5a-fa90-bba1-9437-b1fe6124bc4c",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
@@ -1032,10 +1241,11 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							channelCheckTimeRemain = 10,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "a760db61-7833-4d93-ab40-64d4a5326dff",
 							version = 2,
 						},
 					},
@@ -1043,29 +1253,27 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
+							channelCheckSpellID = 30855,
+							conditionType = 7,
+							uuid = "5b38ff29-c642-bb45-a1e7-6eab05ba9fb7",
 							version = 2,
 						},
 					},
 				},
-				eventType = 2,
-				mechanicTime = 128.5,
-				name = "Shirk to OT",
+				mechanicTime = 114.7,
+				name = "Dark Mind Split",
 				timeRange = true,
-				timelineIndex = 27,
-				timerEndOffset = 1,
-				timerStartOffset = -10,
-				uuid = "de500631-87ba-81fa-bebb-ff36acd024f0",
+				timelineIndex = 26,
+				timerEndOffset = 14,
+				timerOffset = -2,
+				timerStartOffset = 7,
+				uuid = "c80910d1-1f1c-7b52-a21b-088d88eb3e2f",
 				version = 2,
 			},
 		},
+	},
+	[27] = 
+	{
 		
 		{
 			data = 
@@ -1165,9 +1373,6 @@ local tbl =
 			},
 			inheritedIndex = 11,
 		},
-	},
-	[29] = 
-	{
 		
 		{
 			data = 
@@ -1179,26 +1384,98 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "88deb530-5692-c8ce-8a91-24fab3258deb",
-							variableTogglesType = 3,
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"897719d4-02db-9895-8eec-429a2eccaa8b",
+									false,
+								},
+								
+								{
+									"ae709dd0-a344-e7dc-8364-d5f001129411",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
+							version = 2,
+						},
+					},
 				},
-				mechanicTime = 153.2,
-				name = "Oblation Self",
-				timelineIndex = 29,
-				uuid = "4b63b160-4ff7-9b73-ad52-fb29473f8000",
+				eventType = 2,
+				mechanicTime = 128.5,
+				name = "Shirk to OT",
+				timeRange = true,
+				timelineIndex = 27,
+				timerEndOffset = 1,
+				timerStartOffset = -10,
+				uuid = "de500631-87ba-81fa-bebb-ff36acd024f0",
 				version = 2,
 			},
 		},
 	},
 	[31] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "54d6931b-decf-b40a-8336-c1c265c7c56c",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "ad6edcbd-35c3-f797-acba-b333e80f2039",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw follow up",
+				uuid = "52932182-1fdc-fd28-b1d6-0daa0e2d78a6",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "bf29a897-0e10-d0f2-845d-681d55194d3d",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -1254,6 +1531,83 @@ local tbl =
 				timerOffset = 4,
 				uuid = "de3092b3-992f-cdad-8a75-51b3ed50e389",
 				version = 2,
+			},
+		},
+	},
+	[32] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "55540d08-76b7-1983-9160-2c4774136139",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168,
+				name = "Oblation Self",
+				randomOffset = -3,
+				timelineIndex = 32,
+				uuid = "f86afaec-2dc9-25ed-93bc-f23b1c22e4c7",
+				version = 2,
+			},
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Tether Record",
+				uuid = "5affcc6a-7299-8fe5-8044-f4c7ed010cbc",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "c700b05b-f1f3-501e-9a50-5ba8aad6e4d9",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Record",
+				uuid = "468a153b-fffb-3cbd-a14c-89532f3d06d8",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "7b73d579-70cb-a39a-8a73-89c6329286c6",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Draw",
+				uuid = "796fd650-5747-b6d2-ae22-3866f96691ce",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "bdbe0951-3b17-022f-a126-5a92abdeaa1a",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -1313,37 +1667,6 @@ local tbl =
 				timelineIndex = 37,
 				timerOffset = 1,
 				uuid = "6555abd1-52fa-fc6a-ade0-fb5572914852",
-				version = 2,
-			},
-		},
-	},
-	[38] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "00849d2c-71fc-ab97-8d12-36e8d65698da",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 200.1,
-				name = "Tbn Self",
-				timelineIndex = 38,
-				uuid = "029ead13-a830-ef6d-8486-68013c0134e1",
 				version = 2,
 			},
 		},
@@ -1518,6 +1841,77 @@ local tbl =
 	},
 	[45] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 16140,
+							conditions = 
+							{
+								
+								{
+									"355bf57b-f7a4-a683-b630-875c07bcac10",
+									true,
+								},
+								
+								{
+									"8706986c-7e77-d5c0-8266-c47a57812cb0",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							ignoreWeaveRules = true,
+							uuid = "327258db-f508-1bc4-b94f-c66e7ed12f4f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 10,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "355bf57b-f7a4-a683-b630-875c07bcac10",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30858,
+							conditionType = 7,
+							uuid = "8706986c-7e77-d5c0-8266-c47a57812cb0",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 227,
+				name = "Oblation Self Cone",
+				timeRange = true,
+				timelineIndex = 45,
+				timerEndOffset = 14,
+				timerOffset = -20,
+				timerStartOffset = 7,
+				uuid = "75a44a0b-75df-55d7-8d81-618cf3396eea",
+				version = 2,
+			},
+			inheritedIndex = 11,
+		},
 		
 		{
 			data = 
@@ -1814,77 +2208,6 @@ local tbl =
 							{
 								
 								{
-									"355bf57b-f7a4-a683-b630-875c07bcac10",
-									true,
-								},
-								
-								{
-									"8706986c-7e77-d5c0-8266-c47a57812cb0",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							ignoreWeaveRules = true,
-							uuid = "327258db-f508-1bc4-b94f-c66e7ed12f4f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "355bf57b-f7a4-a683-b630-875c07bcac10",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "8706986c-7e77-d5c0-8266-c47a57812cb0",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Oblation Self Cone",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 14,
-				timerOffset = -20,
-				timerStartOffset = 7,
-				uuid = "75a44a0b-75df-55d7-8d81-618cf3396eea",
-				version = 2,
-			},
-			inheritedIndex = 11,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 16140,
-							conditions = 
-							{
-								
-								{
 									"3cd17f19-0d41-c777-9901-0c3f15479c73",
 									true,
 								},
@@ -2040,75 +2363,6 @@ local tbl =
 			},
 			inheritedIndex = 2,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"fb45fa78-6e94-aee1-91d5-f67df41e32e8",
-									true,
-								},
-								
-								{
-									"899249ab-ab39-b620-bcfd-28329f4861b0",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "3ae2bfc0-c3d0-5538-b609-18b378487605",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "fb45fa78-6e94-aee1-91d5-f67df41e32e8",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "899249ab-ab39-b620-bcfd-28329f4861b0",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 239.3,
-				name = "Stance Drop MT",
-				timelineIndex = 46,
-				timerEndOffset = -0.5,
-				timerOffset = -6,
-				timerStartOffset = -6,
-				uuid = "b121cef0-7521-991c-ad5f-7808e55a6bb3",
-				version = 2,
-			},
-			inheritedIndex = 11,
-		},
 	},
 	[47] = 
 	{
@@ -2164,6 +2418,51 @@ local tbl =
 			},
 		},
 	},
+	[49] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Tether Record",
+				uuid = "733ed9b0-b5c8-7e3a-b5d2-b2f7e8d2d848",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "7bb47426-98c9-9a20-ba1b-b73959650bb6",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Record",
+				uuid = "03fa4c40-6cfb-b1b2-8b6c-b65ed9f90062",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "1a6caa56-321b-d38d-b590-e1d43ceed96d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Draw",
+				uuid = "fac6af1e-7a94-1e81-aab7-0560d620fb7a",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "8fd471f5-2c6a-bfec-a378-e640f5b42b20",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[52] = 
 	{
 		
@@ -2189,7 +2488,11 @@ local tbl =
 				},
 				mechanicTime = 282.3,
 				name = "Tbn Self",
+				timeRange = true,
 				timelineIndex = 52,
+				timerEndOffset = -1.5,
+				timerOffset = -1,
+				timerStartOffset = -5,
 				uuid = "2b7a63a2-dd17-8aed-ab36-56809aaa8693",
 				version = 2,
 			},
@@ -2251,6 +2554,60 @@ local tbl =
 				timelineIndex = 55,
 				timerOffset = -2,
 				uuid = "716eb33b-d096-fe9f-9d65-f7b4570e31f1",
+				version = 2,
+			},
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"6de238c0-fb1c-f83a-b0e6-0b34f9e68708",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "98cf04b1-2cf0-dded-9c76-ade133208756",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "6de238c0-fb1c-f83a-b0e6-0b34f9e68708",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 303,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 56,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "6f2bd1c7-074c-f98c-8dda-89ede833f962",
 				version = 2,
 			},
 		},
@@ -2812,79 +3169,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"897719d4-02db-9895-8eec-429a2eccaa8b",
-									false,
-								},
-								
-								{
-									"ae709dd0-a344-e7dc-8364-d5f001129411",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
-							version = 2,
-						},
-					},
-				},
-				eventType = 2,
-				mechanicTime = 372.2,
-				name = "Shirk to OT",
-				timeRange = true,
-				timelineIndex = 70,
-				timerEndOffset = 1,
-				timerStartOffset = -10,
-				uuid = "01756571-82b0-bb83-b08b-182ef2d312a7",
-				version = 2,
-			},
-			inheritedIndex = 18,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 7537,
 							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
 							ignoreWeaveRules = true,
@@ -2973,6 +3257,79 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 11,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"897719d4-02db-9895-8eec-429a2eccaa8b",
+									false,
+								},
+								
+								{
+									"ae709dd0-a344-e7dc-8364-d5f001129411",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 372.2,
+				name = "Shirk to OT",
+				timeRange = true,
+				timelineIndex = 70,
+				timerEndOffset = 1,
+				timerStartOffset = -10,
+				uuid = "01756571-82b0-bb83-b08b-182ef2d312a7",
+				version = 2,
+			},
+			inheritedIndex = 18,
 		},
 	},
 	[71] = 
@@ -3095,6 +3452,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "TTS Marker Type",
+				uuid = "eba4efa3-ffa8-dde4-a335-77ed10764d25",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "7576ffb9-d16e-a496-b86b-fc3878c84b41",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "30e1d7ae-d35e-3307-ac48-cb2c08caae94",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "2796f862-136c-d738-b832-5b862ce9cc01",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -3146,6 +3531,96 @@ local tbl =
 				timerOffset = 7,
 				uuid = "2e4c3487-5262-19d6-bfcc-2c1ffbec5ef0",
 				version = 2,
+			},
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "7b625254-9ca4-df86-82d8-bd03d8dd6577",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "161cffb9-676f-9861-a91b-a6ad1d978c8b",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw follow up",
+				uuid = "888ab242-5877-0b20-af45-86c0f59e3243",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "c5031fa6-4b05-ee3e-be6c-b4535cbc8928",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Tether Record",
+				uuid = "93fb359e-37b9-f5ad-921e-41c1a2371a1d",
+				version = 2,
+			},
+			inheritedIndex = 1,
+			inheritedObjectUUID = "eac088e8-c19c-ac1d-b654-a0da37e2e431",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "55615563-967a-795d-8685-92f4786ebd7a",
+				version = 2,
+			},
+			inheritedIndex = 2,
+			inheritedObjectUUID = "9989965c-a1ce-c4f0-88af-cd84be5467aa",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Record",
+				uuid = "789ce2f5-315b-3c37-a245-96c6726f3319",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "6ddb10e4-c82e-72ed-b4d3-74b098ad0a52",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Tile Draw",
+				uuid = "55321372-4391-9ed9-ab9d-5f140cb64c27",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "b5f58f42-eb04-6777-81eb-d0c5a33dfc3c",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -4386,130 +4861,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6b33a272-bd34-e492-bf72-c1ca76165d4d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "a79ae0eb-dcf2-da3b-9146-8812c2fdc44a",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "6b33a272-bd34-e492-bf72-c1ca76165d4d",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -10,
-				uuid = "454a36b9-0177-3df6-9879-da36c2420cf3",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"897719d4-02db-9895-8eec-429a2eccaa8b",
-									false,
-								},
-								
-								{
-									"ae709dd0-a344-e7dc-8364-d5f001129411",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
-							version = 2,
-						},
-					},
-				},
-				eventType = 2,
-				mechanicTime = 608.9,
-				name = "Shirk to OT",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = 1,
-				timerStartOffset = -10,
-				uuid = "44c38c57-2846-361a-b939-3f1f37515201",
-				version = 2,
-			},
-			inheritedIndex = 18,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 7537,
 							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
 							ignoreWeaveRules = true,
@@ -4599,10 +4950,136 @@ local tbl =
 			},
 			inheritedIndex = 11,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"897719d4-02db-9895-8eec-429a2eccaa8b",
+									false,
+								},
+								
+								{
+									"ae709dd0-a344-e7dc-8364-d5f001129411",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "897719d4-02db-9895-8eec-429a2eccaa8b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "ae709dd0-a344-e7dc-8364-d5f001129411",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 608.9,
+				name = "Shirk to OT",
+				timeRange = true,
+				timelineIndex = 117,
+				timerEndOffset = 1,
+				timerStartOffset = -10,
+				uuid = "44c38c57-2846-361a-b939-3f1f37515201",
+				version = 2,
+			},
+			inheritedIndex = 18,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"6b33a272-bd34-e492-bf72-c1ca76165d4d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "a79ae0eb-dcf2-da3b-9146-8812c2fdc44a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "6b33a272-bd34-e492-bf72-c1ca76165d4d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 608.9,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 117,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "454a36b9-0177-3df6-9879-da36c2420cf3",
+				version = 2,
+			},
+		},
 	},
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage2\\p6s",
+		"MrJambix\\Drk P6S OT with Tank Swaps",
+		"nil-core\\savage\\p6s",
 	},
 	mapID = 1084,
 	version = 2,

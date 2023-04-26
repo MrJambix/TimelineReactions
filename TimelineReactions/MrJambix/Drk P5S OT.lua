@@ -319,9 +319,9 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 8,
-				timerEndOffset = -3,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
-				timerStartOffset = -7,
+				timerStartOffset = -9,
 				uuid = "582c7154-050a-4132-acbc-692a27e16249",
 				version = 2,
 			},
@@ -372,9 +372,9 @@ local tbl =
 				name = "OT Stance On",
 				timeRange = true,
 				timelineIndex = 8,
-				timerEndOffset = -0.5,
+				timerEndOffset = -4,
 				timerOffset = -3,
-				timerStartOffset = -5,
+				timerStartOffset = -9,
 				uuid = "cb8abba5-5adf-4ec3-a63a-094a822d3395",
 				version = 2,
 			},
@@ -1044,9 +1044,9 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 33,
-				timerEndOffset = -3,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
-				timerStartOffset = -7,
+				timerStartOffset = -9,
 				uuid = "ddf90e47-d405-8169-8d2c-c11ce8ed97b2",
 				version = 2,
 			},
@@ -1176,8 +1176,8 @@ local tbl =
 						data = 
 						{
 							category = "Event",
-							eventEntityID = 30495,
-							uuid = "ca166201-408b-798d-820a-9623b3e438af",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
 							version = 2,
 						},
 					},
@@ -1188,10 +1188,12 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 34,
 				timerEndOffset = -1.5,
+				timerOffset = -2,
 				timerStartOffset = -5,
-				uuid = "b8518a0f-ddf0-2cc1-b29d-2ba4b25c8bb0",
+				uuid = "2bc8f071-0499-27f9-89ef-88d44f98d164",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	[35] = 
@@ -1290,16 +1292,29 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 215.5,
 				name = "TBN Self",
+				timeRange = true,
 				timelineIndex = 36,
-				timerEndOffset = -0.5,
-				timerOffset = -6,
-				timerStartOffset = -6,
-				uuid = "62665a28-5efd-3205-98a1-850bf9356929",
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "62ad8a4b-354d-547a-a4cd-dc4dc8910161",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 	},
 	[37] = 
@@ -1356,16 +1371,29 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 224.5,
 				name = "TBN Self",
+				timeRange = true,
 				timelineIndex = 38,
-				timerEndOffset = -0.5,
-				timerOffset = -0.5,
-				timerStartOffset = -6,
-				uuid = "ab15e714-ea68-304a-bcc3-8fbde6328142",
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "772dff16-59f6-5f24-9d24-6d3afc736a48",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 	},
 	[39] = 
@@ -2176,9 +2204,9 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 80,
-				timerEndOffset = -3,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
-				timerStartOffset = -7,
+				timerStartOffset = -9,
 				uuid = "a57b683b-7a22-b1f7-a3db-cad7ab7ec428",
 				version = 2,
 			},
@@ -2828,6 +2856,50 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 515.3,
+				name = "TBN Self",
+				timeRange = true,
+				timelineIndex = 97,
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "c287ceee-5dcd-3e48-bc1c-6a326c5e9500",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Jumps",
 							uuid = "6e4e27e1-425c-0860-9718-bbd137e95c25",
 							version = 2,
@@ -2842,37 +2914,6 @@ local tbl =
 				timelineIndex = 97,
 				timerOffset = 4,
 				uuid = "f08d006c-d24f-867c-a34f-cf7a978db97e",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "72aebb10-5864-3ccd-9e86-bfdb7804a3a8",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 515.3,
-				name = "TBN Self",
-				timelineIndex = 97,
-				timerEndOffset = -0.5,
-				timerOffset = -6,
-				timerStartOffset = -6,
-				uuid = "e301e039-1112-0d3e-9fc6-e5ac3bfe78aa",
 				version = 2,
 			},
 		},
@@ -2978,16 +3019,29 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventEntityID = 30494,
+							uuid = "5b428788-3729-7345-9666-488219647564",
+							version = 2,
+						},
+					},
 				},
+				eventType = 3,
 				mechanicTime = 524.3,
 				name = "TBN Self",
+				timeRange = true,
 				timelineIndex = 99,
-				timerEndOffset = -0.5,
-				timerOffset = -0.5,
-				timerStartOffset = -6,
-				uuid = "8762a453-1f81-5d06-a9d0-a3c75fd86f16",
+				timerEndOffset = -1.5,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "a61a1fa2-8318-e9a7-995c-106d22087eec",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 	},
 	[100] = 
@@ -3083,9 +3137,9 @@ local tbl =
 				name = "Provoke OT",
 				timeRange = true,
 				timelineIndex = 101,
-				timerEndOffset = -3,
+				timerEndOffset = -5,
 				timerOffset = -3.5999999046326,
-				timerStartOffset = -7,
+				timerStartOffset = -9,
 				uuid = "19146bea-4baa-245c-87a9-bf3b3c4ef4ea",
 				version = 2,
 			},
