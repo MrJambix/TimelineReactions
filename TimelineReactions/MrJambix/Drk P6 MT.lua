@@ -297,6 +297,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -362,6 +363,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"e32ba907-7513-ebae-82a3-7958b21625bb",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
 							uuid = "9d4dc7ba-5519-de84-9a6c-69ea2ea485b2",
 							variableTogglesType = 3,
@@ -407,6 +416,25 @@ local tbl =
 			{
 				actions = 
 				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 28,
+				name = "------Other Stuff-----",
+				timelineIndex = 3,
+				uuid = "5c84658a-3267-319d-8e5f-42086868cf09",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
@@ -431,25 +459,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 28,
-				name = "------Other Stuff-----",
-				timelineIndex = 3,
-				uuid = "5c84658a-3267-319d-8e5f-42086868cf09",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 	}, 
 	[10] = 
@@ -744,90 +753,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 90,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 128.5,
-				name = "Stance Off",
-				timelineIndex = 27,
-				timerOffset = 5,
-				uuid = "222b6ecc-f19c-33e1-adf7-5ccbca02192c",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -895,6 +820,90 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+									true,
+								},
+								
+								{
+									"5ee36d47-8612-786a-abb2-407aff759583",
+									true,
+								},
+								
+								{
+									"af91a42d-488c-3aac-8676-56153c04e566",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
+							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 10,
+							enmityValue = 70,
+							inGroupTargetType = "Target of Current Target",
+							partyTargetType = "Other Tank",
+							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 95,
+							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
+							version = 2,
+						},
+						inheritedIndex = 2,
+					},
+				},
+				mechanicTime = 128.5,
+				name = "Stance Off",
+				timelineIndex = 27,
+				timerOffset = 5,
+				uuid = "222b6ecc-f19c-33e1-adf7-5ccbca02192c",
+				version = 2,
+			},
+			inheritedIndex = 6,
 		},
 		
 		{
@@ -1033,11 +1042,11 @@ local tbl =
 				timelineIndex = 27,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "f4b7503f-3fa3-c5a8-93ed-2d776a799250",
 				version = 2,
 			},
-			inheritedIndex = 11,
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -1108,58 +1117,6 @@ local tbl =
 							{
 								
 								{
-									"f926c2e6-92ed-ea8a-a1f9-257b6f234b34",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "b1e2cb90-c276-f972-8268-353c882b32c4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "f926c2e6-92ed-ea8a-a1f9-257b6f234b34",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 141.4,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = -2,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "fb2e043f-d6e2-5063-a29a-81dcebc43100",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"78e4f974-41df-c589-84a1-c8f71b0f51ea",
 									true,
 								},
@@ -1200,6 +1157,58 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f926c2e6-92ed-ea8a-a1f9-257b6f234b34",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "b1e2cb90-c276-f972-8268-353c882b32c4",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "f926c2e6-92ed-ea8a-a1f9-257b6f234b34",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 141.4,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = -2,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "fb2e043f-d6e2-5063-a29a-81dcebc43100",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 		
 		{
@@ -1654,6 +1663,85 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
+									true,
+								},
+								
+								{
+									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				eventType = 3,
+				mechanicTime = 239.3,
+				name = "Shirk If Conditions are met",
+				timeRange = true,
+				timelineIndex = 46,
+				timerEndOffset = -1,
+				timerStartOffset = -10,
+				uuid = "56acb420-5b46-c4e0-b141-565a8de449b0",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -1726,85 +1814,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 239.3,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 46,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "56acb420-5b46-c4e0-b141-565a8de449b0",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -1899,7 +1908,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 239.3,
 				name = "Oblation Self",
 				randomOffset = -5,
@@ -1907,7 +1915,7 @@ local tbl =
 				timelineIndex = 46,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "304df5ab-0fdf-031e-a2ed-f1fdd9e51e78",
 				version = 2,
 			},
@@ -1936,7 +1944,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 239.3,
 				name = "TBN Self",
 				randomOffset = -3,
@@ -1971,7 +1978,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 239.3,
 				name = "Dark Mind",
 				timeRange = true,
@@ -2093,7 +2099,7 @@ local tbl =
 				uuid = "40c20d2a-9f61-3684-a141-7cc740bf782b",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 	},
 	[49] = 
@@ -2440,6 +2446,85 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
+									true,
+								},
+								
+								{
+									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				eventType = 3,
+				mechanicTime = 372.2,
+				name = "Shirk If Conditions are met",
+				timeRange = true,
+				timelineIndex = 70,
+				timerEndOffset = -1,
+				timerStartOffset = -10,
+				uuid = "456a1c40-3ebd-5c7f-b610-5d0923f5c6cb",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -2512,85 +2597,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 372.2,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 70,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "456a1c40-3ebd-5c7f-b610-5d0923f5c6cb",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -2685,7 +2691,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 372.2,
 				name = "TBN Self",
 				randomOffset = -3,
@@ -2722,7 +2727,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 372.2,
 				name = "Oblation Self",
 				randomOffset = -5,
@@ -2730,11 +2734,11 @@ local tbl =
 				timelineIndex = 70,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "71521066-88eb-ab63-9ec8-2748c7e92124",
 				version = 2,
 			},
-			inheritedIndex = 11,
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -2757,7 +2761,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 372.2,
 				name = "Dark Mind",
 				timeRange = true,
@@ -2879,7 +2882,7 @@ local tbl =
 				uuid = "311bf60f-9794-5c5f-b05a-81eebbecaea7",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 	},
 	[75] = 
@@ -3361,6 +3364,85 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
+									true,
+								},
+								
+								{
+									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				eventType = 3,
+				mechanicTime = 485,
+				name = "Shirk If Conditions are met",
+				timeRange = true,
+				timelineIndex = 91,
+				timerEndOffset = -1,
+				timerStartOffset = -10,
+				uuid = "cd0f0993-fda7-1813-bf6e-7b994284d96d",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -3433,85 +3515,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 485,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 91,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "cd0f0993-fda7-1813-bf6e-7b994284d96d",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -3606,7 +3609,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 485,
 				name = "TBN Self",
 				randomOffset = -3,
@@ -3643,7 +3645,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 485,
 				name = "Oblation Self",
 				randomOffset = -5,
@@ -3651,11 +3652,11 @@ local tbl =
 				timelineIndex = 91,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "32c274b6-e6a5-f090-8bf5-31857ad5aef1",
 				version = 2,
 			},
-			inheritedIndex = 11,
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -3678,7 +3679,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				eventType = 2,
 				mechanicTime = 485,
 				name = "Dark Mind",
 				timeRange = true,
@@ -3800,7 +3800,7 @@ local tbl =
 				uuid = "85e8a2c1-2fc4-71b4-bb46-19c0b19142b5",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 	},
 	[103] = 
@@ -4386,7 +4386,7 @@ local tbl =
 				timelineIndex = 117,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "145c9f10-9668-b9f3-a769-aa04020cb2cc",
 				version = 2,
 			},
@@ -4570,7 +4570,7 @@ local tbl =
 				uuid = "f4c57392-cf80-98a8-a49d-425786077523",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 	},
 	inheritedProfiles = 

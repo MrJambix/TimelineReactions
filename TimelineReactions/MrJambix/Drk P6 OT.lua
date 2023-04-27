@@ -13,7 +13,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Potion",
+							gVar = "ACR_RikuDRK2_Hotbar_Potion",
 							uuid = "0305905a-ab5f-788f-8810-bc267b23f4f0",
 							variableTogglesType = 2,
 							version = 2,
@@ -52,6 +52,7 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
 							uuid = "59d8a114-54e3-9e52-81c5-94cdae892046",
 							variableTogglesType = 2,
 							version = 2,
@@ -116,12 +117,12 @@ local tbl =
 							{
 								
 								{
-									"64d760aa-50ac-acec-a7b2-ce817da5e1ce",
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 									true,
 								},
 							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "defd3ec6-690e-2055-9ff3-d8228023ee48",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -134,12 +135,13 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
-							uuid = "64d760aa-50ac-acec-a7b2-ce817da5e1ce",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
 						},
 					},
@@ -904,12 +906,12 @@ local tbl =
 							{
 								
 								{
-									"703418c2-029f-22b4-a579-386ff47bd90f",
+									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
 									true,
 								},
 								
 								{
-									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
+									"719003a5-a83b-225b-8aa4-14fea0c47288",
 									true,
 								},
 							},
@@ -927,11 +929,18 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							name = "Split Buster",
-							uuid = "703418c2-029f-22b4-a579-386ff47bd90f",
+							uuid = "719003a5-a83b-225b-8aa4-14fea0c47288",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -973,19 +982,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c3a61900-1135-7f06-93d6-938edf447bb5",
-									true,
-								},
-								
-								{
-									"b4bd80ea-f0b7-df15-ad30-7069841e360f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
 							uuid = "aab61ffb-e77c-58e6-bc7f-512d0cd1c334",
 							variableTogglesType = 2,
@@ -999,10 +995,13 @@ local tbl =
 					{
 						data = 
 						{
-							channelCheckSpellID = 30857,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "c3a61900-1135-7f06-93d6-938edf447bb5",
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "bde00952-fc71-a68a-b508-d461299b5667",
 							version = 2,
 						},
 					},
@@ -1010,13 +1009,16 @@ local tbl =
 					{
 						data = 
 						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "b4bd80ea-f0b7-df15-ad30-7069841e360f",
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "b0aef62a-0b75-b8db-8be7-2d54f86dfe60",
 							version = 2,
 						},
 					},
@@ -1063,6 +1065,7 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
 							uuid = "f403490b-060f-308f-ad27-09e6cbc7fa6a",
 							variableTogglesType = 2,
 							version = 2,
@@ -1248,7 +1251,7 @@ local tbl =
 				timelineIndex = 27,
 				timerEndOffset = -5,
 				timerOffset = -8,
-				timerStartOffset = -6.5,
+				timerStartOffset = -8,
 				uuid = "3f725449-a7fd-cb9b-95aa-3fb7bffbb933",
 				version = 2,
 			},
@@ -1389,10 +1392,11 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
@@ -1830,19 +1834,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"703418c2-029f-22b4-a579-386ff47bd90f",
-									true,
-								},
-								
-								{
-									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "fe64f519-dcdc-1539-987b-ce0b1b5d948f",
 							variableTogglesType = 2,
@@ -1857,11 +1848,18 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							name = "Split Buster",
-							uuid = "703418c2-029f-22b4-a579-386ff47bd90f",
+							uuid = "8625885b-f7e6-a88d-97b3-1012bb4a33da",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -1873,7 +1871,7 @@ local tbl =
 							conditionType = 5,
 							filterTargetType = "Tank",
 							partyTargetType = "Other Tank",
-							uuid = "3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
+							uuid = "36faf50a-5725-41db-a91c-7675ab269e0a",
 							version = 2,
 						},
 					},
@@ -1903,19 +1901,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c3a61900-1135-7f06-93d6-938edf447bb5",
-									true,
-								},
-								
-								{
-									"b4bd80ea-f0b7-df15-ad30-7069841e360f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
 							uuid = "aab61ffb-e77c-58e6-bc7f-512d0cd1c334",
 							variableTogglesType = 2,
@@ -1929,10 +1914,13 @@ local tbl =
 					{
 						data = 
 						{
-							channelCheckSpellID = 30857,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "c3a61900-1135-7f06-93d6-938edf447bb5",
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "bde00952-fc71-a68a-b508-d461299b5667",
 							version = 2,
 						},
 					},
@@ -1940,13 +1928,16 @@ local tbl =
 					{
 						data = 
 						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "b4bd80ea-f0b7-df15-ad30-7069841e360f",
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "b0aef62a-0b75-b8db-8be7-2d54f86dfe60",
 							version = 2,
 						},
 					},
@@ -2068,25 +2059,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 239.3,
-				name = "------TB Mitigation-----",
-				timelineIndex = 46,
-				uuid = "6e58569b-620d-9c6c-bc6d-88cb4026e867",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -2113,6 +2085,25 @@ local tbl =
 				uuid = "576233a4-9055-825c-b674-13fd78bb4c6a",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 239.3,
+				name = "------TB Mitigation-----",
+				timelineIndex = 46,
+				uuid = "6e58569b-620d-9c6c-bc6d-88cb4026e867",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -2320,10 +2311,11 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
@@ -2383,41 +2375,6 @@ local tbl =
 			inheritedObjectUUID = "8fd471f5-2c6a-bfec-a378-e640f5b42b20",
 			inheritedOverwrites = 
 			{
-			},
-		},
-	},
-	[52] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "588baba1-c52e-105f-b975-fd9b3c010b77",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 282.3,
-				name = "Tbn Self(Check Logs If this is needed)",
-				timeRange = true,
-				timelineIndex = 52,
-				timerEndOffset = -1.5,
-				timerOffset = -1,
-				timerStartOffset = -5,
-				uuid = "9ed656a5-3955-e633-b240-ad9cfc794c21",
-				version = 2,
 			},
 		},
 	},
@@ -2520,29 +2477,14 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "588baba1-c52e-105f-b975-fd9b3c010b77",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
 				},
 				conditions = 
 				{
 				},
 				mechanicTime = 334.6,
-				name = "Tbn Self(Check Logs If this is needed)",
-				timeRange = true,
+				name = "",
 				timelineIndex = 62,
-				timerEndOffset = -1.5,
-				timerOffset = -1,
-				timerStartOffset = -5,
-				uuid = "797ed0f4-9645-ba92-a7f1-cae3b77a4584",
+				uuid = "2ee07934-5baf-6ee7-ab6e-9483e5a1ba38",
 				version = 2,
 			},
 		},
@@ -2745,19 +2687,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"703418c2-029f-22b4-a579-386ff47bd90f",
-									true,
-								},
-								
-								{
-									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "fe64f519-dcdc-1539-987b-ce0b1b5d948f",
 							variableTogglesType = 2,
@@ -2772,11 +2701,18 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							name = "Split Buster",
-							uuid = "703418c2-029f-22b4-a579-386ff47bd90f",
+							uuid = "80d05b87-b9d4-11aa-adfe-b0a97f47563f",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -2788,7 +2724,7 @@ local tbl =
 							conditionType = 5,
 							filterTargetType = "Tank",
 							partyTargetType = "Other Tank",
-							uuid = "3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
+							uuid = "6b92ac87-876d-de89-82fe-c80b046146d2",
 							version = 2,
 						},
 					},
@@ -2818,19 +2754,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c3a61900-1135-7f06-93d6-938edf447bb5",
-									true,
-								},
-								
-								{
-									"b4bd80ea-f0b7-df15-ad30-7069841e360f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
 							uuid = "aab61ffb-e77c-58e6-bc7f-512d0cd1c334",
 							variableTogglesType = 2,
@@ -2844,10 +2767,13 @@ local tbl =
 					{
 						data = 
 						{
-							channelCheckSpellID = 30857,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "c3a61900-1135-7f06-93d6-938edf447bb5",
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "bde00952-fc71-a68a-b508-d461299b5667",
 							version = 2,
 						},
 					},
@@ -2855,13 +2781,16 @@ local tbl =
 					{
 						data = 
 						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "b4bd80ea-f0b7-df15-ad30-7069841e360f",
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "b0aef62a-0b75-b8db-8be7-2d54f86dfe60",
 							version = 2,
 						},
 					},
@@ -2983,25 +2912,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 372.2,
-				name = "------TB Mitigation-----",
-				timelineIndex = 70,
-				uuid = "d0357ce6-eb53-258d-bfa2-f88215b6ebe7",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -3028,6 +2938,25 @@ local tbl =
 				uuid = "2b41aa58-bd93-c13a-b7e4-b9ed0590099f",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 372.2,
+				name = "------TB Mitigation-----",
+				timelineIndex = 70,
+				uuid = "d0357ce6-eb53-258d-bfa2-f88215b6ebe7",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -3235,10 +3164,11 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
@@ -3773,19 +3703,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"703418c2-029f-22b4-a579-386ff47bd90f",
-									true,
-								},
-								
-								{
-									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "fe64f519-dcdc-1539-987b-ce0b1b5d948f",
 							variableTogglesType = 2,
@@ -3800,11 +3717,18 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							name = "Split Buster",
-							uuid = "703418c2-029f-22b4-a579-386ff47bd90f",
+							uuid = "76a1396c-287a-2bd8-ae50-b3f69b55f052",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -3816,7 +3740,7 @@ local tbl =
 							conditionType = 5,
 							filterTargetType = "Tank",
 							partyTargetType = "Other Tank",
-							uuid = "3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
+							uuid = "4a11962b-5677-3e72-bd87-4f9e868cc1fa",
 							version = 2,
 						},
 					},
@@ -3846,19 +3770,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c3a61900-1135-7f06-93d6-938edf447bb5",
-									true,
-								},
-								
-								{
-									"b4bd80ea-f0b7-df15-ad30-7069841e360f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
 							uuid = "aab61ffb-e77c-58e6-bc7f-512d0cd1c334",
 							variableTogglesType = 2,
@@ -3872,10 +3783,13 @@ local tbl =
 					{
 						data = 
 						{
-							channelCheckSpellID = 30857,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "c3a61900-1135-7f06-93d6-938edf447bb5",
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "bde00952-fc71-a68a-b508-d461299b5667",
 							version = 2,
 						},
 					},
@@ -3883,13 +3797,16 @@ local tbl =
 					{
 						data = 
 						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "b4bd80ea-f0b7-df15-ad30-7069841e360f",
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "b0aef62a-0b75-b8db-8be7-2d54f86dfe60",
 							version = 2,
 						},
 					},
@@ -3986,7 +3903,7 @@ local tbl =
 				uuid = "6efc84c4-0952-3d94-9df9-46b9af71bff8",
 				version = 2,
 			},
-			inheritedIndex = 18,
+			inheritedIndex = 7,
 		},
 		
 		{
@@ -4004,25 +3921,6 @@ local tbl =
 				uuid = "57659bbb-61b7-3a17-baa3-652ffb2346bc",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 485,
-				name = "------TB Mitigation-----",
-				timelineIndex = 91,
-				uuid = "74763ba9-26cc-d5e9-a905-54250d277657",
-				version = 2,
-			},
-			inheritedIndex = 10,
 		},
 		
 		{
@@ -4056,6 +3954,25 @@ local tbl =
 				uuid = "b6cc7ca9-35c6-07da-8e0e-178619108eb9",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 485,
+				name = "------TB Mitigation-----",
+				timelineIndex = 91,
+				uuid = "74763ba9-26cc-d5e9-a905-54250d277657",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -4263,10 +4180,11 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
@@ -4641,19 +4559,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"703418c2-029f-22b4-a579-386ff47bd90f",
-									true,
-								},
-								
-								{
-									"3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "fe64f519-dcdc-1539-987b-ce0b1b5d948f",
 							variableTogglesType = 2,
@@ -4668,11 +4573,18 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							name = "Split Buster",
-							uuid = "703418c2-029f-22b4-a579-386ff47bd90f",
+							uuid = "d0ac555e-d449-c457-9920-a28d6de30c4c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -4684,7 +4596,7 @@ local tbl =
 							conditionType = 5,
 							filterTargetType = "Tank",
 							partyTargetType = "Other Tank",
-							uuid = "3bd3a0f5-f738-516b-9c80-f46ae83c47bf",
+							uuid = "e072a770-753b-1b56-9b50-fc8355e1c160",
 							version = 2,
 						},
 					},
@@ -4714,19 +4626,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c3a61900-1135-7f06-93d6-938edf447bb5",
-									true,
-								},
-								
-								{
-									"b4bd80ea-f0b7-df15-ad30-7069841e360f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
 							uuid = "aab61ffb-e77c-58e6-bc7f-512d0cd1c334",
 							variableTogglesType = 2,
@@ -4740,10 +4639,13 @@ local tbl =
 					{
 						data = 
 						{
-							channelCheckSpellID = 30857,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "c3a61900-1135-7f06-93d6-938edf447bb5",
+							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
+							category = "Party",
+							channelCheckSpellID = 7533,
+							conditionType = 5,
+							filterTargetType = "Tank",
+							partyTargetType = "Other Tank",
+							uuid = "bde00952-fc71-a68a-b508-d461299b5667",
 							version = 2,
 						},
 					},
@@ -4751,13 +4653,16 @@ local tbl =
 					{
 						data = 
 						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "b4bd80ea-f0b7-df15-ad30-7069841e360f",
+							channelCheckSpellID = 30857,
+							channelCheckSpellIDList = 
+							{
+								30857,
+								30856,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							name = "Split Buster",
+							uuid = "b0aef62a-0b75-b8db-8be7-2d54f86dfe60",
 							version = 2,
 						},
 					},
@@ -4790,25 +4695,6 @@ local tbl =
 				uuid = "844a47c9-3a4b-72fd-9295-15bd4d8e5126",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 608.9,
-				name = "------TB Mitigation-----",
-				timelineIndex = 117,
-				uuid = "8ff8a14a-60cb-5478-9ef1-97ae0df3e912",
-				version = 2,
-			},
-			inheritedIndex = 12,
 		},
 		
 		{
@@ -4912,6 +4798,25 @@ local tbl =
 				uuid = "06c8f1fe-59b0-e9e9-aad2-c00270ccca4d",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 608.9,
+				name = "------TB Mitigation-----",
+				timelineIndex = 117,
+				uuid = "8ff8a14a-60cb-5478-9ef1-97ae0df3e912",
+				version = 2,
+			},
+			inheritedIndex = 12,
 		},
 		
 		{
@@ -5049,10 +4954,11 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							minTargetPercent = true,
-							partyTargetNumber = 90,
+							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
 							version = 2,
