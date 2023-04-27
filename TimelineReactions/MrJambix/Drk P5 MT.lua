@@ -485,6 +485,63 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellIDList = 
+							{
+								30495,
+								30794,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							uuid = "cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 63.5,
+				name = "Tbn Ot",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = -2.5,
+				timerOffset = -2,
+				timerStartOffset = -6,
+				uuid = "59e0e516-899c-113c-ac64-abbbf32809c6",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
 	},
 	[10] = 
 	{
@@ -1500,6 +1557,63 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellIDList = 
+							{
+								30495,
+								30794,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							uuid = "cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 200.2,
+				name = "Tbn Ot",
+				timeRange = true,
+				timelineIndex = 34,
+				timerEndOffset = -2.5,
+				timerOffset = -2,
+				timerStartOffset = -6,
+				uuid = "d1e2b715-7ae2-6469-93c8-0550f9931ab0",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 				},
 				conditions = 
 				{
@@ -1540,41 +1654,6 @@ local tbl =
 				timelineIndex = 35,
 				timerOffset = -7,
 				uuid = "73300abd-f110-ccab-8151-10d794ba5095",
-				version = 2,
-			},
-		},
-	},
-	[43] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 257,
-				name = "Tbn Self",
-				timeRange = true,
-				timelineIndex = 43,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -4,
-				uuid = "024be4d2-595f-533e-b005-4908c0f65d35",
 				version = 2,
 			},
 		},
@@ -1634,41 +1713,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-	},
-	[58] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 292.7,
-				name = "Tbn Self",
-				timeRange = true,
-				timelineIndex = 58,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -4,
-				uuid = "07a7aa78-47c4-5e1c-b78f-8f6d42dac731",
-				version = 2,
-			},
 		},
 	},
 	[67] = 
@@ -2336,6 +2380,63 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
+							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellIDList = 
+							{
+								30495,
+								30794,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							uuid = "cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 424.1,
+				name = "Tbn Ot",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = -2.5,
+				timerOffset = -2,
+				timerStartOffset = -6,
+				uuid = "5504a619-9f3a-df51-a8bf-812ff6e68764",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
 	},
 	[82] = 
 	{
@@ -2982,41 +3083,6 @@ local tbl =
 			},
 		},
 	},
-	[98] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 521.3,
-				name = "Tbn Self",
-				timeRange = true,
-				timelineIndex = 98,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -4,
-				uuid = "cf88fd67-20f4-4a7a-acef-2da919eb51e5",
-				version = 2,
-			},
-		},
-	},
 	[101] = 
 	{
 		
@@ -3291,9 +3357,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[103] = 
-	{
 		
 		{
 			data = 
@@ -3305,7 +3368,15 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							conditions = 
+							{
+								
+								{
+									"cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
 							uuid = "917fb097-641e-6024-9405-62f77ddc8894",
 							variableTogglesType = 3,
 							version = 2,
@@ -3314,17 +3385,34 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellIDList = 
+							{
+								30495,
+								30794,
+							},
+							channelCheckType = 2,
+							conditionType = 7,
+							uuid = "cc9b6e4e-9259-f22d-a384-93297fcb40b4",
+							version = 2,
+						},
+					},
 				},
-				mechanicTime = 565.5,
-				name = "Tbn Self",
+				eventType = 3,
+				mechanicTime = 551.2,
+				name = "Tbn Ot",
 				timeRange = true,
-				timelineIndex = 103,
-				timerEndOffset = -0.5,
+				timelineIndex = 102,
+				timerEndOffset = -2.5,
 				timerOffset = -2,
-				timerStartOffset = -4,
-				uuid = "cb4bcb68-b574-f49d-9432-d00622d3fd41",
+				timerStartOffset = -6,
+				uuid = "b7e5f190-97a2-5885-a29a-2f4decdbdab0",
 				version = 2,
 			},
+			inheritedIndex = 3,
 		},
 	},
 	inheritedProfiles = 

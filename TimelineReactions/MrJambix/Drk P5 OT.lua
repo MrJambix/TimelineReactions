@@ -22,6 +22,7 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
 							uuid = "1d238b4b-04b6-baeb-8df8-8332229ef235",
 							variableTogglesType = 2,
 							version = 2,
@@ -84,6 +85,7 @@ local tbl =
 						data = 
 						{
 							category = "Party",
+							comparator = 2,
 							conditionType = 4,
 							inRangeValue = 15,
 							partyTargetNumber = 100,
@@ -413,7 +415,7 @@ local tbl =
 				uuid = "65f1f542-48a0-7319-84f9-261641cb02b7",
 				version = 2,
 			},
-			inheritedIndex = 9,
+			inheritedIndex = 12,
 		},
 	},
 	[9] = 
@@ -1269,11 +1271,12 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 193.1,
-				name = "--------Tank Stuff--------",
+				name = "-----------Mitigation--------",
 				timelineIndex = 33,
-				uuid = "46495776-7107-c1c9-bee5-7e418ee0ba5b",
+				uuid = "8d35659c-07bb-ea8a-9065-0f4b3285e78c",
 				version = 2,
 			},
+			inheritedIndex = 9,
 		},
 		
 		{
@@ -1393,12 +1396,11 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 193.1,
-				name = "-----------Mitigation--------",
+				name = "--------Tank Stuff--------",
 				timelineIndex = 33,
-				uuid = "8d35659c-07bb-ea8a-9065-0f4b3285e78c",
+				uuid = "46495776-7107-c1c9-bee5-7e418ee0ba5b",
 				version = 2,
 			},
-			inheritedIndex = 9,
 		},
 	},
 	[34] = 
@@ -1441,18 +1443,32 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
 				},
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 200.2,
-				name = "-----------Mitigation--------",
+				name = "Shadow Wall",
+				timeRange = true,
 				timelineIndex = 34,
-				uuid = "50a42b8d-1415-2cc3-b470-4eff05b19bbb",
+				timerEndOffset = -2,
+				timerStartOffset = -8,
+				uuid = "fab4312f-b477-0367-b92e-fcae037ef87e",
 				version = 2,
 			},
-			inheritedIndex = 9,
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -1512,32 +1528,18 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
 				},
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 200.2,
-				name = "Shadow Wall",
-				timeRange = true,
+				name = "-----------Mitigation--------",
 				timelineIndex = 34,
-				timerEndOffset = -2,
-				timerStartOffset = -8,
-				uuid = "fab4312f-b477-0367-b92e-fcae037ef87e",
+				uuid = "50a42b8d-1415-2cc3-b470-4eff05b19bbb",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 9,
 		},
 	},
 	[35] = 
@@ -2124,6 +2126,25 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 332.1,
+				name = "-----------Mitigation--------",
+				timelineIndex = 67,
+				uuid = "7baaf2e0-f4b8-a321-a936-227bf1e83762",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 332.1,
 				name = "--------Tank Stuff--------",
 				timelineIndex = 67,
 				uuid = "5191fc3a-af15-1738-90a5-1fa865d47664",
@@ -2253,25 +2274,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 332.1,
-				name = "-----------Mitigation--------",
-				timelineIndex = 67,
-				uuid = "7baaf2e0-f4b8-a321-a936-227bf1e83762",
-				version = 2,
-			},
-			inheritedIndex = 6,
 		},
 		
 		{
@@ -2552,24 +2554,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 383.8,
-				name = "-----------Mitigation--------",
-				timelineIndex = 76,
-				uuid = "e5146290-e84a-56b1-8387-abff247de5f6",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -2592,7 +2576,25 @@ local tbl =
 				uuid = "62253d16-3581-7109-83d6-50cfabcddb3c",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 383.8,
+				name = "-----------Mitigation--------",
+				timelineIndex = 76,
+				uuid = "e5146290-e84a-56b1-8387-abff247de5f6",
+				version = 2,
+			},
 		},
 	},
 	[78] = 
@@ -2749,11 +2751,12 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 417,
-				name = "--------Tank Stuff--------",
+				name = "-----------Mitigation--------",
 				timelineIndex = 80,
-				uuid = "2bcc52b2-70e1-aa9c-9965-0bbda34ae0b9",
+				uuid = "d0e145c0-a368-81cc-810e-9d25a6a42a9b",
 				version = 2,
 			},
+			inheritedIndex = 9,
 		},
 		
 		{
@@ -2873,12 +2876,11 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 417,
-				name = "-----------Mitigation--------",
+				name = "--------Tank Stuff--------",
 				timelineIndex = 80,
-				uuid = "d0e145c0-a368-81cc-810e-9d25a6a42a9b",
+				uuid = "2bcc52b2-70e1-aa9c-9965-0bbda34ae0b9",
 				version = 2,
 			},
-			inheritedIndex = 9,
 		},
 	},
 	[81] = 
@@ -2931,6 +2933,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 424.1,
+				name = "Shadow Wall",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
+				uuid = "314b86fb-9a90-80e0-a64a-bcbcc4d2baf5",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -2971,39 +3006,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 424.1,
-				name = "Shadow Wall",
-				timeRange = true,
-				timelineIndex = 81,
-				timerEndOffset = -2,
-				timerStartOffset = -8,
-				uuid = "314b86fb-9a90-80e0-a64a-bcbcc4d2baf5",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 	},
 	[82] = 
@@ -3067,6 +3069,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "7bce729f-ce90-9669-900e-b1ef18919b87",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 472.7,
+				name = "Oblation",
+				timeRange = true,
+				timelineIndex = 90,
+				timerEndOffset = -2,
+				timerOffset = -4,
+				timerStartOffset = -6,
+				uuid = "42e719cb-3d21-399a-8a79-a021d6f3c569",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Hotbar_ArmsLength",
 							uuid = "7576560c-bae2-a25a-8a48-fa4f74d693b3",
 							variableTogglesType = 2,
@@ -3102,39 +3137,6 @@ local tbl =
 				uuid = "ccd92212-8a54-f44a-9f07-34bc776e1ab2",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "7bce729f-ce90-9669-900e-b1ef18919b87",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 472.7,
-				name = "Oblation",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "42e719cb-3d21-399a-8a79-a021d6f3c569",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 	},
 	[91] = 
@@ -3256,11 +3258,12 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 482.7,
-				name = "--------Tank Stuff--------",
+				name = "-----------Mitigation--------",
 				timelineIndex = 93,
-				uuid = "fb932675-af70-b673-92cf-4576be46d78a",
+				uuid = "fbed20d7-db77-4aa4-b9e5-81f4d7eb9ed4",
 				version = 2,
 			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -3398,12 +3401,11 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 482.7,
-				name = "-----------Mitigation--------",
+				name = "--------Tank Stuff--------",
 				timelineIndex = 93,
-				uuid = "fbed20d7-db77-4aa4-b9e5-81f4d7eb9ed4",
+				uuid = "fb932675-af70-b673-92cf-4576be46d78a",
 				version = 2,
 			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -3955,6 +3957,25 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 544.1,
+				name = "-----------Mitigation--------",
+				timelineIndex = 101,
+				uuid = "949bbc88-6a6d-9b0e-bf6e-d6bb0d76735b",
+				version = 2,
+			},
+			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 544.1,
 				name = "--------Tank Stuff--------",
 				timelineIndex = 101,
 				uuid = "22d251ef-f293-c8ee-a2b6-3f4e092e5b0a",
@@ -4068,25 +4089,6 @@ local tbl =
 			},
 			inheritedIndex = 12,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 544.1,
-				name = "-----------Mitigation--------",
-				timelineIndex = 101,
-				uuid = "949bbc88-6a6d-9b0e-bf6e-d6bb0d76735b",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
 	},
 	[102] = 
 	{
@@ -4126,6 +4128,39 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.2,
+				name = "Shadow Wall",
+				timeRange = true,
+				timelineIndex = 102,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
+				uuid = "06bbc2c6-88c7-21af-8753-9fce6a0976be",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -4178,39 +4213,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "e7e2ca90-c9cc-f68f-8b20-b5cafdf61dff",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 551.2,
-				name = "Shadow Wall",
-				timeRange = true,
-				timelineIndex = 102,
-				timerEndOffset = -2,
-				timerStartOffset = -8,
-				uuid = "06bbc2c6-88c7-21af-8753-9fce6a0976be",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 	},
 	[110] = 

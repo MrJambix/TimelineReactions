@@ -90,6 +90,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 9.5,
 				name = "Force Pot",
 				timelineIndex = 1,
@@ -322,9 +323,9 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 2,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "cf40fbfb-26fd-8120-9fff-0916b4a29868",
 				version = 2,
 			},
@@ -363,16 +364,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"e32ba907-7513-ebae-82a3-7958b21625bb",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
-							uuid = "9d4dc7ba-5519-de84-9a6c-69ea2ea485b2",
+							uuid = "0a0f74a8-4955-6448-bdf0-317221569936",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -380,32 +373,15 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellIDList = 
-							{
-								30843,
-								30858,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							uuid = "e32ba907-7513-ebae-82a3-7958b21625bb",
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
 				},
-				eventType = 2,
 				mechanicTime = 28,
 				name = "Living Dead",
 				timeRange = true,
 				timelineIndex = 3,
-				timerEndOffset = -7.5,
-				timerOffset = -2,
-				timerStartOffset = -9,
-				uuid = "22131592-73ee-bcec-a234-104aebd2a96c",
+				timerEndOffset = -4,
+				timerOffset = -6,
+				timerStartOffset = -7,
+				uuid = "8d190db7-1008-8644-9f9b-54bc78a43891",
 				version = 2,
 			},
 			inheritedIndex = 4,
@@ -427,7 +403,7 @@ local tbl =
 				uuid = "5c84658a-3267-319d-8e5f-42086868cf09",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 6,
 		},
 		
 		{
@@ -458,7 +434,7 @@ local tbl =
 				uuid = "bdb408d4-ff81-5aa4-b02d-00e186a71aea",
 				version = 2,
 			},
-			inheritedIndex = 6,
+			inheritedIndex = 7,
 		},
 	}, 
 	[10] = 
@@ -620,297 +596,6 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 128.5,
-				name = "Stance On",
-				timelineIndex = 27,
-				timerOffset = -17,
-				uuid = "0c709772-7c0c-2deb-8746-97df86bc5a38",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-									true,
-								},
-								
-								{
-									"7843925e-96a9-7a86-9008-c164dec53651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7537,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "7843925e-96a9-7a86-9008-c164dec53651",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 128.5,
-				name = "Provoke If Conditions are met",
-				timeRange = true,
-				timelineIndex = 27,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "b6eb77d6-e6a6-e979-97a0-575c403165ac",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 128.5,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 27,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "de500631-87ba-81fa-bebb-ff36acd024f0",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 95,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 128.5,
-				name = "Stance Off",
-				timelineIndex = 27,
-				timerOffset = 5,
-				uuid = "222b6ecc-f19c-33e1-adf7-5ccbca02192c",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 				},
 				conditions = 
 				{
@@ -1046,7 +731,7 @@ local tbl =
 				uuid = "f4b7503f-3fa3-c5a8-93ed-2d776a799250",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 11,
 		},
 		
 		{
@@ -1126,6 +811,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1150,9 +836,9 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 28,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "01c2d8d9-e3fd-f3af-8c3f-43052142bc29",
 				version = 2,
 			},
@@ -1514,313 +1200,6 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 50,
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 239.3,
-				name = "Stance On",
-				timelineIndex = 46,
-				timerOffset = -15,
-				uuid = "9c2bac89-746d-f38d-96a9-5bfc8328d562",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-									true,
-								},
-								
-								{
-									"7843925e-96a9-7a86-9008-c164dec53651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7537,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "7843925e-96a9-7a86-9008-c164dec53651",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 239.3,
-				name = "Provoke If Conditions are met",
-				timeRange = true,
-				timelineIndex = 46,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "411585d8-2155-1133-8523-3ddefa5d9710",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 239.3,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 46,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "56acb420-5b46-c4e0-b141-565a8de449b0",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 90,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 239.3,
-				name = "Stance Off",
-				timelineIndex = 46,
-				timerOffset = 5,
-				uuid = "051a7d33-1cc6-9805-8f59-23341bbaf839",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 				},
 				conditions = 
 				{
@@ -2069,6 +1448,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -2093,13 +1473,13 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 47,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "40c20d2a-9f61-3684-a141-7cc740bf782b",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 3,
 		},
 	},
 	[49] = 
@@ -2297,313 +1677,6 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 50,
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 372.2,
-				name = "Stance On",
-				timelineIndex = 70,
-				timerOffset = -15,
-				uuid = "a1b54ad2-1bcd-7912-90c8-19b46c60bf6a",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-									true,
-								},
-								
-								{
-									"7843925e-96a9-7a86-9008-c164dec53651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7537,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "7843925e-96a9-7a86-9008-c164dec53651",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 372.2,
-				name = "Provoke If Conditions are met",
-				timeRange = true,
-				timelineIndex = 70,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "d46510d0-7e4b-ff48-be9e-bbcc33260275",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 372.2,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 70,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "456a1c40-3ebd-5c7f-b610-5d0923f5c6cb",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 90,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 372.2,
-				name = "Stance Off",
-				timelineIndex = 70,
-				timerOffset = 5,
-				uuid = "79479297-ad30-9699-8755-0c2d199c4299",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 				},
 				conditions = 
 				{
@@ -2738,7 +1811,7 @@ local tbl =
 				uuid = "71521066-88eb-ab63-9ec8-2748c7e92124",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 11,
 		},
 		
 		{
@@ -2852,6 +1925,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -2876,13 +1950,13 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 71,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "311bf60f-9794-5c5f-b05a-81eebbecaea7",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 3,
 		},
 	},
 	[75] = 
@@ -3215,313 +2289,6 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 50,
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 485,
-				name = "Stance On",
-				timelineIndex = 91,
-				timerOffset = -15,
-				uuid = "983feb48-d56f-7dfb-8603-934a29cea797",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-									true,
-								},
-								
-								{
-									"7843925e-96a9-7a86-9008-c164dec53651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7537,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "7843925e-96a9-7a86-9008-c164dec53651",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 485,
-				name = "Provoke If Conditions are met",
-				timeRange = true,
-				timelineIndex = 91,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "df116858-ef51-9115-b62d-f5b80bfd3b5b",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 485,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 91,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "cd0f0993-fda7-1813-bf6e-7b994284d96d",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 90,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 485,
-				name = "Stance Off",
-				timelineIndex = 91,
-				timerOffset = 5,
-				uuid = "5c09590f-3a35-4f23-bef2-f2b781918fc2",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 				},
 				conditions = 
 				{
@@ -3656,7 +2423,7 @@ local tbl =
 				uuid = "32c274b6-e6a5-f090-8bf5-31857ad5aef1",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 11,
 		},
 		
 		{
@@ -3770,6 +2537,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -3794,13 +2562,13 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 92,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "85e8a2c1-2fc4-71b4-bb46-19c0b19142b5",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 3,
 		},
 	},
 	[103] = 
@@ -3978,313 +2746,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 50,
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Stance On",
-				timelineIndex = 117,
-				timerOffset = -15,
-				uuid = "fa7e3133-b536-2b6f-8da1-168de4874249",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-									true,
-								},
-								
-								{
-									"7843925e-96a9-7a86-9008-c164dec53651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "82164e6d-57d0-6b4f-8fe9-349c4359d9bb",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7537,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "7843925e-96a9-7a86-9008-c164dec53651",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 608.9,
-				name = "Provoke If Conditions are met",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "d051bac5-6215-c04f-bf71-48aa4759b66d",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"9c257ee7-a770-f7bd-ad0a-365118bcf696",
-									true,
-								},
-								
-								{
-									"86622522-3eda-cfa5-a9d3-a7ec06286e87",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "4cc6ee58-e051-1e91-8fcc-0672ab504150",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30857,
-							channelCheckSpellIDList = 
-							{
-								30857,
-								30856,
-							},
-							channelCheckType = 2,
-							conditionType = 7,
-							name = "Split Buster",
-							uuid = "9c257ee7-a770-f7bd-ad0a-365118bcf696",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionUUID = "7ee39287-e806-ae2d-bc82-dd0334b60799",
-							category = "Party",
-							channelCheckSpellID = 7533,
-							conditionType = 5,
-							filterTargetType = "Tank",
-							partyTargetType = "Other Tank",
-							uuid = "86622522-3eda-cfa5-a9d3-a7ec06286e87",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				eventType = 3,
-				mechanicTime = 608.9,
-				name = "Shirk If Conditions are met",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = -1,
-				timerStartOffset = -10,
-				uuid = "aa94bf13-62aa-06b3-88c1-e1f1274b4fb8",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-									true,
-								},
-								
-								{
-									"5ee36d47-8612-786a-abb2-407aff759583",
-									true,
-								},
-								
-								{
-									"af91a42d-488c-3aac-8676-56153c04e566",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							gVarValue = 2,
-							uuid = "89814c77-4008-0827-af44-ea21895f35a7",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "2ded1163-d26e-dc3e-8d93-e4b01b5e6acd",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 10,
-							enmityValue = 70,
-							inGroupTargetType = "Target of Current Target",
-							partyTargetType = "Other Tank",
-							uuid = "5ee36d47-8612-786a-abb2-407aff759583",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 90,
-							uuid = "af91a42d-488c-3aac-8676-56153c04e566",
-							version = 2,
-						},
-						inheritedIndex = 2,
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Stance Off",
-				timelineIndex = 117,
-				timerOffset = 5,
-				uuid = "1e29556f-890c-34c7-a1e1-94306d2c9d71",
-				version = 2,
-			},
-			inheritedIndex = 6,
 		},
 		
 		{
@@ -4540,6 +3001,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -4564,13 +3026,13 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 118,
-				timerEndOffset = -2.5,
+				timerEndOffset = -3,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "f4c57392-cf80-98a8-a49d-425786077523",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 3,
 		},
 	},
 	inheritedProfiles = 
