@@ -118,6 +118,7 @@ local tbl =
 				uuid = "c7be5b3f-4b13-caa4-a5c6-dba98bb56e42",
 				version = 2,
 			},
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -169,7 +170,7 @@ local tbl =
 				uuid = "2bb3d0a2-2c74-07da-9225-5e20017d334c",
 				version = 2,
 			},
-			inheritedIndex = 6,
+			inheritedIndex = 5,
 		},
 	},
 	[3] = 
@@ -337,23 +338,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 56.3,
-				name = "-----------Mitigation--------",
-				timelineIndex = 8,
-				uuid = "c55ae014-1b03-8dcc-b79a-527a3e590247",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -445,6 +429,23 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.3,
+				name = "-----------Mitigation--------",
+				timelineIndex = 8,
+				uuid = "c55ae014-1b03-8dcc-b79a-527a3e590247",
+				version = 2,
+			},
 		},
 	},
 	[9] = 
@@ -620,7 +621,7 @@ local tbl =
 				timelineIndex = 11,
 				timerEndOffset = -1,
 				timerOffset = -3.5999999046326,
-				timerStartOffset = -5,
+				timerStartOffset = -4,
 				uuid = "2c15d9a4-9fc7-eddf-adc0-bd4c8661ddb1",
 				version = 2,
 			},
@@ -857,23 +858,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 133.2,
-				name = "--------Tank Stuff--------",
-				timelineIndex = 17,
-				uuid = "e3978d0b-c163-c031-a248-1c9935c17ddf",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -922,23 +906,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 133.2,
-				name = "-----------Mitigation--------",
-				timelineIndex = 17,
-				uuid = "948fbf16-8e3a-2eb8-be8b-e3083e730e52",
-				version = 2,
-			},
 		},
 		
 		{
@@ -998,9 +965,73 @@ local tbl =
 			},
 			inheritedIndex = 4,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 133.2,
+				name = "--------Tank Stuff--------",
+				timelineIndex = 17,
+				uuid = "e3978d0b-c163-c031-a248-1c9935c17ddf",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 133.2,
+				name = "-----------Mitigation--------",
+				timelineIndex = 17,
+				uuid = "948fbf16-8e3a-2eb8-be8b-e3083e730e52",
+				version = 2,
+			},
+		},
 	},
 	[18] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 135.2,
+				name = "Jumps Off",
+				timelineIndex = 18,
+				timerOffset = -7,
+				uuid = "ab60b332-761e-ee8f-88ad-5dd484ef4bf2",
+				version = 2,
+			},
+			inheritedIndex = 35,
+		},
 		
 		{
 			data = 
@@ -1055,36 +1086,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Jumps",
-							gVarValue = 2,
-							uuid = "d5bc42ff-5a83-56cf-a403-580fd522231a",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 135.2,
-				name = "Jumps Off",
-				timelineIndex = 18,
-				timerOffset = -7,
-				uuid = "ab60b332-761e-ee8f-88ad-5dd484ef4bf2",
-				version = 2,
-			},
-			inheritedIndex = 35,
 		},
 		
 		{
