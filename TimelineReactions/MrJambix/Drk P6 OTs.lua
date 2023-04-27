@@ -236,6 +236,90 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"4dc6b72c-4a15-c315-9bda-5651dddd7e32",
+									true,
+								},
+								
+								{
+									"6a9f75ae-0e32-b2a2-b43a-2d4b038ff5d7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "14bcdbd4-8334-8e9e-b0ab-c80f2463632a",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 743,
+							category = "Self",
+							uuid = "4dc6b72c-4a15-c315-9bda-5651dddd7e32",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 50,
+							uuid = "6a9f75ae-0e32-b2a2-b43a-2d4b038ff5d7",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 28,
+				name = "Stance On(Disabled)",
+				timelineIndex = 3,
+				timerOffset = -15,
+				uuid = "a7b5258a-43a6-c216-8aa9-af28c1ffec57",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 28,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 3,
+				uuid = "72e77ff2-f522-8173-9234-258d38b6d4e2",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
 							uuid = "b453506e-b80f-56f0-aa63-cd9a57e4d248",
 							variableTogglesType = 3,
@@ -380,72 +464,6 @@ local tbl =
 							{
 								
 								{
-									"4dc6b72c-4a15-c315-9bda-5651dddd7e32",
-									true,
-								},
-								
-								{
-									"6a9f75ae-0e32-b2a2-b43a-2d4b038ff5d7",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "14bcdbd4-8334-8e9e-b0ab-c80f2463632a",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "4dc6b72c-4a15-c315-9bda-5651dddd7e32",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 50,
-							uuid = "6a9f75ae-0e32-b2a2-b43a-2d4b038ff5d7",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				mechanicTime = 28,
-				name = "Stance On(Disabled)",
-				timelineIndex = 3,
-				timerOffset = -15,
-				uuid = "a7b5258a-43a6-c216-8aa9-af28c1ffec57",
-				version = 2,
-			},
-			inheritedIndex = 17,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"1439c103-b562-042c-b9d1-40aaae016976",
 									true,
 								},
@@ -497,6 +515,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "7d572556-05f8-2a00-8be9-7fcd3a7d4b8c",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -508,6 +529,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "fa512baa-7873-df8b-863f-3494f61efce9",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -640,6 +664,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "aee65ccd-f2cf-88c4-bddf-aea821ed7e0e",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[23] = 
@@ -654,6 +681,9 @@ local tbl =
 			},
 			inheritedIndex = 5,
 			inheritedObjectUUID = "5458c44e-fc18-f279-913c-25feb78afa72",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -725,6 +755,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "7ba014fd-30b1-a8f4-bdda-7ec1d768de7d",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -736,6 +769,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "ae13e4b9-9559-29ef-93c6-f5f8f425ddf4",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[25] = 
@@ -766,127 +802,6 @@ local tbl =
 				timelineIndex = 25,
 				timerOffset = -10,
 				uuid = "4719d48e-40db-3ba9-a41d-91d89a2cb4aa",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 112.3,
-				name = "-----Mitigation Below-----",
-				timelineIndex = 25,
-				uuid = "8d5a396e-7da2-6057-b0e1-3d20e176a6cf",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 112.3,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 25,
-				timerEndOffset = -2,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "ebb082d8-89ab-0a7b-9ea5-668a35f6d716",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 4,
-							inRangeValue = 15,
-							minTargetPercent = true,
-							partyTargetNumber = 90,
-							partyTargetSubType = "Number",
-							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 112.3,
-				name = "Dark Missionary",
-				timelineIndex = 25,
-				timerEndOffset = -0.5,
-				timerOffset = -1,
-				timerStartOffset = -6,
-				uuid = "dd92e768-7247-1017-bb0c-548b1e6f184e",
 				version = 2,
 			},
 		},
@@ -1227,8 +1142,9 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 128.5,
-				name = "------Split TB-----",
+				name = "------TB Mitigation-----",
 				timelineIndex = 27,
 				uuid = "8000d43d-068b-bd86-a42c-e31e162f8aee",
 				version = 2,
@@ -1370,6 +1286,130 @@ local tbl =
 			},
 		},
 	},
+	[28] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 141.4,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 28,
+				uuid = "0940fe85-b17f-c3d9-aec0-a32da264a104",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 141.4,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = -2,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "3272489d-975a-a6bc-9664-824caac35c58",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 90,
+							partyTargetSubType = "Number",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 141.4,
+				name = "Dark Missionary",
+				timelineIndex = 28,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -6,
+				uuid = "53f8f6ce-cc48-cf44-8940-7b5bb118e90e",
+				version = 2,
+			},
+		},
+	},
 	[31] = 
 	{
 		
@@ -1382,6 +1422,9 @@ local tbl =
 			},
 			inheritedIndex = 6,
 			inheritedObjectUUID = "ad6edcbd-35c3-f797-acba-b333e80f2039",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -1393,6 +1436,9 @@ local tbl =
 			},
 			inheritedIndex = 5,
 			inheritedObjectUUID = "bf29a897-0e10-d0f2-845d-681d55194d3d",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -1537,6 +1583,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "bdbe0951-3b17-022f-a126-5a92abdeaa1a",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -1548,6 +1597,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "7b73d579-70cb-a39a-8a73-89c6329286c6",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -1559,6 +1611,9 @@ local tbl =
 			},
 			inheritedIndex = 3,
 			inheritedObjectUUID = "c700b05b-f1f3-501e-9a50-5ba8aad6e4d9",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[37] = 
@@ -1677,60 +1732,6 @@ local tbl =
 				timelineIndex = 42,
 				timerOffset = 13,
 				uuid = "a73d469b-dd6c-e3b8-8656-6c195c021268",
-				version = 2,
-			},
-		},
-	},
-	[44] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "b86cf16e-8f7d-04b5-ab55-f3cdb4c74314",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 224.4,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 44,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "fca45355-7e16-ff48-b4d5-702f18a2edc6",
 				version = 2,
 			},
 		},
@@ -2071,12 +2072,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 239.3,
-				name = "------Split TB-----",
+				name = "------TB Mitigation-----",
 				timelineIndex = 46,
-				uuid = "3c0953d0-680d-c21c-9056-8c34a3ac4176",
+				uuid = "6e58569b-620d-9c6c-bc6d-88cb4026e867",
 				version = 2,
 			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -2214,6 +2217,130 @@ local tbl =
 			},
 		},
 	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 252.2,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 47,
+				uuid = "b4009a1d-5d87-9919-9423-341be1359d78",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 252.2,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 47,
+				timerEndOffset = -2,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "9346062e-fb19-319c-b69f-573d84b44e77",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 90,
+							partyTargetSubType = "Number",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 252.2,
+				name = "Dark Missionary",
+				timelineIndex = 47,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -6,
+				uuid = "4b5ea9d9-c143-8bf0-8584-b635d7d5590c",
+				version = 2,
+			},
+		},
+	},
 	[49] = 
 	{
 		
@@ -2226,6 +2353,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "7bb47426-98c9-9a20-ba1b-b73959650bb6",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -2237,6 +2367,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "1a6caa56-321b-d38d-b590-e1d43ceed96d",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -2248,6 +2381,9 @@ local tbl =
 			},
 			inheritedIndex = 3,
 			inheritedObjectUUID = "8fd471f5-2c6a-bfec-a378-e640f5b42b20",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[52] = 
@@ -2274,7 +2410,7 @@ local tbl =
 				{
 				},
 				mechanicTime = 282.3,
-				name = "Tbn Self",
+				name = "Tbn Self(Check Logs If this is needed)",
 				timeRange = true,
 				timelineIndex = 52,
 				timerEndOffset = -1.5,
@@ -2345,60 +2481,6 @@ local tbl =
 			},
 		},
 	},
-	[56] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "b86cf16e-8f7d-04b5-ab55-f3cdb4c74314",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 303,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 56,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "e857d0a7-0a1a-a0d3-82d2-1c1055451fc5",
-				version = 2,
-			},
-		},
-	},
 	[59] = 
 	{
 		
@@ -2444,7 +2526,7 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "974700e2-70fa-0e52-8416-670444ec7dd1",
+							uuid = "588baba1-c52e-105f-b975-fd9b3c010b77",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -2454,9 +2536,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 334.6,
-				name = "Tbn Self",
+				name = "Tbn Self(Check Logs If this is needed)",
+				timeRange = true,
 				timelineIndex = 62,
-				uuid = "480d4868-0393-1806-80ea-aa01149c270c",
+				timerEndOffset = -1.5,
+				timerOffset = -1,
+				timerStartOffset = -5,
+				uuid = "797ed0f4-9645-ba92-a7f1-cae3b77a4584",
 				version = 2,
 			},
 		},
@@ -2901,12 +2987,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 372.2,
-				name = "------Split TB-----",
+				name = "------TB Mitigation-----",
 				timelineIndex = 70,
-				uuid = "0e8f5598-51c0-f2f2-91cf-e7e1e2479d90",
+				uuid = "d0357ce6-eb53-258d-bfa2-f88215b6ebe7",
 				version = 2,
 			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -3044,6 +3132,130 @@ local tbl =
 			},
 		},
 	},
+	[71] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 384.3,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 71,
+				uuid = "0b8fa269-686a-5082-ad81-ae1a0064de13",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 384.3,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 71,
+				timerEndOffset = -2,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "eab3fc37-7dcf-f373-aeb2-75369bd4ebf5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 90,
+							partyTargetSubType = "Number",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 384.3,
+				name = "Dark Missionary",
+				timelineIndex = 71,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -6,
+				uuid = "8936e902-824a-502e-a176-621f76fe52c6",
+				version = 2,
+			},
+		},
+	},
 	[72] = 
 	{
 		
@@ -3157,57 +3369,6 @@ local tbl =
 			{
 				actions = 
 				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "b86cf16e-8f7d-04b5-ab55-f3cdb4c74314",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 408.6,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 76,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "08ac457c-5557-a7e0-bd0f-68b57639949a",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 				},
 				conditions = 
 				{
@@ -3232,6 +3393,9 @@ local tbl =
 			},
 			inheritedIndex = 6,
 			inheritedObjectUUID = "7576ffb9-d16e-a496-b86b-fc3878c84b41",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3243,6 +3407,9 @@ local tbl =
 			},
 			inheritedIndex = 5,
 			inheritedObjectUUID = "2796f862-136c-d738-b832-5b862ce9cc01",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3314,6 +3481,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "c5031fa6-4b05-ee3e-be6c-b4535cbc8928",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3325,6 +3495,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "161cffb9-676f-9861-a91b-a6ad1d978c8b",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[82] = 
@@ -3371,6 +3544,9 @@ local tbl =
 			},
 			inheritedIndex = 1,
 			inheritedObjectUUID = "6ddb10e4-c82e-72ed-b4d3-74b098ad0a52",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3382,6 +3558,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 			inheritedObjectUUID = "b5f58f42-eb04-6777-81eb-d0c5a33dfc3c",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3393,6 +3572,9 @@ local tbl =
 			},
 			inheritedIndex = 3,
 			inheritedObjectUUID = "eac088e8-c19c-ac1d-b654-a0da37e2e431",
+			inheritedOverwrites = 
+			{
+			},
 		},
 		
 		{
@@ -3404,10 +3586,27 @@ local tbl =
 			},
 			inheritedIndex = 4,
 			inheritedObjectUUID = "9989965c-a1ce-c4f0-88af-cd84be5467aa",
+			inheritedOverwrites = 
+			{
+			},
 		},
 	},
 	[88] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "TTS Front/Back or Sides",
+				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
+			inheritedOverwrites = 
+			{
+			},
+		},
 		
 		{
 			data = 
@@ -3441,34 +3640,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Draw follow up",
-				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
-				version = 2,
-			},
-			inheritedIndex = 4,
-			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TTS Front/Back or Sides",
-				uuid = "030f6834-9048-803c-a741-d626db3fa35a",
-				version = 2,
-			},
-			inheritedIndex = 5,
-			inheritedObjectUUID = "48dfbe98-cf1f-d590-8a3b-06879ae9bbc3",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -3491,6 +3662,20 @@ local tbl =
 				timerOffset = 13,
 				uuid = "30c80744-d5f5-2f95-91eb-0ddc818f9c6b",
 				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Draw follow up",
+				uuid = "b993c8ad-de94-d2ac-8e19-0ce27004e13b",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "ad21bf09-762a-e05b-9c21-04013a801020",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -3830,12 +4015,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 485,
-				name = "------Split TB-----",
+				name = "------TB Mitigation-----",
 				timelineIndex = 91,
-				uuid = "5e474110-72a4-1d87-a590-01cf72d51c38",
+				uuid = "74763ba9-26cc-d5e9-a905-54250d277657",
 				version = 2,
 			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -3973,8 +4160,25 @@ local tbl =
 			},
 		},
 	},
-	[100] = 
+	[92] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 497.1,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 92,
+				uuid = "42861758-e5b4-b622-887e-3bbaeb318a0f",
+				version = 2,
+			},
+		},
 		
 		{
 			data = 
@@ -3990,12 +4194,12 @@ local tbl =
 							{
 								
 								{
-									"b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
+									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "b86cf16e-8f7d-04b5-ab55-f3cdb4c74314",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -4010,19 +4214,72 @@ local tbl =
 							comparator = 2,
 							conditionType = 6,
 							inRangeValue = 5,
-							uuid = "b427c1d0-cc2a-0177-8c67-ba7f6608aaae",
+							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 545.3,
+				mechanicTime = 497.1,
 				name = "Reprisal",
 				timeRange = true,
-				timelineIndex = 100,
-				timerEndOffset = -0.5,
+				timelineIndex = 92,
+				timerEndOffset = -2,
 				timerOffset = -9,
 				timerStartOffset = -9,
-				uuid = "f851129d-09bf-7234-b609-fa26f0cedfec",
+				uuid = "6c41661f-804c-cd52-901c-06b7ecb8bcc7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 90,
+							partyTargetSubType = "Number",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 497.1,
+				name = "Dark Missionary",
+				timelineIndex = 92,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -6,
+				uuid = "2119f38f-2ff9-19ed-91fa-0808445cd44e",
 				version = 2,
 			},
 		},
@@ -4040,7 +4297,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_LimitBreak",
+							gVar = "ACR_RikuDRK2_Hotbar_LimitBreak",
 							uuid = "d2f1006a-19ad-9218-887f-bd04209d0bc3",
 							variableTogglesType = 2,
 							version = 2,
@@ -4210,104 +4467,6 @@ local tbl =
 	},
 	[117] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2498ac16-879f-1360-a248-29c122884ce9",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "f4e925ec-aad1-7774-ba0e-a4652e0b60f4",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "2498ac16-879f-1360-a248-29c122884ce9",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "OT Stance On",
-				timelineIndex = 117,
-				timerOffset = -13,
-				uuid = "4325c388-4d3d-be74-a670-b31cb143ec7c",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"89846586-0562-a3e2-980e-1fa852e1e651",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
-							uuid = "8a5a9fc3-76de-784b-bae8-9f803a4ab1be",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							uuid = "89846586-0562-a3e2-980e-1fa852e1e651",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Provoke",
-				timelineIndex = 117,
-				timerOffset = 2,
-				uuid = "a49ac9ea-b666-6cd1-99b8-5a444ef4b68c",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
 		
 		{
 			data = 
@@ -4642,12 +4801,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 608.9,
-				name = "------Split TB-----",
+				name = "------TB Mitigation-----",
 				timelineIndex = 117,
-				uuid = "58e98c7c-5c0f-19b4-91c7-d5ee683318e6",
+				uuid = "8ff8a14a-60cb-5478-9ef1-97ae0df3e912",
 				version = 2,
 			},
+			inheritedIndex = 12,
 		},
 		
 		{
@@ -4781,6 +4942,130 @@ local tbl =
 				timerOffset = -7,
 				timerStartOffset = -3,
 				uuid = "069c5e49-e55b-f776-bcfe-06dc3e8892bd",
+				version = 2,
+			},
+		},
+	},
+	[118] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 621.8,
+				name = "-----Mitigation Below-----",
+				timelineIndex = 118,
+				uuid = "9c585a6b-2bbe-ddde-a41c-5601fd7a8b02",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"35b8e169-d7d1-4a14-907a-38216b28cbf7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "a8a72fbd-19fc-5bd6-a519-6fccd12dd431",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "35b8e169-d7d1-4a14-907a-38216b28cbf7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 621.8,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 118,
+				timerEndOffset = -2,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "cb799a3d-3ea1-c4cf-8d9d-bb362b8eb78a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "aba00ee5-8058-2378-99d7-c7fad23d7ad6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 90,
+							partyTargetSubType = "Number",
+							uuid = "83b2f4be-2599-abeb-8ae9-ce15ebb3eb1d",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 621.8,
+				name = "Dark Missionary",
+				timelineIndex = 118,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -6,
+				uuid = "2eaf0b08-dfbc-26e1-8914-aee2cab69766",
 				version = 2,
 			},
 		},
