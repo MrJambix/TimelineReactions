@@ -444,25 +444,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 63.5,
-				name = "-----------Mitigation--------",
-				timelineIndex = 9,
-				uuid = "be804fed-0f76-4b65-b41e-e1254a0aaaed",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -541,6 +522,25 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 63.5,
+				name = "-----------Mitigation--------",
+				timelineIndex = 9,
+				uuid = "be804fed-0f76-4b65-b41e-e1254a0aaaed",
+				version = 2,
+			},
+			inheritedIndex = 9,
 		},
 	},
 	[10] = 
@@ -1425,24 +1425,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 200.2,
-				name = "--------Tank Stuff--------",
-				timelineIndex = 34,
-				uuid = "282d5835-a8e5-64d0-a719-059ce22188d0",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -1521,6 +1503,24 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 200.2,
+				name = "--------Tank Stuff--------",
+				timelineIndex = 34,
+				uuid = "282d5835-a8e5-64d0-a719-059ce22188d0",
+				version = 2,
+			},
 		},
 		
 		{
@@ -2909,25 +2909,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 424.1,
-				name = "-----------Mitigation--------",
-				timelineIndex = 81,
-				uuid = "ec8e081f-523b-3e44-bff8-f32f58afc032",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -3006,6 +2987,25 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 424.1,
+				name = "-----------Mitigation--------",
+				timelineIndex = 81,
+				uuid = "ec8e081f-523b-3e44-bff8-f32f58afc032",
+				version = 2,
+			},
+			inheritedIndex = 9,
 		},
 	},
 	[82] = 
@@ -4116,25 +4116,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 551.2,
-				name = "-----------Mitigation--------",
-				timelineIndex = 102,
-				uuid = "8391b2d1-e34d-693f-b388-8dae8b1a9546",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -4214,6 +4195,25 @@ local tbl =
 			},
 			inheritedIndex = 6,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 551.2,
+				name = "-----------Mitigation--------",
+				timelineIndex = 102,
+				uuid = "8391b2d1-e34d-693f-b388-8dae8b1a9546",
+				version = 2,
+			},
+			inheritedIndex = 9,
+		},
 	},
 	[110] = 
 	{
@@ -4235,6 +4235,7 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"MrJambix\\Drk P5 MT",
+		"store\\anyone\\savage2\\p5s",
 	},
 	mapID = 1082,
 	version = 4,
