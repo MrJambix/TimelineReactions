@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[6] = 
+	[9] = 
 	{
 		
 		{
@@ -13,15 +13,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
 							version = 2,
@@ -30,29 +22,15 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
-				mechanicTime = 31.8,
+				eventType = 3,
+				mechanicTime = 44.6,
 				name = "Dark Missionary",
 				timeRange = true,
-				timelineIndex = 6,
-				timerEndOffset = 6,
-				timerStartOffset = 1,
-				uuid = "94e8fc15-8f7a-e949-8bb2-e2df6528a39e",
+				timelineIndex = 9,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
+				uuid = "d10461bf-8690-e87d-a3b1-7161d055c6d7",
 				version = 2,
 			},
 		},
@@ -70,14 +48,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -87,22 +57,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 99.7,
 				name = "Reprisal",
 				timeRange = true,
@@ -257,14 +213,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
@@ -274,28 +222,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 136.4,
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 28,
 				timerEndOffset = -2,
-				timerStartOffset = -7,
+				timerStartOffset = -8,
 				uuid = "50e63e06-4a89-d5e4-824d-3d188b1ddbf9",
 				version = 2,
 			},
@@ -772,14 +706,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -789,29 +715,15 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 524.6,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 90,
-				timerEndOffset = 2,
+				timerEndOffset = -2,
 				timerOffset = -6,
-				timerStartOffset = -3,
+				timerStartOffset = -6,
 				uuid = "9fabbfe0-7933-3e18-8490-147ffad19042",
 				version = 2,
 			},
@@ -830,14 +742,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
@@ -847,28 +751,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 548.5,
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 94,
-				timerEndOffset = -1,
-				timerStartOffset = -6,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
 				uuid = "2f019259-d114-057b-a346-c799725dea88",
 				version = 2,
 			},
@@ -1016,14 +906,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -1033,22 +915,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 600.3,
 				name = "Reprisal",
 				timeRange = true,
@@ -1138,14 +1006,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -1155,22 +1015,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 724.6,
 				name = "Reprisal",
 				timeRange = true,
@@ -1196,14 +1042,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
@@ -1213,28 +1051,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 748.5,
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 122,
-				timerEndOffset = -1,
-				timerStartOffset = -6,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
 				uuid = "8b722e5e-c6f8-1fd4-8866-8d5709375b58",
 				version = 2,
 			},
@@ -1382,14 +1206,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
@@ -1399,28 +1215,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 1029.1,
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 146,
-				timerEndOffset = -1,
-				timerStartOffset = -6,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
 				uuid = "9f77c864-7389-af2d-92e1-787e7417851b",
 				version = 2,
 			},
@@ -1503,14 +1305,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -1520,22 +1314,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 1122.8,
 				name = "Reprisal",
 				timeRange = true,
@@ -1625,14 +1405,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -1642,22 +1414,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 1224.6,
 				name = "Reprisal",
 				timeRange = true,
@@ -1747,14 +1505,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
@@ -1764,22 +1514,8 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 5,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "6cc7fd0b-62fe-4456-9732-d9e1ee5505c6",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 1424.6,
 				name = "Reprisal",
 				timeRange = true,
@@ -2418,14 +2154,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
 							uuid = "90d59cce-8b79-63d8-8e4a-64cc3add870f",
 							variableTogglesType = 3,
@@ -2435,28 +2163,14 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b92ef3a9-5d6c-fa56-8f55-c41752fb17b3",
-							version = 2,
-						},
-					},
 				},
+				eventType = 3,
 				mechanicTime = 2055.2,
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 281,
-				timerEndOffset = -1,
-				timerStartOffset = -6,
+				timerEndOffset = -2,
+				timerStartOffset = -8,
 				uuid = "da6e9c35-089e-c823-938c-b74b0b102ff7",
 				version = 2,
 			},
