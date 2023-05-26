@@ -50,7 +50,7 @@ local tbl =
 				name = "Dark Missionary",
 				timeRange = true,
 				timelineIndex = 6,
-				timerEndOffset = 4,
+				timerEndOffset = 6,
 				timerStartOffset = 1,
 				uuid = "94e8fc15-8f7a-e949-8bb2-e2df6528a39e",
 				version = 2,
@@ -128,14 +128,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -145,22 +137,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 107.8,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 22,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "4a2a3c87-f670-e1e9-9d82-99de4f819523",
 				version = 2,
 			},
@@ -224,7 +207,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 22,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "fc036ab8-e1d6-c111-8d44-cd27505d89e0",
 				version = 2,
 			},
@@ -254,8 +237,8 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 22,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = 2,
+				timerStartOffset = -4,
 				uuid = "0a9e1398-1f0e-4c2d-9826-943f45656557",
 				version = 2,
 			},
@@ -375,6 +358,7 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 34,
+				timerEndOffset = 3,
 				timerStartOffset = -5,
 				uuid = "e51e54ec-c01b-4623-9049-2ab3922178fe",
 				version = 2,
@@ -439,7 +423,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 38,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "5b3e7ecc-ab58-b75a-9964-e9895a5bd123",
 				version = 2,
 			},
@@ -538,7 +523,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 51,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "43ad27e1-fa1d-605a-a1d7-965c30a3ac37",
 				version = 2,
 			},
@@ -601,7 +587,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 55,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "e1b2f685-ff2d-95ad-a474-c6a21aff33de",
 				version = 2,
 			},
@@ -634,7 +621,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 68,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "115258ff-340e-1cfe-9ace-ff18e6d051ea",
 				version = 2,
 			},
@@ -667,7 +655,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 74,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "4dec691b-7368-d01d-ac02-fc8a9d890826",
 				version = 2,
 			},
@@ -763,7 +752,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 85,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "27a778b2-2f02-689c-8b30-fc33093d3c7e",
 				version = 2,
 			},
@@ -897,14 +887,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -914,22 +896,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 556.6,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 95,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "01feee22-3aad-9542-9393-096ef20024fb",
 				version = 2,
 			},
@@ -993,7 +966,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 95,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "b606aef7-dbc4-73a2-a0d8-783466082f8a",
 				version = 2,
 			},
@@ -1145,7 +1118,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 113,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "f67699ea-0f4f-2e7b-aadc-398230c2be7a",
 				version = 2,
 			},
@@ -1279,14 +1253,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -1296,22 +1262,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 756.6,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 123,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "762f64ad-6b4c-754d-a1ec-1f8387882049",
 				version = 2,
 			},
@@ -1375,7 +1332,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 123,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "bab9a760-ac73-0678-9215-176541cd38a1",
 				version = 2,
 			},
@@ -1526,7 +1483,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 163,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "9535b985-8426-bb13-854d-1b264ebf4b43",
 				version = 2,
 			},
@@ -1647,7 +1605,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 169,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "abf131c4-8fbd-eeb7-8671-33113842a175",
 				version = 2,
 			},
@@ -1738,7 +1697,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 192,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "e6bf5386-92bb-21d0-bdb1-a99351127bd5",
 				version = 2,
 			},
@@ -1845,14 +1805,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -1862,22 +1814,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 1629,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 221,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "95bb5fbf-e0a0-184f-8dcd-b7acf1aa47f1",
 				version = 2,
 			},
@@ -1941,7 +1884,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 221,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "a842edcc-5181-4d1c-b814-b884f5175805",
 				version = 2,
 			},
@@ -2005,7 +1948,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 241,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "962d36b4-45dc-27e1-a38a-64592b92cebb",
 				version = 2,
 			},
@@ -2054,14 +1998,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -2071,22 +2007,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 1859.3,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 253,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "0eb35b66-22e7-4f0d-a4d4-721a508af6dd",
 				version = 2,
 			},
@@ -2150,7 +2077,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 253,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "d45bbd06-9a68-146f-b7a5-8048c2dd7ba7",
 				version = 2,
 			},
@@ -2214,7 +2141,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 257,
-				timerStartOffset = -4,
+				timerEndOffset = 3,
+				timerStartOffset = -5,
 				uuid = "000a18b6-7213-6f05-84e5-885ef627d347",
 				version = 2,
 			},
@@ -2311,7 +2239,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 269,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "9d5a4500-9c3c-b1c3-95ec-49171e8d3c76",
 				version = 2,
 			},
@@ -2361,14 +2289,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
 							uuid = "cc996548-3031-f857-b593-5f86126593c7",
 							variableTogglesType = 3,
@@ -2378,22 +2298,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 33969,
-							conditionType = 7,
-							uuid = "f9a399dd-cad7-0d68-b12a-8a0dcc2ce9f3",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 2030.6,
 				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 275,
-				timerEndOffset = 3,
+				timerEndOffset = 2,
+				timerStartOffset = -6,
 				uuid = "6d702e24-de76-6f8e-b935-8146a26463af",
 				version = 2,
 			},
@@ -2457,7 +2368,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 275,
 				timerEndOffset = 3,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "28306c5b-1996-b133-a0ac-7f4e097345e2",
 				version = 2,
 			},
