@@ -256,8 +256,16 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "da5fadb8-02ce-67fc-b6ef-2e6bfd19e7f8",
+							conditions = 
+							{
+								
+								{
+									"d9811d73-3f80-f47e-8b90-33b716565c06",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "bafddb87-0644-737e-8f88-574aca23c61f",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -265,19 +273,26 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 3638,
+							uuid = "d9811d73-3f80-f47e-8b90-33b716565c06",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 69.1,
-				name = "Oblation",
-				randomOffset = -1,
+				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 14,
-				timerEndOffset = -1,
-				timerOffset = -8,
-				timerStartOffset = -8,
-				uuid = "db389e90-5b18-ad64-8378-12562aa8c957",
+				timerOffset = -9,
+				timerStartOffset = -12,
+				uuid = "e9afc2d3-e5ca-6e8c-9af2-a362abf34501",
 				version = 2,
 			},
-			inheritedIndex = 9,
 		},
 		
 		{
@@ -290,8 +305,16 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "cdf53ff4-5ac2-7735-97a8-9407d4edccea",
+							conditions = 
+							{
+								
+								{
+									"d1ecd433-ed79-84ec-9099-ba881a129d7b",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "da5fadb8-02ce-67fc-b6ef-2e6bfd19e7f8",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -299,14 +322,57 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 3638,
+							uuid = "d1ecd433-ed79-84ec-9099-ba881a129d7b",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 69.1,
-				name = "TBN",
+				name = "Oblation",
+				randomOffset = -1,
 				timeRange = true,
 				timelineIndex = 14,
-				timerEndOffset = -1,
+				timerOffset = -8,
+				timerStartOffset = -3,
+				uuid = "db389e90-5b18-ad64-8378-12562aa8c957",
+				version = 2,
+			},
+			inheritedIndex = 21,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
+							uuid = "2855d5db-229b-cbef-b0cc-b62300827232",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 69.1,
+				name = "Living Dead",
+				timeRange = true,
+				timelineIndex = 14,
 				timerStartOffset = -5,
-				uuid = "40b71cf4-d9b7-5ffe-88d1-5d91319141f8",
+				uuid = "c5012d49-32ef-5e12-beac-e67cf5c81302",
 				version = 2,
 			},
 		},
@@ -595,6 +661,74 @@ local tbl =
 				timerEndOffset = 6,
 				timerStartOffset = -2,
 				uuid = "d3fe27e4-d8e3-42e5-b9cf-cc81fc8ef83d",
+				version = 2,
+			},
+		},
+	},
+	[59] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "e7da1f9e-bc81-e20c-a6cf-aac82c39f758",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 368.2,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 59,
+				timerEndOffset = -4,
+				timerOffset = -12,
+				timerStartOffset = -12,
+				uuid = "ccd2e21e-2edd-7d2a-b8ee-c7537fe1fcca",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "da5fadb8-02ce-67fc-b6ef-2e6bfd19e7f8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 368.2,
+				name = "Oblation",
+				randomOffset = -1,
+				timeRange = true,
+				timelineIndex = 59,
+				timerEndOffset = -1,
+				timerOffset = -8,
+				timerStartOffset = -8,
+				uuid = "f20dc1f4-57ca-b866-a2de-116f1128579f",
 				version = 2,
 			},
 		},
