@@ -13,7 +13,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -37,7 +36,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -50,7 +49,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 9,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "d10461bf-8690-e87d-a3b1-7161d055c6d7",
 				version = 2,
@@ -107,11 +106,10 @@ local tbl =
 				},
 				mechanicTime = 99.7,
 				name = "Reprisal",
-				timeRange = true,
 				timelineIndex = 21,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "f83c8688-09e4-85e7-af7e-057b7c9eed91",
 				version = 2,
 			},
@@ -176,9 +174,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 22,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "4e1a4ce4-c4aa-ac76-b7cb-84689e7fe12f",
 				version = 2,
 			},
@@ -224,8 +222,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -239,7 +239,8 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 22,
-				timerEndOffset = 2,
+				timerEndOffset = -1,
+				timerOffset = 2,
 				timerStartOffset = -4,
 				uuid = "0a9e1398-1f0e-4c2d-9826-943f45656557",
 				version = 2,
@@ -283,7 +284,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -295,43 +296,10 @@ local tbl =
 				mechanicTime = 136.4,
 				name = "Dark Missionary",
 				timelineIndex = 28,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -4,
+				timerEndOffset = 2,
+				timerOffset = -2,
+				timerStartOffset = -2,
 				uuid = "50e63e06-4a89-d5e4-824d-3d188b1ddbf9",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 136.4,
-				name = "Dark Mind",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "78c2ffea-6013-3ef2-9345-49193e34f24d",
 				version = 2,
 			},
 		},
@@ -363,8 +331,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 34,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
+				timerEndOffset = -1,
+				timerStartOffset = -4,
 				uuid = "e51e54ec-c01b-4623-9049-2ab3922178fe",
 				version = 2,
 			},
@@ -379,8 +347,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -395,8 +365,45 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 34,
 				timerEndOffset = -1,
+				timerOffset = 2,
 				timerStartOffset = -4,
 				uuid = "860c8c8a-1346-26bf-b707-1d0239a17613",
+				version = 2,
+			},
+		},
+	},
+	[36] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "eea9215d-81c7-3e92-8daa-66a406ed6bf6",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 170.9,
+				name = "Jump Off(Avoid Jumping out of Towers)",
+				randomOffset = 4,
+				timeRange = true,
+				timelineIndex = 36,
+				timerEndOffset = 12,
+				timerOffset = 1,
+				timerStartOffset = 1,
+				uuid = "27617908-1dd9-3249-86c1-228098fb1920",
 				version = 2,
 			},
 		},
@@ -429,7 +436,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 38,
 				timerEndOffset = 3,
-				timerStartOffset = -5,
+				timerStartOffset = -2,
 				uuid = "5b3e7ecc-ab58-b75a-9964-e9895a5bd123",
 				version = 2,
 			},
@@ -444,9 +451,11 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -456,14 +465,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 205.2,
-				name = "Dark Mind",
-				randomOffset = -1,
+				name = "TBN",
 				timeRange = true,
 				timelineIndex = 38,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "759c69bf-4245-608c-b1a4-f1043825f29a",
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "e4716212-9645-4320-b2e4-80e48882dbc2",
 				version = 2,
 			},
 		},
@@ -482,7 +490,6 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Jumps",
-							gVarValue = 2,
 							uuid = "eea9215d-81c7-3e92-8daa-66a406ed6bf6",
 							version = 2,
 						},
@@ -492,14 +499,49 @@ local tbl =
 				{
 				},
 				mechanicTime = 211.4,
-				name = "Jump Off",
+				name = "Jump On",
 				randomOffset = 4,
 				timeRange = true,
 				timelineIndex = 40,
 				timerEndOffset = 12,
 				timerOffset = 1,
 				timerStartOffset = 1,
-				uuid = "9b1c97e3-2b0b-da84-b434-164aab862e4b",
+				uuid = "5b5d8339-0024-1214-ab02-d1531afe3b04",
+				version = 2,
+			},
+		},
+	},
+	[50] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 241.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 50,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "64a08abd-4348-9677-94cc-e962681a3648",
 				version = 2,
 			},
 		},
@@ -531,8 +573,8 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 51,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
+				timerEndOffset = 2,
+				timerStartOffset = -4,
 				uuid = "43ad27e1-fa1d-605a-a1d7-965c30a3ac37",
 				version = 2,
 			},
@@ -540,39 +582,6 @@ local tbl =
 	},
 	[55] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 305.2,
-				name = "Dark Mind",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 55,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "4acbbbf3-db3c-1e1e-922e-a7a7644f3ad5",
-				version = 2,
-			},
-		},
 		
 		{
 			data = 
@@ -598,9 +607,78 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 55,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "e1b2f685-ff2d-95ad-a474-c6a21aff33de",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "6c1c1e8a-1500-27b5-9a30-82d168781772",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 305.2,
+				name = "TBN",
+				timeRange = true,
+				timelineIndex = 55,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "1fc81e62-a448-8619-9e32-094cfc58c514",
+				version = 2,
+			},
+		},
+	},
+	[67] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 67,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "1012c430-eb26-fc28-9bae-fdefd63ce572",
 				version = 2,
 			},
 		},
@@ -635,6 +713,41 @@ local tbl =
 				timerEndOffset = 3,
 				timerStartOffset = -5,
 				uuid = "115258ff-340e-1cfe-9ace-ff18e6d051ea",
+				version = 2,
+			},
+		},
+	},
+	[73] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 412.8,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 73,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "9eba0438-e81c-fe93-988e-d0b64fdb63ba",
 				version = 2,
 			},
 		},
@@ -686,8 +799,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "bdde759b-af24-546a-a943-794ab804dbf4",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -697,20 +810,15 @@ local tbl =
 				{
 				},
 				mechanicTime = 442,
-				name = "Dark Mind",
-				randomOffset = -1,
+				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 79,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "61cbde6f-3423-d424-898a-51269e2c9d6c",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "80996952-52e1-a924-863a-3e9b702bbe0e",
 				version = 2,
 			},
 		},
-	},
-	[85] = 
-	{
 		
 		{
 			data = 
@@ -721,9 +829,11 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -732,18 +842,20 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 505.2,
-				name = "Dark Mind",
-				randomOffset = -1,
+				mechanicTime = 442,
+				name = "TBN",
 				timeRange = true,
-				timelineIndex = 85,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "dc794094-1a46-e2b0-90d5-e6ff05b3df9a",
+				timelineIndex = 79,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "2dab1a21-11d3-1171-82e8-2a2ea1524f18",
 				version = 2,
 			},
 		},
+	},
+	[85] = 
+	{
 		
 		{
 			data = 
@@ -769,9 +881,43 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 85,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "27a778b2-2f02-689c-8b30-fc33093d3c7e",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "e98bc240-5501-c2ea-9be6-da7d4457ce5f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 505.2,
+				name = "TBN",
+				timeRange = true,
+				timelineIndex = 85,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "18218758-5267-fec2-8f85-8489d848a220",
 				version = 2,
 			},
 		},
@@ -829,9 +975,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 90,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "9fabbfe0-7933-3e18-8490-147ffad19042",
 				version = 2,
 			},
@@ -907,7 +1053,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -931,7 +1076,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -944,7 +1089,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 94,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "2f019259-d114-057b-a346-c799725dea88",
 				version = 2,
@@ -1010,9 +1155,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 95,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "daacf782-3bcf-e84c-9784-ae866b1b92ab",
 				version = 2,
 			},
@@ -1058,8 +1203,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -1073,8 +1220,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 95,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "db83b71c-ab7e-d160-8eaf-c8e7843300cb",
 				version = 2,
 			},
@@ -1133,9 +1281,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 111,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "239f7135-415d-b567-98b0-7df623874330",
 				version = 2,
 			},
@@ -1143,39 +1291,6 @@ local tbl =
 	},
 	[113] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 705.2,
-				name = "Dark Mind",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 113,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "f7bfa707-92f4-93cc-8192-8ef8248b82ed",
-				version = 2,
-			},
-		},
 		
 		{
 			data = 
@@ -1201,9 +1316,43 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 113,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "f67699ea-0f4f-2e7b-aadc-398230c2be7a",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "b36b95d1-8c64-1f30-af6d-9bcb59e12794",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 705.2,
+				name = "TBN",
+				timeRange = true,
+				timelineIndex = 113,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "2e178d9f-ac5e-4b1a-b318-1b81eb839b3c",
 				version = 2,
 			},
 		},
@@ -1261,9 +1410,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 118,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "25894392-656a-b715-a5df-e92a2768a790",
 				version = 2,
 			},
@@ -1339,7 +1488,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -1363,7 +1511,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1376,7 +1524,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 122,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "8b722e5e-c6f8-1fd4-8866-8d5709375b58",
 				version = 2,
@@ -1442,9 +1590,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 123,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "02bf1d70-e342-49f5-b292-99f6bd24d0e8",
 				version = 2,
 			},
@@ -1490,8 +1638,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -1505,8 +1655,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 123,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "e08bd490-ec90-665d-9b07-801ca7ef9051",
 				version = 2,
 			},
@@ -1565,9 +1716,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 139,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "d4205df0-5e3c-dcba-b1b4-03eb1530f807",
 				version = 2,
 			},
@@ -1586,7 +1737,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -1610,7 +1760,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1623,7 +1773,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 146,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "9f77c864-7389-af2d-92e1-787e7417851b",
 				version = 2,
@@ -1683,9 +1833,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 160,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "825a7e33-09a3-d6b1-802b-9cff3e24a7ce",
 				version = 2,
 			},
@@ -1704,39 +1854,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 1103.4,
-				name = "Dark Mind",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 163,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "f32bbc09-b052-00ed-868e-8a259a22f60c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
 							uuid = "bdde759b-af24-546a-a943-794ab804dbf4",
 							variableTogglesType = 3,
@@ -1751,9 +1868,43 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 163,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "9535b985-8426-bb13-854d-1b264ebf4b43",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "d4855e6d-bacc-01b3-a614-a00ff3e21fe7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1103.4,
+				name = "TBN",
+				timeRange = true,
+				timelineIndex = 163,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "1a2865a8-1546-64bf-a8e5-22c8053772b8",
 				version = 2,
 			},
 		},
@@ -1771,39 +1922,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 1205.2,
-				name = "Dark Mind",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 169,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "6132f891-c9b1-f133-a4aa-c96cb8c67a40",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
 							uuid = "bdde759b-af24-546a-a943-794ab804dbf4",
 							variableTogglesType = 3,
@@ -1818,9 +1936,43 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 169,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "abf131c4-8fbd-eeb7-8671-33113842a175",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "5504cf7d-dc2e-04c3-9be5-441a12732237",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1205.2,
+				name = "TBN",
+				timeRange = true,
+				timelineIndex = 169,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "b1409f31-3e0d-e0f7-9983-2fa67c5e17fa",
 				version = 2,
 			},
 		},
@@ -1878,9 +2030,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 174,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "9e8bc019-bbec-ffe3-b19e-d1c3f83f7811",
 				version = 2,
 			},
@@ -1943,6 +2095,41 @@ local tbl =
 			},
 		},
 	},
+	[187] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1286.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 187,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "b3d8f884-87fc-349b-b958-723abc8d8220",
+				version = 2,
+			},
+		},
+	},
 	[192] = 
 	{
 		
@@ -1970,9 +2157,9 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 192,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "e6bf5386-92bb-21d0-bdb1-a99351127bd5",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "0a3c47e6-44e1-4a99-8d27-6efccf155504",
 				version = 2,
 			},
 		},
@@ -1986,9 +2173,11 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1998,14 +2187,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 1405.2,
-				name = "Dark Mind",
-				randomOffset = -1,
+				name = "TBN",
 				timeRange = true,
 				timelineIndex = 192,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "1f4a28a9-1f05-9970-b322-b4870f62427a",
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "6fcce068-f0ef-8bcc-ba01-65e726eed33f",
 				version = 2,
 			},
 		},
@@ -2063,9 +2251,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 197,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "d96d968a-d1af-1ab6-95a5-381e0c72d3fc",
 				version = 2,
 			},
@@ -2124,6 +2312,76 @@ local tbl =
 				timerEndOffset = -1,
 				timerStartOffset = -5,
 				uuid = "f30d4e9e-474c-b3fa-8f62-45d399313d9a",
+				version = 2,
+			},
+		},
+	},
+	[210] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1486.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 210,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "7efc1a79-df57-d3bc-b01c-6f46bcfb6424",
+				version = 2,
+			},
+		},
+	},
+	[217] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "4f912494-0d07-1317-a4fc-9bbd5e45eca8",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1613.2,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 217,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "785b124a-76ce-d36f-94d5-6c3c4ca00d33",
 				version = 2,
 			},
 		},
@@ -2187,9 +2445,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 221,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "01938c41-74e5-310f-bf07-a6484ec887dc",
 				version = 2,
 			},
@@ -2235,8 +2493,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -2250,8 +2510,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 221,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "7af8a6bd-1d5e-429f-bec3-e77d4245394f",
 				version = 2,
 			},
@@ -2270,7 +2531,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -2294,7 +2554,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2307,7 +2567,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 237,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "d203a464-befa-4cc7-b94f-92fd54fd2654",
 				version = 2,
@@ -2341,9 +2601,9 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 241,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "962d36b4-45dc-27e1-a38a-64592b92cebb",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "a109f5bf-9398-7367-ae97-4e72eab8d2e0",
 				version = 2,
 			},
 		},
@@ -2357,9 +2617,11 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -2369,14 +2631,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 1805.2,
-				name = "Dark Mind",
-				randomOffset = -1,
+				name = "TBN",
 				timeRange = true,
 				timelineIndex = 241,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "938b229e-79f1-6bd0-8740-1e1ca76e17bc",
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "1c50e7e3-1144-9d06-98e5-d831c356bd5d",
 				version = 2,
 			},
 		},
@@ -2434,9 +2695,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 251,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "60d2413d-8fc6-8c72-be9a-fda137b5aae0",
 				version = 2,
 			},
@@ -2455,7 +2716,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -2479,7 +2739,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2492,7 +2752,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 252,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "a7bc543a-5aab-1c8f-ac1e-afc17261d381",
 				version = 2,
@@ -2558,9 +2818,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 253,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "e0fec492-a1ab-ed21-96ec-ecd489aaa18e",
 				version = 2,
 			},
@@ -2606,8 +2866,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -2621,8 +2883,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 253,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "1fa27669-2375-a6a8-96e1-922cec0b732c",
 				version = 2,
 			},
@@ -2655,9 +2918,9 @@ local tbl =
 				name = "Oblation",
 				timeRange = true,
 				timelineIndex = 257,
-				timerEndOffset = 3,
-				timerStartOffset = -5,
-				uuid = "000a18b6-7213-6f05-84e5-885ef627d347",
+				timerEndOffset = -1,
+				timerStartOffset = -4,
+				uuid = "50d3ffeb-41a4-4cad-ac7a-cfca82837f95",
 				version = 2,
 			},
 		},
@@ -2671,9 +2934,11 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "c908a5a0-f8ac-d4a7-bd7b-2b029e5266b4",
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -2683,14 +2948,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 1905.2,
-				name = "Dark Mind",
-				randomOffset = -1,
+				name = "TBN",
 				timeRange = true,
 				timelineIndex = 257,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -6,
-				uuid = "2371318b-587c-0135-a28d-e143ac2ba4ef",
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
+				uuid = "c945cb00-1c1c-2b61-a60c-803f30f64aaa",
 				version = 2,
 			},
 		},
@@ -2748,9 +3012,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 267,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "44b0d2a9-ce6e-ea14-acf1-3db99b58f74f",
 				version = 2,
 			},
@@ -2769,7 +3033,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -2793,7 +3056,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2806,7 +3069,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 268,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "c950a029-3fa0-e9c6-a8c7-1a5230567ca6",
 				version = 2,
@@ -2841,9 +3104,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 269,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "4d6cfaf3-6d80-72b3-a2f8-d546570af081",
 				version = 2,
 			},
@@ -2889,8 +3152,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -2904,8 +3169,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 269,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "6d9255ea-561d-c1ac-a61a-11b2947b09f1",
 				version = 2,
 			},
@@ -2964,9 +3230,9 @@ local tbl =
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 273,
-				timerEndOffset = -2,
-				timerOffset = -6,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "43ee17f2-c28c-4461-9f61-f6c73bb652ca",
 				version = 2,
 			},
@@ -2985,7 +3251,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -3009,7 +3274,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -3022,7 +3287,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 274,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "c221bb25-2069-9c66-ac95-3d64f94e78bf",
 				version = 2,
@@ -3088,9 +3353,9 @@ local tbl =
 				randomOffset = 1,
 				timeRange = true,
 				timelineIndex = 275,
-				timerEndOffset = 1,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "d4c119c6-b785-9035-9956-4effa7fcb578",
 				version = 2,
 			},
@@ -3136,8 +3401,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7393,
+							atomicPriority = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
 							uuid = "c7e6661e-341e-84a8-a151-95bfdc84bed5",
 							variableTogglesType = 3,
 							version = 2,
@@ -3151,8 +3418,9 @@ local tbl =
 				name = "TBN",
 				timeRange = true,
 				timelineIndex = 275,
-				timerEndOffset = 3,
-				timerStartOffset = -2,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -4,
 				uuid = "34bf466b-00d0-330a-8f65-d6d1d4613127",
 				version = 2,
 			},
@@ -3171,7 +3439,6 @@ local tbl =
 						data = 
 						{
 							actionID = 16471,
-							atomicPriority = true,
 							conditions = 
 							{
 								
@@ -3195,7 +3462,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 30,
+							inRangeValue = 15,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -3208,7 +3475,7 @@ local tbl =
 				name = "Dark Missionary",
 				timelineIndex = 281,
 				timerEndOffset = -1,
-				timerOffset = -6,
+				timerOffset = -13,
 				timerStartOffset = -2,
 				uuid = "da6e9c35-089e-c823-938c-b74b0b102ff7",
 				version = 2,
