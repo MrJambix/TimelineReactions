@@ -70,6 +70,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -87,7 +95,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -684,6 +692,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -701,7 +717,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1103,6 +1119,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1120,7 +1144,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1456,6 +1480,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1473,7 +1505,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1564,6 +1596,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1581,7 +1621,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1919,12 +1959,21 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1936,7 +1985,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -1970,6 +2019,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1987,13 +2044,14 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
 							uuid = "828594bb-50a5-2f1a-b1de-56095a689520",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				mechanicTime = 1600,
@@ -2312,6 +2370,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2329,7 +2395,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2363,6 +2429,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2380,7 +2454,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2414,6 +2488,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2431,7 +2513,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
@@ -2653,6 +2735,14 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"828594bb-50a5-2f1a-b1de-56095a689520",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2670,7 +2760,7 @@ local tbl =
 							category = "Party",
 							comparator = 2,
 							conditionType = 4,
-							inRangeValue = 5,
+							inRangeValue = 10,
 							minTargetPercent = true,
 							partyTargetNumber = 100,
 							partyTargetSubType = "Number",
