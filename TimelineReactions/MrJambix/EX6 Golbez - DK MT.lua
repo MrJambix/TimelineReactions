@@ -55,57 +55,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7393,
-							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"d4f4798b-2816-4a81-aa17-8523b0645d42",
-									true,
-								},
-							},
-							ignoreWeaveRules = true,
-							uuid = "f3b8d7d1-79b4-af36-922f-bae8585b8a91",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								7388,
-							},
-							matchAnyBuff = true,
-							uuid = "d4f4798b-2816-4a81-aa17-8523b0645d42",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 44.6,
-				name = "TBN Self (Uptime Test)",
-				timelineIndex = 9,
-				timerOffset = -2,
-				uuid = "f6e1e7cb-f696-93bd-bd65-587c24d9fd79",
-				version = 2,
-			},
-		},
 	},
 	[21] = 
 	{
@@ -121,14 +70,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1112,14 +1053,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1474,14 +1407,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1590,14 +1515,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1953,14 +1870,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -1990,9 +1899,9 @@ local tbl =
 				mechanicTime = 1258.6,
 				name = "Reprisal",
 				timelineIndex = 124,
-				timerEndOffset = -3,
-				timerOffset = -5,
-				timerStartOffset = -7,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "d96d968a-d1af-1ab6-95a5-381e0c72d3fc",
 				version = 2,
 			},
@@ -2012,14 +1921,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2363,14 +2264,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2400,8 +2293,8 @@ local tbl =
 				mechanicTime = 1828.1,
 				name = "Reprisal",
 				timelineIndex = 161,
-				timerEndOffset = -3,
-				timerOffset = -5,
+				timerEndOffset = -1,
+				timerOffset = -2,
 				timerStartOffset = -5,
 				uuid = "60d2413d-8fc6-8c72-be9a-fda137b5aae0",
 				version = 2,
@@ -2422,14 +2315,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2460,7 +2345,7 @@ local tbl =
 				name = "Reprisal",
 				timelineIndex = 162,
 				timerEndOffset = -1,
-				timerOffset = -5,
+				timerOffset = -2,
 				timerStartOffset = -5,
 				uuid = "44b0d2a9-ce6e-ea14-acf1-3db99b58f74f",
 				version = 2,
@@ -2669,14 +2554,6 @@ local tbl =
 						{
 							actionID = 7535,
 							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"828594bb-50a5-2f1a-b1de-56095a689520",
-									true,
-								},
-							},
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							ignoreWeaveRules = true,
 							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
@@ -2707,7 +2584,7 @@ local tbl =
 				name = "Reprisal",
 				timelineIndex = 171,
 				timerEndOffset = -1,
-				timerOffset = -3,
+				timerOffset = -2,
 				timerStartOffset = -5,
 				uuid = "db0b3b2f-55d2-61cc-8008-ce8d3f4a1769",
 				version = 2,
