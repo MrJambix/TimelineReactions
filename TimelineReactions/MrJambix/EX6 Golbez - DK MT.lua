@@ -229,11 +229,10 @@ local tbl =
 				},
 				mechanicTime = 107.8,
 				name = "TBN",
-				timeRange = true,
 				timelineIndex = 22,
-				timerEndOffset = -1,
+				timerEndOffset = 2,
 				timerOffset = 2,
-				timerStartOffset = -3,
+				timerStartOffset = 1,
 				uuid = "0a9e1398-1f0e-4c2d-9826-943f45656557",
 				version = 2,
 			},
@@ -667,6 +666,57 @@ local tbl =
 				timerOffset = 1,
 				timerStartOffset = 1,
 				uuid = "5b5d8339-0024-1214-ab02-d1531afe3b04",
+				version = 2,
+			},
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7535,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							ignoreWeaveRules = true,
+							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 5,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "828594bb-50a5-2f1a-b1de-56095a689520",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 228.1,
+				name = "Reprisal",
+				timelineIndex = 47,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "0bd4a1e9-de8c-fcb3-af4d-079aecdfbbfa",
 				version = 2,
 			},
 		},
@@ -1327,12 +1377,11 @@ local tbl =
 				},
 				mechanicTime = 556.6,
 				name = "TBN",
-				timeRange = true,
 				timelineIndex = 68,
-				timerEndOffset = -1,
+				timerEndOffset = 2,
 				timerOffset = 2,
-				timerStartOffset = -3,
-				uuid = "db83b71c-ab7e-d160-8eaf-c8e7843300cb",
+				timerStartOffset = 1,
+				uuid = "772ddb9b-60f7-bef2-a606-88826f6eedd7",
 				version = 2,
 			},
 		},
@@ -2116,12 +2165,11 @@ local tbl =
 				},
 				mechanicTime = 1629,
 				name = "TBN",
-				timeRange = true,
 				timelineIndex = 132,
-				timerEndOffset = -1,
+				timerEndOffset = 2,
 				timerOffset = 2,
-				timerStartOffset = -3,
-				uuid = "7af8a6bd-1d5e-429f-bec3-e77d4245394f",
+				timerStartOffset = 1,
+				uuid = "82cb146f-f803-128e-bca3-7006e506740d",
 				version = 2,
 			},
 		},
@@ -2352,6 +2400,58 @@ local tbl =
 			},
 		},
 	},
+	[163] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7535,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							ignoreWeaveRules = true,
+							uuid = "8e0b3ea4-329e-36b0-ad53-96d6b32e8de6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 5,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "828594bb-50a5-2f1a-b1de-56095a689520",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 2009.3,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 163,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "b6cdc3dd-48cc-9b31-a2bc-66aee579d77b",
+				version = 2,
+			},
+		},
+	},
 	[164] = 
 	{
 		
@@ -2530,12 +2630,11 @@ local tbl =
 				},
 				mechanicTime = 2030.6,
 				name = "TBN",
-				timeRange = true,
 				timelineIndex = 165,
-				timerEndOffset = -1,
+				timerEndOffset = 2,
 				timerOffset = 2,
-				timerStartOffset = -3,
-				uuid = "34bf466b-00d0-330a-8f65-d6d1d4613127",
+				timerStartOffset = 1,
+				uuid = "855e7df2-0961-e2db-950a-19ae79bfafe2",
 				version = 2,
 			},
 		},
