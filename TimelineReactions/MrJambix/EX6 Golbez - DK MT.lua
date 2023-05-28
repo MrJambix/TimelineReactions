@@ -239,7 +239,7 @@ local tbl =
 				name = "TBN",
 				timelineIndex = 22,
 				timerEndOffset = 2,
-				timerOffset = 2,
+				timerOffset = 3,
 				timerStartOffset = 1,
 				uuid = "0a9e1398-1f0e-4c2d-9826-943f45656557",
 				version = 2,
@@ -426,7 +426,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 143.1,
-				name = "Enemity Build Up",
+				name = "Enemity Build Complete",
 				timeRange = true,
 				timelineIndex = 30,
 				timerEndOffset = 5,
@@ -469,6 +469,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[35] = 
+	{
 		
 		{
 			data = 
@@ -492,14 +495,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 164.7,
+				mechanicTime = 167.8,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 34,
+				timelineIndex = 35,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "860c8c8a-1346-26bf-b707-1d0239a17613",
+				uuid = "09ebcac1-0151-ae56-ba0d-1e30bffd15ec",
 				version = 2,
 			},
 		},
@@ -608,6 +610,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[39] = 
+	{
 		
 		{
 			data = 
@@ -631,14 +636,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 205.2,
+				mechanicTime = 208.3,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 38,
+				timelineIndex = 39,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "e4716212-9645-4320-b2e4-80e48882dbc2",
+				uuid = "61ee27bf-62d7-e427-90ca-d1797c80be8b",
 				version = 2,
 			},
 		},
@@ -1070,6 +1074,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[59] = 
+	{
 		
 		{
 			data = 
@@ -1093,14 +1100,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 505.2,
+				mechanicTime = 508.3,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 58,
+				timelineIndex = 59,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "18218758-5267-fec2-8f85-8489d848a220",
+				uuid = "79a8e226-b5ce-aadf-a3a1-88bfd645e806",
 				version = 2,
 			},
 		},
@@ -1403,7 +1409,7 @@ local tbl =
 				name = "TBN",
 				timelineIndex = 68,
 				timerEndOffset = 2,
-				timerOffset = 2,
+				timerOffset = 3,
 				timerStartOffset = 1,
 				uuid = "772ddb9b-60f7-bef2-a606-88826f6eedd7",
 				version = 2,
@@ -1675,6 +1681,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[103] = 
+	{
 		
 		{
 			data = 
@@ -1698,14 +1707,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 1103.4,
+				mechanicTime = 1106.5,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 102,
+				timelineIndex = 103,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "1a2865a8-1546-64bf-a8e5-22c8053772b8",
+				uuid = "8019802e-5020-b4be-8561-052b75704779",
 				version = 2,
 			},
 		},
@@ -1743,6 +1751,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[109] = 
+	{
 		
 		{
 			data = 
@@ -1766,14 +1777,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 1205.2,
+				mechanicTime = 1208.3,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 108,
+				timelineIndex = 109,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "b1409f31-3e0d-e0f7-9983-2fa67c5e17fa",
+				uuid = "f5b3aa5d-e7dd-59e6-ba26-ab5a6b39038c",
 				version = 2,
 			},
 		},
@@ -2225,7 +2235,7 @@ local tbl =
 				name = "TBN",
 				timelineIndex = 132,
 				timerEndOffset = 2,
-				timerOffset = 2,
+				timerOffset = 3,
 				timerStartOffset = 1,
 				uuid = "82cb146f-f803-128e-bca3-7006e506740d",
 				version = 2,
@@ -2321,6 +2331,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[153] = 
+	{
 		
 		{
 			data = 
@@ -2344,14 +2357,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 1805.2,
+				mechanicTime = 1808.3,
 				name = "TBN",
-				timeRange = true,
-				timelineIndex = 152,
+				timelineIndex = 153,
 				timerEndOffset = -1,
-				timerOffset = 2,
+				timerOffset = -1,
 				timerStartOffset = -3,
-				uuid = "1c50e7e3-1144-9d06-98e5-d831c356bd5d",
+				uuid = "1dc356d6-7a3d-f65d-b741-f8b6d3373917",
 				version = 2,
 			},
 		},
@@ -2714,7 +2726,7 @@ local tbl =
 				name = "TBN",
 				timelineIndex = 165,
 				timerEndOffset = 2,
-				timerOffset = 2,
+				timerOffset = 3,
 				timerStartOffset = 1,
 				uuid = "855e7df2-0961-e2db-950a-19ae79bfafe2",
 				version = 2,
