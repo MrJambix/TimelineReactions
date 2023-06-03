@@ -89,8 +89,8 @@ local tbl =
 				name = "Stance On",
 				timeRange = true,
 				timelineIndex = 7,
-				timerEndOffset = -12,
-				timerStartOffset = -20,
+				timerEndOffset = -15,
+				timerStartOffset = -25,
 				uuid = "d276a68b-5af8-cdcb-a039-d65d7cf55aea",
 				version = 2,
 			},
@@ -762,36 +762,6 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 7388,
-							atomicPriority = true,
-							ignoreWeaveRules = true,
-							uuid = "d2b853af-4edc-e783-a259-03b247d45b4c",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 221.4,
-				name = "Shake It Off",
-				timelineIndex = 42,
-				timerOffset = 1,
-				uuid = "2e6e2c3b-6b19-5e6d-b15b-b4edc9f6cb19",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Jumps",
 							gVarValue = 2,
@@ -1011,6 +981,36 @@ local tbl =
 				uuid = "33eb301f-3ca6-fc1f-9921-df1ffe5f116a",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7388,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "d2b853af-4edc-e783-a259-03b247d45b4c",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 331.7,
+				name = "Shake It Off",
+				timelineIndex = 82,
+				timerOffset = -2,
+				uuid = "b7cb036d-ae6e-c68c-b115-9c95367a787f",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 	},
 	[92] = 
