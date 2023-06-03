@@ -659,7 +659,7 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 187.1,
-				name = "Living Dead",
+				name = "Living Dead (INVULN DISABLED)",
 				timelineIndex = 37,
 				timerOffset = -1,
 				uuid = "17afa1db-5534-7a24-bfd7-2285ed70c098",
@@ -1294,6 +1294,78 @@ local tbl =
 				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "4676435c-a400-2faf-80df-73a21bbed26f",
+				version = 2,
+			},
+		},
+	},
+	[116] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 471.4,
+				name = "TBN",
+				timelineIndex = 116,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "ae090ee1-3052-a488-aeb4-c4d6565c1585",
+				version = 2,
+			},
+		},
+	},
+	[117] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 471.4,
+				name = "TBN",
+				timelineIndex = 117,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "1e5c46f8-ba8a-d71e-a372-25b9dcfa01f5",
 				version = 2,
 			},
 		},
