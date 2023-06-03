@@ -458,6 +458,71 @@ local tbl =
 			},
 		},
 	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7388,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "d2b853af-4edc-e783-a259-03b247d45b4c",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221.4,
+				name = "Shake It Off",
+				timelineIndex = 42,
+				timerOffset = 1,
+				uuid = "2e6e2c3b-6b19-5e6d-b15b-b4edc9f6cb19",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[69] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 266.2,
+				name = "Whetting",
+				timelineIndex = 69,
+				timerOffset = -5,
+				uuid = "1eebc76f-3025-b19f-a59f-a0063325ae2a",
+				version = 2,
+			},
+		},
+	},
 	[70] = 
 	{
 		
@@ -470,13 +535,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 1061,
+							actionID = 25751,
 							atomicPriority = true,
-							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
 							ignoreWeaveRules = true,
-							targetType = "Party",
-							uuid = "7b17a29c-1ed4-388e-a8c0-90095774399f",
-							variableTogglesType = 3,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
 							version = 2,
 						},
 					},
@@ -485,10 +547,42 @@ local tbl =
 				{
 				},
 				mechanicTime = 266.2,
-				name = "Nascent Flash",
+				name = "Whetting",
 				timelineIndex = 70,
-				timerOffset = -2,
-				uuid = "d8d6e337-ca0c-5dd7-84e1-f7a520346c24",
+				timerOffset = -5,
+				uuid = "b2ae422b-6bc2-6105-850e-cbbbe3d5ec2b",
+				version = 2,
+			},
+		},
+	},
+	[82] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 331.7,
+				name = "Whetting",
+				timelineIndex = 82,
+				timerOffset = -5,
+				uuid = "33eb301f-3ca6-fc1f-9921-df1ffe5f116a",
 				version = 2,
 			},
 		},
@@ -655,6 +749,38 @@ local tbl =
 			},
 		},
 	},
+	[116] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 471.4,
+				name = "Whetting",
+				timelineIndex = 116,
+				timerOffset = -5,
+				uuid = "e6b0d6d2-2bb6-27ec-8ab1-4aaebcd74210",
+				version = 2,
+			},
+		},
+	},
 	[117] = 
 	{
 		
@@ -667,13 +793,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 1061,
+							actionID = 25751,
 							atomicPriority = true,
-							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
 							ignoreWeaveRules = true,
-							targetType = "Party",
-							uuid = "7b17a29c-1ed4-388e-a8c0-90095774399f",
-							variableTogglesType = 3,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
 							version = 2,
 						},
 					},
@@ -682,10 +805,75 @@ local tbl =
 				{
 				},
 				mechanicTime = 471.4,
-				name = "Nascent Flash",
+				name = "Whetting",
 				timelineIndex = 117,
+				timerOffset = -5,
+				uuid = "e01e722a-92f3-e681-ac8c-28bf24215b17",
+				version = 2,
+			},
+		},
+	},
+	[122] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7388,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "d2b853af-4edc-e783-a259-03b247d45b4c",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 500.3,
+				name = "Shake It Off",
+				timelineIndex = 122,
 				timerOffset = -2,
-				uuid = "2af37f01-4eb5-ffd8-aeec-d234e5086210",
+				uuid = "fb384bf9-5223-38af-83a7-b71a26ecf3d0",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[124] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 508.2,
+				name = "Whetting",
+				timelineIndex = 124,
+				timerOffset = -5,
+				uuid = "88af6512-8921-2527-b761-fdb245519861",
 				version = 2,
 			},
 		},
@@ -702,13 +890,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 1061,
+							actionID = 25751,
 							atomicPriority = true,
-							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
 							ignoreWeaveRules = true,
-							targetType = "Party",
-							uuid = "7b17a29c-1ed4-388e-a8c0-90095774399f",
-							variableTogglesType = 3,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
 							version = 2,
 						},
 					},
@@ -717,10 +902,10 @@ local tbl =
 				{
 				},
 				mechanicTime = 508.2,
-				name = "Nascent Flash",
+				name = "Whetting",
 				timelineIndex = 125,
-				timerOffset = -2,
-				uuid = "d8ef74bd-51a3-b754-8f81-be520f581399",
+				timerOffset = -5,
+				uuid = "30341606-38c2-a6ca-81ef-8089130fba30",
 				version = 2,
 			},
 		},
@@ -819,6 +1004,38 @@ local tbl =
 			},
 		},
 	},
+	[136] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.9,
+				name = "Whetting",
+				timelineIndex = 136,
+				timerOffset = -5,
+				uuid = "cb2f01c1-2b2a-ed52-b144-3b0610490f06",
+				version = 2,
+			},
+		},
+	},
 	[137] = 
 	{
 		
@@ -831,13 +1048,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 1061,
+							actionID = 25751,
 							atomicPriority = true,
-							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
 							ignoreWeaveRules = true,
-							targetType = "Party",
-							uuid = "7b17a29c-1ed4-388e-a8c0-90095774399f",
-							variableTogglesType = 3,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
 							version = 2,
 						},
 					},
@@ -846,10 +1060,42 @@ local tbl =
 				{
 				},
 				mechanicTime = 551.9,
-				name = "Nascent Flash",
+				name = "Whetting",
 				timelineIndex = 137,
-				timerOffset = -2,
-				uuid = "742a79df-c52a-5abd-affa-375434950e1a",
+				timerOffset = -5,
+				uuid = "ad44d6b3-867f-974a-bfc4-d7c16fc2d8ae",
+				version = 2,
+			},
+		},
+	},
+	[141] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "543e8848-5856-b8cf-bac3-8381973ea75f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 578.5,
+				name = "Whetting",
+				timelineIndex = 141,
+				timerOffset = -5,
+				uuid = "4ba70428-b571-e0bb-9f10-f7ed108d5e27",
 				version = 2,
 			},
 		},
