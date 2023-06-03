@@ -701,6 +701,42 @@ local tbl =
 			},
 		},
 	},
+	[69] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							ignoreWeaveRules = true,
+							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 266.2,
+				name = "TBN",
+				timelineIndex = 69,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "0c133fec-8941-676b-b9f3-3f16780ba7e9",
+				version = 2,
+			},
+		},
+	},
 	[70] = 
 	{
 		
@@ -727,12 +763,12 @@ local tbl =
 				{
 				},
 				mechanicTime = 266.2,
-				name = "TBN (Thunder Only)",
+				name = "TBN",
 				timelineIndex = 70,
 				timerEndOffset = -1,
-				timerOffset = 4,
+				timerOffset = -3,
 				timerStartOffset = -2,
-				uuid = "fe63c663-5dcf-5111-b27b-b32553c12916",
+				uuid = "8f4956d1-9b1a-e1a4-9c84-e42e72db43e7",
 				version = 2,
 			},
 		},
@@ -1126,6 +1162,42 @@ local tbl =
 			},
 		},
 	},
+	[97] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "a6a9f1ed-98fc-ca1b-af91-8565268fa18d",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 405.8,
+				name = "Oblation",
+				timeRange = true,
+				timelineIndex = 97,
+				timerEndOffset = -5,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "72e0df67-2b37-19b6-8963-260bc63b90a3",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+	},
 	[99] = 
 	{
 		
@@ -1264,68 +1336,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "c533f31a-9cb0-7542-bbe0-300f33325479",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 534.8,
-				name = "Shadow Wall",
-				timeRange = true,
-				timelineIndex = 131,
-				timerEndOffset = -2,
-				timerStartOffset = -7,
-				uuid = "1775963a-aa40-a57f-b28a-5454cfd70d3c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 534.8,
-				name = "TBN",
-				timeRange = true,
-				timelineIndex = 131,
-				timerEndOffset = -1,
-				timerStartOffset = -5,
-				uuid = "7d9352dd-b721-fd50-9ae2-200a343ede74",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Hotbar_Grit",
 							uuid = "ebab26c7-4da0-bb00-9f9d-91f13d0ec999",
 							variableTogglesType = 2,
@@ -1342,7 +1352,7 @@ local tbl =
 				timelineIndex = 131,
 				timerEndOffset = -12,
 				timerStartOffset = -15,
-				uuid = "f24a2c91-c54d-1a8c-8848-6c4868b16922",
+				uuid = "a0f04a78-a417-50dc-a3b9-b582f7190d89",
 				version = 2,
 			},
 			inheritedIndex = 3,
@@ -1394,7 +1404,7 @@ local tbl =
 				timerEndOffset = -2,
 				timerOffset = -4,
 				timerStartOffset = -4,
-				uuid = "fcd54022-01c5-a6f2-b0d1-1706083f5dbc",
+				uuid = "274e790e-d37e-2add-a735-1963994cf50c",
 				version = 2,
 			},
 			inheritedIndex = 4,
@@ -1410,8 +1420,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "a6a9f1ed-98fc-ca1b-af91-8565268fa18d",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c533f31a-9cb0-7542-bbe0-300f33325479",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1421,16 +1431,78 @@ local tbl =
 				{
 				},
 				mechanicTime = 534.8,
-				name = "Oblation",
+				name = "Shadow Wall",
 				timeRange = true,
 				timelineIndex = 131,
-				timerEndOffset = 2,
-				timerOffset = 1,
-				timerStartOffset = 1,
-				uuid = "20c8b0b6-4c81-3945-8460-f63235b79122",
+				timerEndOffset = -2,
+				timerStartOffset = -7,
+				uuid = "0c61d458-89bb-1c66-9658-a121d6b9b96b",
 				version = 2,
 			},
-			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "7bdc2029-85ec-4dd8-9ad7-fba8b79d2e74",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 534.8,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 131,
+				timerEndOffset = -1,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "8cc54b9e-e23d-e3aa-8225-75e94b94f944",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 534.8,
+				name = "TBN",
+				timelineIndex = 131,
+				timerEndOffset = -1,
+				timerOffset = -1,
+				timerStartOffset = -5,
+				uuid = "5be424ec-4aab-3164-a7a7-ae3ee77059a3",
+				version = 2,
+			},
 		},
 	},
 	[133] = 
