@@ -554,7 +554,7 @@ local tbl =
 				mechanicTime = 187.1,
 				name = "Rampart",
 				timelineIndex = 37,
-				timerOffset = -15,
+				timerOffset = -14,
 				timerStartOffset = -15,
 				uuid = "c99b252d-6177-6ad1-9bfc-c30b6247d592",
 				version = 2,
@@ -657,13 +657,78 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 187.1,
 				name = "Living Dead",
 				timelineIndex = 37,
-				timerOffset = -2,
+				timerOffset = -1,
 				uuid = "17afa1db-5534-7a24-bfd7-2285ed70c098",
 				version = 2,
 			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c533f31a-9cb0-7542-bbe0-300f33325479",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Shadow Wall(Disable if you are Invulning)",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -2,
+				timerStartOffset = -7,
+				uuid = "3b2b9836-f313-ce42-917c-28eda4deb6d7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "76d3e4aa-5f47-1163-8aba-2a1e17ce45e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "TBN(Disable if you are Invulning)",
+				timelineIndex = 37,
+				timerEndOffset = -1,
+				timerOffset = -1,
+				timerStartOffset = -5,
+				uuid = "90c8f472-fa4b-46bc-b5af-dc506a3e4460",
+				version = 2,
+			},
+			inheritedIndex = 6,
 		},
 	},
 	[68] = 
