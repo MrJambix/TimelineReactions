@@ -310,6 +310,40 @@ local tbl =
 			},
 		},
 	},
+	[28] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							uuid = "16b45b1e-bd0b-90ee-8043-28795865c479",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.9,
+				name = "Holmgang (Invuln)",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = -1,
+				timerStartOffset = -3,
+				uuid = "3dc1bbae-c7cf-ae85-8980-cbe01f500c8e",
+				version = 2,
+			},
+		},
+	},
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage3\\p10s",
