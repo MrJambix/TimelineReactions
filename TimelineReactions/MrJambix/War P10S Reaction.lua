@@ -47,9 +47,9 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "0a4be300-273a-e571-a908-da05fa2ace03",
-							variableTogglesType = 3,
+							gVar = "ACR_RikuWAR2_Hotbar_Defiance",
+							uuid = "c6fc2b9a-29d7-44ac-9a5c-ccfa31f57926",
+							variableTogglesType = 2,
 							version = 2,
 						},
 					},
@@ -58,15 +58,15 @@ local tbl =
 				{
 				},
 				mechanicTime = 40.8,
-				name = "Thrill",
+				name = "Stance On",
 				timeRange = true,
 				timelineIndex = 6,
-				timerEndOffset = 3,
-				timerOffset = -2,
-				timerStartOffset = -1,
-				uuid = "5ca057d8-17a9-97cb-ad7f-a30e99662a3f",
+				timerEndOffset = -7,
+				timerStartOffset = -15,
+				uuid = "20067fac-30c3-9843-b037-2927193da7a4",
 				version = 2,
 			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -78,9 +78,10 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 7388,
-							ignoreWeaveRules = true,
-							uuid = "442b2c5a-2019-fc52-83bf-b7be269fd9a9",
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
+							uuid = "5a1f8586-5065-8a68-b212-cd6ee766fb49",
+							variableTogglesType = 2,
 							version = 2,
 						},
 					},
@@ -89,12 +90,16 @@ local tbl =
 				{
 				},
 				mechanicTime = 40.8,
-				name = "Shake It Off",
+				name = "Voke",
+				timeRange = true,
 				timelineIndex = 6,
-				timerOffset = 5,
-				uuid = "df504ec2-511d-e033-b05a-f025ee406785",
+				timerEndOffset = -4,
+				timerOffset = 2,
+				timerStartOffset = -7,
+				uuid = "73624972-c726-6165-b087-2753422eb2c7",
 				version = 2,
 			},
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -123,6 +128,69 @@ local tbl =
 				uuid = "1b5ca738-cb1c-33bd-92f3-181c04cf7ae0",
 				version = 2,
 			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "0a4be300-273a-e571-a908-da05fa2ace03",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 40.8,
+				name = "Thrill",
+				timeRange = true,
+				timelineIndex = 6,
+				timerEndOffset = 3,
+				timerOffset = -2,
+				timerStartOffset = -1,
+				uuid = "5ca057d8-17a9-97cb-ad7f-a30e99662a3f",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7388,
+							ignoreWeaveRules = true,
+							uuid = "442b2c5a-2019-fc52-83bf-b7be269fd9a9",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 40.8,
+				name = "Shake It Off",
+				timelineIndex = 6,
+				timerOffset = 5,
+				uuid = "df504ec2-511d-e033-b05a-f025ee406785",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 	},
 	[12] = 
@@ -152,6 +220,92 @@ local tbl =
 				timelineIndex = 12,
 				timerOffset = -2,
 				uuid = "9906674f-365c-6435-8e7c-56f8fe3b8fd7",
+				version = 2,
+			},
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"0ad8f270-97da-6857-ae40-cf2209e4bcec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "14c05dde-b394-3026-8c33-605d5d214198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							hpValue = 85,
+							uuid = "0ad8f270-97da-6857-ae40-cf2209e4bcec",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 78.6,
+				name = "Equilibrium",
+				timeRange = true,
+				timelineIndex = 13,
+				timerEndOffset = 3,
+				timerOffset = 1,
+				timerStartOffset = 1,
+				uuid = "3360a695-8352-b70d-8c7b-d3f42ddc628f",
+				version = 2,
+			},
+		},
+	},
+	[21] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 44,
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 122.8,
+				name = "Vengeance",
+				timelineIndex = 21,
+				timerOffset = -5,
+				uuid = "a474e624-a21a-16e5-84c7-258db628a073",
 				version = 2,
 			},
 		},
