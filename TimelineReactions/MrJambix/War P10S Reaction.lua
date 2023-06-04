@@ -196,6 +196,43 @@ local tbl =
 			inheritedIndex = 7,
 		},
 	},
+	[9] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 44,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 58.7,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = 2,
+				timerOffset = 2,
+				timerStartOffset = -3,
+				uuid = "40e14d7c-d466-30af-a1d8-7c8dbd029f88",
+				version = 2,
+			},
+		},
+	},
 	[12] = 
 	{
 		
@@ -283,37 +320,6 @@ local tbl =
 			},
 		},
 	},
-	[21] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 44,
-							ignoreWeaveRules = true,
-							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 122.8,
-				name = "Vengeance",
-				timelineIndex = 21,
-				timerOffset = -5,
-				uuid = "a474e624-a21a-16e5-84c7-258db628a073",
-				version = 2,
-			},
-		},
-	},
 	[28] = 
 	{
 		
@@ -341,9 +347,41 @@ local tbl =
 				name = "Holmgang (Invuln)",
 				timeRange = true,
 				timelineIndex = 28,
-				timerEndOffset = -1,
+				timerEndOffset = 1,
 				timerStartOffset = -3,
 				uuid = "3dc1bbae-c7cf-ae85-8980-cbe01f500c8e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "61139631-216a-011e-9049-b1dbd0e01dc5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.9,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = 3,
+				timerOffset = -10,
+				timerStartOffset = -10,
+				uuid = "0eedcd48-deb5-2225-9eb9-4fc4b049e8d3",
 				version = 2,
 			},
 		},
@@ -395,6 +433,38 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "61139631-216a-011e-9049-b1dbd0e01dc5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = 3,
+				timerOffset = -10,
+				timerStartOffset = -6,
+				uuid = "3bc4e1e8-0ad5-0216-a8ba-bb3529ba4480",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							actionID = 44,
 							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
 							ignoreWeaveRules = true,
@@ -411,10 +481,48 @@ local tbl =
 				name = "Vengeance",
 				timeRange = true,
 				timelineIndex = 41,
-				timerEndOffset = 1,
+				timerEndOffset = 10,
 				timerOffset = -5,
-				timerStartOffset = -4,
+				timerStartOffset = 3,
 				uuid = "2267be8e-a01e-ddeb-a4ae-e5e7661e16fa",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+	},
+	[74] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 44,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 428.1,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 74,
+				timerEndOffset = 6,
+				timerOffset = 2,
+				timerStartOffset = 1,
+				uuid = "5aec0a17-9828-003c-921e-32561915977e",
 				version = 2,
 			},
 		},
