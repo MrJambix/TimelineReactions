@@ -237,6 +237,41 @@ local tbl =
 			},
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "3c9d5d82-2374-92cc-a2dd-4502e8789f54",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 60.4,
+				name = "Jump Off",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "4daafc88-956d-e2d7-807b-462f2756f6fb",
+				version = 2,
+			},
+		},
+	},
 	[12] = 
 	{
 		
@@ -456,6 +491,37 @@ local tbl =
 			},
 			inheritedIndex = 7,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "b13cc282-cea6-9ab2-8ed3-69f0817ec9bd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 94.1,
+				name = "Jump On",
+				timeRange = true,
+				timelineIndex = 21,
+				timerEndOffset = 10,
+				timerOffset = -3,
+				timerStartOffset = 2,
+				uuid = "ab93b9d3-d13f-546b-8116-d2d2a80af31f",
+				version = 2,
+			},
+		},
 	},
 	[25] = 
 	{
@@ -531,6 +597,38 @@ local tbl =
 			},
 			inheritedIndex = 7,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "c26e0ee8-0881-8879-a951-9b2ac63f441a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 146.4,
+				name = "Jump Off",
+				timeRange = true,
+				timelineIndex = 26,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "9d760746-9c89-0a51-860a-3c7a916c1fe6",
+				version = 2,
+			},
+		},
 	},
 	[35] = 
 	{
@@ -587,6 +685,37 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "24f62c3a-c06e-63c5-b742-c7ca3108bb64",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.7,
+				name = "Jump On",
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = 10,
+				timerOffset = -3,
+				timerStartOffset = 2,
+				uuid = "cf145276-feac-4113-bef2-713b9ed816bf",
+				version = 2,
+			},
+		},
 	},
 	[37] = 
 	{
@@ -622,37 +751,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "896d3509-3949-0479-ae9b-cd99cbd2bca1",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 187.1,
-				name = "Shirk",
-				timeRange = true,
-				timelineIndex = 37,
-				timerOffset = 1,
-				timerStartOffset = -3,
-				uuid = "5f27eeaa-38d8-d2d9-ac98-038bbf51fcbc",
-				version = 2,
-			},
 		},
 		
 		{
@@ -729,37 +827,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "c533f31a-9cb0-7542-bbe0-300f33325479",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 187.1,
-				name = "Shadow Wall(Disable if you are Invulning)",
-				timeRange = true,
-				timelineIndex = 37,
-				timerEndOffset = -2,
-				timerStartOffset = -7,
-				uuid = "3b2b9836-f313-ce42-917c-28eda4deb6d7",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 7393,
 							atomicPriority = true,
 							ignoreWeaveRules = true,
@@ -781,6 +848,103 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "896d3509-3949-0479-ae9b-cd99cbd2bca1",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 37,
+				timerOffset = 1,
+				timerStartOffset = -3,
+				uuid = "5f27eeaa-38d8-d2d9-ac98-038bbf51fcbc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c533f31a-9cb0-7542-bbe0-300f33325479",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Shadow Wall(Disable if you are Invulning)",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -2,
+				timerStartOffset = -7,
+				uuid = "3b2b9836-f313-ce42-917c-28eda4deb6d7",
+				version = 2,
+			},
+		},
+	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "6eec71f5-be21-2bf1-9965-0e8bbb5232d6",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221.4,
+				name = "Jump Off",
+				timeRange = true,
+				timelineIndex = 42,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "442eacee-223e-aa51-9dbc-f6128bccf738",
+				version = 2,
+			},
 		},
 	},
 	[69] = 
@@ -907,6 +1071,37 @@ local tbl =
 				timelineIndex = 71,
 				timerOffset = -10,
 				uuid = "edd8bf07-64fc-35c6-b89f-41b41421bb0e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "27688645-db6d-7063-bd12-b3c47fea02b3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 272.2,
+				name = "Jump On",
+				timeRange = true,
+				timelineIndex = 71,
+				timerEndOffset = 10,
+				timerOffset = -3,
+				timerStartOffset = 2,
+				uuid = "427446ff-a31a-3500-99ab-d68f81a64b77",
 				version = 2,
 			},
 		},
@@ -1223,6 +1418,41 @@ local tbl =
 				timerOffset = 1,
 				timerStartOffset = 1,
 				uuid = "2b604712-5c77-1d7c-a9f4-b6dd7899e2bb",
+				version = 2,
+			},
+		},
+	},
+	[95] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "115d0b4c-9531-2ae6-b8c0-5ef1fd932f31",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 402.9,
+				name = "Jump Off",
+				timeRange = true,
+				timelineIndex = 95,
+				timerEndOffset = -2,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "3009ab8c-5a40-fc39-bfea-005191f9b6fa",
 				version = 2,
 			},
 		},
