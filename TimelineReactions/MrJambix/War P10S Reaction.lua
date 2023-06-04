@@ -27,8 +27,11 @@ local tbl =
 				},
 				mechanicTime = 14.1,
 				name = "Reprisal",
+				timeRange = true,
 				timelineIndex = 3,
+				timerEndOffset = -2,
 				timerOffset = -2,
+				timerStartOffset = -6,
 				uuid = "b4d689b2-4030-e461-83d3-10efa63a1d4a",
 				version = 2,
 			},
@@ -267,13 +270,14 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 78.6,
 				name = "Equilibrium",
 				timeRange = true,
 				timelineIndex = 13,
-				timerEndOffset = 3,
+				timerEndOffset = 10,
 				timerOffset = 1,
-				timerStartOffset = 1,
+				timerStartOffset = 2,
 				uuid = "3360a695-8352-b70d-8c7b-d3f42ddc628f",
 				version = 2,
 			},
@@ -340,6 +344,77 @@ local tbl =
 				timerEndOffset = -1,
 				timerStartOffset = -3,
 				uuid = "3dc1bbae-c7cf-ae85-8980-cbe01f500c8e",
+				version = 2,
+			},
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 3626,
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							ignoreWeaveRules = true,
+							uuid = "92d31c24-e0b5-c6ab-837f-549d83f58571",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = -2,
+				timerOffset = -2,
+				timerStartOffset = -5,
+				uuid = "8bef7329-8666-9aed-bb07-c9effaec9214",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 44,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = 1,
+				timerOffset = -5,
+				timerStartOffset = -4,
+				uuid = "2267be8e-a01e-ddeb-a4ae-e5e7661e16fa",
 				version = 2,
 			},
 		},
