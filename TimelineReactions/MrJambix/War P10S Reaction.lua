@@ -425,6 +425,75 @@ local tbl =
 			},
 		},
 	},
+	[34] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							ignoreWeaveRules = true,
+							uuid = "f379119a-2f82-c6b0-8287-e849f86cee51",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 215.1,
+				name = "Whetting",
+				randomOffset = -1,
+				timelineIndex = 34,
+				timerOffset = -4,
+				uuid = "37a4ab65-62b9-0df2-84a3-f121eb811c39",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 44,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 215.1,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 34,
+				timerEndOffset = -1,
+				timerOffset = 2,
+				timerStartOffset = -8,
+				uuid = "8fff1669-eb65-770e-b841-e0ab21df5fee",
+				version = 2,
+			},
+		},
+	},
 	[39] = 
 	{
 		
