@@ -153,6 +153,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 40.8,
 				name = "Stance On",
 				timeRange = true,
@@ -185,6 +186,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 40.8,
 				name = "Voke",
 				timeRange = true,
@@ -229,6 +231,41 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+	},
+	[8] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.7,
+				name = "Whetting",
+				randomOffset = 3,
+				timeRange = true,
+				timelineIndex = 8,
+				timerEndOffset = 5,
+				timerStartOffset = 2,
+				uuid = "8555df01-13ea-58af-b74d-f03b2c35dea8",
+				version = 2,
+			},
 		},
 	},
 	[12] = 
@@ -414,6 +451,39 @@ local tbl =
 				timerEndOffset = -2,
 				timerStartOffset = -5,
 				uuid = "96becfc2-2442-7f6b-962f-fc3835e8deb7",
+				version = 2,
+			},
+		},
+	},
+	[24] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 144.2,
+				name = "Whetting",
+				randomOffset = 1,
+				timelineIndex = 24,
+				timerOffset = -3,
+				uuid = "7b69f086-0470-09c7-aa2e-10665dcfd51d",
 				version = 2,
 			},
 		},
@@ -780,6 +850,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 281,
+				name = "Whetting",
+				randomOffset = 4,
+				timelineIndex = 44,
+				timerOffset = 1,
+				uuid = "1f0e6bcc-cafc-feda-a8b5-bc5ec14593e9",
+				version = 2,
+			},
+		},
 	},
 	[45] = 
 	{
@@ -837,6 +937,40 @@ local tbl =
 			},
 		},
 	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "4c08bd87-12a1-8600-ae77-ade31ec4e3f9",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 299.6,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 47,
+				timerEndOffset = 1,
+				timerStartOffset = -2,
+				uuid = "b20a5711-0feb-ab84-9290-313ed97b6e66",
+				version = 2,
+			},
+		},
+	},
 	[65] = 
 	{
 		
@@ -870,9 +1004,73 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 44,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "ced7c50c-6163-1a57-a025-602202e0332e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 375.3,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 65,
+				timerEndOffset = -2,
+				timerOffset = 2,
+				timerStartOffset = -5,
+				uuid = "96792562-291a-8ec1-af88-5276f31eef6d",
+				version = 2,
+			},
+		},
 	},
 	[66] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25751,
+							ignoreWeaveRules = true,
+							uuid = "f379119a-2f82-c6b0-8287-e849f86cee51",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 384.6,
+				name = "Whetting",
+				randomOffset = 1,
+				timelineIndex = 66,
+				timerOffset = -1,
+				uuid = "1eb56c75-03ab-11e8-8491-b6f862ffc877",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 		
 		{
 			data = 
@@ -903,36 +1101,6 @@ local tbl =
 				uuid = "b7dd3666-5105-0495-8b27-fc78a9309181",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25751,
-							ignoreWeaveRules = true,
-							uuid = "f379119a-2f82-c6b0-8287-e849f86cee51",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 384.6,
-				name = "Whetting",
-				randomOffset = 1,
-				timelineIndex = 66,
-				timerOffset = -1,
-				uuid = "1eb56c75-03ab-11e8-8491-b6f862ffc877",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 		
 		{
@@ -1135,6 +1303,36 @@ local tbl =
 					{
 						data = 
 						{
+							actionID = 25751,
+							ignoreWeaveRules = true,
+							uuid = "f379119a-2f82-c6b0-8287-e849f86cee51",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 490.6,
+				name = "Whetting",
+				randomOffset = 1,
+				timelineIndex = 88,
+				timerOffset = -1,
+				uuid = "c83f2911-4682-461b-b009-c9d2d6f0a27d",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
 							uuid = "61139631-216a-011e-9049-b1dbd0e01dc5",
@@ -1155,36 +1353,6 @@ local tbl =
 				uuid = "a173d157-f7f4-4a95-acda-23d2b4e554bb",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25751,
-							ignoreWeaveRules = true,
-							uuid = "f379119a-2f82-c6b0-8287-e849f86cee51",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 490.6,
-				name = "Whetting",
-				randomOffset = 1,
-				timelineIndex = 88,
-				timerOffset = -1,
-				uuid = "c83f2911-4682-461b-b009-c9d2d6f0a27d",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 		
 		{
