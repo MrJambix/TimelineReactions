@@ -1377,16 +1377,27 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							actionID = 209,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "8c7fa1e9-e27a-5ebd-85c7-b94e4c66ad17",
+							version = 2,
+						},
+					},
 				},
 				conditions = 
 				{
 				},
 				mechanicTime = 454,
 				name = "LB3",
-				timeRange = true,
 				timelineIndex = 84,
-				timerEndOffset = -7,
-				timerStartOffset = -13,
+				timerEndOffset = -12,
+				timerOffset = -14,
+				timerStartOffset = -14,
 				uuid = "2fe51426-2f26-02a8-bb25-57d6cf8ebcdc",
 				version = 2,
 			},
@@ -1559,6 +1570,95 @@ local tbl =
 				timerOffset = 2,
 				timerStartOffset = -3,
 				uuid = "3fff275f-aefe-f40e-bb5a-aa3c4354c288",
+				version = 2,
+			},
+		},
+	},
+	[92] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"0ad8f270-97da-6857-ae40-cf2209e4bcec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "14c05dde-b394-3026-8c33-605d5d214198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							hpValue = 85,
+							uuid = "0ad8f270-97da-6857-ae40-cf2209e4bcec",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 523.1,
+				name = "Equilibrium",
+				timeRange = true,
+				timelineIndex = 92,
+				timerEndOffset = 10,
+				timerOffset = 1,
+				timerStartOffset = 1,
+				uuid = "4af81720-51b1-3f3a-8b99-101672067eca",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 523.1,
+				name = "Whetting",
+				randomOffset = 1,
+				timeRange = true,
+				timelineIndex = 92,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -3,
+				uuid = "5d407edc-1f60-11ba-9b74-72e2ff84b451",
 				version = 2,
 			},
 		},
