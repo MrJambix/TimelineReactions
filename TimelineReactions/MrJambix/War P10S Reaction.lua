@@ -585,7 +585,7 @@ local tbl =
 				name = "Whetting",
 				randomOffset = 1,
 				timelineIndex = 41,
-				timerOffset = -2,
+				timerOffset = -3,
 				uuid = "31934852-24e5-5469-8108-6c80b3fce419",
 				version = 2,
 			},
@@ -602,6 +602,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"0ad8f270-97da-6857-ae40-cf2209e4bcec",
+									true,
+								},
+							},
 							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
 							uuid = "14c05dde-b394-3026-8c33-605d5d214198",
 							variableTogglesType = 3,
@@ -611,15 +619,117 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							hpValue = 85,
+							uuid = "0ad8f270-97da-6857-ae40-cf2209e4bcec",
+							version = 2,
+						},
+					},
 				},
+				loop = true,
 				mechanicTime = 258.4,
 				name = "Equilibrium",
 				timeRange = true,
 				timelineIndex = 41,
-				timerEndOffset = 2,
+				timerEndOffset = 10,
 				timerOffset = 1,
-				timerStartOffset = -5,
-				uuid = "f6dff321-c84a-3460-bf8a-0848cea847e9",
+				timerStartOffset = 1,
+				uuid = "4a563093-a6dd-dbb5-a3a7-967e3bdba0b4",
+				version = 2,
+			},
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 281,
+				name = "Whetting",
+				randomOffset = -1,
+				timelineIndex = 44,
+				timerOffset = -3,
+				uuid = "360fbf18-2c49-3379-ac35-66604506b44b",
+				version = 2,
+			},
+		},
+	},
+	[45] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"0ad8f270-97da-6857-ae40-cf2209e4bcec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "14c05dde-b394-3026-8c33-605d5d214198",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							hpValue = 85,
+							uuid = "0ad8f270-97da-6857-ae40-cf2209e4bcec",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 288.7,
+				name = "Equilibrium",
+				timeRange = true,
+				timelineIndex = 45,
+				timerEndOffset = 10,
+				timerOffset = 1,
+				timerStartOffset = 1,
+				uuid = "fed89d64-2b6d-0ae0-924a-5bc4eba84191",
 				version = 2,
 			},
 		},
