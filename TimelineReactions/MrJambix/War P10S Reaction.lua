@@ -840,6 +840,42 @@ local tbl =
 			},
 		},
 	},
+	[40] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7388,
+							ignoreWeaveRules = true,
+							uuid = "442b2c5a-2019-fc52-83bf-b7be269fd9a9",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 249.3,
+				name = "Shake It Off",
+				randomOffset = 4,
+				timeRange = true,
+				timelineIndex = 40,
+				timerEndOffset = -1,
+				timerOffset = 1,
+				timerStartOffset = -4,
+				uuid = "561353b4-e6c3-87f3-864a-3816497d54b4",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+	},
 	[41] = 
 	{
 		
@@ -1100,6 +1136,45 @@ local tbl =
 			},
 		},
 	},
+	[58] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7388,
+							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
+							ignoreWeaveRules = true,
+							uuid = "442b2c5a-2019-fc52-83bf-b7be269fd9a9",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 338.6,
+				name = "Shake It Off",
+				randomOffset = 4,
+				timeRange = true,
+				timelineIndex = 58,
+				timerEndOffset = 3,
+				timerOffset = 1,
+				timerStartOffset = -1,
+				uuid = "dd385c98-2c33-e3bf-9c05-166e17872f10",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+	},
 	[65] = 
 	{
 		
@@ -1336,6 +1411,45 @@ local tbl =
 				uuid = "8d34435e-f0e9-5cac-a6fb-a7ba61eab3e5",
 				version = 2,
 			},
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7388,
+							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
+							ignoreWeaveRules = true,
+							uuid = "442b2c5a-2019-fc52-83bf-b7be269fd9a9",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 446,
+				name = "Shake It Off",
+				randomOffset = 4,
+				timeRange = true,
+				timelineIndex = 80,
+				timerEndOffset = 2,
+				timerOffset = 1,
+				timerStartOffset = -2,
+				uuid = "b50a1d98-a3fc-0dca-be4c-554b7ed564b5",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 	},
 	[84] = 
