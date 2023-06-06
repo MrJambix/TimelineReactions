@@ -188,7 +188,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 40.8,
 				name = "Stance On",
 				timeRange = true,
@@ -221,7 +220,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 40.8,
 				name = "Voke",
 				timeRange = true,
@@ -1452,6 +1450,40 @@ local tbl =
 			inheritedIndex = 7,
 		},
 	},
+	[83] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 209,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							uuid = "8c7fa1e9-e27a-5ebd-85c7-b94e4c66ad17",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 450.1,
+				name = "LB3",
+				timelineIndex = 83,
+				timerEndOffset = -12,
+				timerOffset = -5,
+				timerStartOffset = -14,
+				uuid = "49c86839-0a3d-36d1-94b6-8565e47c35c6",
+				version = 2,
+			},
+		},
+	},
 	[84] = 
 	{
 		
@@ -1482,37 +1514,6 @@ local tbl =
 				timerEndOffset = -5,
 				timerStartOffset = -8,
 				uuid = "94ff5cbd-d577-83bc-b727-b0942acb431c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 209,
-							atomicPriority = true,
-							ignoreWeaveRules = true,
-							uuid = "8c7fa1e9-e27a-5ebd-85c7-b94e4c66ad17",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 454,
-				name = "LB3",
-				timelineIndex = 84,
-				timerEndOffset = -12,
-				timerOffset = -14,
-				timerStartOffset = -14,
-				uuid = "2fe51426-2f26-02a8-bb25-57d6cf8ebcdc",
 				version = 2,
 			},
 		},
