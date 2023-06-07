@@ -121,7 +121,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 47,
 				name = "Voke",
 				timeRange = true,
@@ -211,6 +210,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50.2,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = 2,
+				timerOffset = 1,
+				timerStartOffset = 0.5,
+				uuid = "98e44bb6-fa7d-8854-816b-577c46433fab",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							actionID = 25751,
 							atomicPriority = true,
 							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
@@ -234,40 +266,7 @@ local tbl =
 				uuid = "37cd7f3b-5e87-03d3-90aa-ed8cd02b205e",
 				version = 2,
 			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 50.2,
-				name = "Shirk",
-				timeRange = true,
-				timelineIndex = 9,
-				timerEndOffset = 2,
-				timerOffset = 1,
-				timerStartOffset = 0.5,
-				uuid = "98e44bb6-fa7d-8854-816b-577c46433fab",
-				version = 2,
-			},
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -914,7 +913,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 134,
 				name = "Voke",
 				timeRange = true,
@@ -1290,6 +1288,39 @@ local tbl =
 				uuid = "746ed6c0-24bd-8198-b9e8-cf7be3fcfd2b",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -0.5,
+				timerOffset = 1,
+				timerStartOffset = -3.5,
+				uuid = "62beb73a-cd22-af9e-ba91-7c3fc8333696",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	[40] = 
@@ -2030,7 +2061,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 393.7,
 				name = "Voke",
 				timeRange = true,
@@ -2103,7 +2133,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 396.4,
 				name = "Shirk",
 				timeRange = true,
@@ -2908,7 +2937,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 534.8,
 				name = "Voke",
 				timeRange = true,
@@ -2981,7 +3009,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 538,
 				name = "Shirk",
 				timeRange = true,
