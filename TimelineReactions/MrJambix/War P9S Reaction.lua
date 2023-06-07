@@ -2584,6 +2584,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "f08a65b5-46b3-2b09-90ec-2a6057292c1c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 459.7,
+				name = "Thrill",
+				timeRange = true,
+				timelineIndex = 112,
+				timerEndOffset = -2,
+				timerOffset = -1,
+				timerStartOffset = -5,
+				uuid = "42f31a48-fe68-1252-8c0e-5eef3e212da0",
+				version = 2,
+			},
+		},
 	},
 	[116] = 
 	{
