@@ -70,6 +70,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"90ea2d55-c30f-20cc-a7c3-fc7b68088c6f",
+									true,
+								},
+							},
 							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
 							uuid = "61139631-216a-011e-9049-b1dbd0e01dc5",
 							variableTogglesType = 3,
@@ -88,6 +96,7 @@ local tbl =
 							{
 								810,
 								1836,
+								82,
 							},
 							category = "Party",
 							partyTargetType = "Other Tank",
@@ -119,6 +128,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f304e5f3-883f-f7c8-9373-1ef45b128141",
+									true,
+								},
+							},
 							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
 							uuid = "cb5feb87-73e7-145e-9ae1-3f41d5ac7640",
 							variableTogglesType = 3,
@@ -128,6 +145,23 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								810,
+								1836,
+								82,
+							},
+							category = "Party",
+							partyTargetType = "Other Tank",
+							uuid = "f304e5f3-883f-f7c8-9373-1ef45b128141",
+							version = 2,
+						},
+					},
 				},
 				enabled = false,
 				mechanicTime = 23.2,
@@ -153,6 +187,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"44ec6afe-cb56-4608-98aa-35a68f0dae80",
+									true,
+								},
+							},
 							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
 							uuid = "4e0661e7-87a7-163e-ad61-dd57c6645e21",
 							variableTogglesType = 3,
@@ -162,6 +204,23 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								810,
+								1836,
+								82,
+							},
+							category = "Party",
+							partyTargetType = "Other Tank",
+							uuid = "44ec6afe-cb56-4608-98aa-35a68f0dae80",
+							version = 2,
+						},
+					},
 				},
 				enabled = false,
 				mechanicTime = 23.2,
@@ -185,6 +244,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"c4608930-d223-ccd0-a3ce-1dc388ddcc53",
+									true,
+								},
+							},
 							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
 							uuid = "14c05dde-b394-3026-8c33-605d5d214198",
 							variableTogglesType = 3,
@@ -194,6 +261,23 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								810,
+								1836,
+								82,
+							},
+							category = "Party",
+							partyTargetType = "Other Tank",
+							uuid = "c4608930-d223-ccd0-a3ce-1dc388ddcc53",
+							version = 2,
+						},
+					},
 				},
 				enabled = false,
 				mechanicTime = 23.2,
