@@ -891,6 +891,49 @@ local tbl =
 			},
 			inheritedIndex = 1,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_Defiance",
+							uuid = "98d91955-df9a-4c34-a23d-bbedcc5d556b",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 91,
+							category = "Self",
+							uuid = "83a53549-3532-7b95-8224-e9393fdb5da9",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 134,
+				name = "Stance Check",
+				timeRange = true,
+				timelineIndex = 25,
+				timerEndOffset = -6,
+				timerStartOffset = -10,
+				uuid = "b892bd7c-165f-09b8-82d9-5f157ba14a0a",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
 	},
 	[26] = 
 	{
@@ -1137,39 +1180,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 187.1,
-				name = "Shirk",
-				timeRange = true,
-				timelineIndex = 37,
-				timerEndOffset = 2,
-				timerOffset = 1,
-				timerStartOffset = 0.5,
-				uuid = "62beb73a-cd22-af9e-ba91-7c3fc8333696",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
 							uuid = "dfc06179-1d77-2234-ac3f-b68120d196d4",
 							variableTogglesType = 3,
@@ -1190,6 +1200,74 @@ local tbl =
 				uuid = "3e62ae50-ca59-8d67-be41-0104ce61d009",
 				version = 2,
 			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -2,
+				timerOffset = 1,
+				timerStartOffset = -4,
+				uuid = "62beb73a-cd22-af9e-ba91-7c3fc8333696",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
+							uuid = "bbb9454c-45a8-81b7-97fb-968716f5332c",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "Stance Off",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -5,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "8a22cef1-e252-4dac-89dd-10ce3a6ffa3c",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 	},
 	[40] = 
@@ -2143,37 +2221,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
-							uuid = "0bc8785e-feba-a2c3-a684-7253c036ab19",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 412.5,
-				name = "Vengeance",
-				timeRange = true,
-				timelineIndex = 98,
-				timerEndOffset = -8,
-				timerStartOffset = -14,
-				uuid = "9228b003-5b87-51b8-999d-5af2675db4e1",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Jumps",
 							uuid = "f17ca9e1-05bf-8428-8fba-281a9a1d9d72",
 							version = 2,
@@ -2193,6 +2240,37 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "0bc8785e-feba-a2c3-a684-7253c036ab19",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 412.5,
+				name = "Vengeance",
+				timeRange = true,
+				timelineIndex = 98,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "9228b003-5b87-51b8-999d-5af2675db4e1",
+				version = 2,
+			},
 		},
 	},
 	[102] = 

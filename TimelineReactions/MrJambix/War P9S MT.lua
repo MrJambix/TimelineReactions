@@ -865,7 +865,7 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
-							uuid = "be8b020b-3d6b-7275-b472-f7f3f18f745c",
+							uuid = "576c2c8d-7f8c-4e3a-bf98-aad13c41d9ff",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -878,12 +878,47 @@ local tbl =
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 25,
-				timerEndOffset = -0.5,
+				timerEndOffset = -2,
 				timerOffset = 1,
-				timerStartOffset = -3.5,
-				uuid = "d8eaf802-89eb-71e3-8622-071d33fde302",
+				timerStartOffset = -4,
+				uuid = "6faa8721-fb97-ddbc-a479-8dbd032b8ca2",
 				version = 2,
 			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							gVarValue = 2,
+							uuid = "bbb9454c-45a8-81b7-97fb-968716f5332c",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 134,
+				name = "Stance Off",
+				timeRange = true,
+				timelineIndex = 25,
+				timerEndOffset = -5,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "97f3e798-9884-c4c5-b08c-36ec3eed45a2",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 	},
 	[26] = 
