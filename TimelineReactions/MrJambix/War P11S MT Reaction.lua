@@ -479,6 +479,41 @@ local tbl =
 			},
 		},
 	},
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ArmsLength",
+							uuid = "eccc507b-e892-55b7-8f19-99f3489b791f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 120.4,
+				name = "Knockback",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = -2,
+				timerOffset = -4,
+				timerStartOffset = -4,
+				uuid = "f17107e8-578d-62cc-b95c-d97daf6e0f5e",
+				version = 2,
+			},
+		},
+	},
 	[18] = 
 	{
 		
@@ -869,6 +904,41 @@ local tbl =
 			},
 		},
 	},
+	[73] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ArmsLength",
+							uuid = "eccc507b-e892-55b7-8f19-99f3489b791f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 547.4,
+				name = "Knockback",
+				timeRange = true,
+				timelineIndex = 73,
+				timerEndOffset = -2,
+				timerOffset = -4,
+				timerStartOffset = -4,
+				uuid = "49a411f5-6ecf-a2cf-bb2a-eaba74fbc26f",
+				version = 2,
+			},
+		},
+	},
 	[75] = 
 	{
 		
@@ -1097,6 +1167,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage3\\p11s",
 	},
 	mapID = 1152,
 	version = 2,
