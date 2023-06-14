@@ -112,10 +112,44 @@ local tbl =
 				randomOffset = -5,
 				timeRange = true,
 				timelineIndex = 3,
-				timerEndOffset = -5,
+				timerEndOffset = -1.5,
 				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "a7f82ecb-6d9f-c4fb-9a9c-317b684ec454",
+				timerStartOffset = -5,
+				uuid = "b358ee3a-773c-61a1-acab-8186e0241a06",
+				version = 2,
+			},
+		},
+	},
+	[4] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 26.1,
+				name = "Whetting",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = -0.5,
+				timerStartOffset = -4,
+				uuid = "1bde252a-97d8-7768-86c0-cf7fc273da0d",
 				version = 2,
 			},
 		},
@@ -147,7 +181,7 @@ local tbl =
 				name = "Voke",
 				timeRange = true,
 				timelineIndex = 5,
-				timerEndOffset = 1.5,
+				timerEndOffset = 2,
 				timerStartOffset = 0.5,
 				uuid = "a9673c32-d955-4441-902e-a0bce365a61b",
 				version = 2,
@@ -195,37 +229,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 29.2,
-				name = "Whetting",
-				timeRange = true,
-				timelineIndex = 5,
-				timerEndOffset = -6,
-				timerStartOffset = -8,
-				uuid = "31e57a54-0d15-6f48-9df1-a3d51b5bf589",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
 							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
 							variableTogglesType = 3,
@@ -243,6 +246,39 @@ local tbl =
 				timerEndOffset = -4,
 				timerStartOffset = -8,
 				uuid = "243b210f-9d17-28fe-8d68-39ed91a7b39f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "ef9a28f3-1b79-9a52-a02b-73235948c879",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 29.2,
+				name = "Shirk",
+				randomOffset = -0.5,
+				timeRange = true,
+				timelineIndex = 5,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "dd08f85d-1a7e-757b-9024-e5094efb1f3f",
 				version = 2,
 			},
 		},
@@ -409,9 +445,9 @@ local tbl =
 				randomOffset = -5,
 				timeRange = true,
 				timelineIndex = 13,
-				timerEndOffset = -5,
+				timerEndOffset = -1.5,
 				timerOffset = -10,
-				timerStartOffset = -10,
+				timerStartOffset = -5,
 				uuid = "89c076bd-e633-6e23-bc41-19b2e94beeb7",
 				version = 2,
 			},
@@ -444,37 +480,6 @@ local tbl =
 				timerEndOffset = 1.5,
 				timerStartOffset = -2,
 				uuid = "2816124d-d468-02b5-9faf-ab440385b4bb",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 93.7,
-				name = "Thrill",
-				timeRange = true,
-				timelineIndex = 13,
-				timerEndOffset = 0.5,
-				timerStartOffset = -3,
-				uuid = "2cf2f2d0-8bd8-9aa0-a5ae-2dfa7dfac526",
 				version = 2,
 			},
 		},
@@ -548,6 +553,40 @@ local tbl =
 			},
 		},
 	},
+	[21] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e4feb16a-4342-b0ff-aa75-e5abc5cd62db",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 166.9,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 21,
+				timerEndOffset = -15,
+				timerStartOffset = -20,
+				uuid = "3b3ef709-b82b-b754-9429-417ecc836ea7",
+				version = 2,
+			},
+		},
+	},
 	[29] = 
 	{
 		
@@ -608,9 +647,9 @@ local tbl =
 				randomOffset = -5,
 				timeRange = true,
 				timelineIndex = 29,
-				timerEndOffset = -5,
+				timerEndOffset = -1.5,
 				timerOffset = -10,
-				timerStartOffset = -10,
+				timerStartOffset = -5,
 				uuid = "72f2bed4-384a-6290-95d4-4874057dd33f",
 				version = 2,
 			},
@@ -646,6 +685,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[34] = 
+	{
 		
 		{
 			data = 
@@ -657,8 +699,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "70eb47bc-4321-5977-90e9-f5a3ccf7e69c",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -667,13 +709,49 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 203.3,
-				name = "Thrill",
+				mechanicTime = 244.7,
+				name = "Vengeance",
 				timeRange = true,
-				timelineIndex = 29,
-				timerEndOffset = 0.5,
-				timerStartOffset = -3,
-				uuid = "b4c488a5-9f2d-1cf5-a946-6eaa488be1ad",
+				timelineIndex = 34,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "f531793a-e03c-b616-ba0c-8b8dc9a2d1b5",
+				version = 2,
+			},
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "dfaca165-8a6a-e9e9-8bbd-a26f066db6bf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 256.8,
+				name = "Reprisal",
+				randomOffset = -5,
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -1.5,
+				timerOffset = -10,
+				timerStartOffset = -5,
+				uuid = "7d0c35f4-36f3-3132-8f71-b26b133a422d",
 				version = 2,
 			},
 		},
@@ -738,9 +816,9 @@ local tbl =
 				randomOffset = -5,
 				timeRange = true,
 				timelineIndex = 47,
-				timerEndOffset = -5,
+				timerEndOffset = -1.5,
 				timerOffset = -10,
-				timerStartOffset = -10,
+				timerStartOffset = -5,
 				uuid = "56af1ff0-7049-e291-a3f4-79e2c287f13c",
 				version = 2,
 			},
@@ -776,6 +854,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[48] = 
+	{
 		
 		{
 			data = 
@@ -787,8 +868,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -797,13 +878,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 361.4,
-				name = "Thrill",
+				mechanicTime = 380.2,
+				name = "Whetting",
 				timeRange = true,
-				timelineIndex = 47,
-				timerEndOffset = 0.5,
-				timerStartOffset = -3,
-				uuid = "777477d1-d9d2-de36-bd87-712ae20a0cc2",
+				timelineIndex = 48,
+				timerEndOffset = -0.5,
+				timerStartOffset = -4,
+				uuid = "78e8170d-53a9-8758-be89-051071bc51fd",
 				version = 2,
 			},
 		},
@@ -835,9 +916,9 @@ local tbl =
 				name = "Voke",
 				timeRange = true,
 				timelineIndex = 49,
-				timerEndOffset = 1.5,
+				timerEndOffset = 2,
 				timerStartOffset = 0.5,
-				uuid = "c6080746-16eb-817f-9068-b524cd970dc6",
+				uuid = "de476988-3be5-9374-b286-53639d703c6f",
 				version = 2,
 			},
 		},
@@ -868,7 +949,7 @@ local tbl =
 				timelineIndex = 49,
 				timerEndOffset = -15,
 				timerStartOffset = -20,
-				uuid = "12683026-2fd3-a5c4-911c-518cfaf5854c",
+				uuid = "4f336485-dd9b-e71d-b8b6-efc8fa680d41",
 				version = 2,
 			},
 		},
@@ -883,8 +964,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -894,12 +975,81 @@ local tbl =
 				{
 				},
 				mechanicTime = 383.3,
-				name = "Whetting",
+				name = "Thrill",
 				timeRange = true,
 				timelineIndex = 49,
 				timerEndOffset = -4,
 				timerStartOffset = -8,
-				uuid = "c0fa8f42-bf33-f773-8a5b-b9e5a7130c79",
+				uuid = "c2c45ba4-c463-d620-ae16-f0ee29bfe61d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "ef9a28f3-1b79-9a52-a02b-73235948c879",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 383.3,
+				name = "Shirk",
+				randomOffset = -0.5,
+				timeRange = true,
+				timelineIndex = 49,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "341d746b-3376-c522-b20b-1905ceab14fc",
+				version = 2,
+			},
+		},
+	},
+	[61] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "dfaca165-8a6a-e9e9-8bbd-a26f066db6bf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 483.9,
+				name = "Reprisal",
+				randomOffset = -5,
+				timeRange = true,
+				timelineIndex = 61,
+				timerEndOffset = -1.5,
+				timerOffset = -10,
+				timerStartOffset = -5,
+				uuid = "08e311fc-4971-3a35-88f9-22da2b4f8fad",
 				version = 2,
 			},
 		},
@@ -999,9 +1149,9 @@ local tbl =
 				randomOffset = -5,
 				timeRange = true,
 				timelineIndex = 75,
-				timerEndOffset = -5,
+				timerEndOffset = -1.5,
 				timerOffset = -10,
-				timerStartOffset = -10,
+				timerStartOffset = -5,
 				uuid = "550e494d-9da5-eabd-9781-bf883eae503d",
 				version = 2,
 			},
@@ -1037,6 +1187,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[80] = 
+	{
 		
 		{
 			data = 
@@ -1048,8 +1201,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "70eb47bc-4321-5977-90e9-f5a3ccf7e69c",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1058,13 +1211,47 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 561.6,
-				name = "Thrill",
+				mechanicTime = 603.4,
+				name = "Vengeance",
 				timeRange = true,
-				timelineIndex = 75,
-				timerEndOffset = 0.5,
-				timerStartOffset = -3,
-				uuid = "78c27f76-9cbc-84b1-aa74-96b05a503288",
+				timelineIndex = 80,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "374bb4b5-f650-3982-a603-89032fd64e02",
+				version = 2,
+			},
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 619.5,
+				name = "Whetting",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = -0.5,
+				timerStartOffset = -4,
+				uuid = "525565e8-1286-4cf4-b0b4-0310bd5e1244",
 				version = 2,
 			},
 		},
@@ -1096,9 +1283,9 @@ local tbl =
 				name = "Voke",
 				timeRange = true,
 				timelineIndex = 82,
-				timerEndOffset = 1.5,
+				timerEndOffset = 2,
 				timerStartOffset = 0.5,
-				uuid = "ea2c5152-ab2d-5afc-a3b8-92f4ec8cc38f",
+				uuid = "f80a8154-0172-f600-8a9a-fc4239332427",
 				version = 2,
 			},
 		},
@@ -1129,7 +1316,7 @@ local tbl =
 				timelineIndex = 82,
 				timerEndOffset = -15,
 				timerStartOffset = -20,
-				uuid = "4451f05d-7eab-2cb0-b533-8b6a56be5a03",
+				uuid = "a9b8b9cc-5bb1-112c-9c75-2c98ce1bf7db",
 				version = 2,
 			},
 		},
@@ -1144,8 +1331,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1155,12 +1342,81 @@ local tbl =
 				{
 				},
 				mechanicTime = 622.6,
-				name = "Whetting",
+				name = "Thrill",
 				timeRange = true,
 				timelineIndex = 82,
 				timerEndOffset = -4,
 				timerStartOffset = -8,
-				uuid = "a33bf56f-06b0-01b6-aaf1-95993ead6d57",
+				uuid = "faa50fee-3f03-2ee7-9e0d-4b4390fa4a56",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "ef9a28f3-1b79-9a52-a02b-73235948c879",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 622.6,
+				name = "Shirk",
+				randomOffset = -0.5,
+				timeRange = true,
+				timelineIndex = 82,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "84a07743-0623-d6be-83b9-043fb495c787",
+				version = 2,
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "dfaca165-8a6a-e9e9-8bbd-a26f066db6bf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 655.8,
+				name = "Reprisal",
+				randomOffset = -5,
+				timeRange = true,
+				timelineIndex = 85,
+				timerEndOffset = -1.5,
+				timerOffset = -10,
+				timerStartOffset = -5,
+				uuid = "240b43ca-ec66-0508-a93a-2f7f8a5a019e",
 				version = 2,
 			},
 		},
