@@ -225,9 +225,9 @@ local tbl =
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 9,
-				timerEndOffset = -2,
+				timerEndOffset = 1.5,
 				timerOffset = 1,
-				timerStartOffset = -4,
+				timerStartOffset = 0.5,
 				uuid = "44f10cf1-e70c-0b10-b209-3bfee1e86872",
 				version = 2,
 			},
@@ -922,13 +922,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 187.1,
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 37,
-				timerEndOffset = -2,
+				timerEndOffset = -0.5,
 				timerOffset = 1,
-				timerStartOffset = -4,
+				timerStartOffset = -3.5,
 				uuid = "bf6edd08-fcce-cdfa-8262-54f521071152",
 				version = 2,
 			},
@@ -993,7 +994,7 @@ local tbl =
 				timelineIndex = 37,
 				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -4,
 				uuid = "d2b31986-d85d-2571-a4f1-6c89dce4cbe0",
 				version = 2,
 			},
@@ -1243,40 +1244,6 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "b7ff4fa5-75d4-5bd4-bb8a-23eea85df7c1",
-				version = 2,
-			},
-		},
-	},
-	[74] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 289.1,
-				name = "Nebula",
-				timeRange = true,
-				timelineIndex = 74,
-				timerEndOffset = -8,
-				timerStartOffset = -14,
-				uuid = "4bc3bb7f-917a-41a3-930a-526937ec8cae",
 				version = 2,
 			},
 		},
@@ -1539,9 +1506,9 @@ local tbl =
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 94,
-				timerEndOffset = -2,
+				timerEndOffset = 1.5,
 				timerOffset = 1,
-				timerStartOffset = -4,
+				timerStartOffset = 0.5,
 				uuid = "b4e05462-35bf-32b4-985a-eaa3438e2226",
 				version = 2,
 			},
@@ -2151,9 +2118,9 @@ local tbl =
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 133,
-				timerEndOffset = -2,
+				timerEndOffset = 1.5,
 				timerOffset = 1,
-				timerStartOffset = -4,
+				timerStartOffset = 0.5,
 				uuid = "9676d071-7946-6a9c-a89a-0c71331a4312",
 				version = 2,
 			},
@@ -2409,9 +2376,9 @@ local tbl =
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 144,
-				timerEndOffset = -2,
+				timerEndOffset = 1.5,
 				timerOffset = 1,
-				timerStartOffset = -4,
+				timerStartOffset = 0.5,
 				uuid = "91a9d5ca-8ab7-fb73-ac62-95d43b110d57",
 				version = 2,
 			},
@@ -2707,8 +2674,6 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage3\\p9s",
-		"MrJambix\\War\\War P9S OT",
-		"MrJambix\\DK\\P9S - DK OT",
 	},
 	mapID = 1148,
 	version = 2,

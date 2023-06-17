@@ -189,10 +189,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 50.2,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 9,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "509a0c3f-cbe0-6dee-afc1-d0d386d55a7d",
@@ -693,10 +694,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 148,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 27,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "451c7d12-06ab-b4fe-8f1c-ed141e6fd72d",
@@ -953,10 +955,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 245.2,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 54,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "e0592429-a73e-febc-9d5f-a4e134e9327e",
@@ -1052,41 +1055,6 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "9041577e-211e-a70f-af9f-f2fd615e433f",
-				version = 2,
-			},
-		},
-	},
-	[74] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 289.1,
-				name = "Nebula",
-				timeRange = true,
-				timelineIndex = 74,
-				timerEndOffset = -8,
-				timerStartOffset = -14,
-				uuid = "ce42d747-4fdb-a219-b02e-b6e08a4cbac6",
 				version = 2,
 			},
 		},
@@ -1187,10 +1155,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 309.7,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 77,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "d8b82328-1d01-5a2a-bcaa-60eaa949be70",
@@ -1378,10 +1347,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 396.4,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 94,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "9c1aa821-420e-53d9-b9f1-43c3d2f38b9b",
@@ -1719,10 +1689,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 459.7,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 112,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "ca4c623a-a8a1-de67-9fed-6b695b531d0f",
@@ -2018,10 +1989,11 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 538,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 133,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "010b570c-5629-dfb2-9c8a-879d2f6783de",
@@ -2512,7 +2484,9 @@ local tbl =
 				enabled = false,
 				mechanicTime = 598.1,
 				name = "Camo",
+				timeRange = true,
 				timelineIndex = 144,
+				timerEndOffset = -7,
 				timerOffset = -15,
 				timerStartOffset = -15,
 				uuid = "1a506f6b-368e-93f3-91b9-7a81bc877d14",
@@ -2594,7 +2568,6 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage3\\p9s",
-		"MrJambix\\War\\War P9S MT",
 	},
 	mapID = 1148,
 	version = 2,
