@@ -289,8 +289,8 @@ local tbl =
 				name = "Nebula",
 				timeRange = true,
 				timelineIndex = 9,
-				timerEndOffset = -3,
-				timerStartOffset = -10,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
 				uuid = "8bd69ddf-acd0-ecaa-9029-02de2dc68e2c",
 				version = 2,
 			},
@@ -322,8 +322,74 @@ local tbl =
 				timelineIndex = 9,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -2,
 				uuid = "44f8f8f8-3c36-3b9a-9b05-b0bf03fcedc0",
+				version = 2,
+			},
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 68.1,
+				name = "HOL",
+				timelineIndex = 12,
+				timerOffset = -5,
+				uuid = "c4980be0-fb40-7e8c-aa73-33b762dbe272",
+				version = 2,
+			},
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 68.1,
+				name = "HOL",
+				timelineIndex = 13,
+				timerOffset = -5,
+				uuid = "332167b3-d734-0811-922a-a2b366ac6ae3",
 				version = 2,
 			},
 		},
@@ -731,6 +797,39 @@ local tbl =
 			},
 		},
 	},
+	[32] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 158.7,
+				name = "HOL",
+				timelineIndex = 32,
+				timerOffset = -5,
+				uuid = "1eef9263-70d2-86ee-9a12-3875e8c5bbab",
+				version = 2,
+			},
+		},
+	},
 	[33] = 
 	{
 		
@@ -762,6 +861,40 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "f8952c93-1db4-9c3b-88e1-29cc80a96903",
+				version = 2,
+			},
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.7,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "205927aa-149c-8577-837a-091920b22c9b",
 				version = 2,
 			},
 		},
@@ -991,6 +1124,39 @@ local tbl =
 			},
 		},
 	},
+	[57] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 249.7,
+				name = "HOL",
+				timelineIndex = 57,
+				timerOffset = -5,
+				uuid = "86091f6a-efa2-5c05-ac8d-aea349e1c4d3",
+				version = 2,
+			},
+		},
+	},
 	[71] = 
 	{
 		
@@ -1077,6 +1243,40 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "b7ff4fa5-75d4-5bd4-bb8a-23eea85df7c1",
+				version = 2,
+			},
+		},
+	},
+	[74] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 289.1,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 74,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "4bc3bb7f-917a-41a3-930a-526937ec8cae",
 				version = 2,
 			},
 		},
@@ -1205,6 +1405,39 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "fcda63f7-634e-1af2-8dd8-097b91519716",
+				version = 2,
+			},
+		},
+	},
+	[87] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 355,
+				name = "HOL",
+				timelineIndex = 87,
+				timerOffset = -5,
+				uuid = "95c31f8a-f55d-eca0-8f25-fa88c41137ee",
 				version = 2,
 			},
 		},
@@ -1433,6 +1666,40 @@ local tbl =
 			},
 		},
 	},
+	[98] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 412.5,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 98,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "a9d7879a-4c73-dc71-a9ab-f0d926573eee",
+				version = 2,
+			},
+		},
+	},
 	[102] = 
 	{
 		
@@ -1499,6 +1766,39 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "d226c5c6-9aa4-c67f-8039-ccfed7385a2d",
+				version = 2,
+			},
+		},
+	},
+	[104] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 426.2,
+				name = "HOL",
+				timelineIndex = 104,
+				timerOffset = -5,
+				uuid = "6e62dd6b-71c9-ee13-9ab6-ec109197b762",
 				version = 2,
 			},
 		},
@@ -1723,6 +2023,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 513.5,
+				name = "HOL",
+				timelineIndex = 126,
+				timerOffset = -5,
+				uuid = "5756d622-2a08-f7a2-9170-6845a0bd6b4c",
+				version = 2,
+			},
+		},
 	},
 	[131] = 
 	{
@@ -1889,6 +2219,74 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "8b716133-1eab-15a3-841c-b668dffdb582",
+				version = 2,
+			},
+		},
+	},
+	[136] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.9,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 136,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "8cb6b568-84d1-a7e3-8364-dc560437d9cc",
+				version = 2,
+			},
+		},
+	},
+	[137] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.9,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 137,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
+				uuid = "46853105-c8d8-5e07-a9b4-05e6846dd5e2",
 				version = 2,
 			},
 		},
@@ -2077,8 +2475,8 @@ local tbl =
 				name = "Nebula",
 				timeRange = true,
 				timelineIndex = 144,
-				timerEndOffset = -3,
-				timerStartOffset = -10,
+				timerEndOffset = -8,
+				timerStartOffset = -14,
 				uuid = "056c3519-c0c8-4822-b95b-40d55ac834b6",
 				version = 2,
 			},
@@ -2111,7 +2509,7 @@ local tbl =
 				timelineIndex = 144,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -2,
 				uuid = "fb555ade-73ef-7dcb-ba9e-96b60dc0dd05",
 				version = 2,
 			},
@@ -2262,6 +2660,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 598.1,
 				name = "Camo",
 				timelineIndex = 144,
@@ -2292,6 +2691,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 598.1,
 				name = "HOC Self",
 				timeRange = true,
@@ -2308,6 +2708,7 @@ local tbl =
 	{
 		"store\\anyone\\savage3\\p9s",
 		"MrJambix\\War\\War P9S OT",
+		"MrJambix\\DK\\P9S - DK OT",
 	},
 	mapID = 1148,
 	version = 2,
