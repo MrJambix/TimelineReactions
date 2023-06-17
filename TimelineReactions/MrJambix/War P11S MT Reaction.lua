@@ -208,6 +208,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 29.2,
 				name = "Rampart",
 				timeRange = true,
@@ -239,6 +240,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 29.2,
 				name = "Thrill",
 				timeRange = true,
@@ -280,6 +282,36 @@ local tbl =
 				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "dd08f85d-1a7e-757b-9024-e5094efb1f3f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							uuid = "3800fbd6-9281-ecbf-9177-740af0ae5ff0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 29.2,
+				name = "Holmgang (Invuln)",
+				randomOffset = -4,
+				timelineIndex = 5,
+				timerOffset = -7,
+				uuid = "8daaa7cc-b350-fd96-8463-fc4a22f6538c",
 				version = 2,
 			},
 		},
@@ -947,7 +979,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 383.3,
 				name = "Voke",
 				timeRange = true,
@@ -955,68 +986,6 @@ local tbl =
 				timerEndOffset = 2,
 				timerStartOffset = 0.5,
 				uuid = "de476988-3be5-9374-b286-53639d703c6f",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
-							uuid = "e4feb16a-4342-b0ff-aa75-e5abc5cd62db",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 383.3,
-				name = "Rampart",
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = -15,
-				timerStartOffset = -20,
-				uuid = "4f336485-dd9b-e71d-b8b6-efc8fa680d41",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 383.3,
-				name = "Thrill",
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = -4,
-				timerStartOffset = -8,
-				uuid = "c2c45ba4-c463-d620-ae16-f0ee29bfe61d",
 				version = 2,
 			},
 		},
@@ -1041,7 +1010,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 383.3,
 				name = "Shirk",
 				randomOffset = -0.5,
@@ -1051,6 +1019,36 @@ local tbl =
 				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "341d746b-3376-c522-b20b-1905ceab14fc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							uuid = "3800fbd6-9281-ecbf-9177-740af0ae5ff0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 383.3,
+				name = "Holmgang (Invuln)",
+				randomOffset = -4,
+				timelineIndex = 49,
+				timerOffset = -7,
+				uuid = "61e4303e-ae6b-4388-8abb-3b24c591bab5",
 				version = 2,
 			},
 		},
@@ -1316,7 +1314,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 622.6,
 				name = "Voke",
 				timeRange = true,
@@ -1379,6 +1376,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 622.6,
 				name = "Thrill",
 				timeRange = true,
@@ -1410,7 +1408,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 622.6,
 				name = "Shirk",
 				randomOffset = -0.5,
@@ -1420,6 +1417,36 @@ local tbl =
 				timerOffset = -2,
 				timerStartOffset = -2,
 				uuid = "84a07743-0623-d6be-83b9-043fb495c787",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							uuid = "3800fbd6-9281-ecbf-9177-740af0ae5ff0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 622.6,
+				name = "Holmgang (Invuln)",
+				randomOffset = -4,
+				timelineIndex = 82,
+				timerOffset = -7,
+				uuid = "c6a963db-55c2-48eb-8221-5ddd25889ace",
 				version = 2,
 			},
 		},
@@ -1456,6 +1483,139 @@ local tbl =
 				timerOffset = -10,
 				timerStartOffset = -5,
 				uuid = "240b43ca-ec66-0508-a93a-2f7f8a5a019e",
+				version = 2,
+			},
+		},
+	},
+	[87] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_Provoke",
+							uuid = "e16fdef5-0891-90eb-8df4-75c184cb5f05",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 672.5,
+				name = "Voke",
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = 2,
+				timerStartOffset = 0.5,
+				uuid = "f4f3165b-4f20-1e70-a224-cccb5b444b10",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							uuid = "e4feb16a-4342-b0ff-aa75-e5abc5cd62db",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 672.5,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = -15,
+				timerStartOffset = -20,
+				uuid = "83b8bf15-697c-2e2d-b87f-db49e2c06156",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "661c4ca4-10fb-865a-9b14-875cc6756f02",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 672.5,
+				name = "Thrill",
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = -4,
+				timerStartOffset = -8,
+				uuid = "71cf22a5-8ccb-1f6d-93b3-5e3f8c106973",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "ef9a28f3-1b79-9a52-a02b-73235948c879",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 672.5,
+				name = "Shirk",
+				randomOffset = -0.5,
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = -0.5,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "570ac370-902d-6a95-a48b-e1e9f86ee5cb",
 				version = 2,
 			},
 		},
