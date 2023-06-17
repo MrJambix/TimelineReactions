@@ -873,7 +873,7 @@ local tbl =
 			},
 		},
 	},
-	[40] = 
+	[41] = 
 	{
 		
 		{
@@ -918,16 +918,47 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
-				timelineIndex = 40,
+				timelineIndex = 41,
 				timerEndOffset = -2,
 				timerOffset = -4,
 				timerStartOffset = -5,
-				uuid = "ccbf4e53-9a27-2974-842c-2d2ee5c29932",
+				uuid = "e503b1ce-fd67-57c2-b04e-847a73da477b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.8,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -3.5,
+				uuid = "19e66807-a13a-ad17-8bd8-5906a3a993ab",
 				version = 2,
 			},
 		},

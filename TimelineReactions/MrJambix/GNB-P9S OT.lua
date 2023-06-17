@@ -1000,7 +1000,7 @@ local tbl =
 			},
 		},
 	},
-	[40] = 
+	[41] = 
 	{
 		
 		{
@@ -1045,15 +1045,15 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
-				timelineIndex = 40,
+				timelineIndex = 41,
 				timerEndOffset = -2,
 				timerOffset = -4,
 				timerStartOffset = -5,
-				uuid = "8b16ca67-11d6-67af-b60a-9c1167590b4a",
+				uuid = "75bb3602-95a8-5120-a76f-79b6cbb70f30",
 				version = 2,
 			},
 		},
@@ -1078,14 +1078,14 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "HOC Self",
 				timeRange = true,
-				timelineIndex = 40,
+				timelineIndex = 41,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
 				timerStartOffset = -3.5,
-				uuid = "eb44fe27-e804-4d43-8f61-f41cbf082c80",
+				uuid = "c53c3740-08fb-a0ab-a6f5-52a0bd90d5f7",
 				version = 2,
 			},
 		},

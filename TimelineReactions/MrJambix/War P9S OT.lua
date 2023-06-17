@@ -932,7 +932,7 @@ local tbl =
 				uuid = "b892bd7c-165f-09b8-82d9-5f157ba14a0a",
 				version = 2,
 			},
-			inheritedIndex = 1,
+			inheritedIndex = 2,
 		},
 	},
 	[26] = 
@@ -1270,7 +1270,7 @@ local tbl =
 			inheritedIndex = 3,
 		},
 	},
-	[40] = 
+	[41] = 
 	{
 		
 		{
@@ -1296,15 +1296,15 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "Whetting",
 				randomOffset = -0.5,
 				timeRange = true,
-				timelineIndex = 40,
+				timelineIndex = 41,
 				timerEndOffset = -0.5,
 				timerOffset = -3,
 				timerStartOffset = -3,
-				uuid = "f6815a52-865d-38b6-9fa6-31ac64c37029",
+				uuid = "5edae2d2-41fd-c185-ab00-db1c2396f8cd",
 				version = 2,
 			},
 			inheritedIndex = 4,
@@ -1352,15 +1352,15 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
-				timelineIndex = 40,
-				timerEndOffset = 2,
+				timelineIndex = 41,
+				timerEndOffset = -2,
 				timerOffset = -4,
-				timerStartOffset = -3,
-				uuid = "644182c4-dcab-afab-9d91-c94f275a69ef",
+				timerStartOffset = -5,
+				uuid = "898ebfab-2c50-3963-b236-b6cbbdee1eb5",
 				version = 2,
 			},
 		},

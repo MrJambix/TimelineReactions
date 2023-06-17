@@ -1025,36 +1025,6 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Jumps",
-							uuid = "32362c3e-f587-3b21-afa8-078f6a189ba7",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 149.3,
-				name = "Jump On",
-				timelineIndex = 28,
-				timerEndOffset = 3,
-				timerOffset = 0.5,
-				timerStartOffset = 0.5,
-				uuid = "346e172b-8bf2-eacb-88d3-45cfa0bfb547",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Jumps",
 							gVarValue = 2,
 							uuid = "ea1356c7-6897-0fab-89fd-86ac85670613",
 							version = 2,
@@ -1074,6 +1044,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "32362c3e-f587-3b21-afa8-078f6a189ba7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 149.3,
+				name = "Jump On",
+				timelineIndex = 28,
+				timerEndOffset = 3,
+				timerOffset = 0.5,
+				timerStartOffset = 0.5,
+				uuid = "346e172b-8bf2-eacb-88d3-45cfa0bfb547",
+				version = 2,
+			},
 		},
 	},
 	[32] = 
@@ -1183,8 +1183,45 @@ local tbl =
 			},
 		},
 	},
-	[40] = 
+	[41] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							ignoreWeaveRules = true,
+							uuid = "9c99ed58-4259-6423-9bd9-e99cd934af6c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.8,
+				name = "Whetting",
+				randomOffset = -0.5,
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = -0.5,
+				timerOffset = -3,
+				timerStartOffset = -3,
+				uuid = "f2cef16f-6ba9-6784-a8dd-961c5506fa22",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
 		
 		{
 			data = 
@@ -1200,12 +1237,12 @@ local tbl =
 							{
 								
 								{
-									"abc05b09-677e-41e0-a47a-edaffdf1a794",
+									"088e5a0b-b0cc-b8fb-b398-132cdc01c58d",
 									true,
 								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
-							uuid = "ac88dafb-3d59-1027-b4fe-023989278158",
+							uuid = "c7aa4ac9-1612-4552-bab2-1bb4783fe54e",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -1223,20 +1260,20 @@ local tbl =
 							{
 								1193,
 							},
-							uuid = "abc05b09-677e-41e0-a47a-edaffdf1a794",
+							uuid = "088e5a0b-b0cc-b8fb-b398-132cdc01c58d",
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 208.2,
+				mechanicTime = 214.8,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
-				timelineIndex = 40,
-				timerEndOffset = 2,
+				timelineIndex = 41,
+				timerEndOffset = -2,
 				timerOffset = -4,
-				timerStartOffset = -3,
-				uuid = "4288ee2c-aca1-312b-ba2d-f249215eade8",
+				timerStartOffset = -5,
+				uuid = "89b44bfd-78c8-e092-96cb-2383a790d7bd",
 				version = 2,
 			},
 		},
