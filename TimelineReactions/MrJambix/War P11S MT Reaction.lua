@@ -270,6 +270,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 29.2,
 				name = "Shirk",
 				randomOffset = -0.5,
@@ -412,9 +413,9 @@ local tbl =
 				name = "Shake it off",
 				timeRange = true,
 				timelineIndex = 13,
-				timerEndOffset = 1,
+				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -0.5,
+				timerStartOffset = 1.5,
 				uuid = "f6492172-b3ec-a326-8b5d-d10b32b74009",
 				version = 2,
 			},
@@ -587,6 +588,40 @@ local tbl =
 			},
 		},
 	},
+	[24] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 179.5,
+				name = "Whetting",
+				timeRange = true,
+				timelineIndex = 24,
+				timerEndOffset = -2,
+				timerStartOffset = -6,
+				uuid = "29393568-b47f-77c4-b6a4-0fa838ab85f1",
+				version = 2,
+			},
+		},
+	},
 	[29] = 
 	{
 		
@@ -614,9 +649,9 @@ local tbl =
 				name = "Shake it off",
 				timeRange = true,
 				timelineIndex = 29,
-				timerEndOffset = 1,
+				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -0.5,
+				timerStartOffset = 1.5,
 				uuid = "d3b98b11-bf50-496d-b5d2-6ae0a4026f60",
 				version = 2,
 			},
@@ -783,9 +818,9 @@ local tbl =
 				name = "Shake it off",
 				timeRange = true,
 				timelineIndex = 47,
-				timerEndOffset = 1,
+				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -0.5,
+				timerStartOffset = 1.5,
 				uuid = "1a1dd65d-a6d9-e7b4-8c05-9f818dacd3f8",
 				version = 2,
 			},
@@ -868,7 +903,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashOT",
 							uuid = "5eda3732-fbc6-dcf0-a21a-5a056919509e",
 							variableTogglesType = 3,
 							version = 2,
@@ -882,8 +917,8 @@ local tbl =
 				name = "Whetting",
 				timeRange = true,
 				timelineIndex = 48,
-				timerEndOffset = -0.5,
-				timerStartOffset = -4,
+				timerEndOffset = 0.5,
+				timerStartOffset = -3,
 				uuid = "78e8170d-53a9-8758-be89-051071bc51fd",
 				version = 2,
 			},
@@ -912,6 +947,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 383.3,
 				name = "Voke",
 				timeRange = true,
@@ -1005,6 +1041,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 383.3,
 				name = "Shirk",
 				randomOffset = -0.5,
@@ -1116,9 +1153,9 @@ local tbl =
 				name = "Shake it off",
 				timeRange = true,
 				timelineIndex = 75,
-				timerEndOffset = 1,
+				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -0.5,
+				timerStartOffset = 1.5,
 				uuid = "30b193b2-3aea-22cc-b27a-d4e30ef6d328",
 				version = 2,
 			},
@@ -1279,6 +1316,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 622.6,
 				name = "Voke",
 				timeRange = true,
@@ -1372,6 +1410,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 622.6,
 				name = "Shirk",
 				randomOffset = -0.5,
