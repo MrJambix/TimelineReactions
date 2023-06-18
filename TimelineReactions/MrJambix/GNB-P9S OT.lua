@@ -96,6 +96,39 @@ local tbl =
 			},
 		},
 	},
+	[5] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							gVarValue = 2,
+							uuid = "907fc036-8708-2e9a-ac95-3ed4e4bc64bc",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 25.3,
+				name = "Disable Potion",
+				timelineIndex = 5,
+				timerEndOffset = 60,
+				timerStartOffset = -60,
+				uuid = "21456a03-403b-c435-89e3-cd13669b2d84",
+				version = 2,
+			},
+		},
+	},
 	[6] = 
 	{
 		
@@ -324,6 +357,76 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -2,
 				uuid = "44f8f8f8-3c36-3b9a-9b05-b0bf03fcedc0",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50.2,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "a39f85b3-2273-2bb0-8512-7b6b98eb8f94",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							uuid = "02cecdaf-83e0-1bb7-8754-f4f65439c70f",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 50.2,
+				name = "Aurora self",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = 3,
+				timerOffset = -5,
+				timerStartOffset = -2.5,
+				uuid = "bf3159ef-00f6-c768-8110-f45181463719",
 				version = 2,
 			},
 		},
@@ -739,6 +842,41 @@ local tbl =
 			},
 		},
 	},
+	[27] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 148,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 27,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "677dac12-2aec-069d-814c-a273ec9a746e",
+				version = 2,
+			},
+		},
+	},
 	[28] = 
 	{
 		
@@ -922,14 +1060,13 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 187.1,
 				name = "Shirk",
 				timeRange = true,
 				timelineIndex = 37,
 				timerEndOffset = -0.5,
 				timerOffset = 1,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4.5,
 				uuid = "bf6edd08-fcce-cdfa-8262-54f521071152",
 				version = 2,
 			},
@@ -956,16 +1093,18 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 187.1,
 				name = "Stance Off",
 				timeRange = true,
 				timelineIndex = 37,
-				timerEndOffset = -5,
+				timerEndOffset = -3,
 				timerOffset = 1,
-				timerStartOffset = -10,
+				timerStartOffset = -8,
 				uuid = "a0624f71-d370-aa3c-a437-3c262d097333",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -1121,6 +1260,38 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "665a02c5-9662-905d-90bf-d7d2fb6d4880",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 245.2,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 54,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "ed9c4e86-5269-c8de-ad6f-eb5a2bcb5f04",
 				version = 2,
 			},
 		},
@@ -1282,6 +1453,79 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							uuid = "02cecdaf-83e0-1bb7-8754-f4f65439c70f",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 302.6,
+				name = "Aurora self",
+				timeRange = true,
+				timelineIndex = 76,
+				timerEndOffset = 3,
+				timerOffset = -5,
+				timerStartOffset = -2.5,
+				uuid = "6acc2b40-dbf5-92fa-bfec-09f11cb054db",
+				version = 2,
+			},
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 309.7,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "a7ed6348-e1a7-694f-8338-f7a366c799ae",
+				version = 2,
+			},
+		},
 	},
 	[83] = 
 	{
@@ -1337,6 +1581,38 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "b960e697-52e0-7395-b33b-fd3a033b8711",
+				version = 2,
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							uuid = "9d3c704c-8014-1988-81a2-8a9a1a2e0397",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.3,
+				name = "Enable Potion",
+				timelineIndex = 85,
+				timerEndOffset = 60,
+				timerStartOffset = -60,
+				uuid = "0b3c5fd8-0f8a-f796-b25c-5511417f507d",
 				version = 2,
 			},
 		},
@@ -1632,6 +1908,76 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 396.4,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 94,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "ee897267-8f8f-cf15-b3cd-a994dc373d47",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							uuid = "02cecdaf-83e0-1bb7-8754-f4f65439c70f",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 396.4,
+				name = "Aurora self",
+				timeRange = true,
+				timelineIndex = 94,
+				timerEndOffset = 3,
+				timerOffset = -5,
+				timerStartOffset = -2.5,
+				uuid = "94e36236-6e12-d989-8c6f-f37ebcf7d386",
+				version = 2,
+			},
+		},
 	},
 	[98] = 
 	{
@@ -1824,6 +2170,79 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "65e9188b-58f5-b31b-9b1e-e4a0f4d6464a",
+				version = 2,
+			},
+		},
+	},
+	[112] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 459.7,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 112,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "63454eb2-9a14-961b-b83c-f141e8d4df54",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							uuid = "02cecdaf-83e0-1bb7-8754-f4f65439c70f",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 459.7,
+				name = "Aurora self",
+				timeRange = true,
+				timelineIndex = 112,
+				timerEndOffset = 3,
+				timerOffset = -5,
+				timerStartOffset = -2.5,
+				uuid = "2f65abcd-c8c9-a86a-80a9-eb535b21eac9",
 				version = 2,
 			},
 		},
@@ -2186,6 +2605,76 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "8b716133-1eab-15a3-841c-b668dffdb582",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "fbe03b2e-ca71-8c99-a957-8ce5ec9d14a6",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 538,
+				name = "Camo",
+				timeRange = true,
+				timelineIndex = 133,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -15,
+				uuid = "ed379603-4b15-2bb5-8b51-8294b553f22d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							atomicPriority = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							uuid = "02cecdaf-83e0-1bb7-8754-f4f65439c70f",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 538,
+				name = "Aurora self",
+				timeRange = true,
+				timelineIndex = 133,
+				timerEndOffset = 3,
+				timerOffset = -5,
+				timerStartOffset = -2.5,
+				uuid = "d739e95c-32ab-2d85-b737-a9cff6010185",
 				version = 2,
 			},
 		},
