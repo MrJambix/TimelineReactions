@@ -59,6 +59,39 @@ local tbl =
 			},
 		},
 	},
+	[5] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							gVarValue = 2,
+							uuid = "907fc036-8708-2e9a-ac95-3ed4e4bc64bc",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 25.3,
+				name = "Disable Potion",
+				timelineIndex = 5,
+				timerEndOffset = 60,
+				timerStartOffset = -60,
+				uuid = "fa3b810d-2653-400c-ac31-ef558eb380e0",
+				version = 2,
+			},
+		},
+	},
 	[7] = 
 	{
 		
@@ -1341,6 +1374,39 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "7e58dc9a-522c-7e9f-9094-79869d112c52",
+				version = 2,
+			},
+		},
+	},
+	[91] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Potion",
+							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 380.8,
+				name = "Enable Potion (test)",
+				timelineIndex = 91,
+				timerEndOffset = 60,
+				timerOffset = -5,
+				timerStartOffset = -60,
+				uuid = "1d1009a2-0d43-0494-ba78-f00d0dc9694d",
 				version = 2,
 			},
 		},
