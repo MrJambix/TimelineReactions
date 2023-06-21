@@ -45,15 +45,14 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 14.1,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 3,
-				timerEndOffset = -2,
+				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -3,
 				uuid = "0d69ec43-dd6d-7f63-ba5c-62f1c3e199bf",
 				version = 2,
 			},
@@ -83,6 +82,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "HOC Self",
 				timeRange = true,
@@ -120,6 +120,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "Aurora Self",
 				timeRange = true,
@@ -152,6 +153,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "Rampart",
 				timeRange = true,
@@ -184,6 +186,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "Camo",
 				randomOffset = -17,
@@ -196,6 +199,39 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
+							uuid = "f4acdd16-7418-9212-b43f-a33032fc6a37",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 23.2,
+				name = "Invuln",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -3,
+				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",
+				version = 2,
+			},
 		},
 	},
 	[5] = 
@@ -222,11 +258,46 @@ local tbl =
 				{
 				},
 				mechanicTime = 34.7,
-				name = "[Multi] Disable Potion",
+				name = "Disable Potion",
 				timelineIndex = 5,
 				timerEndOffset = 60,
 				timerStartOffset = -60,
-				uuid = "87ee57ad-3990-5382-a744-2dd58f933801",
+				uuid = "09ff6b80-cb03-72db-8a4d-9035377b65bb",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 70.9,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 12,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "ed41c5e6-979b-bfab-9b75-b76f73fe1ea8",
 				version = 2,
 			},
 		},
@@ -348,7 +419,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 96,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -515,7 +585,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 159.8,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -585,7 +654,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "HOC Self",
 				timeRange = true,
@@ -623,7 +691,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "Aurora Self",
 				timeRange = true,
@@ -656,7 +723,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "Rampart",
 				timeRange = true,
@@ -689,7 +755,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "Camo",
 				randomOffset = -17,
@@ -825,7 +890,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 237.6,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -1016,36 +1080,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Potion",
-							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 288.7,
-				name = "[Multi] Enable Potion",
-				timelineIndex = 45,
-				timerEndOffset = 60,
-				timerOffset = -5,
-				timerStartOffset = -60,
-				uuid = "6318be52-aa7e-0791-8711-5b405ab50049",
-				version = 2,
-			},
-		},
 	},
 	[52] = 
 	{
@@ -1127,7 +1161,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 329.9,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -1142,7 +1175,7 @@ local tbl =
 			inheritedIndex = 7,
 		},
 	},
-	[65] = 
+	[66] = 
 	{
 		
 		{
@@ -1155,28 +1188,51 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Potion",
-							gVarValue = 2,
-							uuid = "907fc036-8708-2e9a-ac95-3ed4e4bc64bc",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
 				},
-				mechanicTime = 375.3,
-				name = "[Multi] Disable Potion",
-				timelineIndex = 65,
-				timerEndOffset = 60,
-				timerStartOffset = -60,
-				uuid = "64ebbadc-c50c-ba84-b5b2-aad91a729402",
+				mechanicTime = 384.6,
+				name = "Reprisal",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 66,
+				timerEndOffset = -2,
+				timerOffset = -4,
+				timerStartOffset = -5,
+				uuid = "18c82ea0-6c5b-6958-8cda-9fe7cca03761",
 				version = 2,
 			},
+			inheritedIndex = 7,
 		},
-	},
-	[66] = 
-	{
 		
 		{
 			data = 
@@ -1257,50 +1313,24 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
-							variableTogglesType = 3,
+							gVar = "ACR_RikuWAR2_Potion",
+							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 384.6,
-				name = "Reprisal",
-				randomOffset = -2,
-				timeRange = true,
+				name = "Enable Potion",
 				timelineIndex = 66,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -5,
-				uuid = "18c82ea0-6c5b-6958-8cda-9fe7cca03761",
+				timerEndOffset = 60,
+				timerOffset = -5,
+				timerStartOffset = -60,
+				uuid = "c7237aa2-9dd7-3aad-927a-31ffdc70ec51",
 				version = 2,
 			},
-			inheritedIndex = 7,
 		},
 	},
 	[76] = 
@@ -1380,38 +1410,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 450.1,
-				name = "HOL",
-				timeRange = true,
-				timelineIndex = 83,
-				timerEndOffset = -0.5,
-				timerOffset = -5,
-				timerStartOffset = -7,
-				uuid = "301c2c1b-9a0c-4cef-8e37-f20f68e61781",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							conditions = 
 							{
 								
@@ -1444,7 +1442,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 450.1,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -1457,6 +1454,38 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 450.1,
+				name = "HOL",
+				timeRange = true,
+				timelineIndex = 83,
+				timerEndOffset = -0.5,
+				timerOffset = -5,
+				timerStartOffset = -7,
+				uuid = "301c2c1b-9a0c-4cef-8e37-f20f68e61781",
+				version = 2,
+			},
 		},
 	},
 	[84] = 
@@ -1797,36 +1826,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Potion",
-							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 523.1,
-				name = "[Multi] Enable Potion",
-				timelineIndex = 92,
-				timerEndOffset = 60,
-				timerOffset = -5,
-				timerStartOffset = -60,
-				uuid = "8b0a2d8b-71e7-a681-a33f-1fe06ed0e5da",
-				version = 2,
-			},
-		},
 	},
 	[95] = 
 	{
@@ -1873,7 +1872,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 555.9,
 				name = "Reprisal",
 				randomOffset = -2,
