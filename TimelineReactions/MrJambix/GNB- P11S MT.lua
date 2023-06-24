@@ -301,6 +301,40 @@ local tbl =
 			},
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							gVarValue = 2,
+							uuid = "907fc036-8708-2e9a-ac95-3ed4e4bc64bc",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 70.3,
+				name = "Disable Potion",
+				timelineIndex = 10,
+				timerEndOffset = 60,
+				timerStartOffset = -60,
+				uuid = "c2289c21-5b3c-1ac1-ae7a-30f92500bbe0",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
 	[13] = 
 	{
 		
@@ -822,38 +856,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 383.3,
-				name = "Voke",
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = 2,
-				timerStartOffset = 0.5,
-				uuid = "2b125b8e-eb8f-0482-ad80-292b90bc2121",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
 							uuid = "2ff374b7-c77e-03d1-b478-daebfd5d45ae",
 							variableTogglesType = 3,
@@ -874,6 +876,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[50] = 
+	{
 		
 		{
 			data = 
@@ -885,9 +890,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
-							uuid = "d1a746e7-3110-a470-bf98-f71bb79e0b29",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuWAR2_Potion",
+							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
 							version = 2,
 						},
 					},
@@ -895,19 +899,15 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
-				mechanicTime = 383.3,
-				name = "Shirk",
-				randomOffset = -0.5,
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -2,
-				uuid = "5ef17964-ded3-bd1b-a668-ccfea143a645",
+				mechanicTime = 395.4,
+				name = "Enable Potion",
+				timelineIndex = 50,
+				timerEndOffset = 60,
+				timerOffset = -40,
+				timerStartOffset = -60,
+				uuid = "3bd6cd4d-4170-16ca-abb9-0b74fc316625",
 				version = 2,
 			},
-			inheritedIndex = 10,
 		},
 	},
 	[61] = 
