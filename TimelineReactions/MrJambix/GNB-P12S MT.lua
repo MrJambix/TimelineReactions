@@ -162,7 +162,7 @@ local tbl =
 			inheritedIndex = 2,
 		},
 	},
-	[8] = 
+	[9] = 
 	{
 		
 		{
@@ -174,7 +174,39 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Variable",
+							actionID = 17426,
+							conditions = 
+							{
+								
+								{
+									"e0694044-273a-d871-87d1-ae1955f43364",
+									false,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
+							targetType = "Other Tank",
 							uuid = "0b6dc66f-977f-fb2d-ba5a-db95f42934c9",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertTTS = true,
+							alertText = "Shirk",
+							conditions = 
+							{
+								
+								{
+									"e0694044-273a-d871-87d1-ae1955f43364",
+									true,
+								},
+							},
+							uuid = "4f24f26e-fe51-5848-b3cc-ce8c6d1bd39b",
 							version = 2,
 						},
 					},
@@ -185,19 +217,29 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Event",
-							uuid = "e39e0d08-c50d-d685-9d04-ac24d6296424",
+							buffCheckType = 4,
+							buffID = 2941,
+							buffIDList = 
+							{
+								2941,
+							},
+							category = "Self",
+							matchAnyBuff = true,
+							uuid = "e0694044-273a-d871-87d1-ae1955f43364",
 							version = 2,
 						},
 					},
 				},
-				enabled = false,
-				mechanicTime = 41.7,
-				name = "Custom Lua Test",
-				timelineIndex = 8,
-				uuid = "a74bdaf9-877f-b090-8597-1f832a86cb44",
+				mechanicTime = 41.9,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = 1.5,
+				timerOffset = -2,
+				uuid = "20c059c0-8570-b69b-a38e-a8f04b896586",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	[11] = 
@@ -490,6 +532,122 @@ local tbl =
 			},
 		},
 	},
+	[24] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertPriority = 2,
+							alertTTS = true,
+							alertText = "Go left",
+							conditions = 
+							{
+								
+								{
+									"cf15fbb2-8af1-1817-9d79-bc75f5554a4e",
+									true,
+								},
+							},
+							name = "call left",
+							uuid = "622bf926-222a-f0fb-8513-fb9ffa03258c",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertPriority = 2,
+							alertTTS = true,
+							alertText = "Go right",
+							conditions = 
+							{
+								
+								{
+									"4499b0b0-3ccb-f060-9c52-779b9230b3c8",
+									true,
+								},
+							},
+							name = "call right",
+							uuid = "59a65236-a4af-edc6-8aeb-7e2af9af3608",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 4,
+							buffIDList = 
+							{
+								3582,
+								3576,
+								3579,
+							},
+							category = "Self",
+							matchAnyBuff = true,
+							name = "has dark laser/light debuff ",
+							uuid = "cf15fbb2-8af1-1817-9d79-bc75f5554a4e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 4,
+							buffIDList = 
+							{
+								3581,
+								3577,
+								3580,
+							},
+							category = "Self",
+							matchAnyBuff = true,
+							name = "has light laser/dark debuffs",
+							uuid = "4499b0b0-3ccb-f060-9c52-779b9230b3c8",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 135.5,
+				name = "shotcall position",
+				timelineIndex = 24,
+				timerOffset = -5,
+				uuid = "8afb36b5-66fd-3032-baa6-02e19ddca5f7",
+				version = 2,
+			},
+		},
+	},
+	[25] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Hold Jumps",
+				uuid = "86bd3fbc-5396-247c-b70e-0903689be9a4",
+				version = 2,
+			},
+			inheritedObjectUUID = "8f613517-4d39-52f5-b5e6-bd190b479e1e",
+			inheritedOverwrites = 
+			{
+				timerOffset = -1.2000000476837,
+			},
+		},
+	},
 	[33] = 
 	{
 		
@@ -718,6 +876,128 @@ local tbl =
 				timerStartOffset = -3.5,
 				uuid = "8b2ef867-fcfa-7437-b721-83fab72df494",
 				version = 2,
+			},
+		},
+	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "TTS Debuff",
+				uuid = "9c8713b5-0c67-aeb8-b494-41a7f89b2d97",
+				version = 2,
+			},
+			inheritedObjectUUID = "7b78ad14-c787-f634-aa60-6e061d1cf1f0",
+			inheritedOverwrites = 
+			{
+				actions = 
+				{
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								aType = "Alert",
+								alertColor = -1,
+								alertPriority = 2,
+								alertTTS = true,
+								alertText = "Move to B Platform",
+								conditions = 
+								{
+									
+									{
+										"c41a31c7-1f91-4d76-a185-dc6ced4d5d76",
+										true,
+									},
+									
+									{
+										"9ea5d377-30ff-a018-9062-2666580dafa0",
+										true,
+									},
+								},
+								uuid = "4bd094e8-b214-41c6-a0ba-44ba812eb797",
+								version = 2,
+							},
+						},
+					},
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								aType = "Alert",
+								alertColor = -1,
+								alertPriority = 2,
+								alertTTS = true,
+								alertText = "Move to Platform D",
+								conditions = 
+								{
+									
+									{
+										"9ea5d377-30ff-a018-9062-2666580dafa0",
+										true,
+									},
+									
+									{
+										"5ca3159f-8efb-77c8-b671-16bea212a2ad",
+										true,
+									},
+								},
+								uuid = "4c7ac48d-faa6-dedf-8d52-d249004b3e07",
+								version = 2,
+							},
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								buffCheckType = 4,
+								buffIDList = 
+								{
+									3584,
+									3583,
+								},
+								category = "Party",
+								partyTargetType = "Other Tank",
+								uuid = "c41a31c7-1f91-4d76-a185-dc6ced4d5d76",
+								version = 2,
+							},
+						},
+					},
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								buffCheckType = 5,
+								buffIDList = 
+								{
+									3584,
+									3583,
+								},
+								category = "Party",
+								partyTargetType = "Other Tank",
+								uuid = "5ca3159f-8efb-77c8-b671-16bea212a2ad",
+								version = 2,
+							},
+						},
+					},
+				},
 			},
 		},
 	},
