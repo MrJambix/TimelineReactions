@@ -1,6 +1,6 @@
 local tbl = 
 {
-	[3] = 
+	[4] = 
 	{
 		
 		{
@@ -13,16 +13,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
+							uuid = "f4acdd16-7418-9212-b43f-a33032fc6a37",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -30,37 +22,72 @@ local tbl =
 				},
 				conditions = 
 				{
+				},
+				mechanicTime = 23.2,
+				name = "Invuln",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = -0.5,
+				timerOffset = -4,
+				timerStartOffset = -3,
+				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 23.2,
+				name = "-Disable Mitigations if not invulning-",
+				timelineIndex = 4,
+				uuid = "b4a7d897-8704-f3eb-8f64-8fc0c009d159",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 14.1,
-				name = "Reprisal",
-				randomOffset = -2,
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 23.2,
+				name = "Camo",
+				randomOffset = -17,
 				timeRange = true,
-				timelineIndex = 3,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -3,
-				uuid = "0d69ec43-dd6d-7f63-ba5c-62f1c3e199bf",
+				timelineIndex = 4,
+				timerEndOffset = -0.5,
+				timerOffset = -19,
+				timerStartOffset = -5,
+				uuid = "6c1bc36d-2326-34d1-8bcc-06a2404ed447",
 				version = 2,
 			},
-			inheritedIndex = 7,
+			inheritedIndex = 5,
 		},
-	},
-	[4] = 
-	{
 		
 		{
 			data = 
@@ -93,44 +120,7 @@ local tbl =
 				uuid = "adbab550-28a5-c9c4-9b30-92e114ac47cb",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 25751,
-							atomicPriority = true,
-							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
-							ignoreWeaveRules = true,
-							targetSubType = "Lowest HP",
-							uuid = "147be0a5-3dd4-ca46-b5a7-35318caa4d53",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 23.2,
-				name = "Aurora Self",
-				timeRange = true,
-				timelineIndex = 4,
-				timerEndOffset = 3,
-				timerOffset = -5,
-				timerStartOffset = 0.5,
-				uuid = "e374877b-8bb8-52bc-90fb-ba286d2c7841",
-				version = 2,
-			},
+			inheritedIndex = 6,
 		},
 		
 		{
@@ -160,78 +150,11 @@ local tbl =
 				timelineIndex = 4,
 				timerEndOffset = -0.5,
 				timerOffset = -5,
-				timerStartOffset = -7,
+				timerStartOffset = -5,
 				uuid = "6135a1c6-3033-1813-8271-1b45621128f2",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 23.2,
-				name = "Camo",
-				randomOffset = -17,
-				timeRange = true,
-				timelineIndex = 4,
-				timerEndOffset = -6,
-				timerOffset = -19,
-				timerStartOffset = -10,
-				uuid = "6c1bc36d-2326-34d1-8bcc-06a2404ed447",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
-							uuid = "f4acdd16-7418-9212-b43f-a33032fc6a37",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 23.2,
-				name = "Invuln",
-				timeRange = true,
-				timelineIndex = 4,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -3,
-				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",
-				version = 2,
-			},
+			inheritedIndex = 7,
 		},
 	},
 	[7] = 
@@ -281,40 +204,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 70.9,
-				name = "Nebula",
-				timeRange = true,
-				timelineIndex = 12,
-				timerEndOffset = -5,
-				timerStartOffset = -10,
-				uuid = "ed41c5e6-979b-bfab-9b75-b76f73fe1ea8",
-				version = 2,
-			},
-		},
-	},
-	[13] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
 							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
 							variableTogglesType = 3,
@@ -325,14 +214,14 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 78.6,
+				mechanicTime = 70.9,
 				name = "HOC Self",
 				timeRange = true,
-				timelineIndex = 13,
-				timerEndOffset = -10.5,
+				timelineIndex = 12,
+				timerEndOffset = -3.5,
 				timerOffset = -9,
-				timerStartOffset = -12.5,
-				uuid = "ef6a7dae-67d0-0fb4-8969-320d7f7ebf01",
+				timerStartOffset = -5,
+				uuid = "64b58872-6408-a61e-84e7-a407710a5c06",
 				version = 2,
 			},
 		},
@@ -362,14 +251,14 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 78.6,
+				mechanicTime = 70.9,
 				name = "Aurora Self",
 				timeRange = true,
-				timelineIndex = 13,
+				timelineIndex = 12,
 				timerEndOffset = 3,
 				timerOffset = -5,
 				timerStartOffset = 0.5,
-				uuid = "cfe0c3e8-d05e-691a-88b7-b9ccd9146a9c",
+				uuid = "5eb22f9c-3386-fc2e-a6d9-442a4cf19f9f",
 				version = 2,
 			},
 		},
@@ -607,6 +496,25 @@ local tbl =
 			{
 				actions = 
 				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 168.9,
+				name = "-Disable Mitigations if OT Invulns-",
+				timelineIndex = 28,
+				uuid = "dab3895c-d703-09da-949f-601c01701669",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
@@ -626,81 +534,13 @@ local tbl =
 				name = "HOL",
 				timeRange = true,
 				timelineIndex = 28,
-				timerEndOffset = -0.5,
+				timerEndOffset = -5,
 				timerOffset = -5,
-				timerStartOffset = -7,
+				timerStartOffset = -11,
 				uuid = "dd66880f-51a0-b5d7-b300-861529a90f38",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 168.9,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -3.5,
-				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 25751,
-							atomicPriority = true,
-							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
-							ignoreWeaveRules = true,
-							targetSubType = "Lowest HP",
-							uuid = "147be0a5-3dd4-ca46-b5a7-35318caa4d53",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 168.9,
-				name = "Aurora Self",
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = 3,
-				timerOffset = -5,
-				timerStartOffset = 0.5,
-				uuid = "6181f24d-cd0a-0714-9b49-aa24c1de3577",
-				version = 2,
-			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -723,16 +563,18 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 168.9,
 				name = "Rampart",
 				timeRange = true,
 				timelineIndex = 28,
 				timerEndOffset = -0.5,
 				timerOffset = -5,
-				timerStartOffset = -7,
+				timerStartOffset = -10,
 				uuid = "31f933ae-2c76-b0ca-b795-c8d0c2e99f44",
 				version = 2,
 			},
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -755,18 +597,53 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 168.9,
 				name = "Camo",
 				randomOffset = -17,
 				timeRange = true,
 				timelineIndex = 28,
-				timerEndOffset = -6,
+				timerEndOffset = -0.5,
 				timerOffset = -19,
 				timerStartOffset = -10,
 				uuid = "3d5a2114-da96-57f8-8fe6-2b0acfaff6f4",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 168.9,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -3.5,
+				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
+				version = 2,
+			},
+			inheritedIndex = 6,
 		},
 	},
 	[33] = 
@@ -804,13 +681,13 @@ local tbl =
 				timelineIndex = 33,
 				timerEndOffset = 3,
 				timerOffset = -5,
-				timerStartOffset = 0.5,
+				timerStartOffset = -4,
 				uuid = "24a3a65e-7dae-44fa-8f8b-be5ac30a0501",
 				version = 2,
 			},
 		},
 	},
-	[34] = 
+	[35] = 
 	{
 		
 		{
@@ -833,19 +710,19 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 215.1,
+				mechanicTime = 219.7,
 				name = "HOC Self",
 				timeRange = true,
-				timelineIndex = 34,
+				timelineIndex = 35,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
 				timerStartOffset = -3.5,
-				uuid = "97f2f5a4-3dfa-d919-b999-061a17a6e8d5",
+				uuid = "a604bb6c-6576-4394-bb8f-395b3ceac0a6",
 				version = 2,
 			},
 		},
 	},
-	[39] = 
+	[40] = 
 	{
 		
 		{
@@ -890,15 +767,15 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 237.6,
+				mechanicTime = 249.3,
 				name = "Reprisal",
 				randomOffset = -2,
 				timeRange = true,
-				timelineIndex = 39,
-				timerEndOffset = -2,
+				timelineIndex = 40,
+				timerEndOffset = -0.5,
 				timerOffset = -4,
 				timerStartOffset = -5,
-				uuid = "0581a943-45e3-6939-84b7-4f6cde6e084e",
+				uuid = "d39ac3e7-115c-c1f6-8428-4c54556a5dfa",
 				version = 2,
 			},
 			inheritedIndex = 7,
@@ -906,38 +783,6 @@ local tbl =
 	},
 	[41] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 258.4,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 41,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -3.5,
-				uuid = "ede90fbd-6659-8d20-b7bd-ad8a2446b1cb",
-				version = 2,
-			},
-		},
 		
 		{
 			data = 
@@ -1004,6 +849,37 @@ local tbl =
 			},
 			inheritedIndex = 10,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "09ffa238-e9e6-846a-8965-bb45aae85b81",
+				version = 2,
+			},
+		},
 	},
 	[44] = 
 	{
@@ -1032,16 +908,13 @@ local tbl =
 				name = "HOC Self",
 				timeRange = true,
 				timelineIndex = 44,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -5.5,
 				uuid = "b3c2e293-b82a-3fef-a3d6-842d5aaa55ed",
 				version = 2,
 			},
 		},
-	},
-	[45] = 
-	{
 		
 		{
 			data = 
@@ -1069,19 +942,19 @@ local tbl =
 				{
 				},
 				enabled = false,
-				mechanicTime = 288.7,
+				mechanicTime = 281,
 				name = "Aurora Self",
 				timeRange = true,
-				timelineIndex = 45,
+				timelineIndex = 44,
 				timerEndOffset = 3,
 				timerOffset = -5,
 				timerStartOffset = 0.5,
-				uuid = "3a29645e-f83c-732a-ba41-d987f363c4c9",
+				uuid = "0600b175-c7bd-cee3-af6d-9f4cd2cbe136",
 				version = 2,
 			},
 		},
 	},
-	[52] = 
+	[56] = 
 	{
 		
 		{
@@ -1104,75 +977,16 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 323.1,
+				mechanicTime = 333.9,
 				name = "HOL",
 				timeRange = true,
-				timelineIndex = 52,
-				timerEndOffset = -0.5,
+				timelineIndex = 56,
+				timerEndOffset = -10,
 				timerOffset = -5,
-				timerStartOffset = -7,
-				uuid = "4ef6c838-e98f-4b2f-89ef-00236734bf7a",
+				timerStartOffset = -15,
+				uuid = "27876432-f136-0518-a9fa-22eb8f0f3cb1",
 				version = 2,
 			},
-		},
-	},
-	[54] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 329.9,
-				name = "Reprisal",
-				randomOffset = -2,
-				timeRange = true,
-				timelineIndex = 54,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -5,
-				uuid = "1977d7c4-1b30-ab76-a436-fa3a47af397c",
-				version = 2,
-			},
-			inheritedIndex = 7,
 		},
 	},
 	[60] = 
@@ -1258,9 +1072,9 @@ local tbl =
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 66,
-				timerEndOffset = -2,
+				timerEndOffset = -0.5,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -3,
 				uuid = "18c82ea0-6c5b-6958-8cda-9fe7cca03761",
 				version = 2,
 			},
@@ -1293,7 +1107,7 @@ local tbl =
 				timelineIndex = 66,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -2,
 				uuid = "08f054ee-5c75-084c-89df-dbe977d28386",
 				version = 2,
 			},
@@ -1402,187 +1216,9 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 450.1,
-				name = "Reprisal",
-				randomOffset = -2,
-				timeRange = true,
-				timelineIndex = 83,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -5,
-				uuid = "3612a744-5865-e05e-85ce-7b1affe5e204",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 450.1,
-				name = "HOL",
-				timeRange = true,
-				timelineIndex = 83,
-				timerEndOffset = -0.5,
-				timerOffset = -5,
-				timerStartOffset = -7,
-				uuid = "301c2c1b-9a0c-4cef-8e37-f20f68e61781",
-				version = 2,
-			},
-		},
 	},
 	[84] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 454,
-				name = "Reprisal",
-				randomOffset = -2,
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -2,
-				timerOffset = -4,
-				timerStartOffset = -5,
-				uuid = "358ad959-d094-659d-9afc-6b5e5fef6a49",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 454,
-				name = "Camo",
-				randomOffset = -17,
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -15,
-				timerOffset = -19,
-				timerStartOffset = -19,
-				uuid = "48c3c3f0-863d-cede-97de-2f3e7383772b",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
 		
 		{
 			data = 
@@ -1684,6 +1320,134 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 454,
+				name = "Camo",
+				randomOffset = -17,
+				timeRange = true,
+				timelineIndex = 84,
+				timerEndOffset = -15,
+				timerOffset = -19,
+				timerStartOffset = -20,
+				uuid = "48c3c3f0-863d-cede-97de-2f3e7383772b",
+				version = 2,
+			},
+			inheritedIndex = 16,
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 462.3,
+				name = "HOL",
+				timeRange = true,
+				timelineIndex = 86,
+				timerEndOffset = -0.5,
+				timerOffset = -5,
+				timerStartOffset = -15,
+				uuid = "3ef088b0-0815-fd67-b53c-959ce6a128c8",
+				version = 2,
+			},
+		},
+	},
+	[87] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 480.5,
+				name = "Reprisal",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = -2,
+				timerOffset = -4,
+				timerStartOffset = -5,
+				uuid = "358a23c6-8963-b3ab-a6ae-b0c9fad8b0eb",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
 	},
 	[88] = 
 	{
@@ -1715,38 +1479,8 @@ local tbl =
 				timelineIndex = 88,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -5,
 				uuid = "b56b398f-0dec-83ec-9fd3-bd1d20e73349",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 490.6,
-				name = "HOL",
-				timelineIndex = 88,
-				timerOffset = -5,
-				uuid = "7442e560-10fb-f526-9608-0a477e22e2a0",
 				version = 2,
 			},
 		},
@@ -1788,9 +1522,74 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 490.6,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 88,
+				timerEndOffset = -0.5,
+				timerStartOffset = -5,
+				uuid = "e6f436b9-84e9-2a82-b35d-2121353634c5",
+				version = 2,
+			},
+		},
 	},
-	[92] = 
+	[91] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 516.4,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 91,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -5,
+				uuid = "e8ef9e0b-97ed-e7d7-a6b1-771e9f719bcd",
+				version = 2,
+			},
+		},
 		
 		{
 			data = 
@@ -1818,14 +1617,14 @@ local tbl =
 				{
 				},
 				enabled = false,
-				mechanicTime = 523.1,
+				mechanicTime = 516.4,
 				name = "Aurora Self",
 				timeRange = true,
-				timelineIndex = 92,
+				timelineIndex = 91,
 				timerEndOffset = 3,
 				timerOffset = -5,
 				timerStartOffset = 0.5,
-				uuid = "632f17a9-2187-8d65-8215-2f050cd71f51",
+				uuid = "0a53f272-7d68-658a-af8c-7e6abef1cec9",
 				version = 2,
 			},
 		},
