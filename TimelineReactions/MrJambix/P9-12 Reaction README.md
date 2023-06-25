@@ -28,6 +28,7 @@ P10S GNB
 No Provoke/Shirks
 No Invulns during TB only during HH
 Can be used as MT or OT
+Reaction now Holds No Mercy during first Wicked Towers for maximum DPS
 
 P11S MT GNB
 Will invuln during 2nd TB (Shirk/Voke Disabled during 2nd TB for manual use)

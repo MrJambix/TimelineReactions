@@ -191,6 +191,66 @@ local tbl =
 			inheritedIndex = 1,
 		},
 	},
+	[11] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_NoMercy",
+							gVarValue = 2,
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 68.5,
+				name = "HOLD CDs",
+				timelineIndex = 11,
+				timerOffset = -5,
+				uuid = "8c9d8d42-8244-bfea-94bb-1f726312af28",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_NoMercy",
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 68.5,
+				name = "ENABLE CDs",
+				timelineIndex = 11,
+				timerOffset = 5,
+				uuid = "d1eee4f6-3eda-1d95-b7f8-814c5069d4e6",
+				version = 2,
+			},
+		},
+	},
 	[12] = 
 	{
 		
