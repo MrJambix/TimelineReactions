@@ -204,7 +204,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_NoMercy",
+							gVar = "ACR_RikuGNB2_CD",
 							gVarValue = 2,
 							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
 							version = 2,
@@ -233,7 +233,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_NoMercy",
+							gVar = "ACR_RikuGNB2_CD",
 							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
 							version = 2,
 						},
