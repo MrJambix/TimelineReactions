@@ -623,7 +623,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 135.5,
-				name = "shotcall position",
+				name = "shotcall position(Credit to TEP from Riku/Anyones Discord)",
 				timelineIndex = 24,
 				timerOffset = -5,
 				uuid = "8afb36b5-66fd-3032-baa6-02e19ddca5f7",
