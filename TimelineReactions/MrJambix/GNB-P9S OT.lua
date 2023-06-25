@@ -666,6 +666,39 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 120.9,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 24,
+				timerEndOffset = -4,
+				timerOffset = -9,
+				timerStartOffset = -7,
+				uuid = "407cf6ae-584a-0bc9-bb66-7dc769b4d476",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
 	},
 	[25] = 
 	{
