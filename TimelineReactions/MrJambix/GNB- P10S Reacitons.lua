@@ -23,6 +23,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "Invuln",
 				timeRange = true,
@@ -214,6 +215,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 68.5,
 				name = "HOLD CDs",
 				timelineIndex = 11,
@@ -242,6 +244,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 68.5,
 				name = "ENABLE CDs",
 				timelineIndex = 11,
@@ -623,7 +626,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "Rampart",
 				timeRange = true,
@@ -657,7 +659,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "Camo",
 				randomOffset = -17,
@@ -692,7 +693,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 168.9,
 				name = "HOC Self",
 				timeRange = true,
@@ -940,6 +940,39 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 41,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -3.5,
+				uuid = "7cb3b2bd-0513-8fab-a947-e1edfb112d53",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
 	},
 	[44] = 
 	{
@@ -1062,7 +1095,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Potion",
+							gVar = "ACR_RikuGNB2_Potion",
 							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
 							version = 2,
 						},
