@@ -215,7 +215,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 68.5,
 				name = "HOLD CDs",
 				timelineIndex = 11,
@@ -244,11 +243,10 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 68.5,
 				name = "ENABLE CDs",
 				timelineIndex = 11,
-				timerOffset = 5,
+				timerOffset = 1,
 				uuid = "d1eee4f6-3eda-1d95-b7f8-814c5069d4e6",
 				version = 2,
 			},

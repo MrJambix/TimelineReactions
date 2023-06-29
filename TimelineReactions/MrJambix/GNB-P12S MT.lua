@@ -45,6 +45,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 11.1,
 				name = "Reprisal",
 				randomOffset = -2,
@@ -81,6 +82,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 21.2,
 				name = "Rampart",
 				timeRange = true,
@@ -162,7 +164,7 @@ local tbl =
 			inheritedIndex = 2,
 		},
 	},
-	[9] = 
+	[10] = 
 	{
 		
 		{
@@ -175,38 +177,17 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 17426,
 							conditions = 
 							{
 								
 								{
-									"e0694044-273a-d871-87d1-ae1955f43364",
-									false,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
-							targetType = "Other Tank",
-							uuid = "0b6dc66f-977f-fb2d-ba5a-db95f42934c9",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "Alert",
-							alertTTS = true,
-							alertText = "Shirk",
-							conditions = 
-							{
-								
-								{
-									"e0694044-273a-d871-87d1-ae1955f43364",
+									"256eba99-d2ae-394a-8e06-89ea79cd7462",
 									true,
 								},
 							},
-							uuid = "4f24f26e-fe51-5848-b3cc-ce8c6d1bd39b",
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "82967702-094f-bfd2-acfc-22565032a103",
+							variableTogglesType = 2,
 							version = 2,
 						},
 					},
@@ -217,29 +198,24 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 4,
-							buffID = 2941,
-							buffIDList = 
-							{
-								2941,
-							},
-							category = "Self",
-							matchAnyBuff = true,
-							uuid = "e0694044-273a-d871-87d1-ae1955f43364",
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							uuid = "256eba99-d2ae-394a-8e06-89ea79cd7462",
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 41.9,
-				name = "Shirk",
+				mechanicTime = 57.3,
+				name = "voke",
 				timeRange = true,
-				timelineIndex = 9,
-				timerEndOffset = 1.5,
-				timerOffset = -2,
-				uuid = "20c059c0-8570-b69b-a38e-a8f04b896586",
+				timelineIndex = 10,
+				timerEndOffset = -6,
+				timerOffset = -3,
+				timerStartOffset = -8,
+				uuid = "f7001a95-2aa5-eb5c-9ca3-acfcbd74c933",
 				version = 2,
 			},
-			inheritedIndex = 2,
 		},
 	},
 	[11] = 
@@ -493,6 +469,60 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -5,
 				uuid = "c7692e36-c31d-4406-b15b-81ce423c49ab",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d23f9157-fff4-4ae0-a256-914645ad41e9",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
+							uuid = "91106ac7-03b9-655e-b8b8-a8dc8afe5b00",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							partyTargetType = "Other Tank",
+							uuid = "d23f9157-fff4-4ae0-a256-914645ad41e9",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 100,
+				name = "SHIRK",
+				randomOffset = 1.5,
+				timeRange = true,
+				timelineIndex = 18,
+				timerEndOffset = 2.5,
+				timerOffset = -2,
+				timerStartOffset = 1,
+				uuid = "efb710f0-9aac-f37f-9917-6e7b401ba27b",
 				version = 2,
 			},
 		},
@@ -878,6 +908,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Sprint",
+							uuid = "7f112329-40f6-0bda-9c40-5cf511032a82",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.4,
+				name = "SPRINT",
+				timeRange = true,
+				timelineIndex = 38,
+				timerEndOffset = 1,
+				timerOffset = -1,
+				timerStartOffset = -1,
+				uuid = "80ef6e26-00e9-b302-84ac-065e2278e090",
+				version = 2,
+			},
+		},
 	},
 	[42] = 
 	{
@@ -885,119 +947,170 @@ local tbl =
 		{
 			data = 
 			{
-				name = "TTS Debuff",
-				uuid = "9c8713b5-0c67-aeb8-b494-41a7f89b2d97",
-				version = 2,
-			},
-			inheritedObjectUUID = "7b78ad14-c787-f634-aa60-6e061d1cf1f0",
-			inheritedOverwrites = 
-			{
 				actions = 
 				{
 					
 					{
-						type = "add",
-						value = 
+						data = 
 						{
-							data = 
+							aType = "Alert",
+							alertColor = -1,
+							alertPriority = 2,
+							alertTTS = true,
+							alertText = "Move to B Platform",
+							conditions = 
 							{
-								aType = "Alert",
-								alertColor = -1,
-								alertPriority = 2,
-								alertTTS = true,
-								alertText = "Move to B Platform",
-								conditions = 
+								
 								{
-									
-									{
-										"c41a31c7-1f91-4d76-a185-dc6ced4d5d76",
-										true,
-									},
-									
-									{
-										"9ea5d377-30ff-a018-9062-2666580dafa0",
-										true,
-									},
+									"97df699f-2ca5-0540-82ee-752ee49ef0e2",
+									true,
 								},
-								uuid = "4bd094e8-b214-41c6-a0ba-44ba812eb797",
-								version = 2,
 							},
+							uuid = "bdfaf704-114e-fb2f-aef6-94a89f3be026",
+							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
-						type = "add",
-						value = 
+						data = 
 						{
-							data = 
+							aType = "Alert",
+							alertColor = -1,
+							alertPriority = 2,
+							alertTTS = true,
+							alertText = "Move to Platform D",
+							conditions = 
 							{
-								aType = "Alert",
-								alertColor = -1,
-								alertPriority = 2,
-								alertTTS = true,
-								alertText = "Move to Platform D",
-								conditions = 
+								
 								{
-									
-									{
-										"9ea5d377-30ff-a018-9062-2666580dafa0",
-										true,
-									},
-									
-									{
-										"5ca3159f-8efb-77c8-b671-16bea212a2ad",
-										true,
-									},
+									"d5650209-a907-6e96-9278-c2cbb5b72120",
+									true,
 								},
-								uuid = "4c7ac48d-faa6-dedf-8d52-d249004b3e07",
-								version = 2,
 							},
+							uuid = "526f6b21-9b37-1b08-b13e-c3cbf5b0df74",
+							version = 2,
 						},
+						inheritedIndex = 5,
 					},
 				},
 				conditions = 
 				{
 					
 					{
-						type = "add",
-						value = 
+						data = 
 						{
-							data = 
+							buffCheckType = 4,
+							buffIDList = 
 							{
-								buffCheckType = 4,
-								buffIDList = 
-								{
-									3584,
-									3583,
-								},
-								category = "Party",
-								partyTargetType = "Other Tank",
-								uuid = "c41a31c7-1f91-4d76-a185-dc6ced4d5d76",
-								version = 2,
+								3584,
+								3583,
 							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							matchAnyBuff = true,
+							partyTargetType = "Other Tank",
+							uuid = "97df699f-2ca5-0540-82ee-752ee49ef0e2",
+							version = 2,
 						},
 					},
 					
 					{
-						type = "add",
-						value = 
+						data = 
 						{
-							data = 
+							buffCheckType = 5,
+							buffIDList = 
 							{
-								buffCheckType = 5,
-								buffIDList = 
-								{
-									3584,
-									3583,
-								},
-								category = "Party",
-								partyTargetType = "Other Tank",
-								uuid = "5ca3159f-8efb-77c8-b671-16bea212a2ad",
-								version = 2,
+								3584,
+								3583,
 							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							matchAnyBuff = true,
+							partyTargetType = "Other Tank",
+							uuid = "d5650209-a907-6e96-9278-c2cbb5b72120",
+							version = 2,
+						},
+						inheritedIndex = 7,
+					},
+				},
+				mechanicTime = 220.5,
+				name = "TTS Towers",
+				randomOffset = 3,
+				timelineIndex = 42,
+				timerOffset = -20,
+				uuid = "fe1f0f09-989d-5814-9b95-fdcd0dc90e43",
+				version = 2,
+			},
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Get Whiteflame Adds",
+				uuid = "5623cf6d-0270-4eb4-ac7e-6d3911d7abcc",
+				version = 2,
+			},
+			inheritedObjectUUID = "daba3ec7-9cbf-775f-9828-e1e2d31a9aa2",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -6.8000001907349,
+			},
+		},
+	},
+	[46] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
+							uuid = "91106ac7-03b9-655e-b8b8-a8dc8afe5b00",
+							variableTogglesType = 2,
+							version = 2,
 						},
 					},
 				},
+				conditions = 
+				{
+				},
+				mechanicTime = 229.8,
+				name = "SHIRK",
+				randomOffset = 1.5,
+				timeRange = true,
+				timelineIndex = 46,
+				timerEndOffset = 1.5,
+				timerOffset = -2,
+				timerStartOffset = -2,
+				uuid = "980a0fa9-41ca-fbe2-bec7-2bd162c10849",
+				version = 2,
+			},
+		},
+	},
+	[53] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Draw Lasers",
+				uuid = "9f086cd9-2a69-0612-8525-cec9cd7cdd65",
+				version = 2,
+			},
+			inheritedObjectUUID = "02ff7fbb-c048-b843-84b9-75a25454497f",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = 22.799999237061,
 			},
 		},
 	},
@@ -1032,38 +1145,6 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "ab5d1ef4-8b83-e342-96ab-d2138f3a90c5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 296.8,
-				name = "HOL",
-				timeRange = true,
-				timelineIndex = 55,
-				timerEndOffset = -3,
-				timerOffset = -5,
-				timerStartOffset = -5,
-				uuid = "ccde1ac3-a773-02a0-85f1-1500972a4b04",
 				version = 2,
 			},
 		},
@@ -1375,9 +1456,9 @@ local tbl =
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 72,
-				timerEndOffset = -2,
+				timerEndOffset = -8,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -10,
 				uuid = "45ff5938-e408-0fd0-aa0c-696c29dce8ab",
 				version = 2,
 			},

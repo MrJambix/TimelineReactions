@@ -1,5 +1,36 @@
 local tbl = 
 {
+	
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "859ad0c2-7289-697f-9a0e-53f87ed6ce8b",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "Voke",
+				timelineIndex = 1,
+				timerOffset = -0.20000000298023,
+				uuid = "021a3c66-3a47-7c90-8a20-af4b5aa1387c",
+				version = 2,
+			},
+		},
+	}, 
 	[3] = 
 	{
 		
@@ -196,7 +227,7 @@ local tbl =
 				uuid = "a5a22582-0fe6-13b9-908d-56ecb1d9ccf6",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -234,7 +265,7 @@ local tbl =
 				uuid = "c5cac130-85ed-db50-9aba-5f0a303650b1",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 5,
 		},
 		
 		{
