@@ -1,3 +1,5 @@
+PLEASE NOT I WILL ONLY BE FOCUSING ON GNB MT REACTIONS FOR THE MOMENT
+
 P9S OT War   
 Reaction will invuln second Solo TB (Ascendant Fist #2)
 Changes to Defensive CD Offsets and skill to variables to let the ACR decide when to use them
