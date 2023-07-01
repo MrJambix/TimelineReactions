@@ -48,7 +48,7 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 23.2,
-				name = "-Disable Mitigations if not invulning-",
+				name = "----Disable Mit as needed---",
 				timelineIndex = 4,
 				uuid = "b4a7d897-8704-f3eb-8f64-8fc0c009d159",
 				version = 2,
@@ -218,7 +218,9 @@ local tbl =
 				mechanicTime = 68.5,
 				name = "HOLD CDs",
 				timelineIndex = 11,
-				timerOffset = -5,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -1.5,
 				uuid = "8c9d8d42-8244-bfea-94bb-1f726312af28",
 				version = 2,
 			},
@@ -597,7 +599,7 @@ local tbl =
 				timelineIndex = 28,
 				timerEndOffset = -5,
 				timerOffset = -5,
-				timerStartOffset = -11,
+				timerStartOffset = -10,
 				uuid = "dd66880f-51a0-b5d7-b300-861529a90f38",
 				version = 2,
 			},
@@ -970,6 +972,68 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_CD",
+							gVarValue = 2,
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 278.6,
+				name = "HOLD CDs",
+				timelineIndex = 43,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -1.5,
+				uuid = "6809b772-f738-0740-b3cf-dd75e74667f4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_CD",
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 278.6,
+				name = "ENABLE CDs",
+				timelineIndex = 43,
+				timerOffset = 1,
+				uuid = "2019fa6e-2b7a-be51-9c5f-f66b5d11d073",
+				version = 2,
+			},
 		},
 	},
 	[44] = 
@@ -1642,6 +1706,68 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -5,
 				uuid = "e6f436b9-84e9-2a82-b35d-2121353634c5",
+				version = 2,
+			},
+		},
+	},
+	[90] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_CD",
+							gVarValue = 2,
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 514,
+				name = "HOLD CDs",
+				timelineIndex = 90,
+				timerEndOffset = -0.5,
+				timerOffset = -1,
+				timerStartOffset = -1.5,
+				uuid = "1401c311-d9ea-a46e-b5ee-a8bcb6f38843",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_CD",
+							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 514,
+				name = "ENABLE CDs",
+				timelineIndex = 90,
+				timerOffset = 1,
+				uuid = "f0c9038b-a49f-d3f4-ad13-eb90e39f0c6b",
 				version = 2,
 			},
 		},
