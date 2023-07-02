@@ -37,6 +37,8 @@ Will invuln during 2nd TB (Shirk/Voke Disabled during 2nd TB for manual use)
 
 P12S P1 MT GNB
 Invuln the first Glaukopis
+ - Invuln will now happen during Both Glaukopis ONLY if you are holding boss(Highest Emity)
+Please go through and see where the Voke/Shirk happens for your information
 
 P12S P2 MT GNB
 General mitigation done but still in testing
