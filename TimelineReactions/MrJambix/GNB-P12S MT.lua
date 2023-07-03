@@ -8,14 +8,25 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Potion",
+							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
 				},
 				conditions = 
 				{
 				},
-				enabled = false,
-				name = "test",
+				name = "Potion ",
 				timelineIndex = 1,
-				uuid = "eebbe1da-e5a5-e268-bc35-fc136062ba97",
+				timerOffset = -2,
+				uuid = "aaf58700-5f09-e445-a53d-2d1d9abaadb3",
 				version = 2,
 			},
 		},

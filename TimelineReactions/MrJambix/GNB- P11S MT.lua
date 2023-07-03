@@ -30,6 +30,34 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Potion",
+							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				name = "Potion ",
+				timelineIndex = 1,
+				timerOffset = -2,
+				uuid = "ca54c03e-5ae5-cc64-855f-88e9b1ffe229",
+				version = 2,
+			},
+		},
 	}, 
 	[3] = 
 	{
@@ -337,14 +365,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"fa5bdc86-8120-3873-bc79-441602b657fa",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
 							variableTogglesType = 2,
@@ -358,8 +378,11 @@ local tbl =
 					{
 						data = 
 						{
-							buffID = 3619,
-							uuid = "fa5bdc86-8120-3873-bc79-441602b657fa",
+							buffCheckType = 2,
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							uuid = "e17df2fd-8c1f-17cd-9f46-0a9898806642",
 							version = 2,
 						},
 					},
@@ -1247,7 +1270,7 @@ local tbl =
 				uuid = "91b04b65-a96e-0bc9-bb8b-f4efce584df3",
 				version = 2,
 			},
-			inheritedIndex = 7,
+			inheritedIndex = 9,
 		},
 		
 		{
@@ -1267,11 +1290,6 @@ local tbl =
 									"c25bddab-ab2a-938b-9326-27cc007701ca",
 									true,
 								},
-								
-								{
-									"01622677-8d94-4ead-b66d-00c717232d30",
-									true,
-								},
 							},
 							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
 							uuid = "d1a746e7-3110-a470-bf98-f71bb79e0b29",
@@ -1287,17 +1305,8 @@ local tbl =
 						data = 
 						{
 							buffID = 2278,
+							dequeueIfLuaFalse = true,
 							uuid = "c25bddab-ab2a-938b-9326-27cc007701ca",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 100,
-							uuid = "01622677-8d94-4ead-b66d-00c717232d30",
 							version = 2,
 						},
 					},
@@ -1310,10 +1319,28 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerOffset = -2,
 				timerStartOffset = -2,
-				uuid = "5a40ce32-e464-b1a9-870f-0fddf10b3f8d",
+				uuid = "a8877ca5-e6f6-a447-8db8-307702f1d704",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 383.3,
+				name = "---Tank Swap 2---  Check BuffID",
+				timelineIndex = 49,
+				uuid = "26696314-4b52-3550-b4e0-4784fe307df2",
+				version = 2,
+			},
 		},
 		
 		{
@@ -1333,12 +1360,69 @@ local tbl =
 									"fa5bdc86-8120-3873-bc79-441602b657fa",
 									true,
 								},
-								
-								{
-									"896d62d4-c73f-a715-b5cc-50c5f3657f06",
-									true,
-								},
 							},
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 2278,
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Other Tank",
+							uuid = "fa5bdc86-8120-3873-bc79-441602b657fa",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 383.3,
+				name = "Voke",
+				timeRange = true,
+				timelineIndex = 49,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "8f67ba93-1140-94ab-a9c5-b19ba3870d90",
+				version = 2,
+			},
+			inheritedIndex = 8,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 383.3,
+				name = "--Tank Swap 3---",
+				timelineIndex = 49,
+				uuid = "35b7897e-9f77-4893-b453-8d3a72ce666c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
 							variableTogglesType = 2,
@@ -1352,19 +1436,11 @@ local tbl =
 					{
 						data = 
 						{
-							buffID = 3619,
-							uuid = "fa5bdc86-8120-3873-bc79-441602b657fa",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
 							comparator = 2,
 							conditionType = 4,
+							dequeueIfLuaFalse = true,
 							enmityValue = 99,
-							uuid = "896d62d4-c73f-a715-b5cc-50c5f3657f06",
+							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
 							version = 2,
 						},
 					},
@@ -1375,10 +1451,10 @@ local tbl =
 				timelineIndex = 49,
 				timerEndOffset = 2,
 				timerStartOffset = 0.5,
-				uuid = "b64154a2-a057-706b-83aa-9ee2a703e81a",
+				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
 				version = 2,
 			},
-			inheritedIndex = 10,
+			inheritedIndex = 7,
 		},
 	},
 	[50] = 

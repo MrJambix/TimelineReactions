@@ -1,19 +1,17 @@
 PLEASE NOT I WILL ONLY BE FOCUSING ON GNB MT REACTIONS FOR THE MOMENT
 
 -------------------GNB MT Reaction---------------------------
--------------P9S MT GNB------------------------
-1. Reaction will now Pot -2 seconds on Countdown and then again at the 6minute windo
-------------------------P9S OT GNB ------------------------
-Reaction will invuln second Solo TB (Ascendant Fist #2)
-
-P10S GNB
-No Provoke/Shirks
-No Invulns during TB only during HH
-Can be used as MT or OT
-Reaction now Holds No Mercy during first Wicked Towers for maximum DPS
-
-P11S MT GNB
-Will invuln during 2nd TB (Shirk/Voke Disabled during 2nd TB for manual use)
+-----P9S MT GNB-------
+1. Reaction will now Pot -2 seconds on Countdown and then again at the 6 minute window
+------P10S GNB------
+1. Invuln (Disabled by default) first TB (Turn On based on your Party Strat)
+ - Mitigations (Disabled by default) first TB (Turn On based on your Party Strat)
+2. Can be used as MT or OT
+3. Reaction will now Pot -2 seconds on Countdown and then again at the 6 minute window
+4. Reaction Holds CD during Tank Towers (Ensure you are the Left Tower, Otherwise Adjust or Disable)
+------P11S MT GNB------
+1. Reaction Will Invuln During TB #2
+2. Reaction Will Scan during TB #2 After Teathers to see who get's which debuff
 
 P12S P1 MT GNB
 Invuln the first Glaukopis
@@ -27,6 +25,9 @@ General mitigation done but still in testing
 
 
 -------------------BELOW FOR OTHER REACTIONS---------------------------
+------P9S OT GNB -----
+Reaction will invuln second Solo TB (Ascendant Fist #2)
+
 P9S OT War   
 Reaction will invuln second Solo TB (Ascendant Fist #2)
 Changes to Defensive CD Offsets and skill to variables to let the ACR decide when to use them
