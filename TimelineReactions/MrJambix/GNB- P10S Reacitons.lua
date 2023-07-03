@@ -298,6 +298,38 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 70.9,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 12,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "5d3ccc35-613a-82a4-9de5-5d590eb663fd",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
 							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
 							variableTogglesType = 3,
@@ -614,39 +646,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 168.9,
-				name = "HOL",
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = -5,
-				timerOffset = -5,
-				timerStartOffset = -10,
-				uuid = "dd66880f-51a0-b5d7-b300-861529a90f38",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
 							uuid = "3410359c-5002-7258-bb18-9f378443cf50",
 							variableTogglesType = 3,
@@ -951,37 +950,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 258.4,
-				name = "Nebula",
-				timeRange = true,
-				timelineIndex = 41,
-				timerEndOffset = -5,
-				timerStartOffset = -10,
-				uuid = "09ffa238-e9e6-846a-8965-bb45aae85b81",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
 							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
 							variableTogglesType = 3,
@@ -1069,6 +1037,38 @@ local tbl =
 	},
 	[44] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 281,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -5,
+				timerStartOffset = -10,
+				uuid = "8ac192ef-5282-ee6b-a28d-a2933139a62c",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 		
 		{
 			data = 
@@ -1505,40 +1505,7 @@ local tbl =
 				uuid = "357d8bbc-341a-478e-a6f0-6f3b807dfc31",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 454,
-				name = "Camo",
-				randomOffset = -17,
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -15,
-				timerOffset = -19,
-				timerStartOffset = -20,
-				uuid = "48c3c3f0-863d-cede-97de-2f3e7383772b",
-				version = 2,
-			},
-			inheritedIndex = 16,
+			inheritedIndex = 15,
 		},
 	},
 	[86] = 
@@ -1681,6 +1648,40 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 490.6,
+				name = "Camo",
+				randomOffset = -17,
+				timeRange = true,
+				timelineIndex = 88,
+				timerEndOffset = -4,
+				timerOffset = -19,
+				timerStartOffset = -9,
+				uuid = "99c494a0-51b3-a28c-a073-3f5a3476a776",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							actionID = 25751,
 							atomicPriority = true,
 							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
@@ -1705,38 +1706,6 @@ local tbl =
 				timerOffset = -5,
 				timerStartOffset = 0.5,
 				uuid = "411f9615-0d24-0d55-91cc-2c1fbc9a64c1",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 490.6,
-				name = "Nebula",
-				timeRange = true,
-				timelineIndex = 88,
-				timerEndOffset = -0.5,
-				timerStartOffset = -5,
-				uuid = "e6f436b9-84e9-2a82-b35d-2121353634c5",
 				version = 2,
 			},
 		},
@@ -1873,6 +1842,38 @@ local tbl =
 				timerOffset = -5,
 				timerStartOffset = 0.5,
 				uuid = "0a53f272-7d68-658a-af8c-7e6abef1cec9",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 516.4,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 91,
+				timerEndOffset = -0.5,
+				timerStartOffset = -5,
+				uuid = "5212cc56-1852-6702-a3e2-0d9bce121d19",
 				version = 2,
 			},
 		},
