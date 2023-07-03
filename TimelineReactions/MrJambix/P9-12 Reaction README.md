@@ -1,5 +1,32 @@
 PLEASE NOT I WILL ONLY BE FOCUSING ON GNB MT REACTIONS FOR THE MOMENT
 
+-------------------GNB MT Reaction---------------------------
+-------------P9S MT GNB------------------------
+1. Reaction will now Pot -2 seconds on Countdown and then again at the 6minute windo
+------------------------P9S OT GNB ------------------------
+Reaction will invuln second Solo TB (Ascendant Fist #2)
+
+P10S GNB
+No Provoke/Shirks
+No Invulns during TB only during HH
+Can be used as MT or OT
+Reaction now Holds No Mercy during first Wicked Towers for maximum DPS
+
+P11S MT GNB
+Will invuln during 2nd TB (Shirk/Voke Disabled during 2nd TB for manual use)
+
+P12S P1 MT GNB
+Invuln the first Glaukopis
+ - Invuln will now happen during Both Glaukopis ONLY if you are holding boss(Highest Emity)
+Please go through and see where the Voke/Shirk happens for your information
+
+P12S P2 MT GNB
+General mitigation done but still in testing
+
+
+
+
+-------------------BELOW FOR OTHER REACTIONS---------------------------
 P9S OT War   
 Reaction will invuln second Solo TB (Ascendant Fist #2)
 Changes to Defensive CD Offsets and skill to variables to let the ACR decide when to use them
@@ -20,28 +47,6 @@ P9S OT DK
 Changes to Defensive CDs made
 Reaction will invuln second TB (Ascendant Fist #2)
 
-P9S MT GNB
-Reaction will invuln first Solo TB (Ascendant Fist #1)
-
-P9S OT GNB 
-Reaction will invuln second Solo TB (Ascendant Fist #2)
-
-P10S GNB
-No Provoke/Shirks
-No Invulns during TB only during HH
-Can be used as MT or OT
-Reaction now Holds No Mercy during first Wicked Towers for maximum DPS
-
-P11S MT GNB
-Will invuln during 2nd TB (Shirk/Voke Disabled during 2nd TB for manual use)
-
-P12S P1 MT GNB
-Invuln the first Glaukopis
- - Invuln will now happen during Both Glaukopis ONLY if you are holding boss(Highest Emity)
-Please go through and see where the Voke/Shirk happens for your information
-
-P12S P2 MT GNB
-General mitigation done but still in testing
 
 Pot Alignments for 6 minute burst for all reactions
 
