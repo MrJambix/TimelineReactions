@@ -40,7 +40,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							aType = "Misc",
 							conditions = 
 							{
 								
@@ -50,6 +50,12 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
+							ignoreWeaveRules = true,
+							potType = 4,
+							useItem = true,
+							useItemID = 1039727,
+							useItemName = "Grade 8 Tincture of Strength (HQ)",
+							usePot = true,
 							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
 							variableTogglesType = 2,
 							version = 2,
@@ -73,8 +79,7 @@ local tbl =
 				eventType = 16,
 				name = "Potion ",
 				timelineIndex = 1,
-				timerOffset = -2,
-				uuid = "14db7cdf-86a9-8ce8-9720-3e68b7643a74",
+				uuid = "f603c799-4640-b1c5-91f4-d5a183ba2afa",
 				version = 2,
 			},
 		},
