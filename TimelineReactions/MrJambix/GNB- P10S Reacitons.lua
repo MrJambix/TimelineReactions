@@ -13,6 +13,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"5eef199a-c7b1-3959-b4a9-451380817625",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
 							variableTogglesType = 2,
@@ -22,11 +30,26 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 2,
+							uuid = "5eef199a-c7b1-3959-b4a9-451380817625",
+							version = 2,
+						},
+					},
 				},
+				eventType = 16,
 				name = "Potion ",
+				throttleTime = 200,
 				timelineIndex = 1,
-				timerOffset = -2,
-				uuid = "b8a78779-1500-f5e0-8d60-96a3bcdc1d87",
+				timerEndOffset = -1.5,
+				timerOffset = -3,
+				timerStartOffset = -3,
+				uuid = "9b64c70a-ba6a-157c-a8a8-e6a010e7944a",
 				version = 2,
 			},
 		},
@@ -54,7 +77,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 23.2,
 				name = "Invuln",
 				timeRange = true,
@@ -646,6 +668,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.9,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -3.5,
+				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
 							uuid = "3410359c-5002-7258-bb18-9f378443cf50",
 							variableTogglesType = 3,
@@ -701,39 +756,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 168.9,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 28,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -3.5,
-				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
-				version = 2,
-			},
-			inheritedIndex = 6,
 		},
 	},
 	[33] = 

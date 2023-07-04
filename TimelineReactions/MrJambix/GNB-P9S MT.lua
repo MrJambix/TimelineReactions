@@ -63,6 +63,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
 							variableTogglesType = 2,
@@ -72,7 +80,19 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 2,
+							uuid = "f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+							version = 2,
+						},
+					},
 				},
+				eventType = 16,
 				name = "Potion ",
 				timelineIndex = 1,
 				timerOffset = -2,

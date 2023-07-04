@@ -41,6 +41,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
 							variableTogglesType = 2,
@@ -50,11 +58,23 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 2,
+							uuid = "f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+							version = 2,
+						},
+					},
 				},
+				eventType = 16,
 				name = "Potion ",
 				timelineIndex = 1,
 				timerOffset = -2,
-				uuid = "ca54c03e-5ae5-cc64-855f-88e9b1ffe229",
+				uuid = "14db7cdf-86a9-8ce8-9720-3e68b7643a74",
 				version = 2,
 			},
 		},
@@ -1265,12 +1285,11 @@ local tbl =
 				},
 				enabled = false,
 				mechanicTime = 383.3,
-				name = "----Tank Swap---",
+				name = "---Tank Swap 2---  Check BuffID",
 				timelineIndex = 49,
-				uuid = "91b04b65-a96e-0bc9-bb8b-f4efce584df3",
+				uuid = "26696314-4b52-3550-b4e0-4784fe307df2",
 				version = 2,
 			},
-			inheritedIndex = 9,
 		},
 		
 		{
@@ -1334,13 +1353,56 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 383.3,
-				name = "---Tank Swap 2---  Check BuffID",
+				name = "--Tank Swap 3---",
 				timelineIndex = 49,
-				uuid = "26696314-4b52-3550-b4e0-4784fe307df2",
+				uuid = "35b7897e-9f77-4893-b453-8d3a72ce666c",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							enmityValue = 99,
+							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 383.3,
+				name = "Voke",
+				timeRange = true,
+				timelineIndex = 49,
+				timerEndOffset = 2,
+				timerStartOffset = 0.5,
+				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 		
 		{
@@ -1405,56 +1467,14 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 383.3,
-				name = "--Tank Swap 3---",
+				name = "----Tank Swap---",
 				timelineIndex = 49,
-				uuid = "35b7897e-9f77-4893-b453-8d3a72ce666c",
+				uuid = "91b04b65-a96e-0bc9-bb8b-f4efce584df3",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							dequeueIfLuaFalse = true,
-							enmityValue = 99,
-							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 383.3,
-				name = "Voke",
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = 2,
-				timerStartOffset = 0.5,
-				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
-				version = 2,
-			},
-			inheritedIndex = 7,
+			inheritedIndex = 9,
 		},
 	},
 	[50] = 
