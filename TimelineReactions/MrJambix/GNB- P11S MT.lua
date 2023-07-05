@@ -45,19 +45,16 @@ local tbl =
 							{
 								
 								{
-									"f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+									"660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB2_Hotbar_Potion",
-							ignoreWeaveRules = true,
 							potType = 4,
 							useItem = true,
 							useItemID = 1039727,
 							useItemName = "Grade 8 Tincture of Strength (HQ)",
 							usePot = true,
-							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
-							variableTogglesType = 2,
+							uuid = "322733b0-f9e9-52ec-b5b4-da5d0a1f0ae7",
 							version = 2,
 						},
 					},
@@ -71,15 +68,15 @@ local tbl =
 							category = "Event",
 							comparator = 2,
 							eventCountdownTime = 2,
-							uuid = "f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
 							version = 2,
 						},
 					},
 				},
 				eventType = 16,
-				name = "Potion ",
+				name = "Pre-Pull Pot (General Reaction)",
 				timelineIndex = 1,
-				uuid = "f603c799-4640-b1c5-91f4-d5a183ba2afa",
+				uuid = "6452f6a7-c8fb-430e-a316-4ef2305e001c",
 				version = 2,
 			},
 		},
@@ -467,20 +464,6 @@ local tbl =
 	},
 	[8] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Draw Tether AOE",
-				uuid = "959e9acf-8edf-6bcf-9b97-33abdb560e20",
-				version = 2,
-			},
-			inheritedIndex = 2,
-			inheritedObjectUUID = "0c2f087a-c701-a492-9810-90fcc65e2542",
-			inheritedOverwrites = 
-			{
-			},
-		},
 		
 		{
 			data = 
@@ -1376,50 +1359,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							dequeueIfLuaFalse = true,
-							enmityValue = 99,
-							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 383.3,
-				name = "Voke",
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = 2,
-				timerStartOffset = 0.5,
-				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							conditions = 
 							{
 								
@@ -1460,7 +1399,7 @@ local tbl =
 				uuid = "8f67ba93-1140-94ab-a9c5-b19ba3870d90",
 				version = 2,
 			},
-			inheritedIndex = 8,
+			inheritedIndex = 7,
 		},
 		
 		{
@@ -1479,6 +1418,50 @@ local tbl =
 				uuid = "91b04b65-a96e-0bc9-bb8b-f4efce584df3",
 				version = 2,
 			},
+			inheritedIndex = 8,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							enmityValue = 99,
+							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 383.3,
+				name = "Voke",
+				timeRange = true,
+				timelineIndex = 49,
+				timerEndOffset = 2,
+				timerStartOffset = 0.5,
+				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
+				version = 2,
+			},
 			inheritedIndex = 9,
 		},
 	},
@@ -1495,7 +1478,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWAR2_Potion",
+							gVar = "ACR_RikuGNB2_Potion",
 							uuid = "cc7c2f04-d733-66f4-b9ff-3b7475194a6c",
 							version = 2,
 						},

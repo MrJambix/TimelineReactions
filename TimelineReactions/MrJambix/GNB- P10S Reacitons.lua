@@ -17,10 +17,55 @@ local tbl =
 							{
 								
 								{
-									"f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
+									"660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
 									true,
 								},
 							},
+							potType = 4,
+							useItem = true,
+							useItemID = 1039727,
+							useItemName = "Grade 8 Tincture of Strength (HQ)",
+							usePot = true,
+							uuid = "322733b0-f9e9-52ec-b5b4-da5d0a1f0ae7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 2,
+							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
+							version = 2,
+						},
+					},
+				},
+				eventType = 16,
+				name = "Pre-Pull Pot (General Reaction)",
+				timelineIndex = 1,
+				uuid = "292d7da0-014f-999b-a75d-a2700fbbaedc",
+				version = 2,
+			},
+		},
+	}, 
+	[3] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Misc",
 							gVar = "ACR_RikuGNB2_Hotbar_Potion",
 							ignoreWeaveRules = true,
 							potType = 4,
@@ -36,26 +81,17 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							comparator = 2,
-							eventCountdownTime = 2,
-							uuid = "f01b9f0e-3d4a-496d-9fc4-1d5e78d7c125",
-							version = 2,
-						},
-					},
 				},
 				eventType = 16,
-				name = "Potion ",
-				timelineIndex = 1,
-				uuid = "7e115a68-00d8-029d-ada5-d835baef15e1",
+				mechanicTime = 14.1,
+				name = "Pre-Pull Potion ",
+				timelineIndex = 3,
+				timerOffset = -16,
+				uuid = "27f98c05-c3e8-1664-ab5c-3471710dea6e",
 				version = 2,
 			},
 		},
-	}, 
+	},
 	[4] = 
 	{
 		
@@ -79,6 +115,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 23.2,
 				name = "Invuln",
 				timeRange = true,
@@ -260,7 +297,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_CD",
+							gVar = "ACR_RikuGNB2_HoldGauge",
 							gVarValue = 2,
 							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
 							version = 2,
@@ -270,6 +307,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 68.5,
 				name = "HOLD CDs",
 				timelineIndex = 11,
@@ -291,7 +329,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_CD",
+							gVar = "ACR_RikuGNB2_HoldGauge",
+							gVarValue = 2,
 							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
 							version = 2,
 						},
@@ -300,6 +339,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 68.5,
 				name = "ENABLE CDs",
 				timelineIndex = 11,
@@ -1020,6 +1060,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 278.6,
 				name = "HOLD CDs",
 				timelineIndex = 43,
@@ -1050,6 +1091,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 278.6,
 				name = "ENABLE CDs",
 				timelineIndex = 43,
@@ -1225,7 +1267,7 @@ local tbl =
 				name = "Enable Potion",
 				timelineIndex = 60,
 				timerEndOffset = 60,
-				timerOffset = -5,
+				timerOffset = -2,
 				timerStartOffset = -60,
 				uuid = "498fb532-2f0f-d83e-ac7a-fd34e571f578",
 				version = 2,
