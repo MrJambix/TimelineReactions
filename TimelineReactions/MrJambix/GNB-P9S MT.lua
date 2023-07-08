@@ -198,6 +198,7 @@ local tbl =
 							variableTogglesType = 2,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
