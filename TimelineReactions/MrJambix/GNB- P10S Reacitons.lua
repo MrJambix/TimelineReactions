@@ -53,45 +53,6 @@ local tbl =
 			},
 		},
 	}, 
-	[3] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Misc",
-							gVar = "ACR_RikuGNB2_Hotbar_Potion",
-							ignoreWeaveRules = true,
-							potType = 4,
-							useItem = true,
-							useItemID = 1039727,
-							useItemName = "Grade 8 Tincture of Strength (HQ)",
-							usePot = true,
-							uuid = "e07e0add-5698-6138-a41d-611d8aa45016",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				eventType = 16,
-				mechanicTime = 14.1,
-				name = "Pre-Pull Potion ",
-				timelineIndex = 3,
-				timerOffset = -16,
-				uuid = "27f98c05-c3e8-1664-ab5c-3471710dea6e",
-				version = 2,
-			},
-		},
-	},
 	[4] = 
 	{
 		
@@ -209,7 +170,7 @@ local tbl =
 				timelineIndex = 4,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -1.5,
 				uuid = "adbab550-28a5-c9c4-9b30-92e114ac47cb",
 				version = 2,
 			},
@@ -284,71 +245,6 @@ local tbl =
 			inheritedIndex = 1,
 		},
 	},
-	[11] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_HoldGauge",
-							gVarValue = 2,
-							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 68.5,
-				name = "HOLD CDs",
-				timelineIndex = 11,
-				timerEndOffset = -0.5,
-				timerOffset = -1,
-				timerStartOffset = -1.5,
-				uuid = "8c9d8d42-8244-bfea-94bb-1f726312af28",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_HoldGauge",
-							gVarValue = 2,
-							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 68.5,
-				name = "ENABLE CDs",
-				timelineIndex = 11,
-				timerOffset = 1,
-				uuid = "d1eee4f6-3eda-1d95-b7f8-814c5069d4e6",
-				version = 2,
-			},
-		},
-	},
 	[12] = 
 	{
 		
@@ -376,8 +272,8 @@ local tbl =
 				name = "Nebula",
 				timeRange = true,
 				timelineIndex = 12,
-				timerEndOffset = -5,
-				timerStartOffset = -10,
+				timerEndOffset = -2.5,
+				timerStartOffset = -5,
 				uuid = "5d3ccc35-613a-82a4-9de5-5d590eb663fd",
 				version = 2,
 			},
@@ -408,9 +304,9 @@ local tbl =
 				name = "HOC Self",
 				timeRange = true,
 				timelineIndex = 12,
-				timerEndOffset = -3.5,
+				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -5,
+				timerStartOffset = -2,
 				uuid = "64b58872-6408-a61e-84e7-a407710a5c06",
 				version = 2,
 			},
@@ -503,16 +399,16 @@ local tbl =
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 15,
-				timerEndOffset = -2,
+				timerEndOffset = -0.5,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -4.5,
 				uuid = "4d2320f4-302b-23d8-8284-0b4ded9e9b5c",
 				version = 2,
 			},
 			inheritedIndex = 7,
 		},
 	},
-	[17] = 
+	[19] = 
 	{
 		
 		{
@@ -535,14 +431,14 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 102.9,
+				mechanicTime = 108.4,
 				name = "HOL",
 				timeRange = true,
-				timelineIndex = 17,
+				timelineIndex = 19,
 				timerEndOffset = -0.5,
 				timerOffset = -5,
-				timerStartOffset = -7,
-				uuid = "634225df-f066-e809-9dd2-3209f5ee590d",
+				timerStartOffset = -4.5,
+				uuid = "365317bd-ee69-6083-ae98-944037ed3c64",
 				version = 2,
 			},
 		},
@@ -576,7 +472,7 @@ local tbl =
 				timelineIndex = 24,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -2,
 				uuid = "5b4c229b-2c30-5d31-8acc-d02e6a0889e8",
 				version = 2,
 			},
@@ -613,7 +509,7 @@ local tbl =
 				timelineIndex = 24,
 				timerEndOffset = 3,
 				timerOffset = -5,
-				timerStartOffset = 0.5,
+				timerStartOffset = -0.5,
 				uuid = "a8f6b91f-a413-ad68-845a-ae276d3d79f7",
 				version = 2,
 			},
@@ -669,9 +565,9 @@ local tbl =
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 27,
-				timerEndOffset = -2,
+				timerEndOffset = -0.5,
 				timerOffset = -4,
-				timerStartOffset = -5,
+				timerStartOffset = -4.5,
 				uuid = "097c4035-628c-febd-b3f5-cac5b3066f9c",
 				version = 2,
 			},
@@ -726,7 +622,7 @@ local tbl =
 				timelineIndex = 28,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -1.5,
 				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
 				version = 2,
 			},
@@ -759,7 +655,7 @@ local tbl =
 				timelineIndex = 28,
 				timerEndOffset = -0.5,
 				timerOffset = -5,
-				timerStartOffset = -10,
+				timerStartOffset = -5,
 				uuid = "31f933ae-2c76-b0ca-b795-c8d0c2e99f44",
 				version = 2,
 			},
@@ -1030,75 +926,11 @@ local tbl =
 				timelineIndex = 41,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -2,
 				uuid = "7cb3b2bd-0513-8fab-a947-e1edfb112d53",
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-	},
-	[43] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_CD",
-							gVarValue = 2,
-							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 278.6,
-				name = "HOLD CDs",
-				timelineIndex = 43,
-				timerEndOffset = -0.5,
-				timerOffset = -1,
-				timerStartOffset = -1.5,
-				uuid = "6809b772-f738-0740-b3cf-dd75e74667f4",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_CD",
-							uuid = "3eba89f7-6bdb-187d-9aa5-4c4c546b62cd",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 278.6,
-				name = "ENABLE CDs",
-				timelineIndex = 43,
-				timerOffset = 1,
-				uuid = "2019fa6e-2b7a-be51-9c5f-f66b5d11d073",
-				version = 2,
-			},
 		},
 	},
 	[44] = 
@@ -1160,9 +992,9 @@ local tbl =
 				name = "HOC Self",
 				timeRange = true,
 				timelineIndex = 44,
-				timerEndOffset = -3.5,
+				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -5.5,
+				timerStartOffset = -2.5,
 				uuid = "b3c2e293-b82a-3fef-a3d6-842d5aaa55ed",
 				version = 2,
 			},
@@ -1331,6 +1163,40 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 384.6,
+				name = "Camo",
+				randomOffset = -17,
+				timeRange = true,
+				timelineIndex = 66,
+				timerEndOffset = -5,
+				timerOffset = -19,
+				timerStartOffset = -10,
+				uuid = "39aca468-ed22-9ce7-a731-2d03882d2bfb",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -1698,7 +1564,7 @@ local tbl =
 				timelineIndex = 88,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -5,
+				timerStartOffset = -2,
 				uuid = "b56b398f-0dec-83ec-9fd3-bd1d20e73349",
 				version = 2,
 			},
