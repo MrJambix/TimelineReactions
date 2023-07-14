@@ -12,34 +12,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "859ad0c2-7289-697f-9a0e-53f87ed6ce8b",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				name = "Voke",
-				timelineIndex = 1,
-				timerOffset = -0.20000000298023,
-				uuid = "021a3c66-3a47-7c90-8a20-af4b5aa1387c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "Misc",
 							conditions = 
 							{
@@ -49,6 +21,7 @@ local tbl =
 									true,
 								},
 							},
+							ignoreWeaveRules = true,
 							potType = 4,
 							useItem = true,
 							useItemID = 1039727,
@@ -77,6 +50,56 @@ local tbl =
 				name = "Pre-Pull Pot (General Reaction)",
 				timelineIndex = 1,
 				uuid = "6452f6a7-c8fb-430e-a316-4ef2305e001c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16143,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"14db6348-1c06-abfd-a63e-8f6d575391e0",
+									true,
+								},
+							},
+							ignoreWeaveRules = true,
+							targetType = "Enemy",
+							uuid = "65f6c746-f0ee-d60f-be9b-1a57e2398213",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 1833,
+							category = "Self",
+							uuid = "14db6348-1c06-abfd-a63e-8f6d575391e0",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				name = "LS Pull(test)",
+				timeRange = true,
+				timelineIndex = 1,
+				timerEndOffset = 0.20000000298023,
+				timerStartOffset = -0.20000000298023,
+				uuid = "8ea38e80-a428-03da-962a-969d65117ea7",
 				version = 2,
 			},
 		},
@@ -336,6 +359,50 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							uuid = "e17df2fd-8c1f-17cd-9f46-0a9898806642",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 29.2,
+				name = "Voke",
+				timeRange = true,
+				timelineIndex = 5,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "a0910b4c-b0f4-be50-aeb2-30916fbefeab",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -363,62 +430,19 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 29.2,
 				name = "Shirk",
 				randomOffset = -0.5,
 				timeRange = true,
 				timelineIndex = 5,
-				timerEndOffset = -0.5,
+				timerEndOffset = 2,
 				timerOffset = -2,
-				timerStartOffset = -2,
+				timerStartOffset = 0.5,
 				uuid = "01b2864d-ee58-65c4-90da-84f53ff580f1",
 				version = 2,
 			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							uuid = "e17df2fd-8c1f-17cd-9f46-0a9898806642",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 29.2,
-				name = "Voke",
-				timeRange = true,
-				timelineIndex = 5,
-				timerEndOffset = 2,
-				timerStartOffset = 0.5,
-				uuid = "a0910b4c-b0f4-be50-aeb2-30916fbefeab",
-				version = 2,
-			},
-			inheritedIndex = 10,
+			inheritedIndex = 9,
 		},
 	},
 	[7] = 
@@ -459,6 +483,37 @@ local tbl =
 				timerStartOffset = -1.5,
 				uuid = "e2be6c8f-ab81-0edf-aa3f-209ffe5fbe88",
 				version = 2,
+			},
+		},
+	},
+	[8] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "HoC Dark Tether",
+				uuid = "137e70f1-6925-b0f6-a2bf-36b5bda40275",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "25c38b3c-0ecf-c30f-8c8e-36c41e39256a",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Aurora Dark Tether",
+				uuid = "90c729fa-dfe8-71b6-b960-3ecfd076a2ce",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "8fb976b9-88d3-8438-b82c-3c13b2fa09ec",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -669,6 +724,37 @@ local tbl =
 			},
 		},
 	},
+	[24] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "HoC Dark Tether",
+				uuid = "6fdf2f8d-6f80-4082-bc2f-390bb26e2930",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "e5df11b2-ad48-b38d-a75d-0b1423e4959d",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Aurora Dark Tether",
+				uuid = "97bc38eb-d5e6-209a-bb77-108601bb4fc9",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "ce5543b1-9a43-853b-8cc3-025f759841a0",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[29] = 
 	{
 		
@@ -838,6 +924,37 @@ local tbl =
 				timerStartOffset = -1.5,
 				uuid = "81e7f598-8cf9-80e8-ad33-c6263f5df2ef",
 				version = 2,
+			},
+		},
+	},
+	[36] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "HoC Dark Tether",
+				uuid = "c1707ef9-9d50-dfc0-8b0c-383a67d06b2e",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "8aeb6e05-0c2d-29a1-887a-c4545d72d088",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Aurora Dark Tether",
+				uuid = "ee990081-5f95-7ca7-b579-65b9ac7f7a10",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "d12f37e5-7ec5-ac4b-b81f-0f0c38d6ee7c",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},
@@ -1246,6 +1363,37 @@ local tbl =
 			},
 		},
 	},
+	[56] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "HoC Dark Tether",
+				uuid = "a79a87e5-e0fa-a62b-ada9-3a344b03ebac",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "64b6397a-912c-daf8-9b03-5714d701329f",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Aurora Dark Tether",
+				uuid = "69064a75-10c7-2007-80f4-8f45bfb2d3d0",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "63c4c3d1-7118-a732-a129-3fff6319318f",
+			inheritedOverwrites = 
+			{
+			},
+		},
+	},
 	[61] = 
 	{
 		
@@ -1311,6 +1459,37 @@ local tbl =
 				timerStartOffset = -10,
 				uuid = "bb58c1b6-1932-43e1-9cde-f0e973edc72a",
 				version = 2,
+			},
+		},
+	},
+	[68] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "HoC Dark Tether",
+				uuid = "f6096da7-5943-e736-a80d-b3c50fb939c7",
+				version = 2,
+			},
+			inheritedIndex = 5,
+			inheritedObjectUUID = "3eba3e94-bfb2-39ae-8f6c-2ecc38bb3ace",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Aurora Dark Tether",
+				uuid = "1d431612-7825-b90b-bab7-0d6b9e405391",
+				version = 2,
+			},
+			inheritedIndex = 6,
+			inheritedObjectUUID = "44a75a95-5277-9849-a2b6-69be68cca7b4",
+			inheritedOverwrites = 
+			{
 			},
 		},
 	},

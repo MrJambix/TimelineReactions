@@ -21,6 +21,7 @@ local tbl =
 									true,
 								},
 							},
+							ignoreWeaveRules = true,
 							potType = 4,
 							useItem = true,
 							useItemID = 1039727,
@@ -53,6 +54,41 @@ local tbl =
 			},
 		},
 	}, 
+	[3] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 14.1,
+				name = "HOL",
+				timeRange = true,
+				timelineIndex = 3,
+				timerEndOffset = -12.5,
+				timerOffset = -14,
+				timerStartOffset = -14,
+				uuid = "ba5c05d6-ed60-ab0a-b195-ed317ebadf4c",
+				version = 2,
+			},
+		},
+	},
 	[4] = 
 	{
 		
@@ -66,6 +102,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"c20abed5-c215-256b-af08-60f127071768",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
 							uuid = "f4acdd16-7418-9212-b43f-a33032fc6a37",
 							variableTogglesType = 3,
@@ -75,15 +119,24 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "c20abed5-c215-256b-af08-60f127071768",
+							version = 2,
+						},
+					},
 				},
-				enabled = false,
 				mechanicTime = 23.2,
 				name = "Invuln",
 				timeRange = true,
 				timelineIndex = 4,
 				timerEndOffset = -0.5,
 				timerOffset = -4,
-				timerStartOffset = -3,
+				timerStartOffset = -2.5,
 				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",
 				version = 2,
 			},
@@ -103,9 +156,64 @@ local tbl =
 				mechanicTime = 23.2,
 				name = "----Disable Mit as needed---",
 				timelineIndex = 4,
-				uuid = "b4a7d897-8704-f3eb-8f64-8fc0c009d159",
+				uuid = "ab0ff4fe-c546-21bc-803f-8c96d9872bf6",
 				version = 2,
 			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"21896118-c8a8-f358-b40b-10a95204b800",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 0.10000000149012,
+							actionID = 16152,
+							category = "Self",
+							conditionType = 4,
+							uuid = "21896118-c8a8-f358-b40b-10a95204b800",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 23.2,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 4,
+				timerEndOffset = 0.5,
+				timerOffset = -9,
+				timerStartOffset = -0.5,
+				uuid = "adbab550-28a5-c9c4-9b30-92e114ac47cb",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -138,40 +246,6 @@ local tbl =
 				timerOffset = -19,
 				timerStartOffset = -5,
 				uuid = "6c1bc36d-2326-34d1-8bcc-06a2404ed447",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 23.2,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 4,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -1.5,
-				uuid = "adbab550-28a5-c9c4-9b30-92e114ac47cb",
 				version = 2,
 			},
 			inheritedIndex = 6,
@@ -622,7 +696,7 @@ local tbl =
 				timelineIndex = 28,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -1.5,
+				timerStartOffset = -2.5,
 				uuid = "e86eceb9-876e-e177-b094-2ff6121d79c9",
 				version = 2,
 			},

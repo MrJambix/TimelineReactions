@@ -71,6 +71,7 @@ local tbl =
 									true,
 								},
 							},
+							ignoreWeaveRules = true,
 							potType = 4,
 							useItem = true,
 							useItemID = 1039727,
@@ -647,7 +648,7 @@ local tbl =
 					{
 						data = 
 						{
-							actionCDValue = 1,
+							actionCDValue = 0.10000000149012,
 							actionID = 18,
 							category = "Party",
 							conditionType = 9,
@@ -660,8 +661,11 @@ local tbl =
 				mechanicTime = 134,
 				name = "Shirk",
 				randomOffset = 0.5,
+				timeRange = true,
 				timelineIndex = 25,
+				timerEndOffset = -0.5,
 				timerOffset = -4.5,
+				timerStartOffset = -2.5,
 				uuid = "0bdf8109-ad85-1507-8a2a-4e84a3997d1a",
 				version = 2,
 			},
@@ -696,6 +700,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"57a2bec4-dfa7-909d-8957-e0678c2a0e53",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
 							uuid = "3410359c-5002-7258-bb18-9f378443cf50",
 							variableTogglesType = 3,
@@ -705,18 +717,27 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "57a2bec4-dfa7-909d-8957-e0678c2a0e53",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 134,
 				name = "Rampart",
 				timeRange = true,
 				timelineIndex = 25,
-				timerEndOffset = -0.5,
+				timerEndOffset = -10,
 				timerOffset = -5,
-				timerStartOffset = -15,
-				uuid = "2255abb2-b649-0116-b78d-48daaa34b6a0",
+				timerStartOffset = -18,
+				uuid = "564ddbc6-f4cd-ce6d-b141-3e45069488e7",
 				version = 2,
 			},
-			inheritedIndex = 3,
 		},
 		
 		{
@@ -729,28 +750,96 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"eb9d8143-00a2-2ca0-afc3-885b5a519c91",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							uuid = "26b126d7-e674-2a4d-8ce4-0ccd39b59619",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "eb9d8143-00a2-2ca0-afc3-885b5a519c91",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 134,
 				name = "Camo",
 				timeRange = true,
 				timelineIndex = 25,
-				timerEndOffset = -10,
+				timerEndOffset = -5,
 				timerOffset = -15,
-				timerStartOffset = -18,
-				uuid = "bc36c305-19ae-9fa8-b48c-9417fb584264",
+				timerStartOffset = -12,
+				uuid = "e94c520f-3982-95b1-a4e5-485772243002",
 				version = 2,
 			},
-			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16152,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"1c004474-713a-1221-8102-236407712f9e",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
+							ignoreWeaveRules = true,
+							uuid = "db14df0f-f6f9-202b-8ce8-8dddf6d7df78",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "1c004474-713a-1221-8102-236407712f9e",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 134,
+				name = "Invuln",
+				timeRange = true,
+				timelineIndex = 25,
+				timerEndOffset = 0.5,
+				timerStartOffset = -0.5,
+				uuid = "dee03993-4408-8e66-ac20-03539507216e",
+				version = 2,
+			},
 		},
 	},
 	[27] = 
