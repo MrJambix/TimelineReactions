@@ -30,6 +30,7 @@ local tbl =
 							uuid = "322733b0-f9e9-52ec-b5b4-da5d0a1f0ae7",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -40,7 +41,7 @@ local tbl =
 						{
 							category = "Event",
 							comparator = 2,
-							eventCountdownTime = 2,
+							eventCountdownTime = 1.5,
 							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
 							version = 2,
 						},
@@ -134,7 +135,7 @@ local tbl =
 				name = "Invuln",
 				timeRange = true,
 				timelineIndex = 4,
-				timerEndOffset = -0.5,
+				timerEndOffset = -0.20000000298023,
 				timerOffset = -4,
 				timerStartOffset = -2.5,
 				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",

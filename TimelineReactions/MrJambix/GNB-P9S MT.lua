@@ -90,7 +90,7 @@ local tbl =
 						{
 							category = "Event",
 							comparator = 2,
-							eventCountdownTime = 2,
+							eventCountdownTime = 1.5,
 							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
 							version = 2,
 						},
@@ -171,61 +171,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 13,
-		},
-	},
-	[8] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"9aecaa15-dc79-ce06-9f69-2665418328d6",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
-							uuid = "02e591a7-e8a6-ea8d-bba4-c849eab08285",
-							variableTogglesType = 2,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 2098,
-							category = "Self",
-							uuid = "9aecaa15-dc79-ce06-9f69-2665418328d6",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 47.9,
-				name = "Shirk",
-				randomOffset = 1.5,
-				timeRange = true,
-				timelineIndex = 8,
-				timerEndOffset = 1.5,
-				timerOffset = 0.5,
-				timerStartOffset = 0.5,
-				uuid = "07bbe146-6e05-4490-8edf-36ded9f2fda1",
-				version = 2,
-			},
 		},
 	},
 	[9] = 
