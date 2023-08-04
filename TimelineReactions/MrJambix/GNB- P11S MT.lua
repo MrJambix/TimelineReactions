@@ -1,6 +1,6 @@
 local tbl = 
 {
-	
+	[2] = 
 	{
 		
 		{
@@ -12,98 +12,29 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Misc",
-							conditions = 
-							{
-								
-								{
-									"660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
-									true,
-								},
-							},
-							ignoreWeaveRules = true,
-							potType = 4,
-							useItem = true,
-							useItemID = 1039727,
-							useItemName = "Grade 8 Tincture of Strength (HQ)",
-							usePot = true,
-							uuid = "322733b0-f9e9-52ec-b5b4-da5d0a1f0ae7",
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_RoyalGuard",
+							uuid = "1f63eb5e-a317-eba8-b5de-b4b8bc249316",
+							variableTogglesType = 2,
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Event",
-							comparator = 2,
-							eventCountdownTime = 2,
-							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
-							version = 2,
-						},
-					},
 				},
-				eventType = 16,
-				name = "Pre-Pull Pot (General Reaction)",
-				timelineIndex = 1,
-				uuid = "6452f6a7-c8fb-430e-a316-4ef2305e001c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 16143,
-							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"14db6348-1c06-abfd-a63e-8f6d575391e0",
-									true,
-								},
-							},
-							ignoreWeaveRules = true,
-							targetType = "Enemy",
-							uuid = "65f6c746-f0ee-d60f-be9b-1a57e2398213",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 1833,
-							category = "Self",
-							uuid = "14db6348-1c06-abfd-a63e-8f6d575391e0",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				name = "LS Pull(test)",
+				mechanicTime = 11,
+				name = "Stance on",
 				timeRange = true,
-				timelineIndex = 1,
-				timerEndOffset = 0.20000000298023,
-				timerStartOffset = -0.20000000298023,
-				uuid = "8ea38e80-a428-03da-962a-969d65117ea7",
+				timelineIndex = 2,
+				timerEndOffset = 2,
+				timerOffset = -1,
+				timerStartOffset = -2,
+				uuid = "9a24161d-708f-db1c-8202-c95a6ddbfbff",
 				version = 2,
 			},
 		},
-	}, 
+	},
 	[3] = 
 	{
 		
@@ -1121,7 +1052,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 49,
 				timerEndOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -7,
 				uuid = "afd9f1bc-49b5-431a-b9bd-7b589ae3a316",
 				version = 2,
 			},
@@ -1132,24 +1063,6 @@ local tbl =
 			{
 				actions = 
 				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 383.3,
-				name = "---Tank Swap 2---  Check BuffID",
-				timelineIndex = 49,
-				uuid = "26696314-4b52-3550-b4e0-4784fe307df2",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
 					
 					{
 						data = 
@@ -1159,76 +1072,12 @@ local tbl =
 							{
 								
 								{
-									"c25bddab-ab2a-938b-9326-27cc007701ca",
+									"abb39465-c6dd-3fa6-be18-464ba56ffa9c",
 									true,
 								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
-							uuid = "d1a746e7-3110-a470-bf98-f71bb79e0b29",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 2278,
-							dequeueIfLuaFalse = true,
-							uuid = "c25bddab-ab2a-938b-9326-27cc007701ca",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 383.3,
-				name = "Shirk",
-				randomOffset = -0.5,
-				timeRange = true,
-				timelineIndex = 49,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -2,
-				uuid = "a8877ca5-e6f6-a447-8db8-307702f1d704",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 383.3,
-				name = "--Tank Swap 3---",
-				timelineIndex = 49,
-				uuid = "35b7897e-9f77-4893-b453-8d3a72ce666c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
 								
 								{
-									"fa5bdc86-8120-3873-bc79-441602b657fa",
+									"e5c23387-b579-66d4-9e8a-168a890a8f68",
 									true,
 								},
 							},
@@ -1237,7 +1086,6 @@ local tbl =
 							variableTogglesType = 2,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1246,44 +1094,39 @@ local tbl =
 					{
 						data = 
 						{
-							buffID = 2278,
-							category = "Party",
+							actionID = 7537,
+							actionUUID = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "e5c23387-b579-66d4-9e8a-168a890a8f68",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
 							dequeueIfLuaFalse = true,
-							partyTargetType = "Other Tank",
-							uuid = "fa5bdc86-8120-3873-bc79-441602b657fa",
+							enmityValue = 99,
+							uuid = "abb39465-c6dd-3fa6-be18-464ba56ffa9c",
 							version = 2,
 						},
 					},
 				},
 				mechanicTime = 383.3,
-				name = "Voke",
+				name = "Voke (OT Took Hit 1)",
 				timeRange = true,
 				timelineIndex = 49,
 				timerEndOffset = -0.5,
 				timerStartOffset = -2,
-				uuid = "8f67ba93-1140-94ab-a9c5-b19ba3870d90",
+				uuid = "2737037f-74c6-9c45-aab0-3e0f0553e954",
 				version = 2,
 			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 383.3,
-				name = "----Tank Swap---",
-				timelineIndex = 49,
-				uuid = "91b04b65-a96e-0bc9-bb8b-f4efce584df3",
-				version = 2,
-			},
-			inheritedIndex = 8,
+			inheritedIndex = 9,
 		},
 		
 		{
@@ -1296,6 +1139,14 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"abb39465-c6dd-3fa6-be18-464ba56ffa9c",
+									true,
+								},
+							},
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							uuid = "8c5f11ee-4d85-1e42-ae44-c1b319023442",
 							variableTogglesType = 2,
@@ -1319,7 +1170,7 @@ local tbl =
 					},
 				},
 				mechanicTime = 383.3,
-				name = "Voke",
+				name = "Voke(I took Hit 2)",
 				timeRange = true,
 				timelineIndex = 49,
 				timerEndOffset = 2,
@@ -1327,7 +1178,7 @@ local tbl =
 				uuid = "99fcdaac-a061-b50c-90a0-27d68ba7ae90",
 				version = 2,
 			},
-			inheritedIndex = 9,
+			inheritedIndex = 5,
 		},
 	},
 	[50] = 
@@ -1874,6 +1725,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 622.6,
 				name = "Shirk",
 				randomOffset = -0.5,
@@ -1920,6 +1772,8 @@ local tbl =
 						data = 
 						{
 							buffID = 3619,
+							category = "Party",
+							partyTargetType = "Other Tank",
 							uuid = "fa5bdc86-8120-3873-bc79-441602b657fa",
 							version = 2,
 						},
@@ -2294,6 +2148,199 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "06af3db0-ebf5-f220-af53-c1ff05c9c43b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Misc",
+							conditions = 
+							{
+								
+								{
+									"660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
+									true,
+								},
+							},
+							ignoreWeaveRules = true,
+							potType = 4,
+							useItem = true,
+							useItemID = 1039727,
+							useItemName = "Grade 8 Tincture of Strength (HQ)",
+							usePot = true,
+							uuid = "322733b0-f9e9-52ec-b5b4-da5d0a1f0ae7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							comparator = 2,
+							eventCountdownTime = 1.5,
+							uuid = "660cb85a-ffba-d2f9-a3ba-065c8d5545b4",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				eventType = 16,
+				mechanicTime = 672.5,
+				name = "Pre-Pull Pot (General Reaction)",
+				timelineIndex = 87,
+				uuid = "f40cfcfa-fab1-9c42-bf9e-252fd6952c7b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 16151,
+							conditions = 
+							{
+								
+								{
+									"09c0502f-ab5d-a080-9058-dfeaab81a901",
+									true,
+								},
+								
+								{
+									"2833d4ae-42c5-7d57-bc83-ba9f737c78df",
+									true,
+								},
+								
+								{
+									"b5aec1f8-4fb8-4bb6-b5cb-dfb15dc77b67",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuGNB2_Tankbar_AuroraSelf",
+							uuid = "ee45eff4-3f63-099c-9305-3e5f1f04685c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							dequeueIfLuaFalse = true,
+							hpValue = 60,
+							uuid = "09c0502f-ab5d-a080-9058-dfeaab81a901",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							actionUUID = "ee45eff4-3f63-099c-9305-3e5f1f04685c",
+							category = "Action",
+							uuid = "2833d4ae-42c5-7d57-bc83-ba9f737c78df",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1835,
+							category = "Self",
+							uuid = "b5aec1f8-4fb8-4bb6-b5cb-dfb15dc77b67",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				loop = true,
+				mechanicTime = 672.5,
+				name = "Aurora Self (General Reaction)",
+				randomOffset = 78,
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = 1000000000,
+				uuid = "2c92275b-478e-5ff7-83ad-55ca0e5c6529",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"e6abb98e-0314-5c47-a244-2589a9ac50bf",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
+							uuid = "cf54e075-f2e7-74a1-8ac7-ca47b482d219",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 0.10000000149012,
+							actionID = 7533,
+							category = "Party",
+							conditionType = 9,
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Other Tank",
+							uuid = "e6abb98e-0314-5c47-a244-2589a9ac50bf",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 672.5,
+				name = "Shirk (General Reaction)",
+				timelineIndex = 87,
+				uuid = "71a3c409-e1f9-6319-9117-2cf131164e28",
 				version = 2,
 			},
 		},
