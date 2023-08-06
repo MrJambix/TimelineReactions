@@ -254,6 +254,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 47,
 				name = "Voke (OT Reaction)",
 				timeRange = true,
@@ -681,6 +682,64 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 18,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"99d76455-8ebd-d02d-81b2-da40001b7bb7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							targetType = "Enemy",
+							uuid = "21bef004-7580-9b9e-8070-952e7d226690",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							uuid = "99d76455-8ebd-d02d-81b2-da40001b7bb7",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 134,
+				name = "Voke (OT Reaction)",
+				timeRange = true,
+				timelineIndex = 25,
+				timerEndOffset = -1.5,
+				timerOffset = -3,
+				timerStartOffset = -4.5,
+				uuid = "769933eb-6f5a-a9c0-977c-bbbd9322a673",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
@@ -719,63 +778,6 @@ local tbl =
 				uuid = "e94c520f-3982-95b1-a4e5-485772243002",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 18,
-							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"99d76455-8ebd-d02d-81b2-da40001b7bb7",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
-							ignoreWeaveRules = true,
-							targetType = "Enemy",
-							uuid = "21bef004-7580-9b9e-8070-952e7d226690",
-							variableTogglesType = 2,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							uuid = "99d76455-8ebd-d02d-81b2-da40001b7bb7",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 134,
-				name = "Voke (OT Reaction)",
-				timeRange = true,
-				timelineIndex = 25,
-				timerEndOffset = -1.5,
-				timerOffset = -3,
-				timerStartOffset = -4.5,
-				uuid = "769933eb-6f5a-a9c0-977c-bbbd9322a673",
-				version = 2,
-			},
-			inheritedIndex = 3,
 		},
 	},
 	[35] = 
@@ -873,6 +875,7 @@ local tbl =
 						inheritedIndex = 1,
 					},
 				},
+				enabled = false,
 				mechanicTime = 168.7,
 				name = "Shirk",
 				timelineIndex = 35,
@@ -1491,6 +1494,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 341.3,
 				name = "HOC Self",
 				timeRange = true,
@@ -1639,6 +1643,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 393.7,
 				name = "Voke (OT Reaction)",
 				timeRange = true,
@@ -1776,7 +1781,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
 							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
 							variableTogglesType = 3,
 							version = 2,
@@ -1787,11 +1792,11 @@ local tbl =
 				{
 				},
 				mechanicTime = 396.4,
-				name = "Nebula",
+				name = "Rampart",
 				timeRange = true,
 				timelineIndex = 94,
-				timerEndOffset = -7.5,
-				timerStartOffset = -12,
+				timerEndOffset = -14.5,
+				timerStartOffset = -18,
 				uuid = "70aa5d60-f846-32aa-9276-c15c42c59292",
 				version = 2,
 			},
@@ -1808,7 +1813,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
 							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
 							variableTogglesType = 3,
 							version = 2,
@@ -1819,12 +1824,12 @@ local tbl =
 				{
 				},
 				mechanicTime = 396.4,
-				name = "HOC Self",
+				name = "Camo",
 				timeRange = true,
 				timelineIndex = 94,
-				timerEndOffset = -0.5,
+				timerEndOffset = -12.5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -19.5,
 				uuid = "8a112822-086f-2c8b-b89c-ecc0a303c8d7",
 				version = 2,
 			},
@@ -2355,6 +2360,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 534.8,
 				name = "Voke (OT Reaction)",
 				timeRange = true,
