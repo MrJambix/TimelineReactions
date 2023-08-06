@@ -53,58 +53,6 @@ local tbl =
 			},
 			inheritedIndex = 7,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"370757bc-e54a-b697-aa73-a0a848d1fbc3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Hotbar_RoyalGuard",
-							gVarValue = 2,
-							uuid = "b52eae95-b279-c4c1-9e47-86bd3913a90b",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 4,
-							category = "Party",
-							matchAnyBuff = true,
-							name = "Check MT Stance",
-							partyTargetType = "Other Tank",
-							uuid = "370757bc-e54a-b697-aa73-a0a848d1fbc3",
-							version = 2,
-						},
-					},
-				},
-				name = "Stance Check (OT Reaction)",
-				timelineIndex = 1,
-				timerEndOffset = -15,
-				timerStartOffset = -10,
-				uuid = "ed280f97-6d56-a8bc-b64c-05a08bfe83b1",
-				version = 2,
-			},
-			inheritedIndex = 8,
-		},
 	}, 
 	[4] = 
 	{
@@ -1228,6 +1176,37 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Superbolide",
+							uuid = "878090ff-691e-6e7c-8d5a-0ae475f93c92",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 393.7,
+				name = "Invuln",
+				timeRange = true,
+				timelineIndex = 92,
+				timerEndOffset = -1.5,
+				timerStartOffset = -5,
+				uuid = "88617edf-b93e-8eb2-80fe-ec1a9b9d38cf",
+				version = 2,
+			},
+		},
 	},
 	[94] = 
 	{
@@ -1287,71 +1266,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 8,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 396.4,
-				name = "Rampart",
-				timeRange = true,
-				timelineIndex = 94,
-				timerEndOffset = -14.5,
-				timerStartOffset = -18,
-				uuid = "70aa5d60-f846-32aa-9276-c15c42c59292",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 396.4,
-				name = "Camo",
-				timeRange = true,
-				timelineIndex = 94,
-				timerEndOffset = -12.5,
-				timerOffset = -9,
-				timerStartOffset = -19.5,
-				uuid = "8a112822-086f-2c8b-b89c-ecc0a303c8d7",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 	},
 	[102] = 
