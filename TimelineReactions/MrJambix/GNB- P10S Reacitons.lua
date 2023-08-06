@@ -137,7 +137,7 @@ local tbl =
 				timelineIndex = 4,
 				timerEndOffset = 0.20000000298023,
 				timerOffset = -4,
-				timerStartOffset = -1.7000000476837,
+				timerStartOffset = -2,
 				uuid = "854f6262-656c-5d20-b54e-ef0ce829b757",
 				version = 2,
 			},
@@ -409,9 +409,9 @@ local tbl =
 				name = "HOC Self",
 				timeRange = true,
 				timelineIndex = 12,
-				timerEndOffset = -0.5,
+				timerEndOffset = -3.5,
 				timerOffset = -9,
-				timerStartOffset = -2,
+				timerStartOffset = -5,
 				uuid = "64b58872-6408-a61e-84e7-a407710a5c06",
 				version = 2,
 			},
@@ -1017,7 +1017,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 219.7,
 				name = "HOC Self",
 				timeRange = true,
@@ -1052,6 +1051,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 219.7,
 				name = "HOC R1",
 				timelineIndex = 35,
@@ -1720,6 +1720,41 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "ef880a11-ac91-10b0-9bcf-0bda54e4269a",
+				version = 2,
+			},
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_LimitBreak",
+							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 440.8,
+				name = "LB",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 1,
+				timerStartOffset = -1,
+				uuid = "cab759ef-f28f-5df6-b8fa-663cae5cfa40",
 				version = 2,
 			},
 		},
