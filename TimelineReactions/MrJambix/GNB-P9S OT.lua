@@ -208,8 +208,8 @@ local tbl =
 				name = "Stance On",
 				timeRange = true,
 				timelineIndex = 6,
-				timerEndOffset = 2,
-				timerStartOffset = -2.5,
+				timerEndOffset = -1,
+				timerStartOffset = -5.5,
 				uuid = "8029ed61-4c9d-7069-9f64-e8de0c5658c2",
 				version = 2,
 			},
@@ -546,6 +546,33 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							uuid = "25da8163-7eed-5aaf-ba4e-1df5bcc8647d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 114.2,
+				name = "Hold 1 Jump",
+				timelineIndex = 23,
+				uuid = "b072e7a7-3f6b-ca18-be19-aff31811db22",
+				version = 2,
+			},
+		},
 	},
 	[24] = 
 	{
@@ -615,8 +642,41 @@ local tbl =
 				timelineIndex = 25,
 				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4.5,
 				uuid = "a2ea8ab8-f134-7af0-9eab-6077b1ffbf74",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumMouse",
+							targetType = "Other Tank",
+							uuid = "c1033dc6-9feb-ad32-951b-07c858d35410",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 134,
+				name = "HOC MT",
+				timeRange = true,
+				timelineIndex = 25,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2.5,
+				uuid = "4b077a9e-0d68-0e84-9acc-23fdb772790c",
 				version = 2,
 			},
 		},
@@ -658,6 +718,74 @@ local tbl =
 				timerOffset = -5,
 				timerStartOffset = -5.5,
 				uuid = "5328c1fd-11e4-f66e-be65-81e155055190",
+				version = 2,
+			},
+		},
+	},
+	[28] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16154,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							targetType = "Enemy",
+							uuid = "c736d9ed-0f2e-09ce-8776-17a3aa10359d",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 149.3,
+				name = "UpTime Strat Jump In",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = 0.29999995231628,
+				timerOffset = -5.5,
+				timerStartOffset = 0.10000002384186,
+				uuid = "78a136c8-cd16-cdde-9463-3682d0ea6894",
+				version = 2,
+			},
+		},
+	},
+	[32] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							gVarValue = 2,
+							uuid = "25da8163-7eed-5aaf-ba4e-1df5bcc8647d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 158.7,
+				name = "Hold 1 Jump Off",
+				timelineIndex = 32,
+				uuid = "84c4f600-8898-1245-9842-26c4a861dba8",
 				version = 2,
 			},
 		},
@@ -765,8 +893,41 @@ local tbl =
 				timelineIndex = 37,
 				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4.5,
 				uuid = "e8a8da49-69d0-134b-b83d-e0c4e926967e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumMouse",
+							targetType = "Other Tank",
+							uuid = "c1033dc6-9feb-ad32-951b-07c858d35410",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "HOC MT",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2.5,
+				uuid = "597ae98f-60e7-e7e3-b6f1-9ebcd9b49c1b",
 				version = 2,
 			},
 		},
@@ -1035,6 +1196,66 @@ local tbl =
 			},
 		},
 	},
+	[79] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							uuid = "25da8163-7eed-5aaf-ba4e-1df5bcc8647d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 323.8,
+				name = "Hold 1 Jump",
+				timelineIndex = 79,
+				uuid = "208f0a21-ddcf-54af-a48f-c54af1510712",
+				version = 2,
+			},
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_LightningShot",
+							uuid = "c9147ab0-7046-9e02-a5e7-0d5a1c81101a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 329.9,
+				name = "LightningShot On",
+				timelineIndex = 81,
+				uuid = "aa9a9be9-5b8a-5c88-80df-4d7103f5fe34",
+				version = 2,
+			},
+		},
+	},
 	[85] = 
 	{
 		
@@ -1066,6 +1287,40 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -3.5,
 				uuid = "15317cfa-76df-c2ff-881e-ac811575a368",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16154,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							targetType = "Enemy",
+							uuid = "c736d9ed-0f2e-09ce-8776-17a3aa10359d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 341.3,
+				name = "UpTime Strat Jump In",
+				timeRange = true,
+				timelineIndex = 85,
+				timerEndOffset = 1.5,
+				timerOffset = 0.10000000149012,
+				timerStartOffset = 1.2999999523163,
+				uuid = "88e0ab0c-2522-4fc5-b4a2-c5eb60947a02",
 				version = 2,
 			},
 		},
@@ -1335,6 +1590,73 @@ local tbl =
 			},
 		},
 	},
+	[97] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16154,
+							atomicPriority = true,
+							ignoreWeaveRules = true,
+							targetType = "Enemy",
+							uuid = "c736d9ed-0f2e-09ce-8776-17a3aa10359d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 405.8,
+				name = "UpTime Strat Jump In",
+				timeRange = true,
+				timelineIndex = 97,
+				timerEndOffset = 0.30000001192093,
+				timerOffset = 0.10000000149012,
+				timerStartOffset = 0.15000000596046,
+				uuid = "8c862b7e-73be-cedf-85a7-bbb9b7cad906",
+				version = 2,
+			},
+		},
+	},
+	[99] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							gVarValue = 2,
+							uuid = "25da8163-7eed-5aaf-ba4e-1df5bcc8647d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 413.2,
+				name = "Hold 1 Jump Off",
+				timelineIndex = 99,
+				uuid = "128c9d01-ed6c-284b-9dca-1a3b5a30a0d2",
+				version = 2,
+			},
+		},
+	},
 	[102] = 
 	{
 		
@@ -1404,69 +1726,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
-							gVarValue = 2,
-							uuid = "a3d6b28c-d510-0077-afe5-7346dba3fd90",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 420.9,
-				name = "Jump Off",
-				randomOffset = -0.5,
-				timeRange = true,
-				timelineIndex = 103,
-				timerEndOffset = -1.5,
-				timerOffset = -2,
-				timerStartOffset = -3,
-				uuid = "2e97025a-5c7b-2637-b713-7cb5db0363eb",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Jumps",
-							uuid = "790da163-a6c0-25c7-8cf1-da00d26e1401",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 420.9,
-				name = "Jump On",
-				timeRange = true,
-				timelineIndex = 103,
-				timerEndOffset = 2.5,
-				timerStartOffset = 0.5,
-				uuid = "c99019f7-d244-143c-835a-d8b919215e59",
-				version = 2,
-			},
-		},
 	},
 	[104] = 
 	{
@@ -1499,6 +1758,69 @@ local tbl =
 				uuid = "6e62dd6b-71c9-ee13-9ab6-ec109197b762",
 				version = 2,
 			},
+		},
+	},
+	[108] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "2d217432-ba3f-954c-ae5c-5a18afd8cd0d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 454.2,
+				name = "Jump On",
+				timelineIndex = 108,
+				timerOffset = 2,
+				uuid = "e5ea55f8-63d4-93aa-9823-b416533ff256",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Jumps",
+							gVarValue = 2,
+							uuid = "2d217432-ba3f-954c-ae5c-5a18afd8cd0d",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 454.2,
+				name = "Jump Off",
+				timelineIndex = 108,
+				timerOffset = -4,
+				uuid = "92e0d63d-4a27-5b13-b077-c636ce390000",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[112] = 
